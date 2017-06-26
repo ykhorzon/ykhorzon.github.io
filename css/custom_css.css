@@ -1,0 +1,8 @@
+.custom_profile {
+    display: block;
+    padding-right: 50px;
+}
+.custom_profile #custom_name {
+      display: block;
+      /*text-align: left;*/
+}

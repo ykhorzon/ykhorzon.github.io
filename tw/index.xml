@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Momentum of Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/</link>
+    <description>Recent content on Momentum of Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <lastBuildDate>Wed, 07 Jun 2017 01:23:59 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog採用hugo重新開張！</title>
+      <link>https://ykhorzon.github.io/tw/blog/web/hugo/new_blog/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/blog/web/hugo/new_blog/</guid>
+      <description> 動機 我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。 轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。
+ Multilingual  慣用對印功能 作為一個從hexo移民過來的居民，首要任務就找出對應的function
+ Table of Content (ToC) MathJax (New) Image and other static resource link and management 留言 Disqus 搜尋  參考Tutorial  Making a Website Using Blogdown, Hugo, and GitHub pages. AMBER THOMAS  </description>
+    </item>
+    
+  </channel>
+</rss>

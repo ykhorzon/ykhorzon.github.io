@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on Momentum of Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tags/blogging/</link>
+    <description>Recent content in Blogging on Momentum of Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <lastBuildDate>Wed, 07 Jun 2017 01:23:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My blog is new release with hugo!</title>
+      <link>https://ykhorzon.github.io/blog/web/hugo/new_blog/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/blog/web/hugo/new_blog/</guid>
+      <description>Motivation  I just want a simple multilingual site for blogging!
+ Originally, I have two blog on seperating github page for implementing multilingual by hexo as static site generater. As the size grow up, it is messy and hard to manage. Then, I decide to find alternative solution for my blog.
+Frequent Use Features Outline The following part is frequent useful feature for management blog website. I roughly classify into different catogeries.</description>
+    </item>
+    
+  </channel>
+</rss>
