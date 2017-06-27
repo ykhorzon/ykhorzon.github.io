@@ -18,9 +18,14 @@
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/blog/web/hugo/new_blog/</guid>
-      <description> 動機 我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。 轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。
- Multilingual  慣用對印功能 作為一個從hexo移民過來的居民，首要任務就找出對應的function
- Table of Content (ToC) MathJax (New) Image and other static resource link and management 留言 Disqus 搜尋  參考Tutorial  Making a Website Using Blogdown, Hugo, and GitHub pages. AMBER THOMAS  </description>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
+
+&lt;p&gt;我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。
+轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

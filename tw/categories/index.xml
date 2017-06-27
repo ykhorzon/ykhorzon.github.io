@@ -11,5 +11,23 @@
 	<atom:link href="https://ykhorzon.github.io/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Development</title>
+      <link>https://ykhorzon.github.io/tw/categories/development/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://ykhorzon.github.io/tw/categories/test/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/categories/test/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
