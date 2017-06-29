@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Product Discovery on Momentum of Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/categories/product-discovery/</link>
+    <description>Recent content in Product Discovery on Momentum of Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <lastBuildDate>Wed, 28 Jun 2017 14:50:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/product-discovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>設計思考醒醒腦</title>
+      <link>https://ykhorzon.github.io/tw/blog/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</link>
+      <pubDate>Wed, 28 Jun 2017 14:50:26 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/blog/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,26 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
-    <lastBuildDate>Mon, 26 Jun 2017 16:48:54 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jun 2017 13:09:58 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>site_setup</title>
-      <link>https://ykhorzon.github.io/content/web/static_site/hugo/site_setup/</link>
-      <pubDate>Mon, 26 Jun 2017 16:48:54 +0800</pubDate>
+      <title>A design thinking-base dicussion review</title>
+      <link>https://ykhorzon.github.io/blog/design_thinking/practice/</link>
+      <pubDate>Thu, 29 Jun 2017 13:09:58 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/content/web/static_site/hugo/site_setup/</guid>
+      <guid>https://ykhorzon.github.io/blog/design_thinking/practice/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>design_thinking_review</title>
-      <link>https://ykhorzon.github.io/blog/design_thinking_review/</link>
+      <title>talk_to_the_previous_generation2</title>
+      <link>https://ykhorzon.github.io/blog/daily/talk_to_the_previous_generation2/</link>
+      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/blog/daily/talk_to_the_previous_generation2/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Design Thinking Refresh From Scenario Lab (Taiwan) </title>
+      <link>https://ykhorzon.github.io/blog/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/blog/design_thinking_review/</guid>
+      <guid>https://ykhorzon.github.io/blog/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
