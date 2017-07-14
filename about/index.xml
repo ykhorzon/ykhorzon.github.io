@@ -5,7 +5,10 @@
     <link>https://ykhorzon.github.io/about/</link>
     <description>Recent content in About Me on Momentum of Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
     <lastBuildDate>Thu, 15 Jun 2017 15:29:47 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/about/index.xml" rel="self" type="application/rss+xml" />

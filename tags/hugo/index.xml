@@ -5,7 +5,10 @@
     <link>https://ykhorzon.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on Momentum of Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
     <lastBuildDate>Fri, 30 Jun 2017 23:44:14 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -15,18 +18,9 @@
       <title>hugo documents memo</title>
       <link>https://ykhorzon.github.io/2017/06/30/hugo-documents-memo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
-      
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/2017/06/30/hugo-documents-memo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/2017/06/30/%E9%97%9C%E6%96%BC-hugo-%E7%9A%84%E6%96%87%E4%BB%B6/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
-      
-      <guid>https://ykhorzon.github.io/2017/06/30/%E9%97%9C%E6%96%BC-hugo-%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
