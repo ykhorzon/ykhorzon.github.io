@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Momentum of Ykhorizon</title>
+    <title>Categories on 持續改進 for Ykhorizon</title>
     <link>https://ykhorzon.github.io/tw/categories/</link>
-    <description>Recent content in Categories on Momentum of Ykhorizon</description>
+    <description>Recent content in Categories on 持續改進 for Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +17,7 @@
       <title>Design Thinking</title>
       <link>https://ykhorzon.github.io/tw/categories/design-thinking/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/design-thinking/</guid>
       <description></description>
     </item>
@@ -24,7 +26,7 @@
       <title>Development</title>
       <link>https://ykhorzon.github.io/tw/categories/development/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
-      
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/development/</guid>
       <description></description>
     </item>
@@ -33,7 +35,7 @@
       <title>Product Discovery</title>
       <link>https://ykhorzon.github.io/tw/categories/product-discovery/</link>
       <pubDate>Wed, 28 Jun 2017 14:50:26 +0800</pubDate>
-      
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/product-discovery/</guid>
       <description></description>
     </item>
@@ -42,7 +44,7 @@
       <title>Test</title>
       <link>https://ykhorzon.github.io/tw/categories/test/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
-      
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/test/</guid>
       <description></description>
     </item>

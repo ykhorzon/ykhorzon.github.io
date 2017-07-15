@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on 持續改進 for Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/tags/hugo/</link>
+    <description>Recent content in Hugo on 持續改進 for Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Fri, 30 Jun 2017 23:44:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>關於 hugo 的文件</title>
+      <link>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</link>
+      <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

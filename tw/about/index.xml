@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>關於我 on 持續改進 for Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/about/</link>
+    <description>Recent content in 關於我 on 持續改進 for Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sat, 15 Jul 2017 12:17:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

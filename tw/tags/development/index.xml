@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Momentum of Ykhorizon</title>
+    <title>Development on 持續改進 for Ykhorizon</title>
     <link>https://ykhorzon.github.io/tw/tags/development/</link>
-    <description>Recent content in Development on Momentum of Ykhorizon</description>
+    <description>Recent content in Development on 持續改進 for Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice). All right reserved for ykhorizon</copyright>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
     <lastBuildDate>Wed, 07 Jun 2017 01:23:59 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/development/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +16,10 @@
     
     <item>
       <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/blog/web/hugo/new_blog/</link>
+      <link>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
-      
-      <guid>https://ykhorzon.github.io/tw/blog/web/hugo/new_blog/</guid>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;

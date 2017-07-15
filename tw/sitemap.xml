@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/2017/06/30/%E9%97%9C%E6%96%BC-hugo-%E7%9A%84%E6%96%87%E4%BB%B6/</loc>
+    <loc>https://ykhorzon.github.io/tw/about/</loc>
+    <lastmod>2017-07-15T12:17:42+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</loc>
     <lastmod>2017-06-30T23:44:12+08:00</lastmod>
   </url>
   
@@ -22,29 +27,108 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/2017/06/07/blog%E6%8E%A1%E7%94%A8hugo%E9%87%8D%E6%96%B0%E9%96%8B%E5%BC%B5/</loc>
+    <loc>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</loc>
     <lastmod>2017-06-07T01:23:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/post/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/blogging/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/communication/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/computer/</loc>
     <lastmod>2017-06-30T23:44:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/development/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/development/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/fast/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/go/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/hugo/</loc>
+    <lastmod>2017-06-30T23:44:12+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/leading/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/post/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/product-discovery/</loc>
+    <lastmod>2017-06-28T14:50:26+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/test/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
     <lastmod>2017-06-30T23:44:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/%E6%A8%99%E7%B1%A4/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/%E8%AD%B0%E9%A1%8C/</loc>
     <priority>0</priority>
   </url>
   

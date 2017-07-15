@@ -9,19 +9,10 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Fri, 30 Jun 2017 23:44:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jun 2017 13:11:58 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/tw/2017/06/30/%E9%97%9C%E6%96%BC-hugo-%E7%9A%84%E6%96%87%E4%BB%B6/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/06/30/%E9%97%9C%E6%96%BC-hugo-%E7%9A%84%E6%96%87%E4%BB%B6/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>類似Design Thinking的討論實戰檢討</title>
@@ -48,22 +39,6 @@
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/2017/06/28/%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%83%E9%86%92%E9%86%92%E8%85%A6/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/2017/06/07/blog%E6%8E%A1%E7%94%A8hugo%E9%87%8D%E6%96%B0%E9%96%8B%E5%BC%B5/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/06/07/blog%E6%8E%A1%E7%94%A8hugo%E9%87%8D%E6%96%B0%E9%96%8B%E5%BC%B5/</guid>
-      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
-
-&lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
-
-&lt;p&gt;我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。
-轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

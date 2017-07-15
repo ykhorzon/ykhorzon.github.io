@@ -60,58 +60,6 @@ function trimEmptyStringInArray(arr) {
     return arr.join('').split('');
 }
 
-// main function: changeLanguage takes a language acronyme as an argument and replaces the path name in the URL using JavaScript Cookie v2.1.4 https://github.com/js-cookie/js-cookie
-function changeLanguage(toSwitchLang) {
-    
-    // currentPath = window.location.pathname
-    // pathArray = window.location.pathname.split('/')
-    
-    // // console.log(window.location.pathname);
-    // // console.log(pathArray);
-    // // console.log(defaultLang)
-    // // console.log(toSwitchLang)
-
-    // if (toSwitchLang != defaultLang) {
-        
-    //     // 
-    //     // Testcase 1: home url 
-    //     // 
-        
-    //     // 1.1 en to tw
-    //     // Input URL: localhost:1313, toSwitchLang: tw
-    //     // Output localhost:1313/tw/
-
-    //     // 1.2 tw to en
-    //     // Input URL:localhost:1313/tw/, toSwitchLang: en
-    //     // Output localhost:1313
-
-    //     // // remove the first item
-    //     // pathArray.splice(0, 3);
-
-    //     // // add the toSwitchLang
-    //     // pathArray.splice(0, 0, toSwitchLang);
-    //     pathArray = trimEmptyStringInArray(pathArray);
-
-            
-    //     // create cookie
-    //     Cookies.set('selectedLanguage', toSwitchLang);
-    //     pathArray.push("");
-    //     pathArray.push(toSwitchLang);
-    //     console.log(pathArray);
-        
-    //     urlPath = pathArray.join("/");
-    //     console.log(urlPath);
-    //     window.location.replace(urlPath);
-    //     //     if (pathArray.length > 4)  {
-    //     //         window.location.replace(constructPath + '/' + toSwitchLang );
-    //     //     } else {
-    //     //         window.location.replace(constructPath + buildPath(pathArray));
-    //     //     }
-
-        
-    // }
-   
-}
 
  (function () {
      
@@ -120,7 +68,6 @@ function changeLanguage(toSwitchLang) {
      lsl.bind( "click", function(event){
             
             var lslValue = lsl.attr("toSwitchLang")
-
             // create cookie
             Cookies.set('selectedLanguage', lslValue);
             

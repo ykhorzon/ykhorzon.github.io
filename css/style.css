@@ -45,6 +45,7 @@ vertical-align: baseline;;
 
 a.navbar-brand-img>img {
   vertical-align: bottom;
+  width: 10%;
 }
 img {
   display: block;
