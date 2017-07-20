@@ -1,0 +1,23 @@
+.transBlock {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*  */
+    .homePageArticleAbstract h2 {
+    font-size: 32px;
+}
+    .homePageArticleAbstract h1 {
+    font-size: 24px;
+}
+
+/* singleArticleContent is the clast in default single page */
+    .defualtSingleArticleContent h1 {
+    font-size: 40px;
+}
+    .defualtSingleArticleContent h2 {
+    font-size: 30px;
+}
+    .defualtSingleArticleContent h3 {
+    font-size: 24px;
+}

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/about/</loc>
+    <loc>https://ykhorzon.github.io/tw/about/me/</loc>
     <lastmod>2017-07-15T12:17:42+08:00</lastmod>
   </url>
   
@@ -32,6 +32,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/about/</loc>
+    <lastmod>2017-07-15T12:17:42+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/blogging/</loc>
     <lastmod>2017-06-07T01:23:59+08:00</lastmod>
     <priority>0</priority>
@@ -55,25 +61,25 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/development/</loc>
-    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/development/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/development/</loc>
     <lastmod>2017-06-07T01:23:59+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -128,7 +134,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
-    <lastmod>2017-06-30T23:44:12+08:00</lastmod>
+    <lastmod>2017-07-15T12:17:42+08:00</lastmod>
     <priority>0</priority>
   </url>
   

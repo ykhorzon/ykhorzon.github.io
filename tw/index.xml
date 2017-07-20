@@ -9,10 +9,21 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Fri, 30 Jun 2017 23:44:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jul 2017 12:17:42 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>關於我</title>
+      <link>https://ykhorzon.github.io/tw/about/me/</link>
+      <pubDate>Sat, 15 Jul 2017 12:17:42 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/about/me/</guid>
+      <description> 你好, 我是 ykhorizon (a.k.a. ykhu in community)， 我出生長大在台灣，興趣非常廣泛。 努力堅持自己信念與原則，設法讓自己做好玩的事情，遇見有趣的人。
+與我有關的組織 [Elastic Farm]() Open Agri. Lab
+興趣  Programming, Agile and Startup Agriculture, Sustainable and Irrigation Music, Guitar and Grogressive Cooking, dog and insect  目標  Simple Do not forget the initial motivation Underpin myself, family and friends  聯絡我  twitter github linkedin Or contact me with ykhorizon.light@gmail.com  </description>
+    </item>
     
     <item>
       <title>關於 hugo 的文件</title>
