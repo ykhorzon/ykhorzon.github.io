@@ -66,25 +66,25 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/development/</loc>
-    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/development/</loc>
+    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/development/</loc>
     <lastmod>2017-06-07T01:23:59+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -144,13 +144,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/think/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/think/</loc>
     <lastmod>2017-07-21T10:35:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/think/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/think/</loc>
     <lastmod>2017-07-21T10:35:25+08:00</lastmod>
     <priority>0</priority>
   </url>
