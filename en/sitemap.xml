@@ -90,25 +90,25 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:09:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:09:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/development/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:09:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/categories/development/</loc>
+    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tags/development/</loc>
     <lastmod>2017-06-07T01:23:35+08:00</lastmod>
     <priority>0</priority>
   </url>
