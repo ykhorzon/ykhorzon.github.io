@@ -9,10 +9,21 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Wed, 02 Aug 2017 12:41:57 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Aug 2017 22:29:08 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google analytics 設定快速檢查</title>
+      <link>https://ykhorzon.github.io/tw/computer/web/general/google_analytics_setup/</link>
+      <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/web/general/google_analytics_setup/</guid>
+      <description>被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
+ 不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題
+ 設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.</description>
+    </item>
     
     <item>
       <title>DevOps 全棧工程師-活動心得</title>
