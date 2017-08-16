@@ -9,10 +9,21 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
-    <lastBuildDate>Fri, 30 Jun 2017 23:44:14 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/computer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Full Stack DevOps Engineer?</title>
+      <link>https://ykhorzon.github.io/computer/devops/devops_experience/</link>
+      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/devops/devops_experience/</guid>
+      <description>Speaker
+ Feng  Warnings
+ The following content is sythesised with talkings and my experience  History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning. Naturally, seperating operations task into a standalone team called operations team resulted in degrade efficiency of whole team due to communication and task seperation overhead.</description>
+    </item>
     
     <item>
       <title>hugo documents memo</title>

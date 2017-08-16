@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ykhorzon.github.io/computer/devops/devops_experience/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/about/me/</loc>
     <lastmod>2017-07-15T16:19:13+08:00</lastmod>
   </url>
@@ -55,6 +60,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tags/agile/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tags/blogging/</loc>
     <lastmod>2017-06-07T01:23:35+08:00</lastmod>
     <priority>0</priority>
@@ -74,13 +85,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/computer/</loc>
-    <lastmod>2017-06-30T23:44:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/categories/design-thinking/</loc>
-    <lastmod>2017-06-29T13:09:58+08:00</lastmod>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,14 +96,26 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/development/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/categories/design-thinking/</loc>
+    <lastmod>2017-06-29T13:09:58+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/tags/development/</loc>
     <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/categories/development/</loc>
+    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/categories/devops/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -128,7 +145,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/</loc>
-    <lastmod>2017-07-15T16:19:13+08:00</lastmod>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,6 +170,12 @@
   <url>
     <loc>https://ykhorzon.github.io/tags/</loc>
     <lastmod>2017-06-30T19:38:15+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tags/talk/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
