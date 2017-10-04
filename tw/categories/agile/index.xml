@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on </title>
+    <link>https://ykhorzon.github.io/tw/categories/agile/</link>
+    <description>Recent content in Agile on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 30 Aug 2017 12:36:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adapt or Die，所以你說 retrospective 怎麼辦？</title>
+      <link>https://ykhorzon.github.io/tw/agile/adapt_or_die_how_to_retrospective/</link>
+      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agile/adapt_or_die_how_to_retrospective/</guid>
+      <description>講者介紹 講者為，有興趣請參考他的 [blog]()，活動由 [agile] 因講者在 Taiwan DevOps Day 2017還有一場研講，基於不暴雷原則，部分內容以簡化。
+Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧反省</description>
+    </item>
+    
+  </channel>
+</rss>

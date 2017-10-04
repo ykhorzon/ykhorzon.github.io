@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 持續改進 for Ykhorizon</title>
+    <title>Categories on </title>
     <link>https://ykhorzon.github.io/tw/categories/</link>
-    <description>Recent content in Categories on 持續改進 for Ykhorizon</description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tw</language>
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 30 Aug 2017 12:36:50 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>https://ykhorzon.github.io/tw/categories/agile/</link>
+      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/agile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Design Thinking</title>

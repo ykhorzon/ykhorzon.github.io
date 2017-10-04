@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computers on Momentum of Ykhorizon</title>
+    <title>Computers on </title>
     <link>https://ykhorzon.github.io/computer/</link>
-    <description>Recent content in Computers on Momentum of Ykhorizon</description>
+    <description>Recent content in Computers on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
@@ -22,7 +22,7 @@
       <guid>https://ykhorzon.github.io/computer/devops/devops_experience/</guid>
       <description>Speaker
  Feng  Warnings
- The following content is sythesised with talkings and my experience  History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning. Naturally, seperating operations task into a standalone team called operations team resulted in degrade efficiency of whole team due to communication and task seperation overhead.</description>
+ The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>
     </item>
     
     <item>
