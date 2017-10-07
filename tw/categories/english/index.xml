@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English on </title>
+    <link>https://ykhorzon.github.io/tw/categories/english/</link>
+    <description>Recent content in English on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Fri, 10 Mar 2017 15:30:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>英文學術寫作</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</link>
+      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</guid>
+      <description>  學術寫作要求嚴謹、精簡與精確
+ 目錄 系列文章 本系列文章會，將會以論文組成各區塊，分別探討寫作觀念。主要分成
+ Introduction Related Work Methodology( Main Body ) Evaluation Conclusion Abstract  主要會統整我在學校上過的課程、課本、網路蒐集資訊，並且實際應用到我的碩士論文上，順便完成我的論文(?!)。本人並非英文專業人士，這些方法是我個人統整，並不具備有任何權威或研究支撐，使用前請三思，另外若錯誤歡迎指教，謝謝！
+風格 A Fast Glance 目的 Taste Favor </description>
+    </item>
+    
+  </channel>
+</rss>

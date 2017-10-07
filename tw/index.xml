@@ -9,30 +9,10 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Wed, 30 Aug 2017 12:36:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Aug 2017 22:29:08 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Adapt or Die，所以你說 retrospective 怎麼辦？</title>
-      <link>https://ykhorzon.github.io/tw/agile/adapt_or_die_how_to_retrospective/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/adapt_or_die_how_to_retrospective/</guid>
-      <description>講者介紹 講者為，有興趣請參考他的 [blog]()，活動由 [agile] 因講者在 Taiwan DevOps Day 2017還有一場研講，基於不暴雷原則，部分內容以簡化。
-Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧反省</description>
-    </item>
-    
-    <item>
-      <title>Adapt or Die，所以你說 retrospective 怎麼辦？</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/agile/adapt_or_die_how_to_retrospective/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/agile/adapt_or_die_how_to_retrospective/</guid>
-      <description>講者介紹 講者為，有興趣請參考他的 [blog]()，活動由 [agile] 因講者在 Taiwan DevOps Day 2017還有一場研講，基於不暴雷原則，部分內容以簡化。
-Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧反省</description>
-    </item>
     
     <item>
       <title>Google analytics 設定快速檢查</title>
@@ -40,16 +20,6 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/</guid>
-      <description>設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.js 運作   被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。 後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
- 不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題</description>
-    </item>
-    
-    <item>
-      <title>Google analytics 設定快速檢查</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/google_analytics_setup/</link>
-      <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/google_analytics_setup/</guid>
       <description>設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.js 運作   被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。 後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
  不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題</description>
     </item>
@@ -73,61 +43,18 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
     </item>
     
     <item>
-      <title>DevOps 全棧工程師-活動心得</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/agile/devops_experience/</link>
-      <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/agile/devops_experience/</guid>
-      <description>Speaker:
- odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
-歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
-你以為過去沒有 DevOps? 在遠古開發時代(?)，沒有 Docker 或 Ansible 這類工具。但別忘了其實底層絕大多數的工作，都可以用 shell script 完成，可見 shell script 這類基本功有多重要。時代在改變，但要完成的工作並沒有改變，大多是變複雜，解決問題的觀念類似。
-再者，microservice 這類型的觀念，其實也早在 Unix 哲學(Unix philosophy)中被提及，差異是在不同系統層級實作( Do One Thing and Do It Well. 可以對照到 microservice)，當代有更方便工具，抽象化細節與簡化操作流程。
-框架工具之於觀念
- 工具只是溝通工具，而不是溝通的本身 舉例：Jenkins只是CI的工具，CI的關鍵是CI觀念本身，不管用任何方式達成都好
- 框架工具之於基本功
- 框架不會幫你解決產品的問題，幾乎與你的產品無關 基礎不紮實，只花時間在學習框架或工具，遭遇的狀況牽扯底層或基本面，也是無法處理
- 舉例：Java 工程師 v.s Ops 維運工程師 上圖比較 Java 工程師與 Ops 工程師的技能對照，一目了然自己缺少哪個技能。一般前段或後端工程師的 skill set 從 bottom-up 到 top-down 大家都很清楚，但提到 DevOps 大家似乎被 Top-down 工具給迷惑住了！這算是一張check list，提醒自己是否還缺少哪個部分。</description>
-    </item>
-    
-    <item>
       <title>電腦科學(Computer Science)到底在學什麼？</title>
       <link>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</guid>
-      <description>昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：
- 想問一件事情，我已經會寫程式。 大學明年可以自由選系，如果不選資工選數學的話， 會是很不明智的決定嗎?
- 認真探討這個問題前，先說說最近的感受，剛好契合此問題。
-工具迭代有感 最近趕工一些專案，重新學習 Modern Web 的 Framework 和 Tools，網頁前端工具迭代速度非常快，大約每3年都會重新大洗牌一次。面對問題選擇適合的工具，在工具琳瑯滿目的年代成為生從必要一種技術。各種 Framework 和 Tools 像是工具箱中的神奇法寶，但如選擇不當，下場會是事倍功半。
- 工具快速迭代時空下，我要抓住什麼才能存活下去？ 不斷學習，只是基本條件;不斷突破自己的極限，是挑戰  我們還能作什麼？
- 文章到這裡，是不是也發現問題和前面小朋友的問題，也許有幾分神似？如果能夠重來，你會把時間投注在哪些項目？做些什麼事情？
-回到原本的故事，小朋友的問題  如果是我，怎麼回覆他的問題？
- 我會把問題拆解成幾個部分，先別亂下開處方(建議)
- 你了解自己適合什麼嗎？  做什麼事情讓你感到興奮？ 哪先事情能夠你願意不眠不休投入，樂此不疲？ 有什麼確定很定厭惡的事情嗎？  你能把自己表達問題表達清楚嗎？  你有什麼考量？工作導向？經濟？包袱？  理解你想選擇的內容是什麼嗎？  資工系在學什麼？為什麼而學？應用？ 同樣的問題，數學系？   大家怎麼回答？ 我大致用上面拆解問題架構分一類，就簡稱第一類、第二類與第三類
-第三類 這則留言是所有這類中最好，直接點出重點，夠豐富與精闢，資訊科學是在做什麼？本質的精神內容都被詳細列舉。
- 資訊科學: 計算的本質 + 電腦軟硬體架構運作原理
- 資工系從來都不是程式系 資工的精神，在於瞭解計算的本質。 舉例而言，Data Structure 教我們如何有效管理複雜且龐大的資料。Algorithm 教我們何謂高效率的計算方法。Compiler 教我們如何系統化的轉換高階語言。Computation Theory 教我們如何定義一個問題是否可被計算，與如何評估計算複雜度。Computer Architecture 教我們如何設計有效的計算機器。 寫程式本身只是一種實作方法，不同領域的人，學習與使用不同的程式語言解決該領域的特定問題。寫程式本身如此而已，當然，要寫的好，還是得有多年的苦練才行。 資工系的本質亦是解決問題。針對一個可被計算之問題，找一種更好的抽像計算方法，用軟體或是硬題實作皆可，使得問題可以在更短的時間內，或是更少的計算資源之下被解決。 資工領域的聖殿，Turing Award。 資工領域的聖杯，P = NP ?</description>
-    </item>
-    
-    <item>
-      <title>電腦科學(Computer Science)到底在學什麼？</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/computer/experience/what_is_computer_science/</link>
-      <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/computer/experience/what_is_computer_science/</guid>
-      <description>昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：
- 想問一件事情，我已經會寫程式。 大學明年可以自由選系，如果不選資工選數學的話， 會是很不明智的決定嗎?
- 認真探討這個問題前，先說說最近的感受，剛好契合此問題。
-工具迭代有感 最近趕工一些專案，重新學習 Modern Web 的 Framework 和 Tools，網頁前端工具迭代速度非常快，大約每3年都會重新大洗牌一次。面對問題選擇適合的工具，在工具琳瑯滿目的年代成為生從必要一種技術。各種 Framework 和 Tools 像是工具箱中的神奇法寶，但如選擇不當，下場會是事倍功半。
- 工具快速迭代時空下，我要抓住什麼才能存活下去？ 不斷學習，只是基本條件;不斷突破自己的極限，是挑戰  我們還能作什麼？
- 文章到這裡，是不是也發現問題和前面小朋友的問題，也許有幾分神似？如果能夠重來，你會把時間投注在哪些項目？做些什麼事情？
-回到原本的故事，小朋友的問題  如果是我，怎麼回覆他的問題？
- 我會把問題拆解成幾個部分，先別亂下開處方(建議)
- 你了解自己適合什麼嗎？  做什麼事情讓你感到興奮？ 哪先事情能夠你願意不眠不休投入，樂此不疲？ 有什麼確定很定厭惡的事情嗎？  你能把自己表達問題表達清楚嗎？  你有什麼考量？工作導向？經濟？包袱？  理解你想選擇的內容是什麼嗎？  資工系在學什麼？為什麼而學？應用？ 同樣的問題，數學系？   大家怎麼回答？ 我大致用上面拆解問題架構分一類，就簡稱第一類、第二類與第三類
-第三類 這則留言是所有這類中最好，直接點出重點，夠豐富與精闢，資訊科學是在做什麼？本質的精神內容都被詳細列舉。
- 資訊科學: 計算的本質 + 電腦軟硬體架構運作原理
- 資工系從來都不是程式系 資工的精神，在於瞭解計算的本質。 舉例而言，Data Structure 教我們如何有效管理複雜且龐大的資料。Algorithm 教我們何謂高效率的計算方法。Compiler 教我們如何系統化的轉換高階語言。Computation Theory 教我們如何定義一個問題是否可被計算，與如何評估計算複雜度。Computer Architecture 教我們如何設計有效的計算機器。 寫程式本身只是一種實作方法，不同領域的人，學習與使用不同的程式語言解決該領域的特定問題。寫程式本身如此而已，當然，要寫的好，還是得有多年的苦練才行。 資工系的本質亦是解決問題。針對一個可被計算之問題，找一種更好的抽像計算方法，用軟體或是硬題實作皆可，使得問題可以在更短的時間內，或是更少的計算資源之下被解決。 資工領域的聖殿，Turing Award。 資工領域的聖杯，P = NP ?</description>
+      <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;想問一件事情，我已經會寫程式。&lt;br/&gt;
+大學明年可以自由選系，如果不選資工選數學的話，&lt;br/&gt;
+會是很不明智的決定嗎?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -142,40 +69,11 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
     </item>
     
     <item>
-      <title>關於我</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/about/me/</link>
-      <pubDate>Sat, 15 Jul 2017 12:17:42 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/about/me/</guid>
-      <description> 你好, 我是 ykhorizon (a.k.a. ykhu in community)， 我出生長大在台灣，興趣非常廣泛。 努力堅持自己信念與原則，設法讓自己做好玩的事情，遇見有趣的人。
-與我有關的組織 [Elastic Farm]() Open Agri. Lab
-興趣  Programming, Agile and Startup Agriculture, Sustainable and Irrigation Music, Guitar and Grogressive Cooking, dog and insect  目標  Simple Do not forget the initial motivation Underpin myself, family and friends  聯絡我  twitter github linkedin Or contact me with ykhorizon.light@gmail.com  </description>
-    </item>
-    
-    <item>
       <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</link>
+      <link>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>類似Design Thinking的討論實戰檢討</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/post/design_thinking/practice/</link>
-      <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/post/design_thinking/practice/</guid>
+      <guid>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
@@ -190,28 +88,10 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
     
     <item>
       <title>日常中的世代對談 - 討論柯文哲市長 2 採取行動</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/post/daily/talk_to_the_previous_generation2/</link>
-      <pubDate>Thu, 29 Jun 2017 08:33:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/post/daily/talk_to_the_previous_generation2/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>日常中的世代對談 - 討論柯文哲市長 2 採取行動</title>
       <link>https://ykhorzon.github.io/tw/2017/06/29/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</link>
       <pubDate>Thu, 29 Jun 2017 08:33:18 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/2017/06/29/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>設計思考醒醒腦</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/post/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</link>
-      <pubDate>Wed, 28 Jun 2017 14:50:26 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/post/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
@@ -226,10 +106,10 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
     
     <item>
       <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</link>
+      <link>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</guid>
+      <guid>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
@@ -241,19 +121,356 @@ Too busy to improve? image source &amp;gt; Restrospective 翻成中文是回顧�
     </item>
     
     <item>
-      <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/hugo/new_blog/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      <title>農業模擬工具</title>
+      <link>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/content_as_toml/content/computer/web/hugo/new_blog/</guid>
-      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+      <guid>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
+      <description>一句話描述本文重點
+ 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
+Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
+引言 - 為什麼需要農業模擬軟體工具?
+Case1: 大範圍農業 - 澳洲農民
+請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
+(以下數據為澳洲各省，平均每個農場的大小)
+http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
+這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
+http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
+因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
+Case2: 農業工程滴灌系統評估
+場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
+http://www.trickle-l.com/new/gallery/soilpat.gif
+此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
+http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
+工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
+但這不代表simulation對於農業完全沒有幫助
+Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
+    </item>
+    
+    <item>
+      <title>生活雜筆</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</link>
+      <pubDate>Sat, 25 Mar 2017 00:20:17 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</guid>
+      <description>  生命記憶的拼圖雕塑，永遠向前，無法回頭
+ 從這篇文章得到  對我生命有啟發性的事件，與其省思  目錄 在有限的生命中，思考如何作決定 富足與貧窮 這個故事啟發自一串討論，&amp;raquo;吃飯會等別人到期，才一起開動的人，比較容易成功&amp;raquo;，年輕一輩的人都是為，等人是同理心、體貼的表現，因此留下好像給他人。其他長輩有不同的看法
+偏頗不公是關係裂縫根源 我是家族中年紀最輕的晚輩，到了最近才知道親戚長輩有許多不愉快的往事，造成現在之間有嫌隙。探究之後發現，問題都來在同一個原因，都是對人有不公、偏袒等行為，間接造成仇恨。因此，我希望自己在未來人生中，處理人事務盡力諸求公平、平等，以此經驗為借鏡，避免發生。
+困境試金石 人通常在艱難的時候，會產現出平時無法看到一面，可能是
+生命的寶藏 - 正直 </description>
+    </item>
+    
+    <item>
+      <title>學術英文寫作-主軸與架構</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
+      <description>主軸貫串全文，安排故事架構，邏輯連結論述
+ 從文章中可獲得  學術論文撰寫的核心 - 問題主軸 論文設計架構 實驗室前輩經驗  目錄 簡易流程  先思考論文 主軸思想(重點) 再從主軸為核心，發產出論文脈絡
+ 脈絡要求高度連貫性 可以 魚骨圖 、 心智圖 (mind mapping)嘗試組織(有序、結構化、定義關連性)，試試看從頭說故事，如果不暢通，打散重新組合，多嘗試直到story flow流暢  可參考標準論文架構 (設計故事架構)
+ General to Specific (GS), Specific to General (SG) Intro. - Related Work - Main Body - Evaluation - Conclusion   開始前觀念提醒 解釋動機 文字論述並非流水帳，紀錄了時做的細節，而是解釋
+ 原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
+ Anti-pattern
+ 一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
+    </item>
+    
+    <item>
+      <title>LeetCode磨練</title>
+      <link>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</link>
+      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>英文學術寫作</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</link>
+      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</guid>
+      <description>  學術寫作要求嚴謹、精簡與精確
+ 目錄 系列文章 本系列文章會，將會以論文組成各區塊，分別探討寫作觀念。主要分成
+ Introduction Related Work Methodology( Main Body ) Evaluation Conclusion Abstract  主要會統整我在學校上過的課程、課本、網路蒐集資訊，並且實際應用到我的碩士論文上，順便完成我的論文(?!)。本人並非英文專業人士，這些方法是我個人統整，並不具備有任何權威或研究支撐，使用前請三思，另外若錯誤歡迎指教，謝謝！
+風格 A Fast Glance 目的 Taste Favor </description>
+    </item>
+    
+    <item>
+      <title>記帳那些事</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>人不理財，財不理你
+ 記帳的目的 1.透明化 - 理解金流動向 減少延遲付款，降低金流複雜度 可善用VISA金融信用卡，除了紅利點數之外，
+所有大筆金額的去向(花費)，都必須要知道原因
+所有借貸關係都要清楚，大於1000元都必須要簽署一式兩份的借據 保護自己也保護他人
+細部譬如說一餐的金額，可以有些為的差距，無需要矯枉過正，埋沒於細節中
+2.管理財務 - 規劃與控制 預計每月各類別花費的預算，不至某一個項目花費破表 存款規劃 投資規劃 貸款還款計畫
+記帳工具 考量 安全與隱私
+自從實驗室的同學有人在研究IoT Security的議題後 他媽的我才理解隱私真的超級重要的
+以前我都在手機使用ArdroMoney，介面簡單好用 但這其實是一件可怕的事情，沒有人知道這些App是唪私底下有蒐集我的資訊 更何況個人財務是極度隱私的資料，被有心人士拿去利用，後果不堪設想
+基於此考量，會優先考慮open source的工具
+Survey HomeBank http://homebank.free.fr/ 要從MacPort安裝，有一點麻煩
+GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
+麥克錢包 Excel 目前先打算暫時
+未雨綢繆 往後的日子，開始工作會有薪資、投資、信用卡</description>
+    </item>
+    
+    <item>
+      <title>Kernighan-Lin algorithm</title>
+      <link>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>為何而寫</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
+      <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
+      <description>寫作即思考與反芻
+  寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
+ 期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
+ 寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
+    </item>
+    
+    <item>
+      <title>大二上</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
+      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
+      <description>井底之蛙，初出矮井
+ {% asset_img ncucc.jpg %}
+ 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
+ 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
+Resource - ncucc</description>
+    </item>
+    
+    <item>
+      <title>以始為終2017</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</link>
+      <pubDate>Tue, 24 Jan 2017 22:23:51 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</guid>
+      <description>以始為終  {% asset_img stuck.jpg %}
+ 卡住了，研究、思考、技術、吉他，生活中的種種似乎時常原地打轉 我意識到痛苦的解果，但我始終沒有積極面對它，我無從得知發生的原因 思考慣性的盲點、自覺得缺乏，讓重複的現象產生，總是讓結果與自我期待折磨內心
+ 與老師的對話 老師：YK，我發現你看起來很認真，做事也有調理，但是似乎常常卡在問題同一個地方，因此沒有進展。 我：是呀，我總是覺得沒有進展，我也很困擾
+OS：我卡住似乎也不是第一次了
+老師： 我猜可能的原因是你對這個OOO技術，最核心的概念沒有抓到重點。 我猜這也不單單發生在研究，你其他事情也有類似的現象吧？ 我：時常思考問題到最後，把自己搞的更亂。或者看更多資料，偏離主題。
+OS：我靠，你怎麼知道，這讓我想起
+老師： 我想只要你能在這方面有所突破，就算是人生一大突破，可以向前邁進 很多人有類似的問題，我覺得你可以回去好好想想原因。 腦子要靈活一點，許多的創新與突破，是把問題想清楚，看透問題的本質，找出適合的解決方法。
+OS：我回去想想
+與 octopus的對話 octopus是我重要的人，我時常與她討論生活中的種種。 今天也不例外，和老師的對話結束後，有感而發 容易發散，鑽入細節之中，一個問題尚未解決，就跑去解決下一個
+與自己對話 我為什麼會卡住？ 自己觀察症狀  已經一段時間，和老師討論的研究沒有進展 我在學習音樂上 程式撰寫，一些project似乎沒有成功，或者是進度不順  需要一些實際案例與經驗 回歸根本：我對我自己了解嗎
+自我分析： 原則  我不可能完全改變個性，成外另外一個人 但是 發揮自己的長處，補足那些缺點，達到一個自己可以 接受的平衡 也沒有一步到位的事情，凡是都有慢慢修正 一定會有挫折，無須沮喪，我相信可以變好 只要有客觀的檢視，確定再進步就好  習慣  生活習慣容易分心 愛嘗試新鮮挑戰，但是沒有有始有終 容易將注意力鎖定在細節結上，遺忘大局 先後次序、相依性、假設、重要性的安排  需要一些實際案例與經驗
+調整  80%的事情使用蕃茄鐘，增進效率。類似敏捷開的sprint 以始為終 抓住這件事情的 原則(principle) 和 精神(Key)  心態  悲觀，不要被負面駕馭自己 逃避，將時間花在製造東西、休閒娛樂而不是思考解決與採取行動  需要一些實際案例與經驗</description>
+    </item>
+    
+    <item>
+      <title>實用hexo-抵達新手村</title>
+      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
+ 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
+ Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
+ markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
+基礎使用問題 (undone) 基礎指令 (undone) Commands
+Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
+Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
+ 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
+    </item>
+    
+    <item>
+      <title>實用hexo-領新手裝</title>
+      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
+      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;當你把hexo當作Content Providing的武器
+長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
+&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
 
-&lt;p&gt;我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。
-轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;將Hexo作為Content Providing 的工具，你將會真實面臨使用情境，開始尋找應解決工具&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&#34;我的撰寫流程-user-story&#34;&gt;我的撰寫流程 - User Story&lt;/h1&gt;
+
+&lt;p&gt;(0) 挑選出適合的主題，撰寫成為文章。我挑選題目大致上分成三類&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;活動、社群聚會的心得內容&lt;/li&gt;
+&lt;li&gt;自己規劃想要學習的系列文章&lt;/li&gt;
+&lt;li&gt;書本、課本筆記反芻&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(1) 安裝好&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;Browsersync&lt;/a&gt;後，開啟iterm，分別執行&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+    hexo g -w # Generate by watching change files
+    hexo s    # Serve public articles(non-draft) on local
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(2) 開啟 Atom，開始編輯內容
+(3) 打開 Chrome 無痕視窗並&lt;a href=&#34;http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development&#34;&gt;關閉Cache功能&lt;/a&gt;，Preview顯示效果&lt;/p&gt;
+
+&lt;p&gt;步驟2. 3.瘋狂循環，直到文章定稿&lt;/p&gt;
+
+&lt;p&gt;(4) Deploy文章到github page上&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+  hexo d -g # Deploy post articles to github page service
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(5) 分享文章於社群或自我推銷，藉由信箱或Disqus &lt;strong&gt;取得回饋&lt;/strong&gt; 後修改文章&lt;/p&gt;
+
+&lt;h1 id=&#34;本質-理解hexo-source-code-undone&#34;&gt;本質 - 理解hexo source code (undone)&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;對javascript有基本認識，不會害怕trace code(!?)&lt;/li&gt;
+&lt;li&gt;可以打自己的plugin或script加速流程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;升級hexo裝備&#34;&gt;升級hexo裝備&lt;/h1&gt;
+
+&lt;h2 id=&#34;受眾互動&#34;&gt;受眾互動&lt;/h2&gt;
+
+&lt;h3 id=&#34;留言功能&#34;&gt;留言功能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&#34;&gt;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://morris821028.github.io/2014/04/12/web/hexo-comment/&#34;&gt;http://morris821028.github.io/2014/04/12/web/hexo-comment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/&#34;&gt;Jonathan Klughertz, Add Google Analytics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;seo-搜尋引擎最佳化-undone&#34;&gt;SEO 搜尋引擎最佳化 (undone)&lt;/h2&gt;
+
+&lt;h2 id=&#34;撰寫流程優化&#34;&gt;撰寫流程優化&lt;/h2&gt;
+
+&lt;h3 id=&#34;即時載入更新頁面&#34;&gt;即時載入更新頁面&lt;/h3&gt;
+
+&lt;p&gt;當你一修改文章的內容後，Browser會自動重新整理。熟悉網頁開的人，會稱此功能為 &lt;strong&gt;liveReload&lt;/strong&gt;。可參考一下文章，建立此功能。個人目前推薦 &lt;a href=&#34;https://browsersync.io/#install&#34;&gt;Browsersync&lt;/a&gt;，它還有很多許多強大功能可以玩耍，自行服用。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://moxfive.xyz/2016/03/27/hexo-browsersync/&#34;&gt;Hexo 页面自动刷新与移动端调试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;在 hexo s 下實現頁面自動刷新，Browsersync套件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;方法比較&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jerry011235.github.io/2015/05/07/Hexo%E4%B8%8D%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E4%B9%9F%E5%8F%AF%E9%A2%84%E8%A7%88/&#34;&gt;Hexo不重新生成也可预览&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Caution: 我使用 &lt;a href=&#34;https://github.com/hexojs/hexo-browsersync&#34;&gt;hexo-browsersync&lt;/a&gt; plugin 發生 render sidebar跑出亂碼的狀況。
+因此我改用，改用原生的&lt;a href=&#34;https://browsersync.io&#34;&gt;Browsersync&lt;/a&gt;，在你的hexo資料夾下，輸入以下指令：&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;files &amp;lsquo;public&amp;rsquo;
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;Results: 我猜測是hexo-browsersync地方寫壞了，我看github有2年沒更新。等我開始trace hexo source code在來看要不要幫忙fix bug。&lt;/p&gt;
+
+&lt;h3 id=&#34;管理多重blog文章-undone&#34;&gt;管理多重blog文章 (undone)&lt;/h3&gt;
+
+&lt;h2 id=&#34;design-layout&#34;&gt;Design &amp;amp; Layout&lt;/h2&gt;
+
+&lt;h3 id=&#34;改變-theme-markdown-style&#34;&gt;改變 theme markdown style&lt;/h3&gt;
+
+&lt;p&gt;只要你具備css,html的基礎，自己可以trace theme中css和layout部分修改，打自己可blog的外觀&lt;/p&gt;
+
+&lt;p&gt;Exampel : CSS 最上方 nav-bar 的字體顏色修改&lt;/p&gt;
+
+&lt;p&gt;修改 themes/landscape/source/css/_partial/header.stylus 中 &lt;strong&gt;$nav-link&lt;/strong&gt; 的部分&lt;/p&gt;
+
+&lt;p&gt;{% codeblock lang:css %}&lt;/p&gt;
+
+&lt;p&gt;$nav-link
+  float: left
+  color: #000
+  opacity: 0.6
+  text-decoration: none
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  transition: opacity 0.2s
+  display: block
+  padding: 20px 15px
+  &amp;amp;:hover
+    opacity: 1&lt;/p&gt;
+
+&lt;p&gt;{% endcodeblock %}&lt;/p&gt;
+
+&lt;h3 id=&#34;以-landscape-theme-為例的教學&#34;&gt;以 landscape theme 為例的教學&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/b96fd206571a&#34;&gt;教你定制Hexo的landscape打造自己的主题&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;目錄或摘要&#34;&gt;目錄或摘要&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Content of Table
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bubkoo/hexo-toc&#34;&gt;https://github.com/bubkoo/hexo-toc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;multi-level categories 包含 counting&lt;/li&gt;
+
+&lt;li&gt;</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Fail Fast</title>
+      <link>https://ykhorzon.github.io/tw/agile/fail_fast/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agile/fail_fast/</guid>
+      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
+挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
+員工人數遽增 2011 , 16人 2016, &amp;gt;100人
+死亡行軍：規格變更
+Reference: SE系統工程師
+種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
+BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
+無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
+簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
+Check input value ( use assertion too!) Add up the diagnosis info for future</description>
+    </item>
+    
+    <item>
+      <title>Software Simulation Tools for Agriculture</title>
+      <link>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</guid>
+      <description>Hackpad Version</description>
+    </item>
+    
+    <item>
+      <title>SoloLa Sprint Planning</title>
+      <link>https://ykhorzon.github.io/tw/computer/solola/solola-sprint-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/solola/solola-sprint-planning/</guid>
+      <description></description>
     </item>
     
   </channel>

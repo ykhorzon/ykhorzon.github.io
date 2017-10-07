@@ -9,17 +9,62 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Wed, 30 Aug 2017 12:36:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Mar 2017 17:12:04 +0000</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Academic</title>
+      <link>https://ykhorzon.github.io/tw/tags/academic/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academicwriting</title>
+      <link>https://ykhorzon.github.io/tw/tags/academicwriting/</link>
+      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/academicwriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accounting</title>
+      <link>https://ykhorzon.github.io/tw/tags/accounting/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/accounting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Agile</title>
       <link>https://ykhorzon.github.io/tw/tags/agile/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
+      <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://ykhorzon.github.io/tw/tags/algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://ykhorzon.github.io/tw/tags/blog/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -42,6 +87,15 @@
     </item>
     
     <item>
+      <title>Daily</title>
+      <link>https://ykhorzon.github.io/tw/tags/daily/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/daily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Design Thinking</title>
       <link>https://ykhorzon.github.io/tw/tags/design-thinking/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
@@ -60,6 +114,15 @@
     </item>
     
     <item>
+      <title>English</title>
+      <link>https://ykhorzon.github.io/tw/tags/english/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fast</title>
       <link>https://ykhorzon.github.io/tw/tags/fast/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
@@ -69,11 +132,11 @@
     </item>
     
     <item>
-      <title>General</title>
-      <link>https://ykhorzon.github.io/tw/tags/general/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
+      <title>Finance</title>
+      <link>https://ykhorzon.github.io/tw/tags/finance/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/tags/general/</guid>
+      <guid>https://ykhorzon.github.io/tw/tags/finance/</guid>
       <description></description>
     </item>
     
@@ -96,6 +159,24 @@
     </item>
     
     <item>
+      <title>Hexo</title>
+      <link>https://ykhorzon.github.io/tw/tags/hexo/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexo Advanced</title>
+      <link>https://ykhorzon.github.io/tw/tags/hexo-advanced/</link>
+      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/hexo-advanced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://ykhorzon.github.io/tw/tags/hugo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
@@ -114,29 +195,11 @@
     </item>
     
     <item>
-      <title>Meeting</title>
-      <link>https://ykhorzon.github.io/tw/tags/meeting/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/tags/meeting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Refresh</title>
       <link>https://ykhorzon.github.io/tw/tags/refresh/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/tags/refresh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retrospective</title>
-      <link>https://ykhorzon.github.io/tw/tags/retrospective/</link>
-      <pubDate>Wed, 30 Aug 2017 12:36:50 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/tags/retrospective/</guid>
       <description></description>
     </item>
     
@@ -159,11 +222,38 @@
     </item>
     
     <item>
+      <title>Tgdf2016</title>
+      <link>https://ykhorzon.github.io/tw/tags/tgdf2016/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/tgdf2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Think</title>
       <link>https://ykhorzon.github.io/tw/tags/think/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/tags/think/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undone</title>
+      <link>https://ykhorzon.github.io/tw/tags/undone/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/undone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://ykhorzon.github.io/tw/tags/writing/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/writing/</guid>
       <description></description>
     </item>
     

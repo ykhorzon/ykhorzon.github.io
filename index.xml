@@ -16,19 +16,10 @@
     
     <item>
       <title>Quick demo to hugo</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/hugo_quick_overview/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</link>
       <pubDate>Wed, 04 Oct 2017 10:25:13 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/hugo_quick_overview/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quick demo to hugo</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_quick_overview/</link>
-      <pubDate>Wed, 04 Oct 2017 10:25:13 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_quick_overview/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</guid>
       <description></description>
     </item>
     
@@ -38,17 +29,6 @@
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/agile/devops_experience/</guid>
-      <description>Speaker
- Feng  Warnings
- The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>
-    </item>
-    
-    <item>
-      <title>Full Stack DevOps Engineer?</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/agile/devops_experience/</link>
-      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/agile/devops_experience/</guid>
       <description>Speaker
  Feng  Warnings
  The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>
@@ -68,43 +48,12 @@ Now, I still learn to be more focus but unstoppably explore new things in the wo
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/about/me/</link>
-      <pubDate>Sat, 15 Jul 2017 16:19:13 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/about/me/</guid>
-      <description>Hi, My name is ykhorizon (a.k.a. ykhu in community)
-I born in Taiwan and grew up in city. I&amp;rsquo;m interest in a lot of different fields/subjects.
- Life is only one time. You can barely change world but you can decide how to think and take actions to the world.
- I try to do something excite me and try not to leave any regrets in life.
-Now, I still learn to be more focus but unstoppably explore new things in the world.</description>
-    </item>
-    
-    <item>
       <title>hugo documents memo</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/hugo_doc_memo/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/hugo_doc_memo/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>hugo documents memo</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Overview Glance of Academic Writing</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/academic_writing/overview/</link>
-      <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/academic_writing/overview/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,15 +62,6 @@ Now, I still learn to be more focus but unstoppably explore new things in the wo
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/2017/06/30/a-overview-glance-of-academic-writing/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>talk_to_the_previous_generation2</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/daily/talk_to_the_previous_generation2/</link>
-      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/daily/talk_to_the_previous_generation2/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
@@ -136,15 +76,6 @@ Now, I still learn to be more focus but unstoppably explore new things in the wo
     
     <item>
       <title>Design Thinking Refresh From Scenario Lab (Taiwan) </title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</link>
-      <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/design_thinking/design-thinking-refresh-from-scenario-lab-presentation/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Design Thinking Refresh From Scenario Lab (Taiwan) </title>
       <link>https://ykhorzon.github.io/2017/06/25/design-thinking-refresh-from-scenario-lab-taiwan/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
@@ -154,119 +85,21 @@ Now, I still learn to be more focus but unstoppably explore new things in the wo
     
     <item>
       <title>My blog is new release with hugo!</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/new_blog/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/new_blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/new_blog/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/new_blog/</guid>
       <description>Motivation  I just want a simple multilingual site for blogging!
  Originally, I have two blog on seperating github page for implementing multilingual by hexo as static site generater. As the size grow up, it is messy and hard to manage. Then, I decide to find alternative solution for my blog.
 Frequent Use Features Outline The following part is frequent useful feature for management blog website. I roughly classify into different catogeries.</description>
     </item>
     
     <item>
-      <title>My blog is new release with hugo!</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/new_blog/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/new_blog/</guid>
-      <description>Motivation  I just want a simple multilingual site for blogging!
- Originally, I have two blog on seperating github page for implementing multilingual by hexo as static site generater. As the size grow up, it is messy and hard to manage. Then, I decide to find alternative solution for my blog.
-Frequent Use Features Outline The following part is frequent useful feature for management blog website. I roughly classify into different catogeries.</description>
-    </item>
-    
-    <item>
-      <title>農業模擬工具</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
-      <description>一句話描述本文重點
- 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
-Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
-引言 - 為什麼需要農業模擬軟體工具?
-Case1: 大範圍農業 - 澳洲農民
-請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
-(以下數據為澳洲各省，平均每個農場的大小)
-http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
-這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
-http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
-因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
-Case2: 農業工程滴灌系統評估
-場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
-http://www.trickle-l.com/new/gallery/soilpat.gif
-此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
-http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
-工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
-但這不代表simulation對於農業完全沒有幫助
-Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
-    </item>
-    
-    <item>
-      <title>農業模擬工具</title>
-      <link>https://ykhorzon.github.io/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
-      <description>一句話描述本文重點
- 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
-Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
-引言 - 為什麼需要農業模擬軟體工具?
-Case1: 大範圍農業 - 澳洲農民
-請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
-(以下數據為澳洲各省，平均每個農場的大小)
-http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
-這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
-http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
-因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
-Case2: 農業工程滴灌系統評估
-場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
-http://www.trickle-l.com/new/gallery/soilpat.gif
-此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
-http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
-工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
-但這不代表simulation對於農業完全沒有幫助
-Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
-    </item>
-    
-    <item>
-      <title>User Story 的那些人與那些事</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
-      <pubDate>Wed, 03 May 2017 10:32:13 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
-      <description>User Story 不只是一張卡片，是說故事與溝通需求的載體
- 從這篇文章得到  此篇是 User Story 實戰篇的階議題  目錄 心得  有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會) Alway observe and find bottleneck in team ( or system or problem ) 經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上  What is User Story ? {% blockquote Mountain Goat Software %}
-User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.</description>
-    </item>
-    
-    <item>
-      <title>User Story 的那些人與那些事</title>
-      <link>https://ykhorzon.github.io/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
-      <pubDate>Wed, 03 May 2017 10:32:13 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
-      <description>User Story 不只是一張卡片，是說故事與溝通需求的載體
- 從這篇文章得到  此篇是 User Story 實戰篇的階議題  目錄 心得  有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會) Alway observe and find bottleneck in team ( or system or problem ) 經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上  What is User Story ? {% blockquote Mountain Goat Software %}
-User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.</description>
-    </item>
-    
-    <item>
       <title>Hello World for SoloLa Project</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/hello-world-for-solola-project/</link>
+      <link>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</link>
       <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/hello-world-for-solola-project/</guid>
-      <description>  Transcription is never a nightmare again.
- Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
-What is SoloLa? </description>
-    </item>
-    
-    <item>
-      <title>Hello World for SoloLa Project</title>
-      <link>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</link>
-      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</guid>
+      <guid>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</guid>
       <description>  Transcription is never a nightmare again.
  Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
 What is SoloLa? </description>
@@ -274,660 +107,13 @@ What is SoloLa? </description>
     
     <item>
       <title>Introduction to reinforcement learning</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction-to-reinforcement-learning/</link>
+      <link>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction-to-reinforcement-learning/</guid>
+      <guid>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</guid>
       <description>Learning is driven by reward
  What will you get in this article  Basic concept of reinforcement learning  Outline Concept In many scenario, real world problems do not exist the ground true answer. The supervised learning could not handle this problem.
 But we can use trial and error to get the answer then calibrate our behavior. The key concept is reward from environment. That is also the way human learning new thing.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to reinforcement learning</title>
-      <link>https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/</link>
-      <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/</guid>
-      <description>Learning is driven by reward
- What will you get in this article  Basic concept of reinforcement learning  Outline Concept In many scenario, real world problems do not exist the ground true answer. The supervised learning could not handle this problem.
-But we can use trial and error to get the answer then calibrate our behavior. The key concept is reward from environment. That is also the way human learning new thing.</description>
-    </item>
-    
-    <item>
-      <title>生活雜筆</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</link>
-      <pubDate>Sat, 25 Mar 2017 00:20:17 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</guid>
-      <description>  生命記憶的拼圖雕塑，永遠向前，無法回頭
- 從這篇文章得到  對我生命有啟發性的事件，與其省思  目錄 在有限的生命中，思考如何作決定 富足與貧窮 這個故事啟發自一串討論，&amp;raquo;吃飯會等別人到期，才一起開動的人，比較容易成功&amp;raquo;，年輕一輩的人都是為，等人是同理心、體貼的表現，因此留下好像給他人。其他長輩有不同的看法
-偏頗不公是關係裂縫根源 我是家族中年紀最輕的晚輩，到了最近才知道親戚長輩有許多不愉快的往事，造成現在之間有嫌隙。探究之後發現，問題都來在同一個原因，都是對人有不公、偏袒等行為，間接造成仇恨。因此，我希望自己在未來人生中，處理人事務盡力諸求公平、平等，以此經驗為借鏡，避免發生。
-困境試金石 人通常在艱難的時候，會產現出平時無法看到一面，可能是
-生命的寶藏 - 正直 </description>
-    </item>
-    
-    <item>
-      <title>生活雜筆</title>
-      <link>https://ykhorzon.github.io/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</link>
-      <pubDate>Sat, 25 Mar 2017 00:20:17 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</guid>
-      <description>  生命記憶的拼圖雕塑，永遠向前，無法回頭
- 從這篇文章得到  對我生命有啟發性的事件，與其省思  目錄 在有限的生命中，思考如何作決定 富足與貧窮 這個故事啟發自一串討論，&amp;raquo;吃飯會等別人到期，才一起開動的人，比較容易成功&amp;raquo;，年輕一輩的人都是為，等人是同理心、體貼的表現，因此留下好像給他人。其他長輩有不同的看法
-偏頗不公是關係裂縫根源 我是家族中年紀最輕的晚輩，到了最近才知道親戚長輩有許多不愉快的往事，造成現在之間有嫌隙。探究之後發現，問題都來在同一個原因，都是對人有不公、偏袒等行為，間接造成仇恨。因此，我希望自己在未來人生中，處理人事務盡力諸求公平、平等，以此經驗為借鏡，避免發生。
-困境試金石 人通常在艱難的時候，會產現出平時無法看到一面，可能是
-生命的寶藏 - 正直 </description>
-    </item>
-    
-    <item>
-      <title>需求探索-實戰操練</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2-%E5%AF%A6%E6%88%B0%E6%93%8D%E7%B7%B4/</link>
-      <pubDate>Fri, 24 Mar 2017 10:36:10 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2-%E5%AF%A6%E6%88%B0%E6%93%8D%E7%B7%B4/</guid>
-      <description>  需求探索，不斷考驗精練、取捨的能力
- 從文章中可獲得 目錄 </description>
-    </item>
-    
-    <item>
-      <title>需求探索-實戰操練</title>
-      <link>https://ykhorzon.github.io/2017/03/24/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2-%E5%AF%A6%E6%88%B0%E6%93%8D%E7%B7%B4/</link>
-      <pubDate>Fri, 24 Mar 2017 10:36:10 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/03/24/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2-%E5%AF%A6%E6%88%B0%E6%93%8D%E7%B7%B4/</guid>
-      <description>  需求探索，不斷考驗精練、取捨的能力
- 從文章中可獲得 目錄 </description>
-    </item>
-    
-    <item>
-      <title>學術英文寫作-主軸與架構</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
-      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
-      <description>主軸貫串全文，安排故事架構，邏輯連結論述
- 從文章中可獲得  學術論文撰寫的核心 - 問題主軸 論文設計架構 實驗室前輩經驗  目錄 簡易流程  先思考論文 主軸思想(重點) 再從主軸為核心，發產出論文脈絡
- 脈絡要求高度連貫性 可以 魚骨圖 、 心智圖 (mind mapping)嘗試組織(有序、結構化、定義關連性)，試試看從頭說故事，如果不暢通，打散重新組合，多嘗試直到story flow流暢  可參考標準論文架構 (設計故事架構)
- General to Specific (GS), Specific to General (SG) Intro. - Related Work - Main Body - Evaluation - Conclusion   開始前觀念提醒 解釋動機 文字論述並非流水帳，紀錄了時做的細節，而是解釋
- 原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
- Anti-pattern
- 一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
-    </item>
-    
-    <item>
-      <title>學術英文寫作-主軸與架構</title>
-      <link>https://ykhorzon.github.io/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
-      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
-      <description>主軸貫串全文，安排故事架構，邏輯連結論述
- 從文章中可獲得  學術論文撰寫的核心 - 問題主軸 論文設計架構 實驗室前輩經驗  目錄 簡易流程  先思考論文 主軸思想(重點) 再從主軸為核心，發產出論文脈絡
- 脈絡要求高度連貫性 可以 魚骨圖 、 心智圖 (mind mapping)嘗試組織(有序、結構化、定義關連性)，試試看從頭說故事，如果不暢通，打散重新組合，多嘗試直到story flow流暢  可參考標準論文架構 (設計故事架構)
- General to Specific (GS), Specific to General (SG) Intro. - Related Work - Main Body - Evaluation - Conclusion   開始前觀念提醒 解釋動機 文字論述並非流水帳，紀錄了時做的細節，而是解釋
- 原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
- Anti-pattern
- 一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
-    </item>
-    
-    <item>
-      <title>LeetCode磨練</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/leetcode%E7%A3%A8%E7%B7%B4/</link>
-      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/leetcode%E7%A3%A8%E7%B7%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LeetCode磨練</title>
-      <link>https://ykhorzon.github.io/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</link>
-      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>英文學術寫作</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</link>
-      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</guid>
-      <description>  學術寫作要求嚴謹、精簡與精確
- 目錄 系列文章 本系列文章會，將會以論文組成各區塊，分別探討寫作觀念。主要分成
- Introduction Related Work Methodology( Main Body ) Evaluation Conclusion Abstract  主要會統整我在學校上過的課程、課本、網路蒐集資訊，並且實際應用到我的碩士論文上，順便完成我的論文(?!)。本人並非英文專業人士，這些方法是我個人統整，並不具備有任何權威或研究支撐，使用前請三思，另外若錯誤歡迎指教，謝謝！
-風格 A Fast Glance 目的 Taste Favor </description>
-    </item>
-    
-    <item>
-      <title>英文學術寫作</title>
-      <link>https://ykhorzon.github.io/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</link>
-      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</guid>
-      <description>  學術寫作要求嚴謹、精簡與精確
- 目錄 系列文章 本系列文章會，將會以論文組成各區塊，分別探討寫作觀念。主要分成
- Introduction Related Work Methodology( Main Body ) Evaluation Conclusion Abstract  主要會統整我在學校上過的課程、課本、網路蒐集資訊，並且實際應用到我的碩士論文上，順便完成我的論文(?!)。本人並非英文專業人士，這些方法是我個人統整，並不具備有任何權威或研究支撐，使用前請三思，另外若錯誤歡迎指教，謝謝！
-風格 A Fast Glance 目的 Taste Favor </description>
-    </item>
-    
-    <item>
-      <title>敏捷需求探索工作坊</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/</link>
-      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/</guid>
-      <description>找到缺少的拼圖就是Impact Mapping
- 你將可以從這篇文章得到  開發產品簡易全貌 (著重需求探索) 影響地圖 Impact Mapping 概念與操作 探訪基礎  目錄 敏捷概述 敏捷開發的精神，可以由最就代表性 &amp;laquo;敏捷宣言&amp;raquo; 說起，原文如下：
- We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
-Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan
-That is, while there is value in the items on the right, we value the items on the left more.</description>
-    </item>
-    
-    <item>
-      <title>敏捷需求探索工作坊</title>
-      <link>https://ykhorzon.github.io/2017/02/26/</link>
-      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/02/26/</guid>
-      <description>找到缺少的拼圖就是Impact Mapping
- 你將可以從這篇文章得到  開發產品簡易全貌 (著重需求探索) 影響地圖 Impact Mapping 概念與操作 探訪基礎  目錄 敏捷概述 敏捷開發的精神，可以由最就代表性 &amp;laquo;敏捷宣言&amp;raquo; 說起，原文如下：
- We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
-Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan
-That is, while there is value in the items on the right, we value the items on the left more.</description>
-    </item>
-    
-    <item>
-      <title>記帳那些事</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
-      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
-      <description>人不理財，財不理你
- 記帳的目的 1.透明化 - 理解金流動向 減少延遲付款，降低金流複雜度 可善用VISA金融信用卡，除了紅利點數之外，
-所有大筆金額的去向(花費)，都必須要知道原因
-所有借貸關係都要清楚，大於1000元都必須要簽署一式兩份的借據 保護自己也保護他人
-細部譬如說一餐的金額，可以有些為的差距，無需要矯枉過正，埋沒於細節中
-2.管理財務 - 規劃與控制 預計每月各類別花費的預算，不至某一個項目花費破表 存款規劃 投資規劃 貸款還款計畫
-記帳工具 考量 安全與隱私
-自從實驗室的同學有人在研究IoT Security的議題後 他媽的我才理解隱私真的超級重要的
-以前我都在手機使用ArdroMoney，介面簡單好用 但這其實是一件可怕的事情，沒有人知道這些App是唪私底下有蒐集我的資訊 更何況個人財務是極度隱私的資料，被有心人士拿去利用，後果不堪設想
-基於此考量，會優先考慮open source的工具
-Survey HomeBank http://homebank.free.fr/ 要從MacPort安裝，有一點麻煩
-GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
-麥克錢包 Excel 目前先打算暫時
-未雨綢繆 往後的日子，開始工作會有薪資、投資、信用卡</description>
-    </item>
-    
-    <item>
-      <title>記帳那些事</title>
-      <link>https://ykhorzon.github.io/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
-      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
-      <description>人不理財，財不理你
- 記帳的目的 1.透明化 - 理解金流動向 減少延遲付款，降低金流複雜度 可善用VISA金融信用卡，除了紅利點數之外，
-所有大筆金額的去向(花費)，都必須要知道原因
-所有借貸關係都要清楚，大於1000元都必須要簽署一式兩份的借據 保護自己也保護他人
-細部譬如說一餐的金額，可以有些為的差距，無需要矯枉過正，埋沒於細節中
-2.管理財務 - 規劃與控制 預計每月各類別花費的預算，不至某一個項目花費破表 存款規劃 投資規劃 貸款還款計畫
-記帳工具 考量 安全與隱私
-自從實驗室的同學有人在研究IoT Security的議題後 他媽的我才理解隱私真的超級重要的
-以前我都在手機使用ArdroMoney，介面簡單好用 但這其實是一件可怕的事情，沒有人知道這些App是唪私底下有蒐集我的資訊 更何況個人財務是極度隱私的資料，被有心人士拿去利用，後果不堪設想
-基於此考量，會優先考慮open source的工具
-Survey HomeBank http://homebank.free.fr/ 要從MacPort安裝，有一點麻煩
-GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
-麥克錢包 Excel 目前先打算暫時
-未雨綢繆 往後的日子，開始工作會有薪資、投資、信用卡</description>
-    </item>
-    
-    <item>
-      <title>Kernighan-Lin algorithm</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/kernighan-lin-algorithm/</link>
-      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/kernighan-lin-algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kernighan-Lin algorithm</title>
-      <link>https://ykhorzon.github.io/2017/01/26/kernighan-lin-algorithm/</link>
-      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/26/kernighan-lin-algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>為何而寫</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
-      <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
-      <description>寫作即思考與反芻
-  寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
- 期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
- 寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
-    </item>
-    
-    <item>
-      <title>為何而寫</title>
-      <link>https://ykhorzon.github.io/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
-      <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
-      <description>寫作即思考與反芻
-  寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
- 期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
- 寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
-    </item>
-    
-    <item>
-      <title>大二上</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
-      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
-      <description>井底之蛙，初出矮井
- {% asset_img ncucc.jpg %}
- 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
- 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
-Resource - ncucc</description>
-    </item>
-    
-    <item>
-      <title>大二上</title>
-      <link>https://ykhorzon.github.io/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
-      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
-      <description>井底之蛙，初出矮井
- {% asset_img ncucc.jpg %}
- 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
- 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
-Resource - ncucc</description>
-    </item>
-    
-    <item>
-      <title>以始為終2017</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</link>
-      <pubDate>Tue, 24 Jan 2017 22:23:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</guid>
-      <description>以始為終  {% asset_img stuck.jpg %}
- 卡住了，研究、思考、技術、吉他，生活中的種種似乎時常原地打轉 我意識到痛苦的解果，但我始終沒有積極面對它，我無從得知發生的原因 思考慣性的盲點、自覺得缺乏，讓重複的現象產生，總是讓結果與自我期待折磨內心
- 與老師的對話 老師：YK，我發現你看起來很認真，做事也有調理，但是似乎常常卡在問題同一個地方，因此沒有進展。 我：是呀，我總是覺得沒有進展，我也很困擾
-OS：我卡住似乎也不是第一次了
-老師： 我猜可能的原因是你對這個OOO技術，最核心的概念沒有抓到重點。 我猜這也不單單發生在研究，你其他事情也有類似的現象吧？ 我：時常思考問題到最後，把自己搞的更亂。或者看更多資料，偏離主題。
-OS：我靠，你怎麼知道，這讓我想起
-老師： 我想只要你能在這方面有所突破，就算是人生一大突破，可以向前邁進 很多人有類似的問題，我覺得你可以回去好好想想原因。 腦子要靈活一點，許多的創新與突破，是把問題想清楚，看透問題的本質，找出適合的解決方法。
-OS：我回去想想
-與 octopus的對話 octopus是我重要的人，我時常與她討論生活中的種種。 今天也不例外，和老師的對話結束後，有感而發 容易發散，鑽入細節之中，一個問題尚未解決，就跑去解決下一個
-與自己對話 我為什麼會卡住？ 自己觀察症狀  已經一段時間，和老師討論的研究沒有進展 我在學習音樂上 程式撰寫，一些project似乎沒有成功，或者是進度不順  需要一些實際案例與經驗 回歸根本：我對我自己了解嗎
-自我分析： 原則  我不可能完全改變個性，成外另外一個人 但是 發揮自己的長處，補足那些缺點，達到一個自己可以 接受的平衡 也沒有一步到位的事情，凡是都有慢慢修正 一定會有挫折，無須沮喪，我相信可以變好 只要有客觀的檢視，確定再進步就好  習慣  生活習慣容易分心 愛嘗試新鮮挑戰，但是沒有有始有終 容易將注意力鎖定在細節結上，遺忘大局 先後次序、相依性、假設、重要性的安排  需要一些實際案例與經驗
-調整  80%的事情使用蕃茄鐘，增進效率。類似敏捷開的sprint 以始為終 抓住這件事情的 原則(principle) 和 精神(Key)  心態  悲觀，不要被負面駕馭自己 逃避，將時間花在製造東西、休閒娛樂而不是思考解決與採取行動  需要一些實際案例與經驗</description>
-    </item>
-    
-    <item>
-      <title>以始為終2017</title>
-      <link>https://ykhorzon.github.io/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</link>
-      <pubDate>Tue, 24 Jan 2017 22:23:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</guid>
-      <description>以始為終  {% asset_img stuck.jpg %}
- 卡住了，研究、思考、技術、吉他，生活中的種種似乎時常原地打轉 我意識到痛苦的解果，但我始終沒有積極面對它，我無從得知發生的原因 思考慣性的盲點、自覺得缺乏，讓重複的現象產生，總是讓結果與自我期待折磨內心
- 與老師的對話 老師：YK，我發現你看起來很認真，做事也有調理，但是似乎常常卡在問題同一個地方，因此沒有進展。 我：是呀，我總是覺得沒有進展，我也很困擾
-OS：我卡住似乎也不是第一次了
-老師： 我猜可能的原因是你對這個OOO技術，最核心的概念沒有抓到重點。 我猜這也不單單發生在研究，你其他事情也有類似的現象吧？ 我：時常思考問題到最後，把自己搞的更亂。或者看更多資料，偏離主題。
-OS：我靠，你怎麼知道，這讓我想起
-老師： 我想只要你能在這方面有所突破，就算是人生一大突破，可以向前邁進 很多人有類似的問題，我覺得你可以回去好好想想原因。 腦子要靈活一點，許多的創新與突破，是把問題想清楚，看透問題的本質，找出適合的解決方法。
-OS：我回去想想
-與 octopus的對話 octopus是我重要的人，我時常與她討論生活中的種種。 今天也不例外，和老師的對話結束後，有感而發 容易發散，鑽入細節之中，一個問題尚未解決，就跑去解決下一個
-與自己對話 我為什麼會卡住？ 自己觀察症狀  已經一段時間，和老師討論的研究沒有進展 我在學習音樂上 程式撰寫，一些project似乎沒有成功，或者是進度不順  需要一些實際案例與經驗 回歸根本：我對我自己了解嗎
-自我分析： 原則  我不可能完全改變個性，成外另外一個人 但是 發揮自己的長處，補足那些缺點，達到一個自己可以 接受的平衡 也沒有一步到位的事情，凡是都有慢慢修正 一定會有挫折，無須沮喪，我相信可以變好 只要有客觀的檢視，確定再進步就好  習慣  生活習慣容易分心 愛嘗試新鮮挑戰，但是沒有有始有終 容易將注意力鎖定在細節結上，遺忘大局 先後次序、相依性、假設、重要性的安排  需要一些實際案例與經驗
-調整  80%的事情使用蕃茄鐘，增進效率。類似敏捷開的sprint 以始為終 抓住這件事情的 原則(principle) 和 精神(Key)  心態  悲觀，不要被負面駕馭自己 逃避，將時間花在製造東西、休閒娛樂而不是思考解決與採取行動  需要一些實際案例與經驗</description>
-    </item>
-    
-    <item>
-      <title>實用hexo-抵達新手村</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
-      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
-      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
- 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
- Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
- markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
-基礎使用問題 (undone) 基礎指令 (undone) Commands
-Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
-Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
- 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
-    </item>
-    
-    <item>
-      <title>實用hexo-抵達新手村</title>
-      <link>https://ykhorzon.github.io/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
-      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
-      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
- 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
- Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
- markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
-基礎使用問題 (undone) 基礎指令 (undone) Commands
-Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
-Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
- 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
-    </item>
-    
-    <item>
-      <title>實用hexo-領新手裝</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
-      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;當你把hexo當作Content Providing的武器
-長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;將Hexo作為Content Providing 的工具，你將會真實面臨使用情境，開始尋找應解決工具&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
-
-&lt;!-- toc --&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h1 id=&#34;我的撰寫流程-user-story&#34;&gt;我的撰寫流程 - User Story&lt;/h1&gt;
-
-&lt;p&gt;(0) 挑選出適合的主題，撰寫成為文章。我挑選題目大致上分成三類&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;活動、社群聚會的心得內容&lt;/li&gt;
-&lt;li&gt;自己規劃想要學習的系列文章&lt;/li&gt;
-&lt;li&gt;書本、課本筆記反芻&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(1) 安裝好&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;Browsersync&lt;/a&gt;後，開啟iterm，分別執行&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-    hexo g -w # Generate by watching change files
-    hexo s    # Serve public articles(non-draft) on local
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;(2) 開啟 Atom，開始編輯內容
-(3) 打開 Chrome 無痕視窗並&lt;a href=&#34;http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development&#34;&gt;關閉Cache功能&lt;/a&gt;，Preview顯示效果&lt;/p&gt;
-
-&lt;p&gt;步驟2. 3.瘋狂循環，直到文章定稿&lt;/p&gt;
-
-&lt;p&gt;(4) Deploy文章到github page上&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-  hexo d -g # Deploy post articles to github page service
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;(5) 分享文章於社群或自我推銷，藉由信箱或Disqus &lt;strong&gt;取得回饋&lt;/strong&gt; 後修改文章&lt;/p&gt;
-
-&lt;h1 id=&#34;本質-理解hexo-source-code-undone&#34;&gt;本質 - 理解hexo source code (undone)&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;對javascript有基本認識，不會害怕trace code(!?)&lt;/li&gt;
-&lt;li&gt;可以打自己的plugin或script加速流程&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;升級hexo裝備&#34;&gt;升級hexo裝備&lt;/h1&gt;
-
-&lt;h2 id=&#34;受眾互動&#34;&gt;受眾互動&lt;/h2&gt;
-
-&lt;h3 id=&#34;留言功能&#34;&gt;留言功能&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&#34;&gt;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://morris821028.github.io/2014/04/12/web/hexo-comment/&#34;&gt;http://morris821028.github.io/2014/04/12/web/hexo-comment/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/&#34;&gt;Jonathan Klughertz, Add Google Analytics&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;seo-搜尋引擎最佳化-undone&#34;&gt;SEO 搜尋引擎最佳化 (undone)&lt;/h2&gt;
-
-&lt;h2 id=&#34;撰寫流程優化&#34;&gt;撰寫流程優化&lt;/h2&gt;
-
-&lt;h3 id=&#34;即時載入更新頁面&#34;&gt;即時載入更新頁面&lt;/h3&gt;
-
-&lt;p&gt;當你一修改文章的內容後，Browser會自動重新整理。熟悉網頁開的人，會稱此功能為 &lt;strong&gt;liveReload&lt;/strong&gt;。可參考一下文章，建立此功能。個人目前推薦 &lt;a href=&#34;https://browsersync.io/#install&#34;&gt;Browsersync&lt;/a&gt;，它還有很多許多強大功能可以玩耍，自行服用。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://moxfive.xyz/2016/03/27/hexo-browsersync/&#34;&gt;Hexo 页面自动刷新与移动端调试&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;在 hexo s 下實現頁面自動刷新，Browsersync套件&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;方法比較&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jerry011235.github.io/2015/05/07/Hexo%E4%B8%8D%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E4%B9%9F%E5%8F%AF%E9%A2%84%E8%A7%88/&#34;&gt;Hexo不重新生成也可预览&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Caution: 我使用 &lt;a href=&#34;https://github.com/hexojs/hexo-browsersync&#34;&gt;hexo-browsersync&lt;/a&gt; plugin 發生 render sidebar跑出亂碼的狀況。
-因此我改用，改用原生的&lt;a href=&#34;https://browsersync.io&#34;&gt;Browsersync&lt;/a&gt;，在你的hexo資料夾下，輸入以下指令：&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;files &amp;lsquo;public&amp;rsquo;
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;Results: 我猜測是hexo-browsersync地方寫壞了，我看github有2年沒更新。等我開始trace hexo source code在來看要不要幫忙fix bug。&lt;/p&gt;
-
-&lt;h3 id=&#34;管理多重blog文章-undone&#34;&gt;管理多重blog文章 (undone)&lt;/h3&gt;
-
-&lt;h2 id=&#34;design-layout&#34;&gt;Design &amp;amp; Layout&lt;/h2&gt;
-
-&lt;h3 id=&#34;改變-theme-markdown-style&#34;&gt;改變 theme markdown style&lt;/h3&gt;
-
-&lt;p&gt;只要你具備css,html的基礎，自己可以trace theme中css和layout部分修改，打自己可blog的外觀&lt;/p&gt;
-
-&lt;p&gt;Exampel : CSS 最上方 nav-bar 的字體顏色修改&lt;/p&gt;
-
-&lt;p&gt;修改 themes/landscape/source/css/_partial/header.stylus 中 &lt;strong&gt;$nav-link&lt;/strong&gt; 的部分&lt;/p&gt;
-
-&lt;p&gt;{% codeblock lang:css %}&lt;/p&gt;
-
-&lt;p&gt;$nav-link
-  float: left
-  color: #000
-  opacity: 0.6
-  text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
-  transition: opacity 0.2s
-  display: block
-  padding: 20px 15px
-  &amp;amp;:hover
-    opacity: 1&lt;/p&gt;
-
-&lt;p&gt;{% endcodeblock %}&lt;/p&gt;
-
-&lt;h3 id=&#34;以-landscape-theme-為例的教學&#34;&gt;以 landscape theme 為例的教學&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/b96fd206571a&#34;&gt;教你定制Hexo的landscape打造自己的主题&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;目錄或摘要&#34;&gt;目錄或摘要&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Content of Table
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bubkoo/hexo-toc&#34;&gt;https://github.com/bubkoo/hexo-toc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;multi-level categories 包含 counting&lt;/li&gt;
-
-&lt;li&gt;</description>
-    </item>
-    
-    <item>
-      <title>實用hexo-領新手裝</title>
-      <link>https://ykhorzon.github.io/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
-      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;當你把hexo當作Content Providing的武器
-長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;將Hexo作為Content Providing 的工具，你將會真實面臨使用情境，開始尋找應解決工具&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
-
-&lt;!-- toc --&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h1 id=&#34;我的撰寫流程-user-story&#34;&gt;我的撰寫流程 - User Story&lt;/h1&gt;
-
-&lt;p&gt;(0) 挑選出適合的主題，撰寫成為文章。我挑選題目大致上分成三類&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;活動、社群聚會的心得內容&lt;/li&gt;
-&lt;li&gt;自己規劃想要學習的系列文章&lt;/li&gt;
-&lt;li&gt;書本、課本筆記反芻&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(1) 安裝好&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;Browsersync&lt;/a&gt;後，開啟iterm，分別執行&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-    hexo g -w # Generate by watching change files
-    hexo s    # Serve public articles(non-draft) on local
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;(2) 開啟 Atom，開始編輯內容
-(3) 打開 Chrome 無痕視窗並&lt;a href=&#34;http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development&#34;&gt;關閉Cache功能&lt;/a&gt;，Preview顯示效果&lt;/p&gt;
-
-&lt;p&gt;步驟2. 3.瘋狂循環，直到文章定稿&lt;/p&gt;
-
-&lt;p&gt;(4) Deploy文章到github page上&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-  hexo d -g # Deploy post articles to github page service
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;(5) 分享文章於社群或自我推銷，藉由信箱或Disqus &lt;strong&gt;取得回饋&lt;/strong&gt; 後修改文章&lt;/p&gt;
-
-&lt;h1 id=&#34;本質-理解hexo-source-code-undone&#34;&gt;本質 - 理解hexo source code (undone)&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;對javascript有基本認識，不會害怕trace code(!?)&lt;/li&gt;
-&lt;li&gt;可以打自己的plugin或script加速流程&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;升級hexo裝備&#34;&gt;升級hexo裝備&lt;/h1&gt;
-
-&lt;h2 id=&#34;受眾互動&#34;&gt;受眾互動&lt;/h2&gt;
-
-&lt;h3 id=&#34;留言功能&#34;&gt;留言功能&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&#34;&gt;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://morris821028.github.io/2014/04/12/web/hexo-comment/&#34;&gt;http://morris821028.github.io/2014/04/12/web/hexo-comment/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/&#34;&gt;Jonathan Klughertz, Add Google Analytics&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;seo-搜尋引擎最佳化-undone&#34;&gt;SEO 搜尋引擎最佳化 (undone)&lt;/h2&gt;
-
-&lt;h2 id=&#34;撰寫流程優化&#34;&gt;撰寫流程優化&lt;/h2&gt;
-
-&lt;h3 id=&#34;即時載入更新頁面&#34;&gt;即時載入更新頁面&lt;/h3&gt;
-
-&lt;p&gt;當你一修改文章的內容後，Browser會自動重新整理。熟悉網頁開的人，會稱此功能為 &lt;strong&gt;liveReload&lt;/strong&gt;。可參考一下文章，建立此功能。個人目前推薦 &lt;a href=&#34;https://browsersync.io/#install&#34;&gt;Browsersync&lt;/a&gt;，它還有很多許多強大功能可以玩耍，自行服用。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://moxfive.xyz/2016/03/27/hexo-browsersync/&#34;&gt;Hexo 页面自动刷新与移动端调试&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;在 hexo s 下實現頁面自動刷新，Browsersync套件&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;方法比較&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://jerry011235.github.io/2015/05/07/Hexo%E4%B8%8D%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E4%B9%9F%E5%8F%AF%E9%A2%84%E8%A7%88/&#34;&gt;Hexo不重新生成也可预览&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Caution: 我使用 &lt;a href=&#34;https://github.com/hexojs/hexo-browsersync&#34;&gt;hexo-browsersync&lt;/a&gt; plugin 發生 render sidebar跑出亂碼的狀況。
-因此我改用，改用原生的&lt;a href=&#34;https://browsersync.io&#34;&gt;Browsersync&lt;/a&gt;，在你的hexo資料夾下，輸入以下指令：&lt;/p&gt;
-
-&lt;p&gt;{% codeblock %}
-browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;files &amp;lsquo;public&amp;rsquo;
-{% endcodeblock %}&lt;/p&gt;
-
-&lt;p&gt;Results: 我猜測是hexo-browsersync地方寫壞了，我看github有2年沒更新。等我開始trace hexo source code在來看要不要幫忙fix bug。&lt;/p&gt;
-
-&lt;h3 id=&#34;管理多重blog文章-undone&#34;&gt;管理多重blog文章 (undone)&lt;/h3&gt;
-
-&lt;h2 id=&#34;design-layout&#34;&gt;Design &amp;amp; Layout&lt;/h2&gt;
-
-&lt;h3 id=&#34;改變-theme-markdown-style&#34;&gt;改變 theme markdown style&lt;/h3&gt;
-
-&lt;p&gt;只要你具備css,html的基礎，自己可以trace theme中css和layout部分修改，打自己可blog的外觀&lt;/p&gt;
-
-&lt;p&gt;Exampel : CSS 最上方 nav-bar 的字體顏色修改&lt;/p&gt;
-
-&lt;p&gt;修改 themes/landscape/source/css/_partial/header.stylus 中 &lt;strong&gt;$nav-link&lt;/strong&gt; 的部分&lt;/p&gt;
-
-&lt;p&gt;{% codeblock lang:css %}&lt;/p&gt;
-
-&lt;p&gt;$nav-link
-  float: left
-  color: #000
-  opacity: 0.6
-  text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
-  transition: opacity 0.2s
-  display: block
-  padding: 20px 15px
-  &amp;amp;:hover
-    opacity: 1&lt;/p&gt;
-
-&lt;p&gt;{% endcodeblock %}&lt;/p&gt;
-
-&lt;h3 id=&#34;以-landscape-theme-為例的教學&#34;&gt;以 landscape theme 為例的教學&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/b96fd206571a&#34;&gt;教你定制Hexo的landscape打造自己的主题&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;目錄或摘要&#34;&gt;目錄或摘要&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Content of Table
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/bubkoo/hexo-toc&#34;&gt;https://github.com/bubkoo/hexo-toc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;multi-level categories 包含 counting&lt;/li&gt;
-
-&lt;li&gt;</description>
-    </item>
-    
-    <item>
-      <title>Review Working Pattern</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/review-working-pattern/</link>
-      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/review-working-pattern/</guid>
-      <description>Quality &amp;gt;&amp;gt; Quantity I must be more focus on quality than quantity in everything.
-Impressive thing and person alway present efficiency(cost and effect) and quality(simple and eleglant).
-In the begining of this blog, I set up a &amp;laquo;daily bloggin challenge&amp;raquo; for myself. After 1 mouth quick testing and 1 mouth review pondering, I found that it&amp;rsquo;s impractical.
-I was used to take notes with Qownnote and collect a lot of information which seem to useful or meaningful.</description>
     </item>
     
     <item>
@@ -944,18 +130,6 @@ I was used to take notes with Qownnote and collect a lot of information which se
     
     <item>
       <title>English Resume Writing Course1</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/english-resume-writing-course1/</link>
-      <pubDate>Tue, 04 Oct 2016 13:19:42 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/english-resume-writing-course1/</guid>
-      <description>Job Search Writing - Resume and Application Letter 每年更新 工作履歷
-Interesting Story  Instructor: PJ Haung No English name. ( Due to the identity consideration )  Course Special Service 10/18, 15:30~17:20 Personal Discussing 10/14, Before 12:00 Sending resume to wrting center TA email
-Why we need resume?  To find out a lot about you in short time
- &amp;laquo;You will never have second chance to leave your first impression.</description>
-    </item>
-    
-    <item>
-      <title>English Resume Writing Course1</title>
       <link>https://ykhorzon.github.io/2016/10/04/english-resume-writing-course1/</link>
       <pubDate>Tue, 04 Oct 2016 13:19:42 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
@@ -968,32 +142,11 @@ Why we need resume?  To find out a lot about you in short time
     
     <item>
       <title>Javascript Testing Tool Survey</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/javascript-testing-tool-survey/</link>
+      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
       <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/javascript-testing-tool-survey/</guid>
+      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
       <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
-    </item>
-    
-    <item>
-      <title>Javascript Testing Tool Survey</title>
-      <link>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</link>
-      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</guid>
-      <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
-    </item>
-    
-    <item>
-      <title>academic-writing-for-graduate-student-3</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-10-03-academic-writing-for-graduate-student-3/</link>
-      <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-10-03-academic-writing-for-graduate-student-3/</guid>
-      <description>Master&amp;rsquo;s thesis
-Doctoral thesis / Dissertation (Dr.)
-Presentation Flow of ideas is good &amp;gt;= grammar errors
- Does the information flow in an expected manner Consider the overall format of your written work Proofread for grammatical accuracy. Check for misspelled words, even if you have spell-checked your work   Writing in a formal academic style Being cautious about generalizations Using references to support your points Reevaluating the work of authorities in the field Expressing enthusiasm and commitment (wrong, use may and lift some room)  Chapter 2 : General-Specific Purpose the structure of these texts involves movement from broader statements to more specific ones.</description>
     </item>
     
     <item>
@@ -1010,18 +163,6 @@ Presentation Flow of ideas is good &amp;gt;= grammar errors
     
     <item>
       <title>Academic Writing for Graduate Student 0</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-0/</link>
-      <pubDate>Sun, 02 Oct 2016 11:57:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-0/</guid>
-      <description>Prefix The following content is excerpted from &amp;laquo;Academic Writing for Graduate Student, Essential Tasks and Skills, 3rd Edition&amp;raquo;
-How to write a article  Audience Purpose organization style flow presentation  Audience  like a textbook (instructorial) display (to those more knowledgable )  Style academic style differs from one area of study to another
-formal language for academic passive voice
-Avoiding Example: stuff, things, a bit, bunch, or a whole lot of (They may also use elaborate metaphors and other vivid expressions to enliven their speaking style.</description>
-    </item>
-    
-    <item>
-      <title>Academic Writing for Graduate Student 0</title>
       <link>https://ykhorzon.github.io/2016/10/02/academic-writing-for-graduate-student-0/</link>
       <pubDate>Sun, 02 Oct 2016 11:57:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
@@ -1030,57 +171,6 @@ Avoiding Example: stuff, things, a bit, bunch, or a whole lot of (They may also 
 How to write a article  Audience Purpose organization style flow presentation  Audience  like a textbook (instructorial) display (to those more knowledgable )  Style academic style differs from one area of study to another
 formal language for academic passive voice
 Avoiding Example: stuff, things, a bit, bunch, or a whole lot of (They may also use elaborate metaphors and other vivid expressions to enliven their speaking style.</description>
-    </item>
-    
-    <item>
-      <title>Startup Talk: DogCatStar</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-29-startup-talk-dogcatstar/</link>
-      <pubDate>Thu, 29 Sep 2016 16:25:09 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-29-startup-talk-dogcatstar/</guid>
-      <description>Outlien Prefix This is a note for High-Tech Entrepreneurship and the speaker is a studnet who has taken this course before.
-退而求其次 貓草：不合理價格 自動澆水、重複使用
-生產 開模費用，製作Prototype 成本：20萬、2個月
-找工廠訣竅
- 問人(以人去介紹) 問工會 問上下游  銷售 詢問販賣點
- 玻璃貓草罐：完全興趣缺缺  通路的人 是可能的資訊樞紐
-最大的挫折： 一開使把 pay 和 利益分配 事先說好 人可以同甘共苦、當好處來
-人員的離開：
- 缺乏前景  Why 放棄芽菜機  一次性擁有在找新客人，做成耗材型價值出不來 智慧型瑜珈墊(良好的商業模式的重要性) 累積的重要性  觀念 鐵人三項 (小米)
- 軟件 硬件 互連與服務  公司的核心價值 EX: 每一隻毛小孩都能夠負擔得起的頂級濕食</description>
-    </item>
-    
-    <item>
-      <title>Startup Talk: DogCatStar</title>
-      <link>https://ykhorzon.github.io/2016/09/29/startup-talk-dogcatstar/</link>
-      <pubDate>Thu, 29 Sep 2016 16:25:09 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/29/startup-talk-dogcatstar/</guid>
-      <description>Outlien Prefix This is a note for High-Tech Entrepreneurship and the speaker is a studnet who has taken this course before.
-退而求其次 貓草：不合理價格 自動澆水、重複使用
-生產 開模費用，製作Prototype 成本：20萬、2個月
-找工廠訣竅
- 問人(以人去介紹) 問工會 問上下游  銷售 詢問販賣點
- 玻璃貓草罐：完全興趣缺缺  通路的人 是可能的資訊樞紐
-最大的挫折： 一開使把 pay 和 利益分配 事先說好 人可以同甘共苦、當好處來
-人員的離開：
- 缺乏前景  Why 放棄芽菜機  一次性擁有在找新客人，做成耗材型價值出不來 智慧型瑜珈墊(良好的商業模式的重要性) 累積的重要性  觀念 鐵人三項 (小米)
- 軟件 硬件 互連與服務  公司的核心價值 EX: 每一隻毛小孩都能夠負擔得起的頂級濕食</description>
-    </item>
-    
-    <item>
-      <title>Academic Writing for Graduate Student 2</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-2/</link>
-      <pubDate>Mon, 26 Sep 2016 17:38:46 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-2/</guid>
-      <description> Avoid Nominalization
-try not to use nouns
-Avoid
- abstraction nouns (-ence, -tion &amp;hellip;etc) emtpy verb (make, cause, do) emtpy nonus (there )   Let the verb do the works
- Example:
-The police conducted an investigation(X) into the matter =&amp;gt; The police investigated into the matter
-Tips: DAR  Diagnose Analyize Rewrite  </description>
     </item>
     
     <item>
@@ -1096,23 +186,6 @@ Avoid
  Example:
 The police conducted an investigation(X) into the matter =&amp;gt; The police investigated into the matter
 Tips: DAR  Diagnose Analyize Rewrite  </description>
-    </item>
-    
-    <item>
-      <title>Academic Writing for Graduate Student 1</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-1/</link>
-      <pubDate>Mon, 26 Sep 2016 15:39:44 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-26-academic-writing-for-graduate-student-1/</guid>
-      <description>Flow textbook P30
- Transitional phrase, Ex: moreover, furthermore, however &amp;hellip;&amp;hellip;etc ___, thus Ving (?)- This/These, P43 For exmaple/instance Odd-to-new information flow
-flow - moving from one statement in a text to the next. Establishing a clear connection of ideas is important to help your reader follow the text
-  Flow by transitional phrase P30 Example :
-Paragraph
-{% asset_img 2016-09-26-academic-writing-for-graduate-student-1/paragraph.png }
-Structure
-{% asset_img 2016-09-26-academic-writing-for-graduate-student-1/paragraph_structure.png }
-Flow by odd-to-new find S, V</description>
     </item>
     
     <item>
@@ -1133,117 +206,22 @@ Flow by odd-to-new find S, V</description>
     </item>
     
     <item>
-      <title>Agile Meetup Hsinhu - Wake Up for Agile!</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-24-agile-meetup-hsinhu/</link>
-      <pubDate>Sat, 24 Sep 2016 23:35:06 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-24-agile-meetup-hsinhu/</guid>
-      <description>The content of talk is for agile beginner
-Material
-Attitude to Professional People
-The joel test (2000 microsoft is 12 point)
-Agile Testing and Quality Strategies: Discipline Over Rhetoric
-Youtube: Nordstrom
-Speaker Recommendation
-Hardware</description>
-    </item>
-    
-    <item>
-      <title>Agile Meetup Hsinhu - Wake Up for Agile!</title>
-      <link>https://ykhorzon.github.io/2016/09/24/agile-meetup-hsinhu---wake-up-for-agile/</link>
-      <pubDate>Sat, 24 Sep 2016 23:35:06 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/24/agile-meetup-hsinhu---wake-up-for-agile/</guid>
-      <description>The content of talk is for agile beginner
-Material
-Attitude to Professional People
-The joel test (2000 microsoft is 12 point)
-Agile Testing and Quality Strategies: Discipline Over Rhetoric
-Youtube: Nordstrom
-Speaker Recommendation
-Hardware</description>
-    </item>
-    
-    <item>
       <title>Design Automated Irrigation System S1</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-22-design-automated-irrigation-systemblog-notes/</link>
+      <link>https://ykhorzon.github.io/agriculture/2016-09-22-design-automated-irrigation-systemblog-notes/</link>
       <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-22-design-automated-irrigation-systemblog-notes/</guid>
+      <guid>https://ykhorzon.github.io/agriculture/2016-09-22-design-automated-irrigation-systemblog-notes/</guid>
       <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
 MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
   For startups, how to know the enough features is a art.</description>
     </item>
     
     <item>
-      <title>Design Automated Irrigation System S1</title>
-      <link>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</link>
-      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</guid>
-      <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
-MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
-  For startups, how to know the enough features is a art.</description>
-    </item>
-    
-    <item>
-      <title>TGDF 2016 Notes - Fail Fast</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-fail-fastblog-notes/</link>
-      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-fail-fastblog-notes/</guid>
-      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
-挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
-員工人數遽增 2011 , 16人 2016, &amp;gt;100人
-死亡行軍：規格變更
-Reference: SE系統工程師
-種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
-BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
-無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
-遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
-簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
-Check input value ( use assertion too!) Add up the diagnosis info for future</description>
-    </item>
-    
-    <item>
-      <title>TGDF 2016 Notes - Fail Fast</title>
-      <link>https://ykhorzon.github.io/2016/09/14/tgdf-2016-notes---fail-fast/</link>
-      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/14/tgdf-2016-notes---fail-fast/</guid>
-      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
-挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
-員工人數遽增 2011 , 16人 2016, &amp;gt;100人
-死亡行軍：規格變更
-Reference: SE系統工程師
-種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
-BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
-無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
-遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
-簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
-Check input value ( use assertion too!) Add up the diagnosis info for future</description>
-    </item>
-    
-    <item>
       <title>First try! unity for simple UI interaction test</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-first-try-unity-for-simple-ui-interaction-testnotes-blog/</link>
+      <link>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</link>
       <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-first-try-unity-for-simple-ui-interaction-testnotes-blog/</guid>
-      <description>This artictle is a quick note for making unity3D simple UI
-Make a rough UI layout quickly! ![]()
-Free Art Collection
-http://opengameart.org/content/breakout-graphics-no-shadow
-####Keyword Drag and Drop
-Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</description>
-    </item>
-    
-    <item>
-      <title>First try! unity for simple UI interaction test</title>
-      <link>https://ykhorzon.github.io/2016/09/14/first-try-unity-for-simple-ui-interaction-test/</link>
-      <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/14/first-try-unity-for-simple-ui-interaction-test/</guid>
+      <guid>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</guid>
       <description>This artictle is a quick note for making unity3D simple UI
 Make a rough UI layout quickly! ![]()
 Free Art Collection
@@ -1254,25 +232,10 @@ Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</descr
     
     <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-13-tgdf-2016-spear-and-shield-of-game-developing/</link>
+      <link>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-13-tgdf-2016-spear-and-shield-of-game-developing/</guid>
-      <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
-關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
-開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
-沒有預先規劃
- 金流 到位時間  挑戰：  品質與成本控管 專案收尾的能力(把遊戲做完的能力)  那些該被刪掉的專案  決策錯誤的成本, 打擊士氣 GDD  營運 觀念 留存率 遊戲產業也是 Content-Update Orient ，只要不更新遊戲內容關卡，人氣會下降
-營運的數據派與直覺派  玩家體驗收集 搭配 營運指標 案例： -轉蛋保底、營收活動、活動難度 指標意義與目標  玩家與官方的距離 玩家 v.s 營運方
-上線後的產品更新週期  開啟新專案 or 更新既有遊戲內容 營運 team 需要極大抗壓性  Media 觀念就是從media進行 growth hacking</description>
-    </item>
-    
-    <item>
-      <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
-      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
+      <guid>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</guid>
       <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
 關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
 開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
@@ -1284,29 +247,10 @@ Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</descr
     
     <item>
       <title>COSCUP Startup Culture Buliding Talk</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/coscup-startup-culture-buliding-talk/</link>
+      <link>https://ykhorzon.github.io/agile/coscup-startup-culture-buliding-talk/</link>
       <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/coscup-startup-culture-buliding-talk/</guid>
-      <description>人 環境(core) 文化(core) 方法 工具  How to Open?
-###工廠 vs 創意 - product-driven - customer-driven
-敏捷的文化 增進彼此之間的溝通
-多一點&amp;raquo;引導&amp;raquo;，少一點&amp;raquo;管理&amp;raquo; 用團隊取代英雄
-管理：高階領導，如何在讓每一個在環境中發揮實力
-scrum kanban water-fall
-PM為溝通的角色
-###溝通 應用對方可以理解的話語，把訊息傳達進去 如何建立人與人的連結？ 持之以行的舉辦 - 讓彼此知道彼此
-###如何提升資訊透明度
-目標清楚 - 過程 - 成果; - 成果狀態; 白板
-工作有效 - Jenkins</description>
-    </item>
-    
-    <item>
-      <title>COSCUP Startup Culture Buliding Talk</title>
-      <link>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</link>
-      <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</guid>
+      <guid>https://ykhorzon.github.io/agile/coscup-startup-culture-buliding-talk/</guid>
       <description>人 環境(core) 文化(core) 方法 工具  How to Open?
 ###工廠 vs 創意 - product-driven - customer-driven
 敏捷的文化 增進彼此之間的溝通
@@ -1322,45 +266,14 @@ PM為溝通的角色
     
     <item>
       <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/statistics-and-data-analysis-for-engineers-part-1/</link>
+      <link>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/statistics-and-data-analysis-for-engineers-part-1/</guid>
+      <guid>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</guid>
       <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
 Article Structure @( use xmind as map of this article )
 Content start!
 Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
-    </item>
-    
-    <item>
-      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
-      <link>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</link>
-      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</guid>
-      <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
-Article Structure @( use xmind as map of this article )
-Content start!
-Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
-    </item>
-    
-    <item>
-      <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/daily-blogging-challenge/</link>
-      <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/daily-blogging-challenge/</guid>
-      <description>序：為什麼要此挑戰？Why to start this challenge? Record
- 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;raquo;Keep uploading!&amp;laquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;laquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;laquo;。我以他作為自己的學習對象，將&amp;laquo;Keep producing valuable content !&amp;raquo;作為座右銘砥礪自己。
-Reference Casey Nesistat Youtube Channel
-每日動力 {% asset_img cycle.png %}
-任何人每天一定有學習與收穫，但需藉由統整、紀錄才成將經驗轉為累積性的能量，否則船過水無痕，非常可惜。而撰寫blog文章促使(強迫)審視每一天的進度，觀察自己的行為，最重要的訓練組織知識和經驗。最終希望可以和人生長期計畫 (long-term plan)能夠互相呼應
-自我行銷 Self-branding 在表面看似資訊自由的時代，事實上使被垃圾資訊與商業利益性資訊給蒙蔽的亂世(Facebook推薦廣告、Google 暗地追蹤)，俗話說亂世出英雄(喂～是這樣用嗎?!)，能夠產出具備組織性、系統性與具備知識意義的資訊，特別能夠脫引而出(Example:找到某大大的blog，又有一系列教學文章，根本撿到寶)
-Reference photo source
-如何進行與遊戲規則？How? 內容
- 文章架構清晰 (組織圖可能用 coggle 或 xmind) 包含 Target Audience、 本篇目標 規劃未來維護與搜尋 具備完整性 (內容可以不多，必須包含觀念、看法與相關survey，不可為工具指令、單純抒發心情文章，可參考 ABCD 或尋找其他論述架構)
-  方法
- Weekly Review 請別人給予回饋，說明優點、缺點和許願池 ( 持續改進 )  細節與堅持</description>
     </item>
     
     <item>
@@ -1384,21 +297,10 @@ Reference photo source
     
     <item>
       <title>Dripping Prototype Experiment</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/dripping-prototype-experiment/</link>
+      <link>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</link>
       <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/dripping-prototype-experiment/</guid>
-      <description> Prefix I want to know about how dripping flow inf
-Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
-Result </description>
-    </item>
-    
-    <item>
-      <title>Dripping Prototype Experiment</title>
-      <link>https://ykhorzon.github.io/2016/08/21/dripping-prototype-experiment/</link>
-      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/08/21/dripping-prototype-experiment/</guid>
+      <guid>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</guid>
       <description> Prefix I want to know about how dripping flow inf
 Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
 Result </description>
@@ -1406,10 +308,10 @@ Result </description>
     
     <item>
       <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction_to_my_research/</link>
+      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction_to_my_research/</guid>
+      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</guid>
       <description>Purpose Review my working plan and structure
 Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
 Article Structure Content My research work: Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Motivation According to our observation,
@@ -1419,10 +321,10 @@ Metohds Contributions Scenarios system design process</description>
     
     <item>
       <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction_to_my_research/introduction_to_my_research/</link>
+      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/introduction_to_my_research/introduction_to_my_research/</guid>
+      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</guid>
       <description>Metadata Purpose Review my working plan and structure
 Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
 Article Structure Content start
@@ -1432,101 +334,11 @@ Purpose a self-adaptive control method and architecture for small scale precise 
     </item>
     
     <item>
-      <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
-      <description>Purpose Review my working plan and structure
-Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
-Article Structure Content My research work: Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Motivation According to our observation,
-Problems What is my design methodology / strategy to highly integration system ? What is my pains ?
-Metohds Contributions Scenarios system design process</description>
-    </item>
-    
-    <item>
-      <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
-      <description>Metadata Purpose Review my working plan and structure
-Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
-Article Structure Content start
-My research work: The following sentence is essential of my work.
-Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Purpose a framework
- Make farmer or culivator focus on planting, soil and environment Do not need to care hardware detail, like: spark, hadoop such framework  Privode 1 golden controller (plant + soil + weather integration)</description>
-    </item>
-    
-    <item>
-      <title>Modeling Basic Concept - Discretization</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/modeling-basic-concept-discretization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/modeling-basic-concept-discretization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling Basic Concept - Discretization</title>
-      <link>https://ykhorzon.github.io/1/01/01/modeling-basic-concept---discretization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/modeling-basic-concept---discretization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Simulation Tools for Agriculture</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/software-simulation-tools-for-agriculture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/software-simulation-tools-for-agriculture/</guid>
-      <description>Hackpad Version</description>
-    </item>
-    
-    <item>
-      <title>Software Simulation Tools for Agriculture</title>
-      <link>https://ykhorzon.github.io/1/01/01/software-simulation-tools-for-agriculture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/software-simulation-tools-for-agriculture/</guid>
-      <description>Hackpad Version</description>
-    </item>
-    
-    <item>
-      <title>SoloLa Sprint Planning</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/solola-sprint-planning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/solola-sprint-planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SoloLa Sprint Planning</title>
-      <link>https://ykhorzon.github.io/1/01/01/solola-sprint-planning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/solola-sprint-planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>String Manipulation</title>
-      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/string-manipulation/</link>
+      <link>https://ykhorzon.github.io/computer/string-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/string-manipulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>String Manipulation</title>
-      <link>https://ykhorzon.github.io/1/01/01/string-manipulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/string-manipulation/</guid>
+      <guid>https://ykhorzon.github.io/computer/string-manipulation/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexo on </title>
+    <link>https://ykhorzon.github.io/tw/tags/hexo/</link>
+    <description>Recent content in Hexo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Tue, 24 Jan 2017 21:58:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>實用hexo-抵達新手村</title>
+      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
+ 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
+ Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
+ markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
+基礎使用問題 (undone) 基礎指令 (undone) Commands
+Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
+Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
+ 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
+    </item>
+    
+  </channel>
+</rss>

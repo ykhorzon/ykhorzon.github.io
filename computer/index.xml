@@ -16,31 +16,112 @@
     
     <item>
       <title>Quick demo to hugo</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/hugo_quick_overview/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</link>
       <pubDate>Wed, 04 Oct 2017 10:25:13 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/hugo_quick_overview/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo documents memo</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/hugo_doc_memo/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/hugo_doc_memo/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>My blog is new release with hugo!</title>
-      <link>https://ykhorzon.github.io/computer/web/hugo/new_blog/</link>
+      <link>https://ykhorzon.github.io/computer/hugo/new_blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/web/hugo/new_blog/</guid>
+      <guid>https://ykhorzon.github.io/computer/hugo/new_blog/</guid>
       <description>Motivation  I just want a simple multilingual site for blogging!
  Originally, I have two blog on seperating github page for implementing multilingual by hexo as static site generater. As the size grow up, it is messy and hard to manage. Then, I decide to find alternative solution for my blog.
 Frequent Use Features Outline The following part is frequent useful feature for management blog website. I roughly classify into different catogeries.</description>
+    </item>
+    
+    <item>
+      <title>Hello World for SoloLa Project</title>
+      <link>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</guid>
+      <description>  Transcription is never a nightmare again.
+ Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
+What is SoloLa? </description>
+    </item>
+    
+    <item>
+      <title>Introduction to reinforcement learning</title>
+      <link>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</link>
+      <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</guid>
+      <description>Learning is driven by reward
+ What will you get in this article  Basic concept of reinforcement learning  Outline Concept In many scenario, real world problems do not exist the ground true answer. The supervised learning could not handle this problem.
+But we can use trial and error to get the answer then calibrate our behavior. The key concept is reward from environment. That is also the way human learning new thing.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Testing Tool Survey</title>
+      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
+    </item>
+    
+    <item>
+      <title>First try! unity for simple UI interaction test</title>
+      <link>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</link>
+      <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</guid>
+      <description>This artictle is a quick note for making unity3D simple UI
+Make a rough UI layout quickly! ![]()
+Free Art Collection
+http://opengameart.org/content/breakout-graphics-no-shadow
+####Keyword Drag and Drop
+Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
+      <link>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</link>
+      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</guid>
+      <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
+關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
+開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
+沒有預先規劃
+ 金流 到位時間  挑戰：  品質與成本控管 專案收尾的能力(把遊戲做完的能力)  那些該被刪掉的專案  決策錯誤的成本, 打擊士氣 GDD  營運 觀念 留存率 遊戲產業也是 Content-Update Orient ，只要不更新遊戲內容關卡，人氣會下降
+營運的數據派與直覺派  玩家體驗收集 搭配 營運指標 案例： -轉蛋保底、營收活動、活動難度 指標意義與目標  玩家與官方的距離 玩家 v.s 營運方
+上線後的產品更新週期  開啟新專案 or 更新既有遊戲內容 營運 team 需要極大抗壓性  Media 觀念就是從media進行 growth hacking</description>
+    </item>
+    
+    <item>
+      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
+      <link>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</guid>
+      <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
+Article Structure @( use xmind as map of this article )
+Content start!
+Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
+    </item>
+    
+    <item>
+      <title>String Manipulation</title>
+      <link>https://ykhorzon.github.io/computer/string-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/string-manipulation/</guid>
+      <description></description>
     </item>
     
   </channel>

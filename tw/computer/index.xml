@@ -30,35 +30,30 @@
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</guid>
-      <description>昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：
- 想問一件事情，我已經會寫程式。 大學明年可以自由選系，如果不選資工選數學的話， 會是很不明智的決定嗎?
- 認真探討這個問題前，先說說最近的感受，剛好契合此問題。
-工具迭代有感 最近趕工一些專案，重新學習 Modern Web 的 Framework 和 Tools，網頁前端工具迭代速度非常快，大約每3年都會重新大洗牌一次。面對問題選擇適合的工具，在工具琳瑯滿目的年代成為生從必要一種技術。各種 Framework 和 Tools 像是工具箱中的神奇法寶，但如選擇不當，下場會是事倍功半。
- 工具快速迭代時空下，我要抓住什麼才能存活下去？ 不斷學習，只是基本條件;不斷突破自己的極限，是挑戰  我們還能作什麼？
- 文章到這裡，是不是也發現問題和前面小朋友的問題，也許有幾分神似？如果能夠重來，你會把時間投注在哪些項目？做些什麼事情？
-回到原本的故事，小朋友的問題  如果是我，怎麼回覆他的問題？
- 我會把問題拆解成幾個部分，先別亂下開處方(建議)
- 你了解自己適合什麼嗎？  做什麼事情讓你感到興奮？ 哪先事情能夠你願意不眠不休投入，樂此不疲？ 有什麼確定很定厭惡的事情嗎？  你能把自己表達問題表達清楚嗎？  你有什麼考量？工作導向？經濟？包袱？  理解你想選擇的內容是什麼嗎？  資工系在學什麼？為什麼而學？應用？ 同樣的問題，數學系？   大家怎麼回答？ 我大致用上面拆解問題架構分一類，就簡稱第一類、第二類與第三類
-第三類 這則留言是所有這類中最好，直接點出重點，夠豐富與精闢，資訊科學是在做什麼？本質的精神內容都被詳細列舉。
- 資訊科學: 計算的本質 + 電腦軟硬體架構運作原理
- 資工系從來都不是程式系 資工的精神，在於瞭解計算的本質。 舉例而言，Data Structure 教我們如何有效管理複雜且龐大的資料。Algorithm 教我們何謂高效率的計算方法。Compiler 教我們如何系統化的轉換高階語言。Computation Theory 教我們如何定義一個問題是否可被計算，與如何評估計算複雜度。Computer Architecture 教我們如何設計有效的計算機器。 寫程式本身只是一種實作方法，不同領域的人，學習與使用不同的程式語言解決該領域的特定問題。寫程式本身如此而已，當然，要寫的好，還是得有多年的苦練才行。 資工系的本質亦是解決問題。針對一個可被計算之問題，找一種更好的抽像計算方法，用軟體或是硬題實作皆可，使得問題可以在更短的時間內，或是更少的計算資源之下被解決。 資工領域的聖殿，Turing Award。 資工領域的聖杯，P = NP ?</description>
+      <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;想問一件事情，我已經會寫程式。&lt;br/&gt;
+大學明年可以自由選系，如果不選資工選數學的話，&lt;br/&gt;
+會是很不明智的決定嗎?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
       <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</link>
+      <link>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</link>
       <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/hugo_doc_memo/</guid>
+      <guid>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</link>
+      <link>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/web/hugo/new_blog/</guid>
+      <guid>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
@@ -67,6 +62,197 @@
 轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LeetCode磨練</title>
+      <link>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</link>
+      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernighan-Lin algorithm</title>
+      <link>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>實用hexo-抵達新手村</title>
+      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
+ 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
+ Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
+ markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
+基礎使用問題 (undone) 基礎指令 (undone) Commands
+Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
+Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
+ 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
+    </item>
+    
+    <item>
+      <title>實用hexo-領新手裝</title>
+      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
+      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;當你把hexo當作Content Providing的武器
+長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;將Hexo作為Content Providing 的工具，你將會真實面臨使用情境，開始尋找應解決工具&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&#34;我的撰寫流程-user-story&#34;&gt;我的撰寫流程 - User Story&lt;/h1&gt;
+
+&lt;p&gt;(0) 挑選出適合的主題，撰寫成為文章。我挑選題目大致上分成三類&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;活動、社群聚會的心得內容&lt;/li&gt;
+&lt;li&gt;自己規劃想要學習的系列文章&lt;/li&gt;
+&lt;li&gt;書本、課本筆記反芻&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(1) 安裝好&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;Browsersync&lt;/a&gt;後，開啟iterm，分別執行&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+    hexo g -w # Generate by watching change files
+    hexo s    # Serve public articles(non-draft) on local
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(2) 開啟 Atom，開始編輯內容
+(3) 打開 Chrome 無痕視窗並&lt;a href=&#34;http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development&#34;&gt;關閉Cache功能&lt;/a&gt;，Preview顯示效果&lt;/p&gt;
+
+&lt;p&gt;步驟2. 3.瘋狂循環，直到文章定稿&lt;/p&gt;
+
+&lt;p&gt;(4) Deploy文章到github page上&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+  hexo d -g # Deploy post articles to github page service
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(5) 分享文章於社群或自我推銷，藉由信箱或Disqus &lt;strong&gt;取得回饋&lt;/strong&gt; 後修改文章&lt;/p&gt;
+
+&lt;h1 id=&#34;本質-理解hexo-source-code-undone&#34;&gt;本質 - 理解hexo source code (undone)&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;對javascript有基本認識，不會害怕trace code(!?)&lt;/li&gt;
+&lt;li&gt;可以打自己的plugin或script加速流程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;升級hexo裝備&#34;&gt;升級hexo裝備&lt;/h1&gt;
+
+&lt;h2 id=&#34;受眾互動&#34;&gt;受眾互動&lt;/h2&gt;
+
+&lt;h3 id=&#34;留言功能&#34;&gt;留言功能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&#34;&gt;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://morris821028.github.io/2014/04/12/web/hexo-comment/&#34;&gt;http://morris821028.github.io/2014/04/12/web/hexo-comment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/&#34;&gt;Jonathan Klughertz, Add Google Analytics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;seo-搜尋引擎最佳化-undone&#34;&gt;SEO 搜尋引擎最佳化 (undone)&lt;/h2&gt;
+
+&lt;h2 id=&#34;撰寫流程優化&#34;&gt;撰寫流程優化&lt;/h2&gt;
+
+&lt;h3 id=&#34;即時載入更新頁面&#34;&gt;即時載入更新頁面&lt;/h3&gt;
+
+&lt;p&gt;當你一修改文章的內容後，Browser會自動重新整理。熟悉網頁開的人，會稱此功能為 &lt;strong&gt;liveReload&lt;/strong&gt;。可參考一下文章，建立此功能。個人目前推薦 &lt;a href=&#34;https://browsersync.io/#install&#34;&gt;Browsersync&lt;/a&gt;，它還有很多許多強大功能可以玩耍，自行服用。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://moxfive.xyz/2016/03/27/hexo-browsersync/&#34;&gt;Hexo 页面自动刷新与移动端调试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;在 hexo s 下實現頁面自動刷新，Browsersync套件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;方法比較&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jerry011235.github.io/2015/05/07/Hexo%E4%B8%8D%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E4%B9%9F%E5%8F%AF%E9%A2%84%E8%A7%88/&#34;&gt;Hexo不重新生成也可预览&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Caution: 我使用 &lt;a href=&#34;https://github.com/hexojs/hexo-browsersync&#34;&gt;hexo-browsersync&lt;/a&gt; plugin 發生 render sidebar跑出亂碼的狀況。
+因此我改用，改用原生的&lt;a href=&#34;https://browsersync.io&#34;&gt;Browsersync&lt;/a&gt;，在你的hexo資料夾下，輸入以下指令：&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;files &amp;lsquo;public&amp;rsquo;
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;Results: 我猜測是hexo-browsersync地方寫壞了，我看github有2年沒更新。等我開始trace hexo source code在來看要不要幫忙fix bug。&lt;/p&gt;
+
+&lt;h3 id=&#34;管理多重blog文章-undone&#34;&gt;管理多重blog文章 (undone)&lt;/h3&gt;
+
+&lt;h2 id=&#34;design-layout&#34;&gt;Design &amp;amp; Layout&lt;/h2&gt;
+
+&lt;h3 id=&#34;改變-theme-markdown-style&#34;&gt;改變 theme markdown style&lt;/h3&gt;
+
+&lt;p&gt;只要你具備css,html的基礎，自己可以trace theme中css和layout部分修改，打自己可blog的外觀&lt;/p&gt;
+
+&lt;p&gt;Exampel : CSS 最上方 nav-bar 的字體顏色修改&lt;/p&gt;
+
+&lt;p&gt;修改 themes/landscape/source/css/_partial/header.stylus 中 &lt;strong&gt;$nav-link&lt;/strong&gt; 的部分&lt;/p&gt;
+
+&lt;p&gt;{% codeblock lang:css %}&lt;/p&gt;
+
+&lt;p&gt;$nav-link
+  float: left
+  color: #000
+  opacity: 0.6
+  text-decoration: none
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  transition: opacity 0.2s
+  display: block
+  padding: 20px 15px
+  &amp;amp;:hover
+    opacity: 1&lt;/p&gt;
+
+&lt;p&gt;{% endcodeblock %}&lt;/p&gt;
+
+&lt;h3 id=&#34;以-landscape-theme-為例的教學&#34;&gt;以 landscape theme 為例的教學&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/b96fd206571a&#34;&gt;教你定制Hexo的landscape打造自己的主题&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;目錄或摘要&#34;&gt;目錄或摘要&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Content of Table
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bubkoo/hexo-toc&#34;&gt;https://github.com/bubkoo/hexo-toc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;multi-level categories 包含 counting&lt;/li&gt;
+
+&lt;li&gt;</description>
+    </item>
+    
+    <item>
+      <title>SoloLa Sprint Planning</title>
+      <link>https://ykhorzon.github.io/tw/computer/solola/solola-sprint-planning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/solola/solola-sprint-planning/</guid>
+      <description></description>
     </item>
     
   </channel>

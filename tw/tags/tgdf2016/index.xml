@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tgdf2016 on </title>
+    <link>https://ykhorzon.github.io/tw/tags/tgdf2016/</link>
+    <description>Recent content in Tgdf2016 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 14 Sep 2016 23:15:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/tgdf2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TGDF 2016 Notes - Fail Fast</title>
+      <link>https://ykhorzon.github.io/tw/agile/fail_fast/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agile/fail_fast/</guid>
+      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
+挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
+員工人數遽增 2011 , 16人 2016, &amp;gt;100人
+死亡行軍：規格變更
+Reference: SE系統工程師
+種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
+BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
+無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
+簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
+Check input value ( use assertion too!) Add up the diagnosis info for future</description>
+    </item>
+    
+  </channel>
+</rss>

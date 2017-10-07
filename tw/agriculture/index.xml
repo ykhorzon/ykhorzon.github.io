@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agricultures on </title>
+    <link>https://ykhorzon.github.io/tw/agriculture/</link>
+    <description>Recent content in Agricultures on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sun, 07 May 2017 18:29:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/agriculture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>農業模擬工具</title>
+      <link>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
+      <description>一句話描述本文重點
+ 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
+Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
+引言 - 為什麼需要農業模擬軟體工具?
+Case1: 大範圍農業 - 澳洲農民
+請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
+(以下數據為澳洲各省，平均每個農場的大小)
+http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
+這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
+http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
+因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
+Case2: 農業工程滴灌系統評估
+場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
+http://www.trickle-l.com/new/gallery/soilpat.gif
+此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
+http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
+工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
+但這不代表simulation對於農業完全沒有幫助
+Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
+    </item>
+    
+    <item>
+      <title>Software Simulation Tools for Agriculture</title>
+      <link>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</guid>
+      <description>Hackpad Version</description>
+    </item>
+    
+  </channel>
+</rss>

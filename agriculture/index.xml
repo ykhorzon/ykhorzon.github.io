@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agricultures on </title>
+    <link>https://ykhorzon.github.io/agriculture/</link>
+    <description>Recent content in Agricultures on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Thu, 22 Sep 2016 11:39:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/agriculture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Automated Irrigation System S1</title>
+      <link>https://ykhorzon.github.io/agriculture/2016-09-22-design-automated-irrigation-systemblog-notes/</link>
+      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/agriculture/2016-09-22-design-automated-irrigation-systemblog-notes/</guid>
+      <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
+MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
+  For startups, how to know the enough features is a art.</description>
+    </item>
+    
+    <item>
+      <title>Dripping Prototype Experiment</title>
+      <link>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</link>
+      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</guid>
+      <description> Prefix I want to know about how dripping flow inf
+Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
+Result </description>
+    </item>
+    
+    <item>
+      <title>Introduction to my research</title>
+      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</guid>
+      <description>Purpose Review my working plan and structure
+Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
+Article Structure Content My research work: Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Motivation According to our observation,
+Problems What is my design methodology / strategy to highly integration system ? What is my pains ?
+Metohds Contributions Scenarios system design process</description>
+    </item>
+    
+    <item>
+      <title>Introduction to my research</title>
+      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</guid>
+      <description>Metadata Purpose Review my working plan and structure
+Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
+Article Structure Content start
+My research work: The following sentence is essential of my work.
+Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Purpose a framework
+ Make farmer or culivator focus on planting, soil and environment Do not need to care hardware detail, like: spark, hadoop such framework  Privode 1 golden controller (plant + soil + weather integration)</description>
+    </item>
+    
+  </channel>
+</rss>

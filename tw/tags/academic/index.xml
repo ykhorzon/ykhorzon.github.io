@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic on </title>
+    <link>https://ykhorzon.github.io/tw/tags/academic/</link>
+    <description>Recent content in Academic on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 22 Mar 2017 17:12:04 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>學術英文寫作-主軸與架構</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
+      <description>主軸貫串全文，安排故事架構，邏輯連結論述
+ 從文章中可獲得  學術論文撰寫的核心 - 問題主軸 論文設計架構 實驗室前輩經驗  目錄 簡易流程  先思考論文 主軸思想(重點) 再從主軸為核心，發產出論文脈絡
+ 脈絡要求高度連貫性 可以 魚骨圖 、 心智圖 (mind mapping)嘗試組織(有序、結構化、定義關連性)，試試看從頭說故事，如果不暢通，打散重新組合，多嘗試直到story flow流暢  可參考標準論文架構 (設計故事架構)
+ General to Specific (GS), Specific to General (SG) Intro. - Related Work - Main Body - Evaluation - Conclusion   開始前觀念提醒 解釋動機 文字論述並非流水帳，紀錄了時做的細節，而是解釋
+ 原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
+ Anti-pattern
+ 一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
+    </item>
+    
+  </channel>
+</rss>
