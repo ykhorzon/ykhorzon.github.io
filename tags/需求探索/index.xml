@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>需求探索 on </title>
+    <link>https://ykhorzon.github.io/tags/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2/</link>
+    <description>Recent content in 需求探索 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Sun, 26 Feb 2017 23:35:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>敏捷需求探索工作坊</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/</guid>
+      <description>找到缺少的拼圖就是Impact Mapping
+ 你將可以從這篇文章得到  開發產品簡易全貌 (著重需求探索) 影響地圖 Impact Mapping 概念與操作 探訪基礎  目錄 敏捷概述 敏捷開發的精神，可以由最就代表性 &amp;laquo;敏捷宣言&amp;raquo; 說起，原文如下：
+ We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
+Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan
+That is, while there is value in the items on the right, we value the items on the left more.</description>
+    </item>
+    
+    <item>
+      <title>敏捷需求探索工作坊</title>
+      <link>https://ykhorzon.github.io/2017/02/26/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/02/26/</guid>
+      <description>找到缺少的拼圖就是Impact Mapping
+ 你將可以從這篇文章得到  開發產品簡易全貌 (著重需求探索) 影響地圖 Impact Mapping 概念與操作 探訪基礎  目錄 敏捷概述 敏捷開發的精神，可以由最就代表性 &amp;laquo;敏捷宣言&amp;raquo; 說起，原文如下：
+ We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
+Individuals and interactions over processes and tools Working software over comprehensive documentation Customer collaboration over contract negotiation Responding to change over following a plan
+That is, while there is value in the items on the right, we value the items on the left more.</description>
+    </item>
+    
+  </channel>
+</rss>

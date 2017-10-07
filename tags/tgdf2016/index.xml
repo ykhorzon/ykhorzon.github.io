@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tgdf2016 on </title>
+    <link>https://ykhorzon.github.io/tags/tgdf2016/</link>
+    <description>Recent content in Tgdf2016 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Wed, 14 Sep 2016 23:15:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/tgdf2016/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TGDF 2016 Notes - Fail Fast</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-fail-fastblog-notes/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-14-fail-fastblog-notes/</guid>
+      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
+挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
+員工人數遽增 2011 , 16人 2016, &amp;gt;100人
+死亡行軍：規格變更
+Reference: SE系統工程師
+種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
+BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
+無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
+簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
+Check input value ( use assertion too!) Add up the diagnosis info for future</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Fail Fast</title>
+      <link>https://ykhorzon.github.io/2016/09/14/tgdf-2016-notes---fail-fast/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2016/09/14/tgdf-2016-notes---fail-fast/</guid>
+      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
+挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
+員工人數遽增 2011 , 16人 2016, &amp;gt;100人
+死亡行軍：規格變更
+Reference: SE系統工程師
+種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
+BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
+無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
+簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
+Check input value ( use assertion too!) Add up the diagnosis info for future</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-13-tgdf-2016-spear-and-shield-of-game-developing/</link>
+      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/2016-09-13-tgdf-2016-spear-and-shield-of-game-developing/</guid>
+      <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
+關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
+開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
+沒有預先規劃
+ 金流 到位時間  挑戰：  品質與成本控管 專案收尾的能力(把遊戲做完的能力)  那些該被刪掉的專案  決策錯誤的成本, 打擊士氣 GDD  營運 觀念 留存率 遊戲產業也是 Content-Update Orient ，只要不更新遊戲內容關卡，人氣會下降
+營運的數據派與直覺派  玩家體驗收集 搭配 營運指標 案例： -轉蛋保底、營收活動、活動難度 指標意義與目標  玩家與官方的距離 玩家 v.s 營運方
+上線後的產品更新週期  開啟新專案 or 更新既有遊戲內容 營運 team 需要極大抗壓性  Media 觀念就是從media進行 growth hacking</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
+      <link>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
+      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
+      <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
+關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
+開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
+沒有預先規劃
+ 金流 到位時間  挑戰：  品質與成本控管 專案收尾的能力(把遊戲做完的能力)  那些該被刪掉的專案  決策錯誤的成本, 打擊士氣 GDD  營運 觀念 留存率 遊戲產業也是 Content-Update Orient ，只要不更新遊戲內容關卡，人氣會下降
+營運的數據派與直覺派  玩家體驗收集 搭配 營運指標 案例： -轉蛋保底、營收活動、活動難度 指標意義與目標  玩家與官方的距離 玩家 v.s 營運方
+上線後的產品更新週期  開啟新專案 or 更新既有遊戲內容 營運 team 需要極大抗壓性  Media 觀念就是從media進行 growth hacking</description>
+    </item>
+    
+  </channel>
+</rss>

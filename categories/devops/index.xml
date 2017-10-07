@@ -16,10 +16,21 @@
     
     <item>
       <title>Full Stack DevOps Engineer?</title>
-      <link>https://ykhorzon.github.io/computer/devops/devops_experience/</link>
+      <link>https://ykhorzon.github.io/agile/devops_experience/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/devops/devops_experience/</guid>
+      <guid>https://ykhorzon.github.io/agile/devops_experience/</guid>
+      <description>Speaker
+ Feng  Warnings
+ The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>
+    </item>
+    
+    <item>
+      <title>Full Stack DevOps Engineer?</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/agile/devops_experience/</link>
+      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/agile/devops_experience/</guid>
       <description>Speaker
  Feng  Warnings
  The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>

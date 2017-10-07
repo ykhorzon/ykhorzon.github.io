@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>農業模擬工具  &middot; </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="農業模擬工具  &middot;  ">
+<meta property="og:site_name" content=""/>
+<meta property="og:url" content="https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2017-05-07T18:29:48Z" />
+<meta property="og:article:modified_time" content="2017-05-07T18:29:48Z" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Myprofile" />
+<meta name="twitter:creator" content="@Myprofile" />
+<meta name="twitter:title" content="農業模擬工具" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/" />
+<meta name="twitter:domain" content="https://ykhorzon.github.io">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "農業模擬工具",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2017-05-07",
+    "description": "",
+    "wordCount": 491
+  }
+</script>
+  
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-97451129-2', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+
+
+<link rel="canonical" href="https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://ykhorzon.github.io/favicon.png">
+<meta name="generator" content="Hugo 0.27.1" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://ykhorzon.github.io/css/bootswatch/paper/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://ykhorzon.github.io/css/highlight/default.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
+</head>
+
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-left">
+            
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/" >
+                
+                Home
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/about/me" >
+                <i class='fa fa-road'></i>
+                About
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/post/" >
+                
+                Story
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/computer/" >
+                
+                Computer
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/agile/" >
+                
+                Agile
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/agriculture/" >
+                
+                Agriculture
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="">
+                 <a id="langSwitchLink" toSwitchLang="tw" href="javascript:changeLanguage('tw');" >
+                  
+                  繁體中文 
+                </a> 
+            </li>
+            
+              
+          </ul>
+          
+          <form class="navbar-form navbar-left navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Find</button>
+          </form>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 defualtSingleArticleContent">
+      <header class="container hat">
+  <h1>農業模擬工具
+</h1>
+
+</header>
+
+      <div class="content">
+  
+
+<blockquote>
+<p>一句話描述本文重點</p>
+</blockquote>
+
+<h2 id="從這篇文章得到">從這篇文章得到</h2>
+
+<ul>
+<li></li>
+</ul>
+
+<h2 id="目錄">目錄</h2>
+
+<!-- toc -->
+
+<!-- more -->
+
+<p>Software Simulation Tools for Agriculture</p>
+
+<p>Todo for Contents
+分類工具
+簡單敘述每個工具目的與功能
+Why Case2</p>
+
+<p>引言 - 為什麼需要農業模擬軟體工具?</p>
+
+<p>Case1: 大範圍農業 - 澳洲農民</p>
+
+<p>請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃
+(相當於 1237甲)的小麥</p>
+
+<p>(以下數據為澳洲各省，平均每個農場的大小)</p>
+
+<p><a href="http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif">http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif</a>
+<a href="http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/">http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/</a></p>
+
+<p>這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。</p>
+
+<p><a href="http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg">http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg</a></p>
+
+<p>因此 <strong>事先大概知道</strong>什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。</p>
+
+<p>Case2: 農業工程滴灌系統評估</p>
+
+<p>場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？</p>
+
+<p><a href="http://www.trickle-l.com/new/gallery/soilpat.gif">http://www.trickle-l.com/new/gallery/soilpat.gif</a></p>
+
+<p>此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率</p>
+
+<p><a href="http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif">http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif</a></p>
+
+<p>工具類型
+必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。</p>
+
+<p>但這不代表simulation對於農業完全沒有幫助</p>
+
+<p>Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的)
+Macroscope:
+Full Environment System Rough Behavior Simulation (交互作用)
+Microscope:
+Detail Simulation of Specific Component (精細模擬)</p>
+
+<p>Macroscope
+重點是 環境系統與植物交互作用的關係，能夠大略被模擬，作為務農決策參考。這類型工具類似 Decision Support System 的其中一個環節</p>
+
+<p>舉例來說：天氣變化，對於植物、土壤的水分散失的關係 (FAO- AquaCrop)</p>
+
+<p>Microscope
+另外一類是專注在環境系統內特定部分，已精細Model設法重現行為
+流體在土壤(孔隙介質)中移動如 HYDRUS-2D</p>
+
+<p>Software Simulation Tools List - Macroscope
+Python Crop Simulation Environment - PCSE
+<a href="https://github.com/ajwdewit/pcse">https://github.com/ajwdewit/pcse</a>
+<a href="http://pcse.readthedocs.io/en/master/">http://pcse.readthedocs.io/en/master/</a></p>
+
+<p>APSIM Series
+CSIRO (澳洲的聯邦研究機構，類似台灣中研院或工研院)
+It contains a suite of modules which enable the simulation of systems  that cover a range of plant, animal, soil, climate and management  interactions</p>
+
+<p>APSIM
+<a href="http://www.apsim.info/">http://www.apsim.info/</a>
+C# .Net
+Open source</p>
+
+<p>APSIMX
+Next Generation for refactoring flexable software architecture
+<a href="https://github.com/APSIMInitiative/ApsimX">https://github.com/APSIMInitiative/ApsimX</a></p>
+
+<p>AquaCrop - Series
+Developed by UN - FAO
+Focus on Plant response to irrigation with soil profile and weather data in daily time step</p>
+
+<p>AquaCrop
+<a href="http://www.fao.org/land-water/aquacrop/en/">http://www.fao.org/land-water/aquacrop/en/</a>
+Paper Title
+AquaCrop—The FAO Crop Model to Simulate Yield Response to Water: II. Main Algorithms and Software Description
+AquaCrop-OS
+Paper Title
+AquaCrop-OS: An open source version of FAO&rsquo;s crop water productivity model
+<a href="http://aquacropos.com/about-2/">http://aquacropos.com/about-2/</a>
+Open Source But You need to send a request to auther</p>
+
+<p>DSSAT
+<a href="http://dssat.net/">http://dssat.net/</a>
+software application program that comprises crop simulation models for  over 42 crops (as of v4.6). DSSAT is supported by data base management  programs for soil, weather, and crop management and experimental data,  and by utilities and application programs
+SWAP
+Open Source for 1-D simulation
+<a href="https://soil-modeling.org/models/model-descriptions/swap">https://soil-modeling.org/models/model-descriptions/swap</a>
+Wageningen University (荷蘭 農業、生物科技 強項之研究大學)
+AgMIP
+<a href="http://www.agmip.org/">http://www.agmip.org/</a>
+Software Simulation Tools List - Microscope</p>
+
+<p>HYDRUS - Series
+目前 state of the art的 soil hydraulic simulation tool</p>
+
+<p>HYDRUS 1D
+Hydrus-1D is a public domain Windows-based modeling environment for analysis of water flow and solute transport in variably saturated porous media
+Open Source
+Fortran</p>
+
+<p>HYDRUS 2D
+Freeware for trial but not open source</p>
+
+<p><a href="https://www.pc-progress.com/Images/Pgm_Hydrus2D/Main/Animation.gif">https://www.pc-progress.com/Images/Pgm_Hydrus2D/Main/Animation.gif</a></p>
+
+<p>HYDRUS 2D/3D
+Commercial Software</p>
+
+<p><a href="https://www.pc-progress.com/Images/Pgm_Hydrus3D/MainPg_01_Medium.gi">https://www.pc-progress.com/Images/Pgm_Hydrus3D/MainPg_01_Medium.gi</a></p>
+
+<p>SWIM
+APSIM water balance core model
+<a href="http://www.scisoftware.com/products/swim_details/swim_details.html">SWIMv1/SWIMv2</a></p>
+
+<p>Drip-Irriwater
+Close source ( You can send a email for requesting executable program )
+Paper Title
+Drip-Irriwater: Computer software to simulate soil wetting patterns under surface drip irrigation</p>
+
+<p>SAWCal
+Paper Title :
+SAWCal: A user-friendly program for calculating soil available water quantities and physical quality indices</p>
+
+<p>Soilphysics
+Paper Title
+soilphysics: An R package for calculating soil water availability to plants by different soil physical indices
+Open Source with R Language</p>
+
+<p>SOILPSI
+Paper Title
+SOILPSI: a potential-driven three-dimensional soil water redistribution model—description and comparative evaluation</p>
+
+<p>CHEMFLO-2000
+Free But Not Open Source
+<a href="http://soilphysics.okstate.edu/software/chemflo/chemflo2000/ChemfloManual.pdf">http://soilphysics.okstate.edu/software/chemflo/chemflo2000/ChemfloManual.pdf</a>
+<a href="https://www.epa.gov/water-research/chemflo-2000-interactive-software-simulating-water-and-chemical-movement-unsaturated">CHEMFLO-2000, Interactive Software for Simulating Water and Chemical Movement in Unsaturated Soils | Water Research | US EPA</a></p>
+
+<p>UDSA
+<a href="http://water.usgs.gov/software/lists/groundwater/#gui-and-postproc">http://water.usgs.gov/software/lists/groundwater/#gui-and-postproc</a></p>
+
+<p>WetUp</p>
+
+<p>WAVES
+WAVES - An integrated energy and water balance model - Software
+<a href="https://research.csiro.au/software/waves/">https://research.csiro.au/software/waves/</a></p>
+
+<p>hydromad
+R package
+<a href="http://hydromad.catchment.org/">http://hydromad.catchment.org/</a></p>
+
+<p>CSIRO
+- WetUp (Outdate)
+- WAVES
+        - <a href="https://research.csiro.au/software/waves/waves-documentation/">https://research.csiro.au/software/waves/waves-documentation/</a></p>
+
+<p>Pedotransfer function
+ROSETTA Model
+<a href="https://www.ars.usda.gov/pacific-west-area/riverside-ca/us-salinity-laboratory/docs/rosetta-model/">https://www.ars.usda.gov/pacific-west-area/riverside-ca/us-salinity-laboratory/docs/rosetta-model/</a></p>
+
+<p>SOILPAR2</p>
+
+<p>ETo Related
+<a href="https://cran.r-project.org/web/packages/Evapotranspiration/index.html">https://cran.r-project.org/web/packages/Evapotranspiration/index.html</a></p>
+
+<p>Resource Hub for Soil Model</p>
+
+<p>A Summary website of Soil-Water Balance Model
+<a href="https://soil-modeling.org/resources-links/model-portal">https://soil-modeling.org/resources-links/model-portal</a></p>
+
+<p><a href="https://soil-modeling.org/governance">Mission statement — ISMC</a></p>
+
+</div>
+
+
+      
+      
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+     
+  <div class="section taxonomies">
+    <header>
+      <div class="title"><b>Categories</b></div>
+    </header>
+
+    <div class="content">
+      <ul>
+        
+        <li><a href="https://ykhorzon.github.io/categories/academic-writing">academic-writing (10)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/wait-for-merge">wait-for-merge (10)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/blog">blog (6)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/say-to-myself">say-to-myself (6)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/hexo">hexo (4)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/agile">agile (2)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/algorithm">algorithm (2)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/culture-buliding">culture-buliding (2)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/devops">devops (2)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/categories/english">english (2)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+     
+  <div class="section taxonomies">
+    <header>
+      <div class="title"><b>Tags</b></div>
+    </header>
+
+    <div class="content">
+      <ul>
+        
+        <li><a href="https://ykhorzon.github.io/tags/undone">undone (18)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/english">english (12)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/agile">agile (8)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/course">course (8)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/language">language (8)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/talk">talk (6)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/academic">academic (4)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/blog">blog (4)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/tgdf2016">tgdf2016 (4)</a></li>
+        
+        <li><a href="https://ykhorzon.github.io/tags/writing">writing (4)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+   
+
+  <div class="section">
+    <header>
+      <div class="title"><b>Latest Posts</b></div>
+    </header>
+    <div class="content">
+      <ul>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/computer/web/hugo/hugo_quick_overview/">Quick demo to hugo</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_quick_overview/">Quick demo to hugo</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/agile/devops_experience/">Full Stack DevOps Engineer?</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/content_as_toml/content/agile/devops_experience/">Full Stack DevOps Engineer?</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/30/a-overview-glance-of-academic-writing/">A Overview Glance of Academic Writing</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/29/talk_to_the_previous_generation2/">talk_to_the_previous_generation2</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/25/design-thinking-refresh-from-scenario-lab-taiwan/">Design Thinking Refresh From Scenario Lab (Taiwan) </a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/computer/web/hugo/new_blog/">My blog is new release with hugo!</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/new_blog/">My blog is new release with hugo!</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/">農業模擬工具</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+</div>
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://ykhorzon.github.io/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="https://ykhorzon.github.io/terms/">Terms</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Be curious everything with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 20167 Copyright all reserved to ykhorizon
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://ykhorzon.github.io/js/jquery.min.js"></script>
+<script src="https://ykhorzon.github.io/js/bootstrap.min.js"></script>
+
+<script src="https://ykhorzon.github.io/js/js.cookie.js"></script>
+
+<script src="https://ykhorzon.github.io/js/angular.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/angular-storage.min.js"></script>
+<script src="https://ykhorzon.github.io/js/highlight.pack.js"></script>
+<script src="https://ykhorzon.github.io/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://twitter.com/ykhorizon", 
+SIGNUP_HEADER = "Suscribe me on twitter @ykhorizon ",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = "en"; 
+</script>
+
+<script src="https://ykhorzon.github.io/js/pathnamereplace.js"></script>
+
+<script src="https://ykhorzon.github.io/js/popover/angular-modal-service.min.js"></script>
+<script src="https://ykhorzon.github.io/js/angular-ismobile.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/popover.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

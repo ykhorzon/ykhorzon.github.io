@@ -23,5 +23,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>hugo documents memo</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</link>
+      <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/computer/web/hugo/hugo_doc_memo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

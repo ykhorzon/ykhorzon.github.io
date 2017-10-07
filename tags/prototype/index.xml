@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prototype on </title>
+    <link>https://ykhorzon.github.io/tags/prototype/</link>
+    <description>Recent content in Prototype on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Sun, 21 Aug 2016 00:09:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/prototype/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dripping Prototype Experiment</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/dripping-prototype-experiment/</link>
+      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/dripping-prototype-experiment/</guid>
+      <description> Prefix I want to know about how dripping flow inf
+Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
+Result </description>
+    </item>
+    
+    <item>
+      <title>Dripping Prototype Experiment</title>
+      <link>https://ykhorzon.github.io/2016/08/21/dripping-prototype-experiment/</link>
+      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2016/08/21/dripping-prototype-experiment/</guid>
+      <description> Prefix I want to know about how dripping flow inf
+Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
+Result </description>
+    </item>
+    
+  </channel>
+</rss>

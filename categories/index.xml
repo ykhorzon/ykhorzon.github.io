@@ -24,20 +24,38 @@
     </item>
     
     <item>
-      <title>Design Thinking</title>
-      <link>https://ykhorzon.github.io/categories/design-thinking/</link>
-      <pubDate>Thu, 29 Jun 2017 13:09:58 +0800</pubDate>
+      <title>Agile</title>
+      <link>https://ykhorzon.github.io/categories/agile/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/design-thinking/</guid>
+      <guid>https://ykhorzon.github.io/categories/agile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://ykhorzon.github.io/categories/development/</link>
+      <title>Algorithm</title>
+      <link>https://ykhorzon.github.io/categories/algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://ykhorzon.github.io/categories/blog/</link>
       <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/development/</guid>
+      <guid>https://ykhorzon.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture Buliding</title>
+      <link>https://ykhorzon.github.io/categories/culture-buliding/</link>
+      <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/culture-buliding/</guid>
       <description></description>
     </item>
     
@@ -51,6 +69,78 @@
     </item>
     
     <item>
+      <title>English</title>
+      <link>https://ykhorzon.github.io/categories/english/</link>
+      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexo</title>
+      <link>https://ykhorzon.github.io/categories/hexo/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Job Searching</title>
+      <link>https://ykhorzon.github.io/categories/job-searching/</link>
+      <pubDate>Tue, 04 Oct 2016 13:19:42 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/job-searching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ykhorzon.github.io/categories/machine-learning/</link>
+      <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketing</title>
+      <link>https://ykhorzon.github.io/categories/marketing/</link>
+      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/marketing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://ykhorzon.github.io/categories/math/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>https://ykhorzon.github.io/categories/motivation/</link>
+      <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music Information Retrieval</title>
+      <link>https://ykhorzon.github.io/categories/music-information-retrieval/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/music-information-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Product Discovery</title>
       <link>https://ykhorzon.github.io/categories/product-discovery/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
@@ -60,11 +150,128 @@
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://ykhorzon.github.io/categories/test/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
+      <title>Reinforcement Learning</title>
+      <link>https://ykhorzon.github.io/categories/reinforcement-learning/</link>
+      <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/test/</guid>
+      <guid>https://ykhorzon.github.io/categories/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Say to Myself</title>
+      <link>https://ykhorzon.github.io/categories/say-to-myself/</link>
+      <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/say-to-myself/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Testing</title>
+      <link>https://ykhorzon.github.io/categories/software-testing/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/software-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup</title>
+      <link>https://ykhorzon.github.io/categories/startup/</link>
+      <pubDate>Thu, 29 Sep 2016 16:25:09 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/startup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>https://ykhorzon.github.io/categories/statistics/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talk</title>
+      <link>https://ykhorzon.github.io/categories/talk/</link>
+      <pubDate>Thu, 29 Sep 2016 16:25:09 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Leading</title>
+      <link>https://ykhorzon.github.io/categories/team-leading/</link>
+      <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/team-leading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcription</title>
+      <link>https://ykhorzon.github.io/categories/transcription/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/transcription/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undone</title>
+      <link>https://ykhorzon.github.io/categories/undone/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/undone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wait for Merge</title>
+      <link>https://ykhorzon.github.io/categories/wait-for-merge/</link>
+      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/wait-for-merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>敏捷</title>
+      <link>https://ykhorzon.github.io/categories/%E6%95%8F%E6%8D%B7/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/%E6%95%8F%E6%8D%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>https://ykhorzon.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>記帳</title>
+      <link>https://ykhorzon.github.io/categories/%E8%A8%98%E5%B8%B3/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/%E8%A8%98%E5%B8%B3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>需求探索</title>
+      <link>https://ykhorzon.github.io/categories/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2/</guid>
       <description></description>
     </item>
     

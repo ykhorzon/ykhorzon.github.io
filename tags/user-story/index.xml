@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Story on </title>
+    <link>https://ykhorzon.github.io/tags/user-story/</link>
+    <description>Recent content in User Story on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Wed, 03 May 2017 10:32:13 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/user-story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User Story 的那些人與那些事</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_chinese/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>User Story 不只是一張卡片，是說故事與溝通需求的載體
+ 從這篇文章得到  此篇是 User Story 實戰篇的階議題  目錄 心得  有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會) Alway observe and find bottleneck in team ( or system or problem ) 經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上  What is User Story ? {% blockquote Mountain Goat Software %}
+User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.</description>
+    </item>
+    
+    <item>
+      <title>User Story 的那些人與那些事</title>
+      <link>https://ykhorzon.github.io/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>User Story 不只是一張卡片，是說故事與溝通需求的載體
+ 從這篇文章得到  此篇是 User Story 實戰篇的階議題  目錄 心得  有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會) Alway observe and find bottleneck in team ( or system or problem ) 經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上  What is User Story ? {% blockquote Mountain Goat Software %}
+User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system.</description>
+    </item>
+    
+  </channel>
+</rss>

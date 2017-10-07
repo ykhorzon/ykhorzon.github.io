@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistics on </title>
+    <link>https://ykhorzon.github.io/categories/statistics/</link>
+    <description>Recent content in Statistics on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Sun, 11 Sep 2016 11:58:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/categories/statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
+      <link>https://ykhorzon.github.io/content_as_toml/content/post/old_english/statistics-and-data-analysis-for-engineers-part-1/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/content_as_toml/content/post/old_english/statistics-and-data-analysis-for-engineers-part-1/</guid>
+      <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
+Article Structure @( use xmind as map of this article )
+Content start!
+Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
+    </item>
+    
+    <item>
+      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
+      <link>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</guid>
+      <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
+Article Structure @( use xmind as map of this article )
+Content start!
+Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
+    </item>
+    
+  </channel>
+</rss>
