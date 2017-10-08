@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog/Hugo on </title>
+    <link>https://ykhorzon.github.io/categories/blog/hugo/</link>
+    <description>Recent content in Blog/Hugo on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Sun, 08 Oct 2017 13:06:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/categories/blog/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Todo do about this hugo blog</title>
+      <link>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</link>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
+      <description>Wanted Features hugo hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s call Taxonomies). But I want the categories like the following image. It&amp;rsquo;s very common feature in another static site generator hexo  morris821028   I had survey some feasible method to fitting my requirement. But it&amp;rsquo;s still under solving.
+Method 1 Use a prefix string as main category - Implement with simple concatenated category string</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -24,20 +24,47 @@
     </item>
     
     <item>
-      <title>Algorithm</title>
-      <link>https://ykhorzon.github.io/tw/categories/algorithm/</link>
-      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <title>Blog</title>
+      <link>https://ykhorzon.github.io/tw/categories/blog/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/algorithm/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://ykhorzon.github.io/tw/categories/blog/</link>
+      <title>Blog/Hexo</title>
+      <link>https://ykhorzon.github.io/tw/categories/blog/hexo/</link>
       <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/blog/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/blog/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog/Hugo</title>
+      <link>https://ykhorzon.github.io/tw/categories/blog/hugo/</link>
+      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/blog/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cs</title>
+      <link>https://ykhorzon.github.io/tw/categories/cs/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/cs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cs/Algorithm</title>
+      <link>https://ykhorzon.github.io/tw/categories/cs/algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/cs/algorithm/</guid>
       <description></description>
     </item>
     
@@ -53,54 +80,54 @@
     <item>
       <title>English</title>
       <link>https://ykhorzon.github.io/tw/categories/english/</link>
-      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/english/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hexo</title>
-      <link>https://ykhorzon.github.io/tw/categories/hexo/</link>
-      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <title>English/Academic Writing</title>
+      <link>https://ykhorzon.github.io/tw/categories/english/academic-writing/</link>
+      <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/hexo/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/english/academic-writing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://ykhorzon.github.io/tw/categories/hugo/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
+      <title>Finance</title>
+      <link>https://ykhorzon.github.io/tw/categories/finance/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/hugo/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/finance/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Product Discovery</title>
-      <link>https://ykhorzon.github.io/tw/categories/product-discovery/</link>
-      <pubDate>Wed, 28 Jun 2017 14:50:26 +0800</pubDate>
+      <title>Finance/Accounting</title>
+      <link>https://ykhorzon.github.io/tw/categories/finance/accounting/</link>
+      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/product-discovery/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/finance/accounting/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Say to Myself</title>
-      <link>https://ykhorzon.github.io/tw/categories/say-to-myself/</link>
-      <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/say-to-myself/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Think</title>
-      <link>https://ykhorzon.github.io/tw/categories/think/</link>
+      <title>Myself</title>
+      <link>https://ykhorzon.github.io/tw/categories/myself/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/think/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/myself/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myself/Career</title>
+      <link>https://ykhorzon.github.io/tw/categories/myself/career/</link>
+      <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/myself/career/</guid>
       <description></description>
     </item>
     
@@ -110,24 +137,6 @@
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>生活</title>
-      <link>https://ykhorzon.github.io/tw/categories/%E7%94%9F%E6%B4%BB/</link>
-      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/%E7%94%9F%E6%B4%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>記帳</title>
-      <link>https://ykhorzon.github.io/tw/categories/%E8%A8%98%E5%B8%B3/</link>
-      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/categories/%E8%A8%98%E5%B8%B3/</guid>
       <description></description>
     </item>
     

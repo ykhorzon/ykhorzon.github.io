@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Myself/Career on </title>
+    <link>https://ykhorzon.github.io/tw/categories/myself/career/</link>
+    <description>Recent content in Myself/Career on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Fri, 21 Jul 2017 10:35:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/myself/career/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>電腦科學(Computer Science)到底在學什麼？</title>
+      <link>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</link>
+      <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</guid>
+      <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;想問一件事情，我已經會寫程式。&lt;br/&gt;
+大學明年可以自由選系，如果不選資工選數學的話，&lt;br/&gt;
+會是很不明智的決定嗎?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
