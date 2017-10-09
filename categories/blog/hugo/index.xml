@@ -20,8 +20,8 @@
       <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Wanted Features hugo hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s call Taxonomies). But I want the categories like the following image. It&amp;rsquo;s very common feature in another static site generator hexo  morris821028   I had survey some feasible method to fitting my requirement. But it&amp;rsquo;s still under solving.
-Method 1 Use a prefix string as main category - Implement with simple concatenated category string</description>
+      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Management Optimization  Wanted Features Google search inside blog Manage image in static Shortcut for image url  hugo hierarchy categories display The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
     </item>
     
   </channel>

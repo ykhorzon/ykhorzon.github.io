@@ -20,8 +20,8 @@
       <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Wanted Features hugo hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s call Taxonomies). But I want the categories like the following image. It&amp;rsquo;s very common feature in another static site generator hexo  morris821028   I had survey some feasible method to fitting my requirement. But it&amp;rsquo;s still under solving.
-Method 1 Use a prefix string as main category - Implement with simple concatenated category string</description>
+      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Management Optimization  Wanted Features Google search inside blog Manage image in static Shortcut for image url  hugo hierarchy categories display The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
     </item>
     
     <item>
@@ -85,20 +85,6 @@ But we can use trial and error to get the answer then calibrate our behavior. Th
     </item>
     
     <item>
-      <title>First try! unity for simple UI interaction test</title>
-      <link>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</link>
-      <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</guid>
-      <description>This artictle is a quick note for making unity3D simple UI
-Make a rough UI layout quickly! ![]()
-Free Art Collection
-http://opengameart.org/content/breakout-graphics-no-shadow
-####Keyword Drag and Drop
-Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</description>
-    </item>
-    
-    <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
       <link>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
@@ -114,7 +100,7 @@ Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</descr
     </item>
     
     <item>
-      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
+      <title>Statistics and Data Analysis for Engineers part 1</title>
       <link>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>

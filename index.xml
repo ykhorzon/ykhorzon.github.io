@@ -20,8 +20,8 @@
       <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Wanted Features hugo hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s call Taxonomies). But I want the categories like the following image. It&amp;rsquo;s very common feature in another static site generator hexo  morris821028   I had survey some feasible method to fitting my requirement. But it&amp;rsquo;s still under solving.
-Method 1 Use a prefix string as main category - Implement with simple concatenated category string</description>
+      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Management Optimization  Wanted Features Google search inside blog Manage image in static Shortcut for image url  hugo hierarchy categories display The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
     </item>
     
     <item>
@@ -160,7 +160,7 @@ Why we need resume?  To find out a lot about you in short time
     </item>
     
     <item>
-      <title>academic-writing-for-graduate-student-3</title>
+      <title>Academic writing for graduate student 3</title>
       <link>https://ykhorzon.github.io/2016/10/03/academic-writing-for-graduate-student-3/</link>
       <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
@@ -227,20 +227,6 @@ MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just
     </item>
     
     <item>
-      <title>First try! unity for simple UI interaction test</title>
-      <link>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</link>
-      <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</guid>
-      <description>This artictle is a quick note for making unity3D simple UI
-Make a rough UI layout quickly! ![]()
-Free Art Collection
-http://opengameart.org/content/breakout-graphics-no-shadow
-####Keyword Drag and Drop
-Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</description>
-    </item>
-    
-    <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
       <link>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
@@ -275,7 +261,7 @@ PM為溝通的角色
     </item>
     
     <item>
-      <title>Statistics-and-Data-Analysis-for-Engineers-part-1</title>
+      <title>Statistics and Data Analysis for Engineers part 1</title>
       <link>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
@@ -284,36 +270,6 @@ PM為溝通的角色
 Article Structure @( use xmind as map of this article )
 Content start!
 Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
-    </item>
-    
-    <item>
-      <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
-      <link>https://ykhorzon.github.io/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
-      <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
-      <description>序：為什麼要此挑戰？Why to start this challenge? Record
- 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;raquo;Keep uploading!&amp;laquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;laquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;laquo;。我以他作為自己的學習對象，將&amp;laquo;Keep producing valuable content !&amp;raquo;作為座右銘砥礪自己。
-Reference Casey Nesistat Youtube Channel
-每日動力 {% asset_img cycle.png %}
-任何人每天一定有學習與收穫，但需藉由統整、紀錄才成將經驗轉為累積性的能量，否則船過水無痕，非常可惜。而撰寫blog文章促使(強迫)審視每一天的進度，觀察自己的行為，最重要的訓練組織知識和經驗。最終希望可以和人生長期計畫 (long-term plan)能夠互相呼應
-自我行銷 Self-branding 在表面看似資訊自由的時代，事實上使被垃圾資訊與商業利益性資訊給蒙蔽的亂世(Facebook推薦廣告、Google 暗地追蹤)，俗話說亂世出英雄(喂～是這樣用嗎?!)，能夠產出具備組織性、系統性與具備知識意義的資訊，特別能夠脫引而出(Example:找到某大大的blog，又有一系列教學文章，根本撿到寶)
-Reference photo source
-如何進行與遊戲規則？How? 內容
- 文章架構清晰 (組織圖可能用 coggle 或 xmind) 包含 Target Audience、 本篇目標 規劃未來維護與搜尋 具備完整性 (內容可以不多，必須包含觀念、看法與相關survey，不可為工具指令、單純抒發心情文章，可參考 ABCD 或尋找其他論述架構)
-  方法
- Weekly Review 請別人給予回饋，說明優點、缺點和許願池 ( 持續改進 )  細節與堅持</description>
-    </item>
-    
-    <item>
-      <title>Dripping Prototype Experiment</title>
-      <link>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</link>
-      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</guid>
-      <description> Prefix I want to know about how dripping flow inf
-Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
-Result </description>
     </item>
     
     <item>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on </title>
+    <link>https://ykhorzon.github.io/categories/programming/</link>
+    <description>Recent content in Programming on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Tue, 04 Oct 2016 10:52:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript Testing Tool Survey</title>
+      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
+    </item>
+    
+  </channel>
+</rss>

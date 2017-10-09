@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agriculture/Irrigation on </title>
+    <link>https://ykhorzon.github.io/categories/agriculture/irrigation/</link>
+    <description>Recent content in Agriculture/Irrigation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Thu, 22 Sep 2016 11:39:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/categories/agriculture/irrigation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Design Automated Irrigation System S1</title>
+      <link>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</link>
+      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</guid>
+      <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
+MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
+  For startups, how to know the enough features is a art.</description>
+    </item>
+    
+  </channel>
+</rss>

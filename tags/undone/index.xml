@@ -20,8 +20,49 @@
       <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Wanted Features hugo hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s call Taxonomies). But I want the categories like the following image. It&amp;rsquo;s very common feature in another static site generator hexo  morris821028   I had survey some feasible method to fitting my requirement. But it&amp;rsquo;s still under solving.
-Method 1 Use a prefix string as main category - Implement with simple concatenated category string</description>
+      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Management Optimization  Wanted Features Google search inside blog Manage image in static Shortcut for image url  hugo hierarchy categories display The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
+    </item>
+    
+    <item>
+      <title>talk_to_the_previous_generation2</title>
+      <link>https://ykhorzon.github.io/2017/06/29/talk_to_the_previous_generation2/</link>
+      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/06/29/talk_to_the_previous_generation2/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello World for SoloLa Project</title>
+      <link>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</guid>
+      <description>  Transcription is never a nightmare again.
+ Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
+What is SoloLa? </description>
+    </item>
+    
+    <item>
+      <title>Review Working Pattern</title>
+      <link>https://ykhorzon.github.io/2016/11/04/review-working-pattern/</link>
+      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2016/11/04/review-working-pattern/</guid>
+      <description>Quality &amp;gt;&amp;gt; Quantity I must be more focus on quality than quantity in everything.
+Impressive thing and person alway present efficiency(cost and effect) and quality(simple and eleglant).
+In the begining of this blog, I set up a &amp;laquo;daily bloggin challenge&amp;raquo; for myself. After 1 mouth quick testing and 1 mouth review pondering, I found that it&amp;rsquo;s impractical.
+I was used to take notes with Qownnote and collect a lot of information which seem to useful or meaningful.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Testing Tool Survey</title>
+      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
     </item>
     
     <item>
@@ -33,31 +74,6 @@ Method 1 Use a prefix string as main category - Implement with simple concatenat
       <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
 MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
   For startups, how to know the enough features is a art.</description>
-    </item>
-    
-    <item>
-      <title>First try! unity for simple UI interaction test</title>
-      <link>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</link>
-      <pubDate>Wed, 14 Sep 2016 20:18:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/game/first-try-unity-for-simple-ui-interaction-test/</guid>
-      <description>This artictle is a quick note for making unity3D simple UI
-Make a rough UI layout quickly! ![]()
-Free Art Collection
-http://opengameart.org/content/breakout-graphics-no-shadow
-####Keyword Drag and Drop
-Unity Tutorial - Drag &amp;amp; Drop Tutorial #1 [RPGs, Card Games, uGUI]</description>
-    </item>
-    
-    <item>
-      <title>Dripping Prototype Experiment</title>
-      <link>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</link>
-      <pubDate>Sun, 21 Aug 2016 00:09:28 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/dripping-prototype-experiment/</guid>
-      <description> Prefix I want to know about how dripping flow inf
-Purpose Hardware &amp;amp; Experiment Setup I use arduino UNO R3 as A/D converter to transfer decagon EC-5 soil moisture sensor. The experiment set is measure by 3 sensor with 15 cm, 30 cm and 45 cm in container
-Result </description>
     </item>
     
   </channel>

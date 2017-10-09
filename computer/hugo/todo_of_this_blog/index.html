@@ -58,7 +58,7 @@
     },
     "datePublished": "2017-10-08",
     "description": "",
-    "wordCount": 307
+    "wordCount": 408
   }
 </script>
   
@@ -225,7 +225,7 @@
     &middot; by ykhorizon
   
   &middot; Read in about 2 min
-  &middot; (307 words)
+  &middot; (408 words)
   &middot; 
 <span class="share-box">Share this on:
     <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2fcomputer%2fhugo%2ftodo_of_this_blog%2f" onclick="window.open(this.href, 'mywin',
@@ -266,27 +266,30 @@
       <div class="content">
   
 
+<h1 id="abstract">Abstract</h1>
+
+<p>I&rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.</p>
+
+<ul>
+<li>PART I: Wanted Feature (Those important feature for me)</li>
+<li>PART II: Management Optimization</li>
+</ul>
+
 <h1 id="wanted-features">Wanted Features</h1>
 
-<h2 id="hugo-hierarchy-categories">hugo hierarchy categories</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Google search inside blog</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Manage image in static</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Shortcut for image url</label></li>
+</ul>
 
-<p>The categories of hugo is only one-level (It&rsquo;s call Taxonomies). But I want the categories
-like the following image. It&rsquo;s very common feature in another static site generator <strong>hexo</strong>
+<h2 id="hugo-hierarchy-categories-display">hugo hierarchy categories display</h2>
 
-<figure >
-    
-        <img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/1.png" />
-    
-    
-    <figcaption>
-        <h4>morris821028</h4>
-        
-    </figcaption>
-    
-</figure>
-</p>
+<p>The categories of hugo is only one-level (It&rsquo;s called Taxonomies). But I want the categories like the following image. It&rsquo;s very common feature in another static site generator <strong>hexo</strong>
+<img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/1.png" alt="" />
+<a href="http://morris821028.github.io/">image src: blog of morris821028 </a></p>
 
-<p>I had survey some feasible method to fitting my requirement. But it&rsquo;s still under solving.</p>
+<p>I had survey some feasible method to fitting my requirement, but I&rsquo;m still solving this problem.</p>
 
 <h3 id="method-1">Method 1</h3>
 
@@ -299,6 +302,8 @@ like the following image. It&rsquo;s very common feature in another static site 
 <li>blog (Main Category)</li>
 <li>blog/hugo (Sub Category)</li>
 </ul>
+
+<p><img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/3.png" alt="" /></p>
 
 <pre><code class="language-html">  &lt;!-- Taxonomies (default is tag and categories) --&gt;
   {{ range $key, $value := .Site.Taxonomies }} {{ $len := len $value }} {{ if (not ( eq $len 0 ) ) }}
@@ -320,32 +325,47 @@ like the following image. It&rsquo;s very common feature in another static site 
   {{ end }}
 </code></pre>
 
+<p>You can check out the document <a href="https://gohugo.io/templates/taxonomy-templates/#order-taxonomies">offical: order taxonomies</a></p>
+
 <p><strong>Result</strong></p>
 
-<h3 id="method-2">Method 2</h3>
+<p><img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/2.png" alt="" /></p>
 
-<pre><code>- [Github Issue Discussion 1](https://github.com/gohugoio/hugo/issues/465)
-- [Github Issue Discussion 2](https://github.com/gohugoio/hugo/pull/3309)
-- [Solution 1](https://github.com/vjeantet/hugo-menu-show)
-- [Demo](http://vjeantet.github.io/hugo-menu-show/)
-- [Solution 2](https://github.com/kakawait/hugo-tranquilpeak-theme)
-- [Demo](https://tranquilpeak.kakawait.com/categories/)
-- [Solution 3 section tree](https://github.com/bep/hugotest)
-    - [has bug](http://experiments.wemakesites.net/css3-treeview.html)
-</code></pre>
+<p>More advance, I would like to write a javascript snippets to <strong>convert</strong> flatted categories into hierarchy categories with some category format trick.</p>
 
-<h1 id="management-issue">Management Issue</h1>
+<h3 id="other-solutions-unorganized-and-undone">Other Solutions (unorganized and undone)</h3>
 
-<h2 id="1-manage-image-in-static">1. Manage image in static</h2>
+<ul>
+<li><a href="https://github.com/gohugoio/hugo/issues/465">Github Issue Discussion 1</a></li>
+<li><a href="https://github.com/gohugoio/hugo/pull/3309">Github Issue Discussion 2</a></li>
+<li><a href="https://github.com/vjeantet/hugo-menu-show">Solution 1</a></li>
+<li><a href="http://vjeantet.github.io/hugo-menu-show/">Demo</a></li>
+<li><a href="https://github.com/kakawait/hugo-tranquilpeak-theme">Solution 2</a></li>
+<li><a href="https://tranquilpeak.kakawait.com/categories/">Demo</a></li>
+<li><a href="https://github.com/bep/hugotest">Solution 3 section tree</a>
 
-<h2 id="2-shortcut-for-image-url">2. Shortcut for image url</h2>
+<ul>
+<li><a href="http://experiments.wemakesites.net/css3-treeview.html">has bug in my theme</a></li>
+</ul></li>
+</ul>
 
-<h2 id="3-manage-tags-catagories-keyword-series">3. Manage tags/catagories/keyword/series</h2>
+<h1 id="management-optimization">Management Optimization</h1>
+
+<p>Check list to finish each experience</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Access to file by title/filename in multilingual condition</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Manage tags/catagories/keyword/series</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> How to hybrid directory(section), category and tag to manage content ?</label></li>
+</ul>
+
+<hr />
+
+<h2 id="manage-tags-catagories-keyword-series">Manage tags/catagories/keyword/series</h2>
 
 <ol>
 <li>Every article only have one category. It should be the most important characteristic.</li>
-<li>Category should not equal to tag
-##</li>
+<li>Category should not equal to tag</li>
 </ol>
 
 <h1 id="about-motivation-and-thinking-to-this-blog">About Motivation and thinking to this blog</h1>
@@ -481,25 +501,40 @@ Linux legacy software</p>
       <ul>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/agile">agile (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/agile">agile (2)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/blog">blog (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/agile/devops">agile/devops (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agriculture">agriculture (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agriculture/irrigation">agriculture/irrigation (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/blog">blog (2)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/categories/blog/hugo">blog/hugo (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/cs">cs (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/cs">cs (2)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/categories/cs/reinforcement-learning">cs/reinforcement-learning (1)</a></li>
         
         
+        <li><a href="https://ykhorzon.github.io/categories/cs/statistics">cs/statistics (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/daily">daily (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/daily/talk">daily/talk (1)</a></li>
+        
+        
         <li><a href="https://ykhorzon.github.io/categories/design-thinking">design-thinking (1)</a></li>
-        
-        
-        <li><a href="https://ykhorzon.github.io/categories/devops">devops (1)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/categories/english">english (6)</a></li>
@@ -514,22 +549,22 @@ Linux legacy software</p>
         <li><a href="https://ykhorzon.github.io/categories/marketing">marketing (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/math">math (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/myself">myself (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/motivation">motivation (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/myself/retrospective">myself/retrospective (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/solola">solola (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/programming">programming (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/statistics">statistics (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/programming/javascript">programming/javascript (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/undone">undone (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/side-project">side-project (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/categories/wait-for-merge">wait-for-merge (4)</a></li>
+        <li><a href="https://ykhorzon.github.io/categories/side-project/solola">side-project/solola (1)</a></li>
         
       </ul>
     </div>
@@ -552,6 +587,9 @@ Linux legacy software</p>
         <ul>
           
           
+          <li><a href="https://ykhorzon.github.io/tags/undone">undone (6)</a></li>
+          
+          
           <li><a href="https://ykhorzon.github.io/tags/course">course (4)</a></li>
           
           
@@ -559,9 +597,6 @@ Linux legacy software</p>
           
           
           <li><a href="https://ykhorzon.github.io/tags/language">language (4)</a></li>
-          
-          
-          <li><a href="https://ykhorzon.github.io/tags/undone">undone (4)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tags/agile">agile (2)</a></li>
@@ -585,31 +620,31 @@ Linux legacy software</p>
           <li><a href="https://ykhorzon.github.io/tags/development">development (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tags/experiment">experiment (1)</a></li>
-          
-          
           <li><a href="https://ykhorzon.github.io/tags/hugo">hugo (1)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tags/math">math (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tags/music-information-retrieval">music-information-retrieval (1)</a></li>
-          
-          
           <li><a href="https://ykhorzon.github.io/tags/open-source">open-source (1)</a></li>
-          
-          
-          <li><a href="https://ykhorzon.github.io/tags/prototype">prototype (1)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tags/reinforcement-learning">reinforcement-learning (1)</a></li>
           
           
+          <li><a href="https://ykhorzon.github.io/tags/side-project">side-project (1)</a></li>
+          
+          
           <li><a href="https://ykhorzon.github.io/tags/software-testing">software-testing (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tags/soil">soil (1)</a></li>
+          <li><a href="https://ykhorzon.github.io/tags/static-site">static-site (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/statistics">statistics (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/survey">survey (1)</a></li>
           
         </ul>
       </div>
@@ -667,7 +702,7 @@ Linux legacy software</p>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/2016/10/03/academic-writing-for-graduate-student-3/">academic-writing-for-graduate-student-3</a>
+          <a href="https://ykhorzon.github.io/2016/10/03/academic-writing-for-graduate-student-3/">Academic writing for graduate student 3</a>
         </li>
         
       </ul>

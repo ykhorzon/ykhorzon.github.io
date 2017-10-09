@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</loc>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/</loc>
     <lastmod>2017-08-16T22:29:08+08:00</lastmod>
   </url>
@@ -173,8 +178,13 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</loc>
+    <lastmod>2016-09-10T16:14:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
-    <lastmod>2017-08-16T22:29:08+08:00</lastmod>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -227,22 +237,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
-    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/agile/</loc>
     <lastmod>2017-08-02T12:41:57+08:00</lastmod>
     <priority>0</priority>
@@ -255,6 +249,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/agile/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
+    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
                 />
   </url>
   
@@ -297,8 +307,20 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/blind-spot/</loc>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/blog/</loc>
+    <lastmod>2017-01-24T21:58:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/blog/</loc>
-    <lastmod>2017-06-07T01:23:59+08:00</lastmod>
+    <lastmod>2017-08-16T22:29:08+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -313,8 +335,8 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/blog/</loc>
-    <lastmod>2017-01-24T21:58:01+00:00</lastmod>
+    <loc>https://ykhorzon.github.io/tw/categories/blog/general/</loc>
+    <lastmod>2017-08-16T22:29:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -417,6 +439,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
@@ -430,12 +458,6 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/categories/design-thinking/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -455,22 +477,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
-    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/english/</loc>
     <lastmod>2017-03-22T17:12:04+00:00</lastmod>
     <priority>0</priority>
@@ -483,6 +489,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
+    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/english/"
                 />
   </url>
   
@@ -574,8 +596,18 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/myself/</loc>
-    <lastmod>2017-07-21T10:35:25+08:00</lastmod>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/myself/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/myself/"
+                />
   </url>
   
   <url>
@@ -585,8 +617,30 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/categories/myself/retrospective/</loc>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/myself/retrospective/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/myself/retrospective/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/myself/target/</loc>
+    <lastmod>2017-01-25T14:22:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/post/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -601,23 +655,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/retrospective/</loc>
+    <lastmod>2017-10-09T13:40:21+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/static-site/</loc>
-    <lastmod>2017-08-16T22:29:08+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/static-site/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/static-site/"
-                />
+    <loc>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</loc>
   </url>
   
   <url>
@@ -682,12 +726,6 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/undone/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/categories/web/</loc>
-    <lastmod>2017-08-16T22:29:08+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

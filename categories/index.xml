@@ -9,7 +9,7 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
-    <lastBuildDate>Mon, 12 Sep 2016 20:09:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,16 +17,43 @@
     <item>
       <title>Agile</title>
       <link>https://ykhorzon.github.io/categories/agile/</link>
-      <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
+      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/agile/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Agile/Devops</title>
+      <link>https://ykhorzon.github.io/categories/agile/devops/</link>
+      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/agile/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agriculture</title>
+      <link>https://ykhorzon.github.io/categories/agriculture/</link>
+      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/agriculture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agriculture/Irrigation</title>
+      <link>https://ykhorzon.github.io/categories/agriculture/irrigation/</link>
+      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/agriculture/irrigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://ykhorzon.github.io/categories/blog/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/blog/</guid>
       <description></description>
@@ -60,20 +87,38 @@
     </item>
     
     <item>
+      <title>Cs/Statistics</title>
+      <link>https://ykhorzon.github.io/categories/cs/statistics/</link>
+      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/cs/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily</title>
+      <link>https://ykhorzon.github.io/categories/daily/</link>
+      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/daily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily/Talk</title>
+      <link>https://ykhorzon.github.io/categories/daily/talk/</link>
+      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/daily/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Design Thinking</title>
       <link>https://ykhorzon.github.io/categories/design-thinking/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/design-thinking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops</title>
-      <link>https://ykhorzon.github.io/categories/devops/</link>
-      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/devops/</guid>
       <description></description>
     </item>
     
@@ -114,56 +159,56 @@
     </item>
     
     <item>
-      <title>Math</title>
-      <link>https://ykhorzon.github.io/categories/math/</link>
-      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motivation</title>
-      <link>https://ykhorzon.github.io/categories/motivation/</link>
-      <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Solola</title>
-      <link>https://ykhorzon.github.io/categories/solola/</link>
-      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/solola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>https://ykhorzon.github.io/categories/statistics/</link>
-      <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Undone</title>
-      <link>https://ykhorzon.github.io/categories/undone/</link>
-      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/undone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wait for Merge</title>
-      <link>https://ykhorzon.github.io/categories/wait-for-merge/</link>
+      <title>Myself</title>
+      <link>https://ykhorzon.github.io/categories/myself/</link>
       <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/wait-for-merge/</guid>
+      <guid>https://ykhorzon.github.io/categories/myself/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myself/Retrospective</title>
+      <link>https://ykhorzon.github.io/categories/myself/retrospective/</link>
+      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/myself/retrospective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>https://ykhorzon.github.io/categories/programming/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming/Javascript</title>
+      <link>https://ykhorzon.github.io/categories/programming/javascript/</link>
+      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/programming/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Side Project</title>
+      <link>https://ykhorzon.github.io/categories/side-project/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/side-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Side Project/Solola</title>
+      <link>https://ykhorzon.github.io/categories/side-project/solola/</link>
+      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/categories/side-project/solola/</guid>
       <description></description>
     </item>
     

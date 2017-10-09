@@ -9,10 +9,38 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Thu, 29 Jun 2017 13:11:58 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2017 13:40:21 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>做事方法檢討 以打造個人blog為例</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</link>
+      <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</guid>
+      <description>&lt;h2 id=&#34;先說結論&#34;&gt;先說結論&lt;/h2&gt;
+
+&lt;h3 id=&#34;心魔1-自己硬幹出來比較-cool&#34;&gt;心魔1： 自己硬幹出來比較 Cool&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;心理層面：愛面子&lt;/li&gt;
+&lt;li&gt;傾向做有短期成就感事情（但不一定是最重要的事情）
+
+&lt;ul&gt;
+&lt;li&gt;自己開發一些 static site blog 的小功能&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;解藥1&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;達成目標才是重點，方法是其次，時常提醒自己最重的目標，浪費時間在細節，倒是進度不足或偏離軌道。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>類似Design Thinking的討論實戰檢討</title>
@@ -146,6 +174,25 @@ OS：我回去想想
 與自己對話 我為什麼會卡住？ 自己觀察症狀  已經一段時間，和老師討論的研究沒有進展 我在學習音樂上 程式撰寫，一些project似乎沒有成功，或者是進度不順  需要一些實際案例與經驗 回歸根本：我對我自己了解嗎
 自我分析： 原則  我不可能完全改變個性，成外另外一個人 但是 發揮自己的長處，補足那些缺點，達到一個自己可以 接受的平衡 也沒有一步到位的事情，凡是都有慢慢修正 一定會有挫折，無須沮喪，我相信可以變好 只要有客觀的檢視，確定再進步就好  習慣  生活習慣容易分心 愛嘗試新鮮挑戰，但是沒有有始有終 容易將注意力鎖定在細節結上，遺忘大局 先後次序、相依性、假設、重要性的安排  需要一些實際案例與經驗
 調整  80%的事情使用蕃茄鐘，增進效率。類似敏捷開的sprint 以始為終 抓住這件事情的 原則(principle) 和 精神(Key)  心態  悲觀，不要被負面駕馭自己 逃避，將時間花在製造東西、休閒娛樂而不是思考解決與採取行動  需要一些實際案例與經驗</description>
+    </item>
+    
+    <item>
+      <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
+      <link>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
+      <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
+      <description>序：為什麼要此挑戰？Why to start this challenge? Record
+ 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;raquo;Keep uploading!&amp;laquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;laquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;laquo;。我以他作為自己的學習對象，將&amp;laquo;Keep producing valuable content !&amp;raquo;作為座右銘砥礪自己。
+Reference Casey Nesistat Youtube Channel
+每日動力 {% asset_img cycle.png %}
+任何人每天一定有學習與收穫，但需藉由統整、紀錄才成將經驗轉為累積性的能量，否則船過水無痕，非常可惜。而撰寫blog文章促使(強迫)審視每一天的進度，觀察自己的行為，最重要的訓練組織知識和經驗。最終希望可以和人生長期計畫 (long-term plan)能夠互相呼應
+自我行銷 Self-branding 在表面看似資訊自由的時代，事實上使被垃圾資訊與商業利益性資訊給蒙蔽的亂世(Facebook推薦廣告、Google 暗地追蹤)，俗話說亂世出英雄(喂～是這樣用嗎?!)，能夠產出具備組織性、系統性與具備知識意義的資訊，特別能夠脫引而出(Example:找到某大大的blog，又有一系列教學文章，根本撿到寶)
+Reference photo source
+如何進行與遊戲規則？How? 內容
+ 文章架構清晰 (組織圖可能用 coggle 或 xmind) 包含 Target Audience、 本篇目標 規劃未來維護與搜尋 具備完整性 (內容可以不多，必須包含觀念、看法與相關survey，不可為工具指令、單純抒發心情文章，可參考 ABCD 或尋找其他論述架構)
+  方法
+ Weekly Review 請別人給予回饋，說明優點、缺點和許願池 ( 持續改進 )  細節與堅持</description>
     </item>
     
   </channel>
