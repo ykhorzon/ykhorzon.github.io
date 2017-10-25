@@ -16,10 +16,10 @@
     
     <item>
       <title>Introduction to reinforcement learning</title>
-      <link>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</link>
+      <link>https://ykhorzon.github.io/computer/rl/introduction-to-reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/introduction-to-reinforcement-learning/</guid>
+      <guid>https://ykhorzon.github.io/computer/rl/introduction-to-reinforcement-learning/</guid>
       <description>Learning is driven by reward
  What will you get in this article  Basic concept of reinforcement learning  Outline Concept In many scenario, real world problems do not exist the ground true answer. The supervised learning could not handle this problem.
 But we can use trial and error to get the answer then calibrate our behavior. The key concept is reward from environment. That is also the way human learning new thing.</description>
