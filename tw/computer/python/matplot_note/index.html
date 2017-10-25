@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Matplotlib 基本介紹  &middot; </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="python, matplotlib, drawing, ">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="Matplotlib 基本介紹  &middot;  ">
+<meta property="og:site_name" content=""/>
+<meta property="og:url" content="https://ykhorzon.github.io/tw/computer/python/matplot_note/" />
+<meta property="og:locale" content="tw">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2017-10-25T12:27:23&#43;08:00" />
+<meta property="og:article:modified_time" content="2017-10-25T12:27:23&#43;08:00" />
+
+  
+    
+<meta property="og:article:tag" content="python">
+    
+<meta property="og:article:tag" content="matplotlib">
+    
+<meta property="og:article:tag" content="drawing">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Myprofile" />
+<meta name="twitter:creator" content="@Myprofile" />
+<meta name="twitter:title" content="Matplotlib 基本介紹" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/tw/computer/python/matplot_note/" />
+<meta name="twitter:domain" content="https://ykhorzon.github.io">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Matplotlib 基本介紹",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2017-10-25",
+    "description": "",
+    "wordCount": 341
+  }
+</script>
+  
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-97451129-2', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+
+
+<link rel="canonical" href="https://ykhorzon.github.io/tw/computer/python/matplot_note/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://ykhorzon.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/tree/styles.css">
+<meta name="generator" content="Hugo 0.27.1" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://ykhorzon.github.io/css/bootswatch/paper/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://ykhorzon.github.io/css/highlight/default.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
+</head>
+
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-left">
+            
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/" >
+                
+                首頁
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/about/me" >
+                
+                關於我
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/post/" >
+                
+                故事
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/computer/" >
+                
+                電腦科學
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/agile/" >
+                
+                敏捷
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/agriculture/" >
+                
+                農業
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="">
+                 <a id="langSwitchLink" toSwitchLang="en" href="javascript:changeLanguage('en');" >
+                  
+                  English 
+                </a> 
+            </li>
+            
+              
+          </ul>
+          
+          <form class="navbar-form navbar-left navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Find</button>
+          </form>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 defualtSingleArticleContent">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="text-center">
+
+    <h1>Matplotlib 基本介紹
+</h1>
+
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2017-10-25">25 Oct, 2017</time>
+</small>
+
+
+  <small>
+    &middot; by ykhorizon
+  
+  &middot; Read in about 2 min
+  &middot; (341 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f&amp;title=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/python" class="label label-primary">python</a>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/matplotlib" class="label label-primary">matplotlib</a>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/drawing" class="label label-primary">drawing</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+      <div class="content">
+  
+
+<h1 id="introduction">Introduction</h1>
+
+<p>以下圖片為 pyplot 的重要元件，其中最重要的為 <strong>Figure</strong> 、 <strong>Axes</strong> 、 <strong>Axis</strong> 與 <strong>Artist</strong></p>
+
+<p><img src="https://matplotlib.org/_images/anatomy.png" alt="Screen Shot 2017-10-24 at 3" /></p>
+
+<h2 id="figure">Figure</h2>
+
+<p>Figure 包含 Axes 和 canvas。Axes 為會被畫出來的角色，如 Title 、Figure legends &hellip; etc</p>
+
+<pre><code>fig = plt.figure()  # an empty figure with no axes
+fig.suptitle('No axes on this figure')  # Add a title so we know which it is
+
+fig, ax_lst = plt.subplots(2, 2)  # a figure with a 2x2 grid of Axes
+</code></pre>
+
+<p>可以畫出一下的圖片
+<img src="https://matplotlib.org/_images/sphx_glr_usage_002.png" alt="pure figure" /></p>
+
+<h2 id="axes">Axes</h2>
+
+<p>Axes 是 figure 上面一個區塊的呈現資料的地方，就是你畫出來的&raquo;東西&raquo;。其中每個 Axes 會包含至少2個以上的
+Axis，並且可以設置資料呈現的limits, set_xlim(), set_ylim()，此外圖片標題 title 與 x-label、y-label也是他負責。</p>
+
+<h2 id="axis">Axis</h2>
+
+<p>數字座標軸，產生座標上面的 ticks，也能決定 tick 的位置與格式(Locator 與 Formatter)</p>
+
+<h2 id="artist">Artist</h2>
+
+<p>我猜測是一種 Base Class，文件說 Figure, Axes 與 Axis object 都是一種 Article</p>
+
+<h1 id="matplotlib-pyplot-和-pylab-傻傻分不清楚">Matplotlib, pyplot 和 pylab 傻傻分不清楚</h1>
+
+<ul>
+<li>Matplotlib 是完整的 python package</li>
+<li>pyplot 是 Matplotlib 其中一個 module</li>
+<li>pylab 是與 matplot 並無直接關係，單純是 python 整合科學運算的平台，其中包含許多常用的 package ，EX: Numpy, Scipy ,</li>
+</ul>
+
+<p>pylab 是什麼？可以參考一下討論：</p>
+
+<ul>
+<li><a href="http://www.guokr.com/question/457826/">用python的前辈们，pylab是matplotlib的一个模块吗，跟pyplot又是什么关系呢？</a></li>
+</ul>
+
+<p>這邊另一點要提醒，pyplot 包含一個 state-machine interface，白話文就是你不需要每次都實體化一個物件，
+自動並隱含(explictly)會生成figure和axes，就能享受 Object-oriented plotting library，如同下面這段程式碼：</p>
+
+<pre><code class="language-lang=python">x = np.linspace(0, 2, 100)
+
+plt.plot(x, x, label='linear')
+plt.plot(x, x**2, label='quadratic')
+plt.plot(x, x**3, label='cubic')
+
+plt.xlabel('x label')
+plt.ylabel('y label')
+
+plt.title(&quot;Simple Plot&quot;)
+
+plt.legend()
+
+plt.show()
+</code></pre>
+
+<h1 id="關於使用-pyplot-的-code-style">關於使用 pyplot 的 code style</h1>
+
+<p>可以簡單類似 matlab 的方式宣告，直接使用，非常方便</p>
+
+<pre><code>x = np.arange(0, 10, 0.2)
+y = np.sin(x)
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.plot(x, y)
+plt.show()
+</code></pre>
+
+<p><img src="https://matplotlib.org/_images/sphx_glr_usage_004.png" alt="" /></p>
+
+<p>但在複雜與重複用的情境下，封裝成可重用的 function ，將 data 與 plot 部分拆開</p>
+
+<pre><code>def my_plotter(ax, data1, data2, param_dict):
+    &quot;&quot;&quot;
+    A helper function to make a graph
+
+    Parameters
+    ----------
+    ax : Axes
+        The axes to draw to
+
+    data1 : array
+       The x data
+
+    data2 : array
+       The y data
+
+    param_dict : dict
+       Dictionary of kwargs to pass to ax.plot
+
+    Returns
+    -------
+    out : list
+        list of artists added
+    &quot;&quot;&quot;
+    out = ax.plot(data1, data2, **param_dict)
+    return out
+
+# which you would then use as:
+
+data1, data2, data3, data4 = np.random.randn(4, 100)
+fig, ax = plt.subplots(1, 1)
+my_plotter(ax, data1, data2, {'marker': 'x'})
+</code></pre>
+
+<p>有了以上的 functino 就可以輕鬆達到一下功能</p>
+
+<pre><code>fig, (ax1, ax2) = plt.subplots(1, 2)
+my_plotter(ax1, data1, data2, {'marker': 'x'})
+my_plotter(ax2, data3, data4, {'marker': 'o'})
+</code></pre>
+
+<h1 id="backend-是什麼">Backend 是什麼？</h1>
+
+<p>matplotlib 為了讓不同應用情境都能完成(EX: script, embed into GUI application)
+將背後繪圖的苦工叫做 backend ，如底層繪圖 png. pdf 等等檔案格式處理，稱為 hardcopy backend，
+或者是處理 interactive mode 的相關功能，成為 interactive backend</p>
+
+<p><strong>Interactive v.s. non-interactive</strong></p>
+
+<ul>
+<li>interactive : 可以先動態用 .draw() 更新 figure 可以額外畫出新東西</li>
+<li>non-interactive : 全部一次畫完，最後用 .show() 呈現，無法額外改動</li>
+</ul>
+
+<p>P.S. 通常都是你沒辦法正常會出圖片時，才會去深入研究如何設定</p>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li><a href="https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py">Usage Guide — Matplotlib 2.1.0 documentation</a></li>
+<li><a href="https://matplotlib.org/tutorials/index.html">Tutorials — Matplotlib 2.1.0 documentation</a></li>
+</ul>
+
+</div>
+
+
+      
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f&amp;title=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Matplotlib%20%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%b4%b9&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fpython%2fmatplot_note%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/" title="Google analytics 設定快速檢查">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//ykhorizon.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+ 
+  
+   
+
+  
+    
+  
+  
+  <div class="section taxonomies">
+    <header>
+      <div class="title"><b>Categories</b></div>
+    </header>
+
+    <div class="content">
+      <ul>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agile">agile (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog">blog (4)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog/general">blog/general (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog/hexo">blog/hexo (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog/hugo">blog/hugo (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/cs">cs (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/cs/algorithm">cs/algorithm (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/design-thinking">design-thinking (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/english">english (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/english/academic-writing">english/academic-writing (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/finance">finance (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/finance/accounting">finance/accounting (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (6)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/career">myself/career (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/retrospective">myself/retrospective (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/target">myself/target (3)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/programming">programming (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/programming/python">programming/python (1)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  
+    
+    
+   
+    
+  
+  
+    
+    
+    <div class="section taxonomies">
+      <header>
+        <div class="title"><b>Tags</b></div>
+      </header>
+
+      <div class="content">
+        <ul>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/undone">undone (6)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/blog">blog (2)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/writing">writing (2)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/"> (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/academic">academic (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/agile">agile (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/algorithm">algorithm (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/blind-spot">blind-spot (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/blogging">blogging (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/communication">communication (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/design-thinking">design-thinking (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/development">development (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/drawing">drawing (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/english">english (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/fast">fast (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/go">go (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/google-analytics">google-analytics (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/hexo">hexo (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/hexo-advanced">hexo-advanced (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/hugo">hugo (1)</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    
+   
+  
+
+
+  
+  
+
+  
+  <div class="section">
+    <header>
+      <div class="title"><b>Latest Posts</b></div>
+    </header>
+    <div class="content">
+      <ul>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/computer/python/matplot_note/">Matplotlib 基本介紹</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/">做事方法檢討 以打造個人blog為例</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/">Google analytics 設定快速檢查</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/agile/devops_experience/">DevOps 全棧工程師-活動心得</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/">電腦科學(Computer Science)到底在學什麼？</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/">關於 hugo 的文件</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/06/29/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/">類似Design Thinking的討論實戰檢討</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/06/29/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/">日常中的世代對談 - 討論柯文哲市長 2 採取行動</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/06/28/%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%83%E9%86%92%E9%86%92%E8%85%A6/">設計思考醒醒腦</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/computer/hugo/new_blog/">Blog採用hugo重新開張！</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+</div>
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://ykhorzon.github.io/tw">聲明</a> <i>&middot;</i>
+
+<a href="https://ykhorzon.github.io/tw">使用規範</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Be curious everything with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2017 ykhorizon
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://ykhorzon.github.io/js/jquery.min.js"></script>
+<script src="https://ykhorzon.github.io/js/bootstrap.min.js"></script>
+
+<script src="https://ykhorzon.github.io/js/js.cookie.js"></script>
+
+<script src="https://ykhorzon.github.io/js/angular.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/angular-storage.min.js"></script>
+<script src="https://ykhorzon.github.io/js/highlight.pack.js"></script>
+<script src="https://ykhorzon.github.io/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://twitter.com/ykhorizon", 
+SIGNUP_HEADER = "Suscribe me on twitter @ykhorizon ",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = "en"; 
+</script>
+
+<script src="https://ykhorzon.github.io/js/pathnamereplace.js"></script>
+
+<script src="https://ykhorzon.github.io/js/popover/angular-modal-service.min.js"></script>
+<script src="https://ykhorzon.github.io/js/angular-ismobile.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/popover.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+<script src="https://ykhorzon.github.io/tree/bootstrap.min.js"></script>
+
+
+
+
+  </body>
+</html>
+

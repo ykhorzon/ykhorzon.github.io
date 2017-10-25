@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drawing on </title>
+    <link>https://ykhorzon.github.io/tw/tags/drawing/</link>
+    <description>Recent content in Drawing on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 25 Oct 2017 12:27:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/drawing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matplotlib 基本介紹</title>
+      <link>https://ykhorzon.github.io/tw/computer/python/matplot_note/</link>
+      <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/python/matplot_note/</guid>
+      <description>Introduction 以下圖片為 pyplot 的重要元件，其中最重要的為 Figure 、 Axes 、 Axis 與 Artist
+Figure Figure 包含 Axes 和 canvas。Axes 為會被畫出來的角色，如 Title 、Figure legends &amp;hellip; etc
+fig = plt.figure() # an empty figure with no axes fig.suptitle(&#39;No axes on this figure&#39;) # Add a title so we know which it is fig, ax_lst = plt.subplots(2, 2) # a figure with a 2x2 grid of Axes  可以畫出一下的圖片 Axes Axes 是 figure 上面一個區塊的呈現資料的地方，就是你畫出來的&amp;raquo;東西&amp;raquo;。其中每個 Axes 會包含至少2個以上的 Axis，並且可以設置資料呈現的limits, set_xlim(), set_ylim()，此外圖片標題 title 與 x-label、y-label也是他負責。</description>
+    </item>
+    
+  </channel>
+</rss>

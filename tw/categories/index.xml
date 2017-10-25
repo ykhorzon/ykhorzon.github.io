@@ -158,5 +158,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Programming</title>
+      <link>https://ykhorzon.github.io/tw/categories/programming/</link>
+      <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming/Python</title>
+      <link>https://ykhorzon.github.io/tw/categories/programming/python/</link>
+      <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/programming/python/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
