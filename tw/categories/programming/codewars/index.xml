@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming/Codewars on </title>
+    <link>https://ykhorzon.github.io/tw/categories/programming/codewars/</link>
+    <description>Recent content in Programming/Codewars on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Thu, 26 Oct 2017 20:23:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/programming/codewars/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Codewars] Mumbling</title>
+      <link>https://ykhorzon.github.io/tw/computer/codewars/mumbling/</link>
+      <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/codewars/mumbling/</guid>
+      <description>問題範例 Accumul.Accum(&amp;quot;abcd&amp;quot;); // &amp;quot;A-Bb-Ccc-Dddd&amp;quot; Accumul.Accum(&amp;quot;RqaEzty&amp;quot;); // &amp;quot;R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy&amp;quot; Accumul.Accum(&amp;quot;cwAt&amp;quot;); // &amp;quot;C-Ww-Aaa-Tttt&amp;quot;  我的寫法 using System; public class Accumul { public static String Accum(string s) { string sOut = &amp;quot;&amp;quot;; for(int i=0;i&amp;lt;s.Length;i++){ char c = s[i]; if(char.IsLower(s[i]) == true){ c = char.ToUpper(s[i]); } sOut += c; for(int j=0;j&amp;lt;i;j++){ sOut += char.ToLower(s[i]); } if(i!=s.Length-1){ sOut += &amp;quot;-&amp;quot;; } } return sOut; } }  他人解法賞析 using System; using System.Linq; public class Accumul { public static String Accum(string s) { return string.</description>
+    </item>
+    
+  </channel>
+</rss>

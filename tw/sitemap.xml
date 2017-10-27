@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/computer/codewars/mumbling/</loc>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/computer/python/matplot_note/</loc>
     <lastmod>2017-10-25T12:27:23+08:00</lastmod>
   </url>
@@ -189,7 +194,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
-    <lastmod>2017-10-25T12:27:23+08:00</lastmod>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -242,22 +247,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
-    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/agile/</loc>
     <lastmod>2017-08-02T12:41:57+08:00</lastmod>
     <priority>0</priority>
@@ -270,6 +259,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/agile/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
+    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
                 />
   </url>
   
@@ -318,6 +323,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/blog/</loc>
+    <lastmod>2017-01-24T21:58:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/blog/</loc>
     <lastmod>2017-08-16T22:29:08+08:00</lastmod>
     <priority>0</priority>
@@ -331,12 +342,6 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/categories/blog/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/tags/blog/</loc>
-    <lastmod>2017-01-24T21:58:01+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -384,6 +389,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/c-sharp/</loc>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/</loc>
     <lastmod>2017-08-02T12:41:57+08:00</lastmod>
     <priority>0</priority>
@@ -407,7 +418,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/computer/</loc>
-    <lastmod>2017-10-25T12:27:23+08:00</lastmod>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -444,6 +455,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
@@ -457,12 +474,6 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/categories/design-thinking/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -488,22 +499,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
-    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/english/</loc>
     <lastmod>2017-03-22T17:12:04+00:00</lastmod>
     <priority>0</priority>
@@ -516,6 +511,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
+    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/english/"
                 />
   </url>
   
@@ -591,6 +602,12 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/hugo/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/kata/</loc>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -673,7 +690,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/programming/</loc>
-    <lastmod>2017-10-25T12:27:23+08:00</lastmod>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -685,6 +702,12 @@
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/categories/programming/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/programming/codewars/</loc>
+    <lastmod>2017-10-26T20:23:11+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
