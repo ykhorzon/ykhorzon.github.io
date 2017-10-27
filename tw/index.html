@@ -215,7 +215,7 @@
     <p>
   
   
-    問題範例 Accumul.Accum(&quot;abcd&quot;); // &quot;A-Bb-Ccc-Dddd&quot; Accumul.Accum(&quot;RqaEzty&quot;); // &quot;R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy&quot; Accumul.Accum(&quot;cwAt&quot;); // &quot;C-Ww-Aaa-Tttt&quot;  我的寫法 using System; public class Accumul { public static String Accum(string s) { string sOut = &quot;&quot;; for(int i=0;i&lt;s.Length;i++){ char c = s[i]; if(char.IsLower(s[i]) == true){ c = char.ToUpper(s[i]); } sOut += c; for(int j=0;j&lt;i;j++){ sOut += char.ToLower(s[i]); } if(i!=s.Length-1){ sOut += &quot;-&quot;; } } return sOut; } }  他人解法賞析 using System; using System.Linq; public class Accumul { public static String Accum(string s) { return string.
+    問題範例 Accumul.Accum(&quot;abcd&quot;); // &quot;A-Bb-Ccc-Dddd&quot; Accumul.Accum(&quot;RqaEzty&quot;); // &quot;R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy&quot; Accumul.Accum(&quot;cwAt&quot;); // &quot;C-Ww-Aaa-Tttt&quot;  我的寫法 using System; public class Accumul { // Version 1 public static String Accum1(string s) { string sOut = &quot;&quot;; for(int i=0;i&lt;s.Length;i++){ char c = s[i]; // useless condition if(char.IsLower(s[i]) == true){ c = char.ToUpper(s[i]); } sOut += c; for(int j=0;j&lt;i;j++){ sOut += char.ToLower(s[i]); } if(i!=s.Length-1){ sOut += &quot;-&quot;; } } return sOut; } // Version 2 public static String Accum2(string s) { string sOut = &quot;&quot;; for(int i=0;i&lt;s.
   
 
 

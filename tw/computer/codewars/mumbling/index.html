@@ -60,7 +60,7 @@
     },
     "datePublished": "2017-10-26",
     "description": "",
-    "wordCount": 255
+    "wordCount": 298
   }
 </script>
   
@@ -230,7 +230,7 @@
     &middot; by ykhorizon
   
   &middot; Read in about 2 min
-  &middot; (255 words)
+  &middot; (298 words)
   &middot; 
 <span class="share-box">Share this on:
     <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2fcomputer%2fcodewars%2fmumbling%2f" onclick="window.open(this.href, 'mywin',
@@ -286,12 +286,14 @@ Accumul.Accum(&quot;cwAt&quot;);    // &quot;C-Ww-Aaa-Tttt&quot;
 
 public class Accumul 
 {
-    public static String Accum(string s) 
+
+    // Version 1
+    public static String Accum1(string s) 
   {
     string sOut = &quot;&quot;;
      for(int i=0;i&lt;s.Length;i++){
        
-       char c = s[i];
+       char c = s[i]; // useless condition
        if(char.IsLower(s[i]) == true){
          c = char.ToUpper(s[i]);
        }
@@ -305,6 +307,23 @@ public class Accumul
      }
      return sOut;
   }
+    // Version 2
+  public static String Accum2(string s) 
+  {
+    string sOut = &quot;&quot;;
+     for(int i=0;i&lt;s.Length;i++){
+       
+       sOut += char.ToUpper(s[i]);
+       for(int j=0;j&lt;i;j++){
+         sOut += char.ToLower(s[i]);
+       }
+       if(i!=s.Length-1){
+         sOut += &quot;-&quot;;
+       }
+     }
+     return sOut;
+  }
+}
 }
 </code></pre>
 
@@ -323,7 +342,7 @@ public class Accumul
 
 <h1 id="比較差異">比較差異</h1>
 
-<p>他人的作法用了很神秘的工具 LINQ (Orz)</p>
+<p>重點差異在 LINQ 可以節省很多時間，還有 lambda function 可以很簡短完成任務。</p>
 
 <h2 id="linq">LINQ</h2>
 
