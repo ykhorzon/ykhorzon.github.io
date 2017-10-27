@@ -215,7 +215,22 @@
     <p>
   
   
-    問題範例 Accumul.Accum(&quot;abcd&quot;); // &quot;A-Bb-Ccc-Dddd&quot; Accumul.Accum(&quot;RqaEzty&quot;); // &quot;R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy&quot; Accumul.Accum(&quot;cwAt&quot;); // &quot;C-Ww-Aaa-Tttt&quot;  我的寫法 using System; public class Accumul { // Version 1 public static String Accum1(string s) { string sOut = &quot;&quot;; for(int i=0;i&lt;s.Length;i++){ char c = s[i]; // useless condition if(char.IsLower(s[i]) == true){ c = char.ToUpper(s[i]); } sOut += c; for(int j=0;j&lt;i;j++){ sOut += char.ToLower(s[i]); } if(i!=s.Length-1){ sOut += &quot;-&quot;; } } return sOut; } // Version 2 public static String Accum2(string s) { string sOut = &quot;&quot;; for(int i=0;i&lt;s.
+    <h1 id="outline">Outline</h1>
+
+<ul>
+<li><a href="#%E5%95%8F%E9%A1%8C%E7%AF%84%E4%BE%8B">問題範例</a></li>
+<li><a href="#%E6%88%91%E7%9A%84%E5%AF%AB%E6%B3%95">我的寫法</a></li>
+<li><a href="#%E4%BB%96%E4%BA%BA%E8%A7%A3%E6%B3%95%E8%B3%9E%E6%9E%90">他人解法賞析</a></li>
+<li><a href="#%E6%AF%94%E8%BC%83%E5%B7%AE%E7%95%B0">比較差異</a>
+
+<ul>
+<li><a href="#linq">LINQ</a></li>
+<li><a href="#stringjoin">String.Join</a></li>
+<li><a href="#stringselect-%E8%88%87-lambda-%E9%81%8B%E7%AE%97%E5%BC%8F">String.Select 與 lambda 運算式</a></li>
+</ul></li>
+</ul>
+
+<p></p>
   
 
 
