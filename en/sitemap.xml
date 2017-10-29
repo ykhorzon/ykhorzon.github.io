@@ -278,6 +278,16 @@
     <loc>https://ykhorzon.github.io/categories/agriculture/</loc>
     <lastmod>2016-09-22T11:39:35+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agriculture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agriculture/"
+                />
   </url>
   
   <url>

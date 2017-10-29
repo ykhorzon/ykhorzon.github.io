@@ -9,10 +9,35 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Thu, 26 Oct 2017 20:23:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Oct 2017 18:38:34 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
+      <link>https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/</link>
+      <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/</guid>
+      <description>影片  內容摘要 物理防治 3:33
+阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
+耕作防治管理 9:00
+改善栽培環境 淹水
+ 殺死地下害蟲  作物混作
+ 適合小農地耕作  間作、輪作
+ EX: 十字花科連作病害容易嚴重  苗期管理
+ 健康的種苗  處理觀念
+ 評估的關鍵在於發現的時期，早期可以盡早治療，接近作物收成可以考慮
+ 生物防治管理 17:30
+捕食性天敵 17:46 螳螂、蜘蛛、草蛉、瓢蟲
+寄生性天敵 23:24 小繭蜂
+亞洲玉米螟 赤眼卵寄生蜂
+微生物資材 26:27 細菌 - 蘇力菌 - 黑殭菌 - 白殭菌
+ Tips: 注意死亡蟲體，可以製造昆蟲感冒，將屍體打汁在噴灑，幫助散播
+環境濕度與其他環境因子，對於微生物防治的效果影響重大
+ 真菌 病毒 線蟲</description>
+    </item>
     
     <item>
       <title>[Codewars] Mumbling</title>
