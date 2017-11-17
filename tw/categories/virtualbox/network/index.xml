@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualbox/Network on </title>
+    <link>https://ykhorzon.github.io/tw/categories/virtualbox/network/</link>
+    <description>Recent content in Virtualbox/Network on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Fri, 17 Nov 2017 16:57:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/virtualbox/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>virtualbox 網路設定 NAT v.s. Bridge mode</title>
+      <link>https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/</link>
+      <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/</guid>
+      <description>情境 在使用 virtualbox 作為開發環境時，需要由外部 internet 聯絡 virtualbox 內部的 guest OS，使用 Networking Adapter 預設為 NAT ，無法滿足這個需求(需要倚靠 port forwarding)
+什麼是 NAT, Bridge 和 Host-Only? 我收集一些網路上的資料，統整了一下
+ Differences between bridged and NAT networking NAT vs. bridged network: A simple diagram  Host-only only permits network operations with the Host OS.
+NAT mode will mask all network activity as if it came from your Host OS, although the VM can access external resources.</description>
+    </item>
+    
+  </channel>
+</rss>
