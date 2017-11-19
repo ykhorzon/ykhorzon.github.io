@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Design on </title>
+    <link>https://ykhorzon.github.io/tw/tags/service-design/</link>
+    <description>Recent content in Service Design on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sat, 18 Nov 2017 19:54:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/service-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>發展你的顧客旅程-從生態系視角</title>
+      <link>https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/</link>
+      <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/</guid>
+      <description>Outline  什麼是服務設計？ 顧客旅程 Customer Journey 生態系 Ecosystem  早餐店案例 旅遊平安保險案例  Workshop 流程  什麼是服務設計？ 同步互動約會用餐 sync dinner, AU 電信商
+ 上面 sync dinner 傳達意思是有些服務設計，需要隱藏基礎建設才能達成，就是 AU 電信商的 4G 高速網路
+Personal Innovation Act　“Analog Innovation”, Softbank
+ 看了有什麼感覺呢？你喜歡上面的服務嗎？
+根據 Vide 創誌的文章 - 什麼是服務設計？，節錄其中一段
+ 當兩家一模一樣的咖啡店正好相鄰彼此，用一樣的價錢賣著一樣的咖啡，服務設計就是那個使你走進其中一家咖啡店的東西
+ Marc Fonteijn from 31Volts
+ 好的服務設計是仔細雕琢我們的體驗並提供服務，使得它對於使用它的人和提供它的人都更具價值。
+ Nick Marsh from Engine Service Design
+顧客旅行(個人觀點)  根據某網站的定義
+ The customer journey map is an oriented graph that describes the journey of a user by representing the different touchpoints that characterize his interaction with the service.</description>
+    </item>
+    
+  </channel>
+</rss>
