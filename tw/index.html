@@ -50,7 +50,7 @@
 <link rel="icon" href="https://ykhorzon.github.io/favicon.png">
 
 <link rel="stylesheet" href="https://ykhorzon.github.io/tree/styles.css">
-<meta name="generator" content="Hugo 0.27.1" />
+<meta name="generator" content="Hugo 0.30.2" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -118,31 +118,7 @@
 
               <a href="https://ykhorzon.github.io/tw/post/" >
                 
-                故事
-              </a>
-            </li>
-            
-            <li class="">
-
-              <a href="https://ykhorzon.github.io/tw/computer/" >
-                
-                電腦科學
-              </a>
-            </li>
-            
-            <li class="">
-
-              <a href="https://ykhorzon.github.io/tw/agile/" >
-                
-                敏捷
-              </a>
-            </li>
-            
-            <li class="">
-
-              <a href="https://ykhorzon.github.io/tw/agriculture/" >
-                
-                農業
+                文章
               </a>
             </li>
             
@@ -191,7 +167,7 @@
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/">發展你的顧客旅程-從生態系視角</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/">發展你的顧客旅程-從生態系視角</a>
 </h2>
 
   <div class="margin-10">
@@ -238,7 +214,7 @@
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -248,7 +224,7 @@
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/">virtualbox 網路設定 NAT v.s. Bridge mode</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/">virtualbox 網路設定 NAT v.s. Bridge mode</a>
 </h2>
 
   <div class="margin-10">
@@ -260,6 +236,8 @@
     
   <i class="fa fa-tags"></i>
   
+  <a href="https://ykhorzon.github.io/tw/tags/network" class="label label-primary">network</a>
+  
 
 
   </div>
@@ -268,17 +246,23 @@
     <p>
   
   
-    情境 在使用 virtualbox 作為開發環境時，需要由外部 internet 聯絡 virtualbox 內部的 guest OS，使用 Networking Adapter 預設為 NAT ，無法滿足這個需求(需要倚靠 port forwarding)
-什麼是 NAT, Bridge 和 Host-Only? 我收集一些網路上的資料，統整了一下
- Differences between bridged and NAT networking NAT vs. bridged network: A simple diagram  Host-only only permits network operations with the Host OS.
-NAT mode will mask all network activity as if it came from your Host OS, although the VM can access external resources.
+    <h1 id="outline">Outline</h1>
+
+<ul>
+<li><a href="#scenario">Scenario</a></li>
+<li><a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-nat-bridge-%E5%92%8C-host-only">什麼是 NAT, Bridge 和 Host-Only?</a></li>
+<li><a href="#%E5%BB%B6%E4%BC%B8%E5%95%8F%E9%A1%8C%EF%BC%9A192168xxxxxx-%E5%92%8C-17216xxxxxx-%E6%98%AF%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E9%BA%BC%E6%84%8F%E7%BE%A9%EF%BC%9F">延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？</a></li>
+<li><a href="#%E6%8E%A8%E8%AB%96%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%88%91%E7%9A%84%E5%95%8F%E9%A1%8C%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F">推論一下，我的問題是什麼？</a></li>
+</ul>
+
+<p></p>
   
 
 
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -288,7 +272,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/">[影片筆記] 農作物病蟲害診斷--呂柏寬</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/">[影片筆記] 農作物病蟲害診斷--呂柏寬</a>
 </h2>
 
   <div class="margin-10">
@@ -335,7 +319,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -345,7 +329,52 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/codewars/mumbling/">[Codewars] Mumbling</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/">蔡月夏--食用百合鱗莖有機栽培模式之建立</a>
+</h2>
+
+  <div class="margin-10">
+    <small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2017-10-27">27 Oct, 2017</time>
+</small>
+
+    
+  <i class="fa fa-tags"></i>
+  
+
+
+  </div>
+</div>
+
+    <p>
+  
+  
+    品種
+ 四川百合(藥用) 蘭州百合(鮮食) 日本百合  長期進口量與價格統計(15年) 產量逐年降低，原因是產地病害
+栽培流程
+ 採土樣本，決定如何施灑肥料(N,P,K) 栽種密度安排  花改場：水分必須充足 農民：過水分造成草蔓生 甲殼素殺菌 必須除草 第四週之後，固定每週噴甲殼素 第 50 天 第一次追肥 5個月採收
+產出結果：
+子球半徑寬度
+適當儲存可以5個月，品質不變
+生理病害 - 葉燒病 百合灰黴病
+保存：
+  
+
+
+</p>
+
+
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/" class="btn btn-default">Read more &rarr;</a></p>
+
+
+  </div>
+</div>
+
+        
+          <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/">[Codewars] Mumbling</a>
 </h2>
 
   <div class="margin-10">
@@ -391,7 +420,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/codewars/mumbling/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -401,7 +430,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/python/matplot_note/">Matplotlib 基本介紹</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/">Matplotlib 基本介紹</a>
 </h2>
 
   <div class="margin-10">
@@ -456,7 +485,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/python/matplot_note/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -526,7 +555,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/">Google analytics 設定快速檢查</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/">Google analytics 設定快速檢查</a>
 </h2>
 
   <div class="margin-10">
@@ -556,7 +585,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -566,7 +595,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/agile/devops_experience/">DevOps 全棧工程師-活動心得</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/">DevOps 全棧工程師-活動心得</a>
 </h2>
 
   <div class="margin-10">
@@ -597,7 +626,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/agile/devops_experience/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -607,7 +636,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <div class="row">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/">電腦科學(Computer Science)到底在學什麼？</a>
+  <h2><a href="https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/">電腦科學(Computer Science)到底在學什麼？</a>
 </h2>
 
   <div class="margin-10">
@@ -637,46 +666,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/" class="btn btn-default">Read more &rarr;</a></p>
-
-
-  </div>
-</div>
-
-        
-          <div class="row">
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-    <div>
-  <h2><a href="https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/">關於 hugo 的文件</a>
-</h2>
-
-  <div class="margin-10">
-    <small>
-  <i class="fa fa-calendar"></i>
-  <time datetime="2017-06-30">30 Jun, 2017</time>
-</small>
-
-    
-  <i class="fa fa-tags"></i>
-  
-  <a href="https://ykhorzon.github.io/tw/tags/hugo" class="label label-primary">hugo</a>
-  
-
-
-  </div>
-</div>
-
-    <p>
-  
-  
-    <p></p>
-  
-
-
-</p>
-
-
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -753,7 +743,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
       <div class="title"><b>Categories</b></div>
     </header>
 
-    <div class="content">
+    <div class="content" id="cato-tree">
       <ul>
         
         
@@ -766,16 +756,13 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
         <li><a href="https://ykhorzon.github.io/tw/categories/agriculture/pest">agriculture/pest (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/blog">blog (4)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog">blog (3)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/blog/general">blog/general (1)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/blog/hexo">blog/hexo (2)</a></li>
-        
-        
-        <li><a href="https://ykhorzon.github.io/tw/categories/blog/hugo">blog/hugo (1)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/cs">cs (1)</a></li>
@@ -799,7 +786,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
         <li><a href="https://ykhorzon.github.io/tw/categories/finance/accounting">finance/accounting (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (6)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (5)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/myself/career">myself/career (1)</a></li>
@@ -852,7 +839,7 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
         <ul>
           
           
-          <li><a href="https://ykhorzon.github.io/tw/tags/undone">undone (6)</a></li>
+          <li><a href="https://ykhorzon.github.io/tw/tags/undone">undone (5)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tw/tags/blog">blog (2)</a></li>
@@ -876,9 +863,6 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <li><a href="https://ykhorzon.github.io/tw/tags/blind-spot">blind-spot (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tw/tags/blogging">blogging (1)</a></li>
-          
-          
           <li><a href="https://ykhorzon.github.io/tw/tags/c-sharp">c-sharp (1)</a></li>
           
           
@@ -891,9 +875,6 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <li><a href="https://ykhorzon.github.io/tw/tags/design-thinking">design-thinking (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tw/tags/development">development (1)</a></li>
-          
-          
           <li><a href="https://ykhorzon.github.io/tw/tags/drawing">drawing (1)</a></li>
           
           
@@ -903,13 +884,19 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
           <li><a href="https://ykhorzon.github.io/tw/tags/english">english (1)</a></li>
           
           
-          <li><a href="https://ykhorzon.github.io/tw/tags/fast">fast (1)</a></li>
-          
-          
-          <li><a href="https://ykhorzon.github.io/tw/tags/go">go (1)</a></li>
-          
-          
           <li><a href="https://ykhorzon.github.io/tw/tags/google-analytics">google-analytics (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/hexo">hexo (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/hexo-advanced">hexo-advanced (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/kata">kata (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/leading">leading (1)</a></li>
           
         </ul>
       </div>
@@ -921,7 +908,6 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
 
   
   
-
   
   <div class="section">
     <header>
@@ -931,23 +917,27 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
       <ul>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/">發展你的顧客旅程-從生態系視角</a>
+          <a href="https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/">發展你的顧客旅程-從生態系視角</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/">virtualbox 網路設定 NAT v.s. Bridge mode</a>
+          <a href="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/">virtualbox 網路設定 NAT v.s. Bridge mode</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/">[影片筆記] 農作物病蟲害診斷--呂柏寬</a>
+          <a href="https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/">[影片筆記] 農作物病蟲害診斷--呂柏寬</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/computer/codewars/mumbling/">[Codewars] Mumbling</a>
+          <a href="https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/">蔡月夏--食用百合鱗莖有機栽培模式之建立</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/computer/python/matplot_note/">Matplotlib 基本介紹</a>
+          <a href="https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/">[Codewars] Mumbling</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/">Matplotlib 基本介紹</a>
         </li>
         
         <li>
@@ -955,19 +945,15 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/">Google analytics 設定快速檢查</a>
+          <a href="https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/">Google analytics 設定快速檢查</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/agile/devops_experience/">DevOps 全棧工程師-活動心得</a>
+          <a href="https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/">DevOps 全棧工程師-活動心得</a>
         </li>
         
         <li>
-          <a href="https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/">電腦科學(Computer Science)到底在學什麼？</a>
-        </li>
-        
-        <li>
-          <a href="https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/">關於 hugo 的文件</a>
+          <a href="https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/">電腦科學(Computer Science)到底在學什麼？</a>
         </li>
         
       </ul>
@@ -1099,8 +1085,6 @@ MathJax.Hub.Config({
 
 
 <script src="https://ykhorzon.github.io/tree/bootstrap.min.js"></script>
-
-
 
 
 

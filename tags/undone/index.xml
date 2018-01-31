@@ -9,19 +9,20 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
-    <lastBuildDate>Sun, 08 Oct 2017 13:06:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2017 20:00:50 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tags/undone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Build my own hugo blog with additional features</title>
-      <link>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</link>
-      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
+      <title>Content of this blog</title>
+      <link>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</link>
+      <pubDate>Mon, 09 Oct 2017 20:00:50 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
- PART I: Wanted Feature (Those important feature for me) PART II: [Content Management Experience]()  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url  1.Display hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
+      <guid>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</guid>
+      <description>How to choose the topic of article? Here two motivations that why I write blog article:
+ Write article for my self that force me to review (or preview) the learning material
+ Community meetup and event  Reduce rely on slide of presenter and directly use slide content try to use my own sentence or word to interpret it  Online and other course Tool learning/ new skill,tech practices  Write article for other target audience</description>
     </item>
     
     <item>
@@ -35,10 +36,10 @@
     
     <item>
       <title>Hello World for SoloLa Project</title>
-      <link>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</link>
+      <link>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</link>
       <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</guid>
+      <guid>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</guid>
       <description>  Transcription is never a nightmare again.
  Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
 What is SoloLa? </description>
@@ -58,19 +59,19 @@ I was used to take notes with Qownnote and collect a lot of information which se
     
     <item>
       <title>Javascript Testing Tool Survey</title>
-      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <link>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</link>
       <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <guid>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</guid>
       <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
     </item>
     
     <item>
       <title>Design Automated Irrigation System S1</title>
-      <link>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</link>
+      <link>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</link>
       <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</guid>
+      <guid>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</guid>
       <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
 MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
   For startups, how to know the enough features is a art.</description>

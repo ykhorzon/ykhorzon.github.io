@@ -47,32 +47,19 @@ GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
     
     <item>
       <title>Kernighan-Lin algorithm</title>
-      <link>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</link>
       <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>大二上</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
-      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
-      <description>井底之蛙，初出矮井
- {% asset_img ncucc.jpg %}
- 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
- 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
-Resource - ncucc</description>
-    </item>
-    
-    <item>
       <title>實用hexo-抵達新手村</title>
-      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
       <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
       <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
  可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
  Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
@@ -85,10 +72,10 @@ Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以�
     
     <item>
       <title>實用hexo-領新手裝</title>
-      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
       <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;當你把hexo當作Content Providing的武器
 長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;

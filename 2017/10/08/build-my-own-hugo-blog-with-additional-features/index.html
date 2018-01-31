@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Build my own hugo blog with additional features  &middot; </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="working-on, ">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="Build my own hugo blog with additional features  &middot;  ">
+<meta property="og:site_name" content=""/>
+<meta property="og:url" content="https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/" />
+<meta property="og:locale" content="en">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2017-10-08T13:06:07&#43;08:00" />
+<meta property="og:article:modified_time" content="2017-10-08T13:06:07&#43;08:00" />
+
+  
+    
+<meta property="og:article:tag" content="working-on">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Myprofile" />
+<meta name="twitter:creator" content="@Myprofile" />
+<meta name="twitter:title" content="Build my own hugo blog with additional features" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/" />
+<meta name="twitter:domain" content="https://ykhorzon.github.io">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Build my own hugo blog with additional features",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2017-10-08",
+    "description": "",
+    "wordCount": 504
+  }
+</script>
+  
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-97451129-2', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+
+
+<link rel="canonical" href="https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://ykhorzon.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/tree/styles.css">
+<meta name="generator" content="Hugo 0.30.2" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://ykhorzon.github.io/css/bootswatch/paper/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://ykhorzon.github.io/css/highlight/default.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
+
+
+
+</head>
+
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-left">
+            
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/" >
+                
+                Home
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/about/me" >
+                <i class='fa fa-road'></i>
+                About
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/post/" >
+                
+                Post
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="">
+                 <a id="langSwitchLink" toSwitchLang="tw" href="javascript:changeLanguage('tw');" >
+                  
+                  繁體中文 
+                </a> 
+            </li>
+            
+              
+          </ul>
+          
+          <form class="navbar-form navbar-left navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Find</button>
+          </form>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 defualtSingleArticleContent">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="text-center">
+
+    <h1>Build my own hugo blog with additional features
+</h1>
+
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2017-10-08">8 Oct, 2017</time>
+</small>
+
+
+  <small>
+    &middot; by ykhorizon
+  
+  &middot; Read in about 3 min
+  &middot; (504 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Build%20my%20own%20hugo%20blog%20with%20additional%20features&amp;url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f&amp;title=Build%20my%20own%20hugo%20blog%20with%20additional%20features" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Build%20my%20own%20hugo%20blog%20with%20additional%20features&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://ykhorzon.github.io/tags/working-on" class="label label-primary">working-on</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+      <div class="content">
+  
+
+<h1 id="outline">Outline</h1>
+
+<p>I&rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.</p>
+
+<ul>
+<li>PART I: Wanted Feature (Those important feature for me)</li>
+<li>PART II: Content Management Experience</li>
+</ul>
+
+<h1 id="wanted-features-or-solutions">Wanted Features (or Solutions)</h1>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 1. Display hierarchy categories (Partial)</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 2. Search inside blog</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 3. Manage image in static</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 4. Shortcut for image url</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 5. Access to file by title/filename in multilingual condition</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 6. Manage tags/catagories/keyword/series</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 7. How to hybrid directory(section), category and tag to manage content ?</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 8. Suggestions for writing flow</label></li>
+</ul>
+
+<p>Other</p>
+
+<ul>
+<li>Multilingual</li>
+<li>Table of Content (ToC)</li>
+<li><a href="https://gohugo.io/tutorials/mathjax/">MathJax (New)</a></li>
+<li>Discuusion Disqus (<strong>Done</strong>)</li>
+<li>Image and other static resource link and management</li>
+<li>Multi-level menu or categories (hierarchy menu)</li>
+<li>Search blog content</li>
+<li>Template</li>
+<li><a href="http://brendan-quinn.xyz/post/working-with-hugos-internal-partial-templates-facebook-and-open-graph/">SEO</a></li>
+</ul>
+
+<h1 id="part-i-wanted-feature">PART I: Wanted Feature</h1>
+
+<h2 id="1-display-hierarchy-categories">1.Display hierarchy categories</h2>
+
+<p>The categories of hugo is only one-level (It&rsquo;s called Taxonomies). But I want the categories like the following image. It&rsquo;s very common feature in another static site generator <strong>hexo</strong>
+<img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/1.png" alt="" />
+<a href="http://morris821028.github.io/">image src: blog of morris821028 </a></p>
+
+<p>I had survey some feasible method to fitting my requirement, but I&rsquo;m still solving this problem.</p>
+
+<h3 id="method-1">Method 1</h3>
+
+<p>Use a prefix string as main category
+- Implement with simple concatenated category string</p>
+
+<p>Example:</p>
+
+<ul>
+<li>blog (Main Category)</li>
+<li>blog/hugo (Sub Category)</li>
+</ul>
+
+<p><img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/3.png" alt="" /></p>
+
+<pre><code class="language-html">  &lt;!-- Taxonomies (default is tag and categories) --&gt;
+  {{ range $key, $value := .Site.Taxonomies }} {{ $len := len $value }} {{ if (not ( eq $len 0 ) ) }}
+  &lt;div class=&quot;section taxonomies&quot;&gt;
+    &lt;header&gt;
+      &lt;div class=&quot;title&quot;&gt;&lt;b&gt;{{ $key | humanize }}&lt;/b&gt;&lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;div class=&quot;content&quot;&gt;
+      &lt;ul&gt;
+        {{ range $value.Alphabetical }}
+        &lt;!--  range first 15 $value.ByCount --&gt;
+        &lt;li&gt;&lt;a href=&quot;{{$.LanguagePrefix }}/{{ $key }}/{{ .Name | urlize }}&quot;&gt;{{ .Name }} ({{.Count}})&lt;/a&gt;&lt;/li&gt;
+        {{ end }}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  {{ end }} 
+  {{ end }}
+</code></pre>
+
+<p>You can check out the document <a href="https://gohugo.io/templates/taxonomy-templates/#order-taxonomies">offical: order taxonomies</a></p>
+
+<p><strong>Result</strong></p>
+
+<p><img src="https://ykhorzon.github.io/content_img/todo_of_this_blog/2.png" alt="" /></p>
+
+<p>More advanced solution, I would like to write a javascript snippets to <strong>convert</strong> flatted categories into hierarchy categories with some category format trick.</p>
+
+<h3 id="other-solutions">Other Solutions</h3>
+
+<ul>
+<li><a href="https://github.com/vjeantet/hugo-menu-show">Solution 1 - hugo-nested-menu-example</a>
+
+<ul>
+<li><a href="http://vjeantet.github.io/hugo-menu-show/">Demo</a></li>
+</ul></li>
+<li><a href="https://github.com/kakawait/hugo-tranquilpeak-theme">Solution 2 - hugo-tranquilpeak-them</a>
+
+<ul>
+<li><a href="https://tranquilpeak.kakawait.com/categories/">Demo</a></li>
+</ul></li>
+<li><a href="https://github.com/bep/hugotest">Solution 3 - section tree</a>
+
+<ul>
+<li><a href="http://experiments.wemakesites.net/css3-treeview.html">has bug in my theme</a></li>
+</ul></li>
+</ul>
+
+<p>Miscellaneous</p>
+
+<ul>
+<li><a href="https://github.com/gohugoio/hugo/issues/465">Github Issue Discussion 1</a></li>
+<li><a href="https://github.com/gohugoio/hugo/pull/3309">Github Issue Discussion 2</a></li>
+</ul>
+
+<h2 id="2-search-inside-blog">2.Search inside blog</h2>
+
+<p>Wait to explore &hellip;</p>
+
+<h2 id="3-manage-image-in-static">3.Manage image in static</h2>
+
+<p>Wait to explore &hellip;</p>
+
+<h2 id="4-shortcut-for-image-url">4.Shortcut for image url</h2>
+
+<p>Wait to explore &hellip;</p>
+
+<h1 id="part-ii-content-management-experience">PART II: Content Management Experience</h1>
+
+<h2 id="5-access-to-file-by-title-filename-in-multilingual-condition">5. Access to file by title/filename in multilingual condition</h2>
+
+<p>I&rsquo;m used to write blog by Visual Studio Code, so my procedure likes</p>
+
+<ol>
+<li>Start local server in command line (hugo server -w -D)</li>
+<li>View the blog in browser and find the title of the article which I want to work on</li>
+<li>Use <strong>search in file</strong> access article by title</li>
+<li>It&rsquo;s time to get to write!</li>
+</ol>
+
+<h2 id="6-manage-tags-catagories-keyword-series">6. Manage tags/catagories/keyword/series</h2>
+
+<ol>
+<li>Every article only have one category. It should be the most important characteristic.</li>
+<li>Category should not equal to tag</li>
+</ol>
+
+<h2 id="7-how-to-hybrid-directory-section-category-and-tag-to-manage-contents">7. How to hybrid directory(section), category and tag to manage contents ?</h2>
+
+<h2 id="8-suggestions-for-writing-flow">8. Suggestions for writing flow</h2>
+
+<p><strong>Keep Atomicity</strong></p>
+
+<ul>
+<li>Finish a complete part of article in one writing work and don&rsquo;t let muse fleeing.</li>
+<li>Immediately deploy article after finishing, like developer commit code with git.</li>
+</ul>
+
+</div>
+
+
+      
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Build%20my%20own%20hugo%20blog%20with%20additional%20features&amp;url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f&amp;title=Build%20my%20own%20hugo%20blog%20with%20additional%20features" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Build%20my%20own%20hugo%20blog%20with%20additional%20features&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2f2017%2f10%2f08%2fbuild-my-own-hugo-blog-with-additional-features%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/" title="Hugo Section with Layout">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+      <li class="next">
+        <a href="https://ykhorzon.github.io/2017/10/09/content-of-this-blog/" title="Content of this blog">
+            Next <span aria-hidden="true">&rarr;</span>
+        </a>
+      </li>
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//ykhorizon.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+ 
+  
+   
+
+  
+    
+  
+  
+  <div class="section taxonomies">
+    <header>
+      <div class="title"><b>Categories</b></div>
+    </header>
+
+    <div class="content" id="cato-tree">
+      <ul>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agile">agile (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agile/devops">agile/devops (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agriculture">agriculture (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/agriculture/irrigation">agriculture/irrigation (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/blog">blog (3)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/blog/content">blog/content (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/blog/hugo">blog/hugo (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/cs">cs (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/cs/reinforcement-learning">cs/reinforcement-learning (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/cs/statistics">cs/statistics (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/daily">daily (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/daily/talk">daily/talk (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/design-thinking">design-thinking (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/english">english (6)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/english/academic-writing">english/academic-writing (5)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/english/job-searching">english/job-searching (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/marketing">marketing (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/myself">myself (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/myself/retrospective">myself/retrospective (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/programming">programming (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/programming/javascript">programming/javascript (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/side-project">side-project (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/categories/side-project/solola">side-project/solola (1)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  
+    
+    
+   
+    
+  
+  
+    
+    
+    <div class="section taxonomies">
+      <header>
+        <div class="title"><b>Tags</b></div>
+      </header>
+
+      <div class="content">
+        <ul>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/undone">undone (6)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/course">course (4)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/english">english (4)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/language">language (4)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/agile">agile (2)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/talk">talk (2)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/academic">academic (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/concept">concept (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/content">content (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/desing-thinking">desing-thinking (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/math">math (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/open-source">open-source (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/reinforcement-learning">reinforcement-learning (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/side-project">side-project (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/software-testing">software-testing (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/statistics">statistics (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/survey">survey (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/tgdf2016">tgdf2016 (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/working-on">working-on (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tags/writing">writing (1)</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    
+   
+  
+
+
+  
+  
+  
+  <div class="section">
+    <header>
+      <div class="title"><b>Latest Posts</b></div>
+    </header>
+    <div class="content">
+      <ul>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/10/09/content-of-this-blog/">Content of this blog</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/">Build my own hugo blog with additional features</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/">Full Stack DevOps Engineer?</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/30/a-overview-glance-of-academic-writing/">A Overview Glance of Academic Writing</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/29/talk_to_the_previous_generation2/">talk_to_the_previous_generation2</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/25/design-thinking-refresh-from-scenario-lab-taiwan/">Design Thinking Refresh From Scenario Lab (Taiwan) </a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/">Hugo Section with Layout</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/">Hello World for SoloLa Project</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/">Introduction to reinforcement learning</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/2016/11/04/review-working-pattern/">Review Working Pattern</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+</div>
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://ykhorzon.github.io/disclaimer/">Disclaimer</a> <i>&middot;</i>
+
+<a href="https://ykhorzon.github.io/terms/">Terms</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Be curious everything with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 20167 Copyright all reserved to ykhorizon
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://ykhorzon.github.io/js/jquery.min.js"></script>
+<script src="https://ykhorzon.github.io/js/bootstrap.min.js"></script>
+
+<script src="https://ykhorzon.github.io/js/js.cookie.js"></script>
+
+<script src="https://ykhorzon.github.io/js/angular.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/angular-storage.min.js"></script>
+<script src="https://ykhorzon.github.io/js/highlight.pack.js"></script>
+<script src="https://ykhorzon.github.io/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://twitter.com/ykhorizon", 
+SIGNUP_HEADER = "Suscribe me on twitter @ykhorizon ",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = "en"; 
+</script>
+
+<script src="https://ykhorzon.github.io/js/pathnamereplace.js"></script>
+
+<script src="https://ykhorzon.github.io/js/popover/angular-modal-service.min.js"></script>
+<script src="https://ykhorzon.github.io/js/angular-ismobile.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/popover.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+
+
+<script src="https://ykhorzon.github.io/tree/bootstrap.min.js"></script>
+
+
+
+
+  </body>
+</html>
+

@@ -9,10 +9,148 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Mon, 09 Oct 2017 13:40:21 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Nov 2017 19:54:37 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>發展你的顧客旅程-從生態系視角</title>
+      <link>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</link>
+      <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF%E6%9C%8D%E5%8B%99%E8%A8%AD%E8%A8%88%EF%BC%9F&#34;&gt;什麼是服務設計？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-customer-journey&#34;&gt;顧客旅程 Customer Journey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%94%9F%E6%85%8B%E7%B3%BB-ecosystem&#34;&gt;生態系 Ecosystem&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%A9%E9%A4%90%E5%BA%97%E6%A1%88%E4%BE%8B&#34;&gt;早餐店案例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%97%85%E9%81%8A%E5%B9%B3%E5%AE%89%E4%BF%9D%E9%9A%AA%E6%A1%88%E4%BE%8B&#34;&gt;旅遊平安保險案例&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#workshop-%E6%B5%81%E7%A8%8B&#34;&gt;Workshop 流程&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>virtualbox 網路設定 NAT v.s. Bridge mode</title>
+      <link>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
+      <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#scenario&#34;&gt;Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-nat-bridge-%E5%92%8C-host-only&#34;&gt;什麼是 NAT, Bridge 和 Host-Only?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%BB%B6%E4%BC%B8%E5%95%8F%E9%A1%8C%EF%BC%9A192168xxxxxx-%E5%92%8C-17216xxxxxx-%E6%98%AF%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E9%BA%BC%E6%84%8F%E7%BE%A9%EF%BC%9F&#34;&gt;延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%8E%A8%E8%AB%96%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%88%91%E7%9A%84%E5%95%8F%E9%A1%8C%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F&#34;&gt;推論一下，我的問題是什麼？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
+      <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
+      <description>影片  內容摘要 物理防治 3:33
+阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
+耕作防治管理 9:00
+改善栽培環境 淹水
+ 殺死地下害蟲  作物混作
+ 適合小農地耕作  間作、輪作
+ EX: 十字花科連作病害容易嚴重  苗期管理
+ 健康的種苗  處理觀念
+ 評估的關鍵在於發現的時期，早期可以盡早治療，接近作物收成可以考慮
+ 生物防治管理 17:30
+捕食性天敵 17:46 螳螂、蜘蛛、草蛉、瓢蟲
+寄生性天敵 23:24 小繭蜂
+亞洲玉米螟 赤眼卵寄生蜂
+微生物資材 26:27 細菌 - 蘇力菌 - 黑殭菌 - 白殭菌
+ Tips: 注意死亡蟲體，可以製造昆蟲感冒，將屍體打汁在噴灑，幫助散播
+環境濕度與其他環境因子，對於微生物防治的效果影響重大
+ 真菌 病毒 線蟲</description>
+    </item>
+    
+    <item>
+      <title>蔡月夏--食用百合鱗莖有機栽培模式之建立</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
+      <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
+      <description>品種
+ 四川百合(藥用) 蘭州百合(鮮食) 日本百合  長期進口量與價格統計(15年) 產量逐年降低，原因是產地病害
+栽培流程
+ 採土樣本，決定如何施灑肥料(N,P,K) 栽種密度安排  花改場：水分必須充足 農民：過水分造成草蔓生 甲殼素殺菌 必須除草 第四週之後，固定每週噴甲殼素 第 50 天 第一次追肥 5個月採收
+產出結果：
+子球半徑寬度
+適當儲存可以5個月，品質不變
+生理病害 - 葉燒病 百合灰黴病
+保存：</description>
+    </item>
+    
+    <item>
+      <title>[Codewars] Mumbling</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</link>
+      <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%95%8F%E9%A1%8C%E7%AF%84%E4%BE%8B&#34;&gt;問題範例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%88%91%E7%9A%84%E5%AF%AB%E6%B3%95&#34;&gt;我的寫法&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BB%96%E4%BA%BA%E8%A7%A3%E6%B3%95%E8%B3%9E%E6%9E%90&#34;&gt;他人解法賞析&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%AF%94%E8%BC%83%E5%B7%AE%E7%95%B0&#34;&gt;比較差異&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#linq&#34;&gt;LINQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#stringjoin&#34;&gt;String.Join&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#stringselect-%E8%88%87-lambda-%E9%81%8B%E7%AE%97%E5%BC%8F&#34;&gt;String.Select 與 lambda 運算式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Matplotlib 基本介紹</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
+      <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;!-- TOC --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#outline&#34;&gt;Outline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#figure&#34;&gt;Figure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#axes&#34;&gt;Axes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#axis&#34;&gt;Axis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#artist&#34;&gt;Artist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#matplotlib-pyplot-和-pylab-傻傻分不清楚&#34;&gt;Matplotlib, pyplot 和 pylab 傻傻分不清楚&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#關於使用-pyplot-的-code-style&#34;&gt;關於使用 pyplot 的 code style&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#backend-是什麼&#34;&gt;Backend 是什麼？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /TOC --&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>做事方法檢討 以打造個人blog為例</title>
@@ -43,6 +181,49 @@
     </item>
     
     <item>
+      <title>Google analytics 設定快速檢查</title>
+      <link>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</link>
+      <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</guid>
+      <description>設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.js 運作   被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。 後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
+ 不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題</description>
+    </item>
+    
+    <item>
+      <title>DevOps 全棧工程師-活動心得</title>
+      <link>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</guid>
+      <description>Speaker:
+ odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
+歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
+你以為過去沒有 DevOps? 在遠古開發時代(?)，沒有 Docker 或 Ansible 這類工具。但別忘了其實底層絕大多數的工作，都可以用 shell script 完成，可見 shell script 這類基本功有多重要。時代在改變，但要完成的工作並沒有改變，大多是變複雜，解決問題的觀念類似。
+再者，microservice 這類型的觀念，其實也早在 Unix 哲學(Unix philosophy)中被提及，差異是在不同系統層級實作( Do One Thing and Do It Well. 可以對照到 microservice)，當代有更方便工具，抽象化細節與簡化操作流程。
+框架工具之於觀念
+ 工具只是溝通工具，而不是溝通的本身 舉例：Jenkins只是CI的工具，CI的關鍵是CI觀念本身，不管用任何方式達成都好
+ 框架工具之於基本功
+ 框架不會幫你解決產品的問題，幾乎與你的產品無關 基礎不紮實，只花時間在學習框架或工具，遭遇的狀況牽扯底層或基本面，也是無法處理
+ 舉例：Java 工程師 v.s Ops 維運工程師 上圖比較 Java 工程師與 Ops 工程師的技能對照，一目了然自己缺少哪個技能。一般前段或後端工程師的 skill set 從 bottom-up 到 top-down 大家都很清楚，但提到 DevOps 大家似乎被 Top-down 工具給迷惑住了！這算是一張check list，提醒自己是否還缺少哪個部分。</description>
+    </item>
+    
+    <item>
+      <title>電腦科學(Computer Science)到底在學什麼？</title>
+      <link>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
+      <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
+      <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;想問一件事情，我已經會寫程式。&lt;br/&gt;
+大學明年可以自由選系，如果不選資工選數學的話，&lt;br/&gt;
+會是很不明智的決定嗎?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>類似Design Thinking的討論實戰檢討</title>
       <link>https://ykhorzon.github.io/tw/2017/06/29/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
@@ -67,6 +248,33 @@
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/2017/06/28/%E8%A8%AD%E8%A8%88%E6%80%9D%E8%80%83%E9%86%92%E9%86%92%E8%85%A6/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>農業模擬工具</title>
+      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
+      <description>一句話描述本文重點
+ 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
+Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
+引言 - 為什麼需要農業模擬軟體工具?
+Case1: 大範圍農業 - 澳洲農民
+請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
+(以下數據為澳洲各省，平均每個農場的大小)
+http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
+這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
+http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
+因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
+Case2: 農業工程滴灌系統評估
+場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
+http://www.trickle-l.com/new/gallery/soilpat.gif
+此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
+http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
+工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
+但這不代表simulation對於農業完全沒有幫助
+Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
     </item>
     
     <item>
@@ -95,6 +303,15 @@
  原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
  Anti-pattern
  一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
+    </item>
+    
+    <item>
+      <title>LeetCode磨練</title>
+      <link>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</link>
+      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -132,6 +349,15 @@ GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
     </item>
     
     <item>
+      <title>Kernighan-Lin algorithm</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</link>
+      <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>為何而寫</title>
       <link>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
       <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
@@ -141,19 +367,6 @@ GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
   寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
  期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
  寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
-    </item>
-    
-    <item>
-      <title>大二上</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
-      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
-      <description>井底之蛙，初出矮井
- {% asset_img ncucc.jpg %}
- 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
- 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
-Resource - ncucc</description>
     </item>
     
     <item>
@@ -177,6 +390,189 @@ OS：我回去想想
     </item>
     
     <item>
+      <title>實用hexo-抵達新手村</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
+ 可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
+ Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
+ markdown-here stackedit  Hexo 簡介 (undone) hexo 是一款 static page generator for blog，基於 node.js
+基礎使用問題 (undone) 基礎指令 (undone) Commands
+Tag plugin (undone) 當 markdown 內建的語法不能滿足你時，可以考慮看看在 Tag plugin 能否找到你所需。例如：引用(Block Quote)、程式碼區塊(Code Block)
+Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以自己土炮
+ 選擇theme除了好看之外必須考慮blog文章增加後，generate的時間  (教你定制Hexo的landscape打造自己的主题)[http://www.jianshu.com/p/b96fd206571a]</description>
+    </item>
+    
+    <item>
+      <title>實用hexo-領新手裝</title>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
+      <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;當你把hexo當作Content Providing的武器
+長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;將Hexo作為Content Providing 的工具，你將會真實面臨使用情境，開始尋找應解決工具&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;目錄&#34;&gt;目錄&lt;/h2&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&#34;我的撰寫流程-user-story&#34;&gt;我的撰寫流程 - User Story&lt;/h1&gt;
+
+&lt;p&gt;(0) 挑選出適合的主題，撰寫成為文章。我挑選題目大致上分成三類&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;活動、社群聚會的心得內容&lt;/li&gt;
+&lt;li&gt;自己規劃想要學習的系列文章&lt;/li&gt;
+&lt;li&gt;書本、課本筆記反芻&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(1) 安裝好&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;Browsersync&lt;/a&gt;後，開啟iterm，分別執行&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+    hexo g -w # Generate by watching change files
+    hexo s    # Serve public articles(non-draft) on local
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(2) 開啟 Atom，開始編輯內容
+(3) 打開 Chrome 無痕視窗並&lt;a href=&#34;http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development&#34;&gt;關閉Cache功能&lt;/a&gt;，Preview顯示效果&lt;/p&gt;
+
+&lt;p&gt;步驟2. 3.瘋狂循環，直到文章定稿&lt;/p&gt;
+
+&lt;p&gt;(4) Deploy文章到github page上&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+  hexo d -g # Deploy post articles to github page service
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;(5) 分享文章於社群或自我推銷，藉由信箱或Disqus &lt;strong&gt;取得回饋&lt;/strong&gt; 後修改文章&lt;/p&gt;
+
+&lt;h1 id=&#34;本質-理解hexo-source-code-undone&#34;&gt;本質 - 理解hexo source code (undone)&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;對javascript有基本認識，不會害怕trace code(!?)&lt;/li&gt;
+&lt;li&gt;可以打自己的plugin或script加速流程&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;升級hexo裝備&#34;&gt;升級hexo裝備&lt;/h1&gt;
+
+&lt;h2 id=&#34;受眾互動&#34;&gt;受眾互動&lt;/h2&gt;
+
+&lt;h3 id=&#34;留言功能&#34;&gt;留言功能&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&#34;&gt;https://blog.ivanwei.co/2016/01/03/2016-01-03-add-disqus-to-blog-by-hexo/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://morris821028.github.io/2014/04/12/web/hexo-comment/&#34;&gt;http://morris821028.github.io/2014/04/12/web/hexo-comment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/&#34;&gt;Jonathan Klughertz, Add Google Analytics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;seo-搜尋引擎最佳化-undone&#34;&gt;SEO 搜尋引擎最佳化 (undone)&lt;/h2&gt;
+
+&lt;h2 id=&#34;撰寫流程優化&#34;&gt;撰寫流程優化&lt;/h2&gt;
+
+&lt;h3 id=&#34;即時載入更新頁面&#34;&gt;即時載入更新頁面&lt;/h3&gt;
+
+&lt;p&gt;當你一修改文章的內容後，Browser會自動重新整理。熟悉網頁開的人，會稱此功能為 &lt;strong&gt;liveReload&lt;/strong&gt;。可參考一下文章，建立此功能。個人目前推薦 &lt;a href=&#34;https://browsersync.io/#install&#34;&gt;Browsersync&lt;/a&gt;，它還有很多許多強大功能可以玩耍，自行服用。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://moxfive.xyz/2016/03/27/hexo-browsersync/&#34;&gt;Hexo 页面自动刷新与移动端调试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://chenyuhsin.github.io/f2e/2016-0720-%E5%9C%A8-hexo-s-%E9%A0%81%E9%9D%A2%E8%87%AA%E5%8B%95%E5%88%B7%E6%96%B0.html&#34;&gt;在 hexo s 下實現頁面自動刷新，Browsersync套件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;方法比較&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jerry011235.github.io/2015/05/07/Hexo%E4%B8%8D%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E4%B9%9F%E5%8F%AF%E9%A2%84%E8%A7%88/&#34;&gt;Hexo不重新生成也可预览&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Caution: 我使用 &lt;a href=&#34;https://github.com/hexojs/hexo-browsersync&#34;&gt;hexo-browsersync&lt;/a&gt; plugin 發生 render sidebar跑出亂碼的狀況。
+因此我改用，改用原生的&lt;a href=&#34;https://browsersync.io&#34;&gt;Browsersync&lt;/a&gt;，在你的hexo資料夾下，輸入以下指令：&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;files &amp;lsquo;public&amp;rsquo;
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;Results: 我猜測是hexo-browsersync地方寫壞了，我看github有2年沒更新。等我開始trace hexo source code在來看要不要幫忙fix bug。&lt;/p&gt;
+
+&lt;h3 id=&#34;管理多重blog文章-undone&#34;&gt;管理多重blog文章 (undone)&lt;/h3&gt;
+
+&lt;h2 id=&#34;design-layout&#34;&gt;Design &amp;amp; Layout&lt;/h2&gt;
+
+&lt;h3 id=&#34;改變-theme-markdown-style&#34;&gt;改變 theme markdown style&lt;/h3&gt;
+
+&lt;p&gt;只要你具備css,html的基礎，自己可以trace theme中css和layout部分修改，打自己可blog的外觀&lt;/p&gt;
+
+&lt;p&gt;Exampel : CSS 最上方 nav-bar 的字體顏色修改&lt;/p&gt;
+
+&lt;p&gt;修改 themes/landscape/source/css/_partial/header.stylus 中 &lt;strong&gt;$nav-link&lt;/strong&gt; 的部分&lt;/p&gt;
+
+&lt;p&gt;{% codeblock lang:css %}&lt;/p&gt;
+
+&lt;p&gt;$nav-link
+  float: left
+  color: #000
+  opacity: 0.6
+  text-decoration: none
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
+  transition: opacity 0.2s
+  display: block
+  padding: 20px 15px
+  &amp;amp;:hover
+    opacity: 1&lt;/p&gt;
+
+&lt;p&gt;{% endcodeblock %}&lt;/p&gt;
+
+&lt;h3 id=&#34;以-landscape-theme-為例的教學&#34;&gt;以 landscape theme 為例的教學&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.jianshu.com/p/b96fd206571a&#34;&gt;教你定制Hexo的landscape打造自己的主题&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;目錄或摘要&#34;&gt;目錄或摘要&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Content of Table
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bubkoo/hexo-toc&#34;&gt;https://github.com/bubkoo/hexo-toc&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;multi-level categories 包含 counting&lt;/li&gt;
+
+&lt;li&gt;</description>
+    </item>
+    
+    <item>
+      <title>TGDF 2016 Notes - Fail Fast</title>
+      <link>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</link>
+      <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</guid>
+      <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
+挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
+員工人數遽增 2011 , 16人 2016, &amp;gt;100人
+死亡行軍：規格變更
+Reference: SE系統工程師
+種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
+BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
+無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
+簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
+Check input value ( use assertion too!) Add up the diagnosis info for future</description>
+    </item>
+    
+    <item>
       <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
       <link>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
       <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
@@ -193,6 +589,15 @@ Reference photo source
  文章架構清晰 (組織圖可能用 coggle 或 xmind) 包含 Target Audience、 本篇目標 規劃未來維護與搜尋 具備完整性 (內容可以不多，必須包含觀念、看法與相關survey，不可為工具指令、單純抒發心情文章，可參考 ABCD 或尋找其他論述架構)
   方法
  Weekly Review 請別人給予回饋，說明優點、缺點和許願池 ( 持續改進 )  細節與堅持</description>
+    </item>
+    
+    <item>
+      <title>Software Simulation Tools for Agriculture</title>
+      <link>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</guid>
+      <description>Hackpad Version</description>
     </item>
     
   </channel>

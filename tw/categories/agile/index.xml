@@ -16,10 +16,10 @@
     
     <item>
       <title>DevOps 全棧工程師-活動心得</title>
-      <link>https://ykhorzon.github.io/tw/agile/devops_experience/</link>
+      <link>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</link>
       <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/devops_experience/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</guid>
       <description>Speaker:
  odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
 歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
@@ -34,10 +34,10 @@
     
     <item>
       <title>TGDF 2016 Notes - Fail Fast</title>
-      <link>https://ykhorzon.github.io/tw/agile/fail_fast/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</link>
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/fail_fast/</guid>
+      <guid>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</guid>
       <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
 挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
 員工人數遽增 2011 , 16人 2016, &amp;gt;100人

@@ -3,27 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</loc>
+    <loc>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</loc>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</loc>
     <lastmod>2017-10-08T13:06:07+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</loc>
-    <lastmod>2017-10-04T10:25:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/agile/devops_experience/</loc>
+    <loc>https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ykhorzon.github.io/tw/agile/devops_experience/"
+                href="https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ykhorzon.github.io/agile/devops_experience/"
+                href="https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/"
                 />
   </url>
   
@@ -39,21 +39,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/about/me/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</loc>
-    <lastmod>2017-06-30T23:44:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/"
                 />
   </url>
   
@@ -93,27 +78,17 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/hugo/new_blog/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/computer/hugo/new_blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/computer/hugo/new_blog/"
-                />
+    <loc>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</loc>
+    <lastmod>2017-06-15T15:24:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</loc>
+    <loc>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</loc>
     <lastmod>2017-04-27T20:52:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/rl/introduction-to-reinforcement-learning/</loc>
+    <loc>https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/</loc>
     <lastmod>2017-04-15T18:17:50+00:00</lastmod>
   </url>
   
@@ -128,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</loc>
+    <loc>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</loc>
     <lastmod>2016-10-04T10:52:33+00:00</lastmod>
   </url>
   
@@ -153,28 +128,28 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</loc>
+    <loc>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</loc>
     <lastmod>2016-09-22T11:39:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</loc>
+    <loc>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</loc>
     <lastmod>2016-09-13T23:42:55+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/agile/coscup-startup-culture-buliding-talk/</loc>
+    <loc>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</loc>
     <lastmod>2016-09-12T20:09:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</loc>
+    <loc>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</loc>
     <lastmod>2016-09-11T11:58:16+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/</loc>
-    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -186,6 +161,11 @@
                 hreflang="en"
                 href="https://ykhorzon.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/post/about_blog/</loc>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
   </url>
   
   <url>
@@ -221,22 +201,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/agile/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/agile/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/categories/agile/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
@@ -253,25 +217,25 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/devops/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/agile/</loc>
+    <loc>https://ykhorzon.github.io/tags/agile/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ykhorzon.github.io/tw/agile/"
+                href="https://ykhorzon.github.io/tw/tags/agile/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ykhorzon.github.io/agile/"
+                href="https://ykhorzon.github.io/tags/agile/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/categories/agile/devops/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -297,24 +261,8 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/agriculture/</loc>
-    <lastmod>2016-09-22T11:39:35+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/agriculture/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/agriculture/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/categories/blog/</loc>
-    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -329,35 +277,15 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/blog/hugo/</loc>
-    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/categories/blog/content/</loc>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/blog/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/blog/hugo/"
-                />
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/blogging/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/categories/blog/hugo/</loc>
+    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/blogging/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/blogging/"
-                />
   </url>
   
   <url>
@@ -377,24 +305,14 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/</loc>
-    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tags/concept/</loc>
+    <lastmod>2017-04-15T18:17:50+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/computer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/computer/"
-                />
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/concept/</loc>
-    <lastmod>2017-04-15T18:17:50+00:00</lastmod>
+    <loc>https://ykhorzon.github.io/tags/content/</loc>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -467,18 +385,18 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/development/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/categories/english/</loc>
+    <lastmod>2017-06-30T19:38:15+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/development/"
+                href="https://ykhorzon.github.io/tw/categories/english/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ykhorzon.github.io/tags/development/"
+                href="https://ykhorzon.github.io/categories/english/"
                 />
   </url>
   
@@ -495,22 +413,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/tags/english/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/categories/english/</loc>
-    <lastmod>2017-06-30T19:38:15+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/"
                 />
   </url>
   
@@ -537,27 +439,11 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/hugo/</loc>
-    <lastmod>2017-06-30T23:44:14+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/hugo/"
-                />
+    <loc>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</loc>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</loc>
+    <loc>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</loc>
   </url>
   
   <url>
@@ -618,7 +504,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/post/</loc>
-    <lastmod>2017-06-30T19:38:15+08:00</lastmod>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -661,13 +547,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/side-project/</loc>
+    <loc>https://ykhorzon.github.io/categories/side-project/</loc>
     <lastmod>2017-04-27T20:52:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/side-project/</loc>
+    <loc>https://ykhorzon.github.io/tags/side-project/</loc>
     <lastmod>2017-04-27T20:52:31+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -685,19 +571,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/static-site/</loc>
-    <lastmod>2017-06-07T01:23:35+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tags/statistics/</loc>
     <lastmod>2016-09-11T11:58:16+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/computer/string-manipulation/</loc>
+    <loc>https://ykhorzon.github.io/1/01/01/string-manipulation/</loc>
   </url>
   
   <url>
@@ -756,7 +636,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tags/undone/</loc>
-    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <lastmod>2017-10-09T20:00:50+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -768,6 +648,12 @@
                 hreflang="en"
                 href="https://ykhorzon.github.io/tags/undone/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tags/working-on/</loc>
+    <lastmod>2017-10-08T13:06:07+08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

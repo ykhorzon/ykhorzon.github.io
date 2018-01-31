@@ -16,10 +16,10 @@
     
     <item>
       <title>Javascript Testing Tool Survey</title>
-      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <link>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</link>
       <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <guid>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</guid>
       <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
     </item>
     

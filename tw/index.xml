@@ -16,10 +16,10 @@
     
     <item>
       <title>發展你的顧客旅程-從生態系視角</title>
-      <link>https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/</link>
+      <link>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/user_journay_with_ecosystem/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -39,22 +39,28 @@
     
     <item>
       <title>virtualbox 網路設定 NAT v.s. Bridge mode</title>
-      <link>https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/</link>
+      <link>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
       <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/virtualbox_nat_bridge/</guid>
-      <description>情境 在使用 virtualbox 作為開發環境時，需要由外部 internet 聯絡 virtualbox 內部的 guest OS，使用 Networking Adapter 預設為 NAT ，無法滿足這個需求(需要倚靠 port forwarding)
-什麼是 NAT, Bridge 和 Host-Only? 我收集一些網路上的資料，統整了一下
- Differences between bridged and NAT networking NAT vs. bridged network: A simple diagram  Host-only only permits network operations with the Host OS.
-NAT mode will mask all network activity as if it came from your Host OS, although the VM can access external resources.</description>
+      <guid>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#scenario&#34;&gt;Scenario&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-nat-bridge-%E5%92%8C-host-only&#34;&gt;什麼是 NAT, Bridge 和 Host-Only?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%BB%B6%E4%BC%B8%E5%95%8F%E9%A1%8C%EF%BC%9A192168xxxxxx-%E5%92%8C-17216xxxxxx-%E6%98%AF%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E9%BA%BC%E6%84%8F%E7%BE%A9%EF%BC%9F&#34;&gt;延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%8E%A8%E8%AB%96%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%88%91%E7%9A%84%E5%95%8F%E9%A1%8C%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F&#34;&gt;推論一下，我的問題是什麼？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
-      <link>https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agriculture/pest_disease_intro_1/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
       <description>影片  內容摘要 物理防治 3:33
 阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
 耕作防治管理 9:00
@@ -75,11 +81,28 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
     </item>
     
     <item>
+      <title>蔡月夏--食用百合鱗莖有機栽培模式之建立</title>
+      <link>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
+      <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
+      <description>品種
+ 四川百合(藥用) 蘭州百合(鮮食) 日本百合  長期進口量與價格統計(15年) 產量逐年降低，原因是產地病害
+栽培流程
+ 採土樣本，決定如何施灑肥料(N,P,K) 栽種密度安排  花改場：水分必須充足 農民：過水分造成草蔓生 甲殼素殺菌 必須除草 第四週之後，固定每週噴甲殼素 第 50 天 第一次追肥 5個月採收
+產出結果：
+子球半徑寬度
+適當儲存可以5個月，品質不變
+生理病害 - 葉燒病 百合灰黴病
+保存：</description>
+    </item>
+    
+    <item>
       <title>[Codewars] Mumbling</title>
-      <link>https://ykhorzon.github.io/tw/computer/codewars/mumbling/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</link>
       <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/codewars/mumbling/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -100,10 +123,10 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
     
     <item>
       <title>Matplotlib 基本介紹</title>
-      <link>https://ykhorzon.github.io/tw/computer/python/matplot_note/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/python/matplot_note/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;!-- TOC --&gt;
@@ -159,20 +182,20 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
     
     <item>
       <title>Google analytics 設定快速檢查</title>
-      <link>https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/</link>
+      <link>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</link>
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/web/google_analytics_setup/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</guid>
       <description>設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.js 運作   被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。 後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
  不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題</description>
     </item>
     
     <item>
       <title>DevOps 全棧工程師-活動心得</title>
-      <link>https://ykhorzon.github.io/tw/agile/devops_experience/</link>
+      <link>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</link>
       <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/devops_experience/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</guid>
       <description>Speaker:
  odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
 歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
@@ -187,10 +210,10 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
     
     <item>
       <title>電腦科學(Computer Science)到底在學什麼？</title>
-      <link>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</link>
+      <link>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/experience/what_is_computer_science/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
       <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -209,15 +232,6 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
       <description> 你好, 我是 ykhorizon (a.k.a. ykhu in community)， 我出生長大在台灣，興趣非常廣泛。 努力堅持自己信念與原則，設法讓自己做好玩的事情，遇見有趣的人。
 與我有關的組織 [Elastic Farm]() Open Agri. Lab
 興趣  Programming, Agile and Startup Agriculture, Sustainable and Irrigation Music, Guitar and Grogressive Cooking, dog and insect  目標  Simple Do not forget the initial motivation Underpin myself, family and friends  聯絡我  twitter github linkedin Or contact me with ykhorizon.light@gmail.com  </description>
-    </item>
-    
-    <item>
-      <title>關於 hugo 的文件</title>
-      <link>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:12 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hugo/hugo_doc_memo/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -248,27 +262,11 @@ NAT mode will mask all network activity as if it came from your Host OS, althoug
     </item>
     
     <item>
-      <title>Blog採用hugo重新開張！</title>
-      <link>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:59 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hugo/new_blog/</guid>
-      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
-
-&lt;h1 id=&#34;動機&#34;&gt;動機&lt;/h1&gt;
-
-&lt;p&gt;我的github page blog又重新開張，但這次改用了 hugo 作為 static page generator。
-轉換的原因主要是想要支援多重語言，解決原本分成2個獨立不同的blog，造成維護困難的問題。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>農業模擬工具</title>
-      <link>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
+      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agriculture/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
       <description>一句話描述本文重點
  從這篇文章得到    目錄 Software Simulation Tools for Agriculture
 Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
@@ -320,10 +318,10 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
     
     <item>
       <title>LeetCode磨練</title>
-      <link>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</link>
+      <link>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</link>
       <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/leetcode%E7%A3%A8%E7%B7%B4/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</guid>
       <description></description>
     </item>
     
@@ -363,10 +361,10 @@ GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
     
     <item>
       <title>Kernighan-Lin algorithm</title>
-      <link>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</link>
       <pubDate>Thu, 26 Jan 2017 23:41:53 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/kernighan-lin-algorithm/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/26/kernighan-lin-algorithm/</guid>
       <description></description>
     </item>
     
@@ -380,19 +378,6 @@ GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
   寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
  期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
  寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
-    </item>
-    
-    <item>
-      <title>大二上</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</link>
-      <pubDate>Tue, 24 Jan 2017 22:24:14 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%A4%A7%E4%BA%8C%E4%B8%8A/</guid>
-      <description>井底之蛙，初出矮井
- {% asset_img ncucc.jpg %}
- 我有永遠都記得，大二上學期，開始在學校的計算機中心打工，無比的無力無助。 但是這個衝擊，讓我認清很多自己與我所處在的IT產業的特性。 但從現在回想起來，這一段刺激我、使我成長的動力，何嘗不是一種收穫？
- 當時的我，剛從轉學考的苦海脫離，進入新的學校，期待著新的生活
-Resource - ncucc</description>
     </item>
     
     <item>
@@ -417,10 +402,10 @@ OS：我回去想想
     
     <item>
       <title>實用hexo-抵達新手村</title>
-      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</link>
       <pubDate>Tue, 24 Jan 2017 21:58:01 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E6%8A%B5%E9%81%94%E6%96%B0%E6%89%8B%E6%9D%91/</guid>
       <description>從這篇文章得到  Markdown 初次品嚐 如何搭建起一個Hexo(有一點氾濫的主題) Hexo基礎操作(同上)  目錄 Markdown (undone) 我自己選用markdown的主要原有：
  可閱讀之原始檔，是一種容易移植、通用的格式 恰到好處的結構化語法，我可以接受  可以看看 Github 官方的 markdown 教學文件( Github上不少人也用markdown .md作為程式碼文件之格式)
  Mastering Markdown Markdown Cheatsheet  如果懶得看文件，直接玩玩看線上的 markdown editor，親身感受一下markdown的風格。
@@ -433,10 +418,10 @@ Theme 挑選 我的考量：簡單、快速生成為首要考量，美化可以�
     
     <item>
       <title>實用hexo-領新手裝</title>
-      <link>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</link>
       <pubDate>Tue, 24 Jan 2017 16:15:39 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/computer/hexo/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E5%AF%A6%E7%94%A8hexo-%E9%A0%98%E6%96%B0%E6%89%8B%E8%A3%9D/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;當你把hexo當作Content Providing的武器
 長時間使用並認真感受，才能考驗她的架構與設計&lt;/p&gt;
@@ -581,10 +566,10 @@ browser-sync start &amp;ndash;server &amp;lsquo;public&amp;rsquo; &amp;ndash;fil
     
     <item>
       <title>TGDF 2016 Notes - Fail Fast</title>
-      <link>https://ykhorzon.github.io/tw/agile/fail_fast/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</link>
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agile/fail_fast/</guid>
+      <guid>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</guid>
       <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
 挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
 員工人數遽增 2011 , 16人 2016, &amp;gt;100人
@@ -619,10 +604,10 @@ Reference photo source
     
     <item>
       <title>Software Simulation Tools for Agriculture</title>
-      <link>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</link>
+      <link>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/agriculture/software-simulation-tools-for-agriculture/</guid>
+      <guid>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</guid>
       <description>Hackpad Version</description>
     </item>
     

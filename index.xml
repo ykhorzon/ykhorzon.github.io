@@ -9,36 +9,38 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
-    <lastBuildDate>Sun, 08 Oct 2017 13:06:07 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2017 20:00:50 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Build my own hugo blog with additional features</title>
-      <link>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</link>
-      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
+      <title>Content of this blog</title>
+      <link>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</link>
+      <pubDate>Mon, 09 Oct 2017 20:00:50 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/hugo/todo_of_this_blog/</guid>
-      <description>Abstract I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
- PART I: Wanted Feature (Those important feature for me) PART II: [Content Management Experience]()  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url  1.Display hierarchy categories The categories of hugo is only one-level (It&amp;rsquo;s called Taxonomies).</description>
+      <guid>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</guid>
+      <description>How to choose the topic of article? Here two motivations that why I write blog article:
+ Write article for my self that force me to review (or preview) the learning material
+ Community meetup and event  Reduce rely on slide of presenter and directly use slide content try to use my own sentence or word to interpret it  Online and other course Tool learning/ new skill,tech practices  Write article for other target audience</description>
     </item>
     
     <item>
-      <title>Quick demo to hugo</title>
-      <link>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</link>
-      <pubDate>Wed, 04 Oct 2017 10:25:13 +0800</pubDate>
+      <title>Build my own hugo blog with additional features</title>
+      <link>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</link>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/hugo/hugo_quick_overview/</guid>
-      <description></description>
+      <guid>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</guid>
+      <description>Outline I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Content Management Experience  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url 5. Access to file by title/filename in multilingual condition 6.</description>
     </item>
     
     <item>
       <title>Full Stack DevOps Engineer?</title>
-      <link>https://ykhorzon.github.io/agile/devops_experience/</link>
+      <link>https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agile/devops_experience/</guid>
+      <guid>https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/</guid>
       <description>Speaker
  Feng  Warnings
  The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>
@@ -55,15 +57,6 @@ I born in Taiwan and grew up in city. I&amp;rsquo;m interest in a lot of differe
  Life is only one time. You can barely change world but you can decide how to think and take actions to the world.
  I try to do something excite me and try not to leave any regrets in life.
 Now, I still learn to be more focus but unstoppably explore new things in the world.</description>
-    </item>
-    
-    <item>
-      <title>hugo documents memo</title>
-      <link>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</link>
-      <pubDate>Fri, 30 Jun 2017 23:44:14 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/hugo/hugo_doc_memo/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -94,22 +87,23 @@ Now, I still learn to be more focus but unstoppably explore new things in the wo
     </item>
     
     <item>
-      <title>My blog is new release with hugo!</title>
-      <link>https://ykhorzon.github.io/computer/hugo/new_blog/</link>
-      <pubDate>Wed, 07 Jun 2017 01:23:35 +0800</pubDate>
+      <title>Hugo Section with Layout</title>
+      <link>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</link>
+      <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/hugo/new_blog/</guid>
-      <description>Motivation  I just want a simple multilingual site for blogging!
- Originally, I have two blog on seperating github page for implementing multilingual by hexo as static site generater. As the size grow up, it is messy and hard to manage. Then, I decide to find alternative solution for my blog.
-Frequent Use Features Outline The following part is frequent useful feature for management blog website. I roughly classify into different catogeries.</description>
+      <guid>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</guid>
+      <description>Opening Image image source
+ Try to organize your stuff.
+ Purposes  Learn section idea with layout assignment Meaning of hugo type and layout keyword front matter in .md Meaning of hugo archetype  Hugo Section Idea In hugo, every folder under content we call it a &amp;laquo;section&amp;raquo;. You have to organize your file in your own way that can reduce the extra configuration for hugo.
+ It&amp;rsquo;s a great design idea!</description>
     </item>
     
     <item>
       <title>Hello World for SoloLa Project</title>
-      <link>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</link>
+      <link>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</link>
       <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/solola/hello-world-for-solola-project/</guid>
+      <guid>https://ykhorzon.github.io/2017/04/27/hello-world-for-solola-project/</guid>
       <description>  Transcription is never a nightmare again.
  Outline Starting Point I had start work with Researhc Center for Information Technology Innovation, Academia Sinica from Sep. 2015 . The research team leading by Yuan-Ping Chen under Associate Research Fellow Yi-Hsuan Yang.
 What is SoloLa? </description>
@@ -117,10 +111,10 @@ What is SoloLa? </description>
     
     <item>
       <title>Introduction to reinforcement learning</title>
-      <link>https://ykhorzon.github.io/computer/rl/introduction-to-reinforcement-learning/</link>
+      <link>https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/rl/introduction-to-reinforcement-learning/</guid>
+      <guid>https://ykhorzon.github.io/2017/04/15/introduction-to-reinforcement-learning/</guid>
       <description>Learning is driven by reward
  What will you get in this article  Basic concept of reinforcement learning  Outline Concept In many scenario, real world problems do not exist the ground true answer. The supervised learning could not handle this problem.
 But we can use trial and error to get the answer then calibrate our behavior. The key concept is reward from environment. That is also the way human learning new thing.</description>
@@ -152,10 +146,10 @@ Why we need resume?  To find out a lot about you in short time
     
     <item>
       <title>Javascript Testing Tool Survey</title>
-      <link>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</link>
+      <link>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</link>
       <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/javascript-testing-tool-survey/</guid>
+      <guid>https://ykhorzon.github.io/2016/10/04/javascript-testing-tool-survey/</guid>
       <description>Outline  End to End Test(e2e) : simulate user behavior and focus as UI Unit Test for Javascript  End to End Test Vue + nightwatch.js</description>
     </item>
     
@@ -217,10 +211,10 @@ Flow by odd-to-new find S, V</description>
     
     <item>
       <title>Design Automated Irrigation System S1</title>
-      <link>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</link>
+      <link>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</link>
       <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/design-automated-irrigation-systemblog-notes/</guid>
+      <guid>https://ykhorzon.github.io/2016/09/22/design-automated-irrigation-system-s1/</guid>
       <description>Concepts before start Before we start to do the works (no matter design or implement), we need to set up our mind set and objectives. It can prevent us from wasting effort.
 MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just enough features to gather validated learning about the product and its continued development.
   For startups, how to know the enough features is a art.</description>
@@ -228,10 +222,10 @@ MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just
     
     <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</link>
+      <link>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/game/spear-and-shield-of-game-developing/</guid>
+      <guid>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
       <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
 關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
 開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
@@ -243,10 +237,10 @@ MVP, Minimum Viable Product  minimum viable product (MVP) is a product with just
     
     <item>
       <title>COSCUP Startup Culture Buliding Talk</title>
-      <link>https://ykhorzon.github.io/agile/coscup-startup-culture-buliding-talk/</link>
+      <link>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</link>
       <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agile/coscup-startup-culture-buliding-talk/</guid>
+      <guid>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</guid>
       <description>人 環境(core) 文化(core) 方法 工具  How to Open?
 ###工廠 vs 創意 - product-driven - customer-driven
 敏捷的文化 增進彼此之間的溝通
@@ -262,10 +256,10 @@ PM為溝通的角色
     
     <item>
       <title>Statistics and Data Analysis for Engineers part 1</title>
-      <link>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</link>
+      <link>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/statistics-and-data-analysis-for-engineers-part-1/</guid>
+      <guid>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</guid>
       <description>Purpose  This is a personal notes to organize the knowledge Pick up basic statistics concept to  Explore more deeply in statistics Support my research   Target Audience For those who do not take statistics course before
 Article Structure @( use xmind as map of this article )
 Content start!
@@ -274,10 +268,10 @@ Basic Concepts What is statistics? Statistics is the science of collecting, anal
     
     <item>
       <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</link>
+      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/</guid>
+      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
       <description>Purpose Review my working plan and structure
 Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
 Article Structure Content My research work: Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Motivation According to our observation,
@@ -287,10 +281,10 @@ Metohds Contributions Scenarios system design process</description>
     
     <item>
       <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</link>
+      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/agriculture/introduction_to_my_research/introduction_to_my_research/</guid>
+      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
       <description>Metadata Purpose Review my working plan and structure
 Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
 Article Structure Content start
@@ -301,10 +295,10 @@ Purpose a self-adaptive control method and architecture for small scale precise 
     
     <item>
       <title>String Manipulation</title>
-      <link>https://ykhorzon.github.io/computer/string-manipulation/</link>
+      <link>https://ykhorzon.github.io/1/01/01/string-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/computer/string-manipulation/</guid>
+      <guid>https://ykhorzon.github.io/1/01/01/string-manipulation/</guid>
       <description></description>
     </item>
     

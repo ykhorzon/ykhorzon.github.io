@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://ykhorzon.github.io/post/about_blog/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Mon, 09 Oct 2017 20:00:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/post/about_blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content of this blog</title>
+      <link>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</link>
+      <pubDate>Mon, 09 Oct 2017 20:00:50 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/10/09/content-of-this-blog/</guid>
+      <description>How to choose the topic of article? Here two motivations that why I write blog article:
+ Write article for my self that force me to review (or preview) the learning material
+ Community meetup and event  Reduce rely on slide of presenter and directly use slide content try to use my own sentence or word to interpret it  Online and other course Tool learning/ new skill,tech practices  Write article for other target audience</description>
+    </item>
+    
+    <item>
+      <title>Build my own hugo blog with additional features</title>
+      <link>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</link>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</guid>
+      <description>Outline I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Content Management Experience  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url 5. Access to file by title/filename in multilingual condition 6.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Section with Layout</title>
+      <link>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</link>
+      <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</guid>
+      <description>Opening Image image source
+ Try to organize your stuff.
+ Purposes  Learn section idea with layout assignment Meaning of hugo type and layout keyword front matter in .md Meaning of hugo archetype  Hugo Section Idea In hugo, every folder under content we call it a &amp;laquo;section&amp;raquo;. You have to organize your file in your own way that can reduce the extra configuration for hugo.
+ It&amp;rsquo;s a great design idea!</description>
+    </item>
+    
+  </channel>
+</rss>

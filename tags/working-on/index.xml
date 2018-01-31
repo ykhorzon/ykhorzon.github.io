@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working On on </title>
+    <link>https://ykhorzon.github.io/tags/working-on/</link>
+    <description>Recent content in Working On on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <lastBuildDate>Sun, 08 Oct 2017 13:06:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tags/working-on/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build my own hugo blog with additional features</title>
+      <link>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</link>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</guid>
+      <description>Outline I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
+ PART I: Wanted Feature (Those important feature for me) PART II: Content Management Experience  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url 5. Access to file by title/filename in multilingual condition 6.</description>
+    </item>
+    
+  </channel>
+</rss>
