@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Thinking on </title>
+    <link>https://ykhorzon.github.io/tw/categories/system-thinking/</link>
+    <description>Recent content in System Thinking on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Tue, 16 Jan 2018 20:04:19 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/system-thinking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agile Meetup 新竹 - 系統思考工作坊</title>
+      <link>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
+      <pubDate>Tue, 16 Jan 2018 20:04:19 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
+      <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%AD%B8%E7%BF%92%E7%9B%AE%E6%A8%99&#34;&gt;學習目標&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%B0%A1%E4%BB%8B%E8%88%87%E5%8B%95%E6%A9%9F&#34;&gt;簡介與動機&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#system-think-%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83&#34;&gt;System Think 系統思考&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E7%B3%BB%E7%B5%B1&#34;&gt;系統&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#causal-loop-diagram-cld-%E5%9C%96%E5%83%8F%E5%8C%96-structure-of-system&#34;&gt;Causal Loop Diagram (CLD), 圖像化 Structure of System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%A6%82%E4%BD%95%E5%BB%BA%E6%A7%8Bcld%EF%BC%9F-workshop%E5%B0%8F%E7%B5%84%E6%93%8D%E4%BD%9C%E9%81%8E%E7%A8%8B&#34;&gt;如何建構CLD？ (Workshop小組操作過程)&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1%E6%8F%8F%E8%BF%B0%E5%95%8F%E9%A1%8C%E8%88%87%E5%AE%9A%E7%BE%A9%E4%B8%BB%E8%BB%B8&#34;&gt;1.描述問題與定義主軸&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2%E5%B0%8B%E6%89%BE%E8%AE%8A%E6%95%B8&#34;&gt;2.尋找變數&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF%E8%AE%8A%E6%95%B8%EF%BC%9F&#34;&gt;什麼是變數？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%9C%98%E9%9A%8A%E6%93%8D%E4%BD%9C&#34;&gt;團隊操作&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#3%E5%BB%BA%E7%AB%8B%E9%97%9C%E8%81%AFlink&#34;&gt;3.建立關聯(link)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#4%E5%AE%8C%E6%88%90%E7%B3%BB%E7%B5%B1%E7%9A%84-cld&#34;&gt;4.完成系統的 CLD&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#41-%E5%85%88%E5%BB%BA%E7%AB%8B%E4%B8%80%E6%A2%9D%E7%B0%A1%E5%96%AE%E8%BF%B4%E5%9C%88loop&#34;&gt;4.1 先建立一條簡單迴圈(Loop)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#42-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E8%BF%B4%E5%9C%88&#34;&gt;4.2 完成所有迴圈&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E4%BD%BF%E7%94%A8%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85&#34;&gt;使用注意事項&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3&#34;&gt;深入了解&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
