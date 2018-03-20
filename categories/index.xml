@@ -33,38 +33,11 @@
     </item>
     
     <item>
-      <title>Agriculture</title>
-      <link>https://ykhorzon.github.io/categories/agriculture/</link>
-      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/agriculture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Agriculture/Irrigation</title>
-      <link>https://ykhorzon.github.io/categories/agriculture/irrigation/</link>
-      <pubDate>Thu, 22 Sep 2016 11:39:35 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/agriculture/irrigation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blog</title>
       <link>https://ykhorzon.github.io/categories/blog/</link>
-      <pubDate>Mon, 09 Oct 2017 20:00:50 +0800</pubDate>
+      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog/Content</title>
-      <link>https://ykhorzon.github.io/categories/blog/content/</link>
-      <pubDate>Mon, 09 Oct 2017 20:00:50 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/blog/content/</guid>
       <description></description>
     </item>
     
@@ -101,24 +74,6 @@
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/cs/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daily</title>
-      <link>https://ykhorzon.github.io/categories/daily/</link>
-      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/daily/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Daily/Talk</title>
-      <link>https://ykhorzon.github.io/categories/daily/talk/</link>
-      <pubDate>Thu, 29 Jun 2017 08:33:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/daily/talk/</guid>
       <description></description>
     </item>
     
@@ -164,60 +119,6 @@
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/categories/marketing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Myself</title>
-      <link>https://ykhorzon.github.io/categories/myself/</link>
-      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/myself/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Myself/Retrospective</title>
-      <link>https://ykhorzon.github.io/categories/myself/retrospective/</link>
-      <pubDate>Fri, 04 Nov 2016 22:41:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/myself/retrospective/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming</title>
-      <link>https://ykhorzon.github.io/categories/programming/</link>
-      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming/Javascript</title>
-      <link>https://ykhorzon.github.io/categories/programming/javascript/</link>
-      <pubDate>Tue, 04 Oct 2016 10:52:33 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/programming/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Side Project</title>
-      <link>https://ykhorzon.github.io/categories/side-project/</link>
-      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/side-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Side Project/Solola</title>
-      <link>https://ykhorzon.github.io/categories/side-project/solola/</link>
-      <pubDate>Thu, 27 Apr 2017 20:52:31 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/categories/side-project/solola/</guid>
       <description></description>
     </item>
     
