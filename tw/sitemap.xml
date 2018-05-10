@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</loc>
+    <lastmod>2018-05-04T19:08:57+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2018-01-16T20:04:19+08:00</lastmod>
   </url>
@@ -139,7 +144,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
-    <lastmod>2018-01-16T20:04:19+08:00</lastmod>
+    <lastmod>2018-05-04T19:08:57+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -192,22 +197,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
-    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/agile/</loc>
     <lastmod>2017-08-02T12:41:57+08:00</lastmod>
     <priority>0</priority>
@@ -220,6 +209,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/agile/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
+    <lastmod>2017-08-02T12:41:57+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
                 />
   </url>
   
@@ -298,6 +303,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
@@ -314,12 +325,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/tags/drawing/</loc>
     <lastmod>2017-10-25T12:27:23+08:00</lastmod>
     <priority>0</priority>
@@ -329,22 +334,6 @@
     <loc>https://ykhorzon.github.io/tw/tags/ecosystem/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
-    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/"
-                />
   </url>
   
   <url>
@@ -360,6 +349,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/english/</loc>
+    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/english/"
                 />
   </url>
   
@@ -382,6 +387,12 @@
   <url>
     <loc>https://ykhorzon.github.io/tw/tags/google-analytics/</loc>
     <lastmod>2017-08-16T22:29:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/hardware/</loc>
+    <lastmod>2018-05-04T19:08:57+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,7 +452,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/post/</loc>
-    <lastmod>2018-01-16T20:04:19+08:00</lastmod>
+    <lastmod>2018-05-04T19:08:57+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -486,13 +497,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/service-design/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/service-design/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/service-design/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/service-design/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -508,13 +519,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/system-thinking/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/system-thinking/</loc>
     <lastmod>2018-01-16T20:04:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/system-thinking/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/system-thinking/</loc>
     <lastmod>2018-01-16T20:04:19+08:00</lastmod>
     <priority>0</priority>
   </url>

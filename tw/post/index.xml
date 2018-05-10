@@ -9,10 +9,41 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Tue, 16 Jan 2018 20:04:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 04 May 2018 19:08:57 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</title>
+      <link>https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</link>
+      <pubDate>Fri, 04 May 2018 19:08:57 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</guid>
+      <description>&lt;h1 id=&#34;startup-硬體開發遭遇什麼陷阱&#34;&gt;Startup 硬體開發遭遇什麼陷阱？&lt;/h1&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;想像一下，你是一名新創公司的頭號工程師，公司沒有資源（缺錢、缺人），又正在開發沒人做過的產品，沒有所謂的類似產品可以參考，
+一切從零開始打造。新創公司與成熟公司最大差異，新創公司沒有前人累積的軟硬體、經驗與工具，可以借助節省開發，減少走冤枉路的時間，
+也就是 &lt;strong&gt;Not much to leverage&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;what is &lt;a href=&#34;http://mrjamie.cc/2013/06/03/good-strategy-leverage/&#34;&gt;leverage&lt;/a&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;from Mr. Jamie, 創業 CEO：好策略用「支點」撐起地球&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;更糟的是，你的產品牽扯到硬體生產，硬體不像是軟體，只需要電腦開發與運行程式的裝置就可以；硬體製造牽扯到各種物理限制與考量，不是東西可以動就好；硬體產品不可能完全倚靠自己的公司生產，為了降低生產成本，勢必需要尋找配合的製造廠商，這又是另一個大陷阱。此外，當你的產品需要賣到不同國家，又牽扯各國的認證等等。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;所以在硬體製造上，有哪些陷阱可以事先避免呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Agile Meetup 新竹 - 系統思考工作坊 心得</title>

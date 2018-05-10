@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱  &middot; </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱  &middot;  ">
+<meta property="og:site_name" content=""/>
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/" />
+<meta property="og:locale" content="tw">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2018-05-04T19:08:57&#43;08:00" />
+<meta property="og:article:modified_time" content="2018-05-04T19:08:57&#43;08:00" />
+
+  
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Myprofile" />
+<meta name="twitter:creator" content="@Myprofile" />
+<meta name="twitter:title" content="硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/" />
+<meta name="twitter:domain" content="https://ykhorzon.github.io">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2018-05-04",
+    "description": "",
+    "wordCount": 317
+  }
+</script>
+  
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-97451129-2', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+
+
+<link rel="canonical" href="https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://ykhorzon.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/tree/styles.css">
+<meta name="generator" content="Hugo 0.39" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://ykhorzon.github.io/css/bootswatch/paper/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://ykhorzon.github.io/css/highlight/default.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
+
+
+
+</head>
+
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-left">
+            
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/" >
+                
+                首頁
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/about/me" >
+                
+                關於我
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/post/" >
+                
+                文章
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="">
+                 <a id="langSwitchLink" toSwitchLang="en" href="javascript:changeLanguage('en');" >
+                  
+                  English 
+                </a> 
+            </li>
+            
+              
+          </ul>
+          
+          <form class="navbar-form navbar-left navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Find</button>
+          </form>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 defualtSingleArticleContent">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="text-center">
+
+    <h1>硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱
+</h1>
+
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2018-05-04">4 May, 2018</time>
+</small>
+
+
+  <small>
+    &middot; by ykhorizon
+  
+  &middot; Read in about 2 min
+  &middot; (317 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f&amp;title=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+      <div class="content">
+  <h1 id="startup-硬體開發遭遇什麼陷阱">Startup 硬體開發遭遇什麼陷阱？</h1>
+
+<p><br></p>
+
+<p>想像一下，你是一名新創公司的頭號工程師，公司沒有資源（缺錢、缺人），又正在開發沒人做過的產品，沒有所謂的類似產品可以參考，
+一切從零開始打造。新創公司與成熟公司最大差異，新創公司沒有前人累積的軟硬體、經驗與工具，可以借助節省開發，減少走冤枉路的時間，
+也就是 <strong>Not much to leverage</strong></p>
+
+<blockquote>
+<ul>
+<li>what is <a href="http://mrjamie.cc/2013/06/03/good-strategy-leverage/">leverage</a>?</li>
+</ul>
+
+<p><code>from Mr. Jamie, 創業 CEO：好策略用「支點」撐起地球</code></p>
+</blockquote>
+
+<p>更糟的是，你的產品牽扯到硬體生產，硬體不像是軟體，只需要電腦開發與運行程式的裝置就可以；硬體製造牽扯到各種物理限制與考量，不是東西可以動就好；硬體產品不可能完全倚靠自己的公司生產，為了降低生產成本，勢必需要尋找配合的製造廠商，這又是另一個大陷阱。此外，當你的產品需要賣到不同國家，又牽扯各國的認證等等。</p>
+
+<blockquote>
+<p>所以在硬體製造上，有哪些陷阱可以事先避免呢？</p>
+</blockquote>
+
+<p></p>
+
+<h1 id="startup-的先天限制">Startup 的先天限制</h1>
+
+<p>新創公司普遍有以下的困境：</p>
+
+<ul>
+<li>有限資源 Limited Resource（沒錢、沒人脈、沒經驗）</li>
+<li>需求規格的變動 Specification Change</li>
+<li><strong>Supply chain 需要磨合的成本</strong>：
+
+<ul>
+<li>必須先知道知道 <strong>vender 的特性</strong>，才能確保進入 production 能順利進行</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="選擇-supply-chain-vender-時你得注意的事">選擇 Supply Chain Vender 時你得注意的事：</h2>
+
+<p>假設你的產品經過 PoC(Proof of Concept)，想要尋找完整的 Supply chain ，請 vender 協助製造生產，你可能會遭遇以下幾種 vender：</p>
+
+<p><strong>樂觀積極 vs 嚴謹保守</strong></p>
+
+<ul>
+<li>過於積極樂觀的 vender 對於時間預估和成本會產生很大的變數，跟你說這個產品只要<strong>短短幾個星期</strong>，就可以做完成；但等到約定的時間跟你兩手一攤，說：『還沒做完耶』，你對他沒輒！</li>
+<li>團隊內要有老手，能夠知道 vender 提出的 schedule 是否合理，然後必須預留時間 margin，就算真的 delay 也不至於讓產品開天窗。</li>
+</ul>
+
+<p><strong>能力上限</strong></p>
+
+<ul>
+<li>有些 vender 會誇大自己的製造能力：『這個東西簡單，一定做得出來』，但等到真的開始做，才跟你說：『抱歉，做不出來』</li>
+<li>要有能力知道 vender 的能力範圍，被 vender 虎爛</li>
+</ul>
+
+<p><strong>做事品質的要求</strong></p>
+
+<ul>
+<li>觀察 vender 做事情的品質、細心程度，這關係到產品成與敗</li>
+<li>品牌廠最終還是要<strong>設計測試卡關進行驗收</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱一-選擇-odm-花費更多人力與時間">陷阱一：選擇 ODM 花費更多人力與時間</h2>
+
+<ul>
+<li>發 <a href="http://eeepage.info/name-prod/">RFQ</a>（報價單）</li>
+<li>廠商評估</li>
+<li>回報價/schedule/compliance</li>
+<li>Review &amp; 討論 -&gt; 詳細規格</li>
+<li>RFQ2, RFQ3&hellip;.</li>
+</ul>
+
+<p>常見延宕原因：</p>
+
+<ul>
+<li>Quotation 尋價內容與跟催</li>
+<li>技術限制（vender 就是做不出來）</li>
+<li>規格的變動</li>
+<li>法律文件（來回就要好幾個星期）</li>
+<li>產品多個部分由多個 vendor 廠商的 coordinate
+
+<ul>
+<li>經驗法則：至少要 6~10 vendor 數量才夠</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱二-每個-task-都比你預期還要久">陷阱二：每個 Task 都比你預期還要久</h2>
+
+<ul>
+<li>你的案子對 vender 來說，priority 很低，因此都被排在很後面</li>
+<li>新創公司人力有限
+
+<ul>
+<li>沒有大公司的系統與體系（QA team, 採購 &hellip; etc )，在某些工作上效率較差</li>
+</ul></li>
+<li>採用 Solution 的陷阱：
+
+<ul>
+<li>使用 open source 的風險：open source 改版</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱三-你會忽略的-dfx-design-for-x">陷阱三：你會忽略的 DFx (Design for X)</h2>
+
+<p>你的產品設計不只需要能正常運作、滿足客戶的需求，還考量很多生產、運送、安全&hellip;等考量，這類事先設計的概念成為『Design for X』，
+X 可能為許多不面向，自行替換。</p>
+
+<p><strong>Design for</strong></p>
+
+<ul>
+<li>Feature, Performance, Quality &amp; Cost</li>
+<li>Purchasing : Lead-time, availability, MOQ(最小採購批量)：IC,塑膠,螺絲 (零件是否好採購)</li>
+<li>Safety
+
+<ul>
+<li>EX:塑膠的耐燃性需求</li>
+</ul></li>
+
+<li><p>Manufacturing</p>
+
+<ul>
+<li>tooling拔模角/入料點</li>
+<li>噴漆/印刷治具</li>
+<li>可組裝性</li>
+<li>PCB測點 (Testing)</li>
+<li>SMT vs DIP (良率會因為DIP在大量生產時造成問題，盡量選擇SMT)</li>
+<li>Production test plan &amp; FW/SW</li>
+</ul></li>
+
+<li><p>Logistic : 序號, 包裝運送, RMA (保固期、退貨需要知道生產日期)</p></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱四-品管經驗不足">陷阱四：品管經驗不足</h2>
+
+<p>大家都不熟悉 Certification ，沒作過的產品不知道相關 Certification，大概有幾種，但主要還是要自己做功課</p>
+
+<ul>
+<li>EMI/EMC/ESD/safety</li>
+</ul>
+
+<p><strong>認證需要注意：</strong></p>
+
+<ul>
+<li>產品類別</li>
+<li>地區性</li>
+</ul>
+
+<p><strong>關於品質</strong></p>
+
+<ul>
+<li>你需要 QA test plan
+
+<ul>
+<li>特別是 hardware 需要搭配 web/mobile client application, server 都要有</li>
+</ul></li>
+<li>你需要建立 bug tracking system</li>
+<li>購買必要的 facility （chamber之類的，測試產品在溫度、濕度等等狀態下能夠正常工作）</li>
+<li>沒有時間測試每個 design change</li>
+<li>VQA/IQC 允收標準 vs Yield Rate</li>
+</ul>
+
+<p>產品賣出不等於結束</p>
+
+<ul>
+<li>Specification 中不穩定的 Feature 一定要持續追蹤</li>
+<li>Critical Issue 要花時間要了解細節</li>
+<li>RMA rate 退貨率的計算</li>
+</ul>
+
+<h1 id="其他">其他</h1>
+
+<p>講者在演講尾端有分享一些 bonus 的 talk
+<br></p>
+
+<hr />
+
+<h2 id="定價策略-magic-method">定價策略  Magic Method</h2>
+
+<p><strong>Benchmark</strong></p>
+
+<ul>
+<li>參考類似產品的價格來定價</li>
+</ul>
+
+<blockquote>
+<p>沒有類似產品怎麼辦？</p>
+</blockquote>
+
+<p><strong>Cost + Profit Margin</strong></p>
+
+<ul>
+<li>BoM cost x2 x2</li>
+</ul>
+
+<p>矛盾之處：</p>
+
+<ul>
+<li>太貴怕賣不出去</li>
+<li>能多賺點一點錢，難道就不能定更高的價錢嗎？</li>
+</ul>
+
+<hr />
+
+<h2 id="定價策略的上上策-找個專業的-sales">定價策略的上上策 - 找個專業的 Sales</h2>
+
+<p>好的 Sales 可能的策略</p>
+
+<ul>
+<li>B2B, 價格不透明</li>
+<li>綁不同的packages可以有不同的報價與付款方式（拆解 function 變成不同方案）</li>
+<li>付費方式要依據不同地區的有所差異</li>
+<li>不同客群能接受的價格不同(大型機構與小公司)</li>
+</ul>
+
+<hr />
+
+<h2 id="planning-magic-number">Planning (Magic Number)</h2>
+
+<p>當不知道如何規劃時，將預期的<strong>時間與人力 X 2</strong>作為評估數字，估算公司到那個時候是否能撐的下去，來決定是否要進行專案下去。</p>
+
+<hr />
+
+<h2 id="產品力">產品力</h2>
+
+<p>這部份是我自己補充講者的內容，我解釋成『讓你的產品真正的解決使用者的痛點』，必須仰賴 User Research 和市場分析，作產品不是工程師自己關在家裡觀落陰，使用者不會憑空出現，需求也不是用想像得來的。因此，我忍為團隊必須要有專業的使用者研究員，確定產品的方向，一旦有誤及早修正。</p>
+
+<hr />
+
+<h2 id="感想">感想</h2>
+
+<p><strong>對於小家公司的意義</strong></p>
+
+<p>對於小型 supply chain vendor ，以往很多 Case 都是有數量少、市場不確定高、需要跨領域整合（機構、電路、外殼、包裝&hellip;等等）的產品
+除小量的生產外，還需要協助產品的優化，是一個吃力不討好的工作。</p>
+
+<p><strong>團隊必備技能</strong></p>
+
+<p>一個功能健全的團隊，成員必須要具備以下能力（可以一人有多種技能，但不要操死人）</p>
+
+<ul>
+<li>需要一個好的 sale</li>
+<li>Designer</li>
+<li>User Research</li>
+<li>財務 管理財務</li>
+<li>找錢(funding)</li>
+<li>機械工程師（ME）機構設計</li>
+<li>EE</li>
+<li>Software</li>
+</ul>
+
+<p><strong>Sales 很重要</strong></p>
+
+<p>好的 sales 可以從跑市場的時間中，同時收集使用者痛點與市場現況，非常重要！</p>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li>2018/4/25, Presentation from Antony Ko ( umbo CV, Hardware VP )</li>
+<li><a href="http://mrjamie.cc/2013/06/03/good-strategy-leverage/">leverage槓桿, Mr. Jamie</a></li>
+<li><a href="http://eeepage.info/name-prod/">RFQ,專案產品開發時程之專有名詞 (RFQ,Kick-off,EVT,DVT,PVT,MP)</a></li>
+</ul>
+</div>
+
+
+      
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f&amp;title=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20II%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e4%b8%ad%e7%9a%84%e9%99%b7%e9%98%b1&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f05%2f04%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-ii-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E4%25B8%25AD%25E7%259A%2584%25E9%2599%25B7%25E9%2598%25B1%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/" title="Agile Meetup 新竹 - 系統思考工作坊 心得">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//ykhorizon.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+    </div>
+    
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <div>
+ 
+  
+   
+
+  
+    
+  
+  
+  <div class="section taxonomies">
+    <header>
+      <div class="title"><b>Categories</b></div>
+    </header>
+
+    <div class="content" id="cato-tree">
+      <ul>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agile">agile (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agriculture">agriculture (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agriculture/pest">agriculture/pest (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog">blog (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/blog/general">blog/general (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/design-thinking">design-thinking (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/english">english (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/english/academic-writing">english/academic-writing (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/hardware">hardware (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (5)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/career">myself/career (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/retrospective">myself/retrospective (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/target">myself/target (3)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/programming">programming (2)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/programming/codewars">programming/codewars (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/programming/python">programming/python (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/service-design">service-design (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/service-design/ecosystem">service-design/ecosystem (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/system-thinking">system-thinking (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/virtualbox">virtualbox (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/virtualbox/network">virtualbox/network (1)</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  
+    
+    
+   
+    
+  
+  
+    
+    
+    <div class="section taxonomies">
+      <header>
+        <div class="title"><b>Tags</b></div>
+      </header>
+
+      <div class="content">
+        <ul>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/writing">writing (2)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/"> (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/academic">academic (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/agile">agile (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/blind-spot">blind-spot (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/c-sharp">c-sharp (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/communication">communication (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/customer-journey">customer-journey (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/design-thinking">design-thinking (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/drawing">drawing (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/ecosystem">ecosystem (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/english">english (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/google-analytics">google-analytics (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/kata">kata (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/leading">leading (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/matplotlib">matplotlib (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/network">network (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/pest-detect">pest-detect (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/python">python (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/retrospective">retrospective (1)</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    
+   
+  
+
+
+  
+  
+  
+  <div class="section">
+    <header>
+      <div class="title"><b>Latest Posts</b></div>
+    </header>
+    <div class="content">
+      <ul>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/">Agile Meetup 新竹 - 系統思考工作坊 心得</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/">發展你的顧客旅程-從生態系視角</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/">virtualbox 網路設定 NAT v.s. Bridge mode</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/">[影片筆記] 農作物病蟲害診斷--呂柏寬</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/">蔡月夏--食用百合鱗莖有機栽培模式之建立</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/">[Codewars] Mumbling</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/">Matplotlib 基本介紹</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/">做事方法檢討 以打造個人blog為例</a>
+        </li>
+        
+        <li>
+          <a href="https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/">Google analytics 設定快速檢查</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+</div>
+      </div>
+    
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://ykhorzon.github.io/tw">聲明</a> <i>&middot;</i>
+
+<a href="https://ykhorzon.github.io/tw">使用規範</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Be curious everything with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2017 ykhorizon
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://ykhorzon.github.io/js/jquery.min.js"></script>
+<script src="https://ykhorzon.github.io/js/bootstrap.min.js"></script>
+
+<script src="https://ykhorzon.github.io/js/js.cookie.js"></script>
+
+<script src="https://ykhorzon.github.io/js/angular.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/angular-storage.min.js"></script>
+<script src="https://ykhorzon.github.io/js/highlight.pack.js"></script>
+<script src="https://ykhorzon.github.io/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://twitter.com/ykhorizon", 
+SIGNUP_HEADER = "Suscribe me on twitter @ykhorizon ",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = "en"; 
+</script>
+
+<script src="https://ykhorzon.github.io/js/pathnamereplace.js"></script>
+
+<script src="https://ykhorzon.github.io/js/popover/angular-modal-service.min.js"></script>
+<script src="https://ykhorzon.github.io/js/angular-ismobile.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/popover.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+<script type="text/javascript" src="https://ykhorzon.github.io"></script>
+
+
+
+<script src="https://ykhorzon.github.io/tree/bootstrap.min.js"></script>
+<script src="https://ykhorzon.github.io/tree/category_tree.js"></script>
+
+
+
+  </body>
+</html>
+

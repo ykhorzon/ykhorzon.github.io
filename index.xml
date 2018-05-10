@@ -9,20 +9,10 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
-    <lastBuildDate>Sun, 08 Oct 2017 13:06:07 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Build my own hugo blog with additional features</title>
-      <link>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</link>
-      <pubDate>Sun, 08 Oct 2017 13:06:07 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/10/08/build-my-own-hugo-blog-with-additional-features/</guid>
-      <description>Outline I&amp;rsquo;ll mainly discuss about two major aspect of using hugo. Part II is based on my personal experience which may not be suitable for other.
- PART I: Wanted Feature (Those important feature for me) PART II: Content Management Experience  Wanted Features (or Solutions) 1. Display hierarchy categories (Partial) 2. Search inside blog 3. Manage image in static 4. Shortcut for image url 5. Access to file by title/filename in multilingual condition 6.</description>
-    </item>
     
     <item>
       <title>Full Stack DevOps Engineer?</title>
