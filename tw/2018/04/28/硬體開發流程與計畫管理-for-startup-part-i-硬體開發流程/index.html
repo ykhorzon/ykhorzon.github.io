@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>virtualbox 網路設定 NAT v.s. Bridge mode  &middot; </title>
+  <title>硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程  &middot; </title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -14,25 +14,23 @@
 
 <meta name="description" content="" />
 
-<meta name="keywords" content="network, ">
+<meta name="keywords" content="">
 
 <link rel="author" href="http://plus.google.com/+Myprofile">
 
 
-<meta property="og:title" content="virtualbox 網路設定 NAT v.s. Bridge mode  &middot;  ">
+<meta property="og:title" content="硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程  &middot;  ">
 <meta property="og:site_name" content=""/>
-<meta property="og:url" content="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2018/04/28/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/" />
 <meta property="og:locale" content="tw">
 
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2017-11-17T16:57:00&#43;08:00" />
-<meta property="og:article:modified_time" content="2017-11-17T16:57:00&#43;08:00" />
+<meta property="og:article:published_time" content="2018-04-28T23:43:06&#43;08:00" />
+<meta property="og:article:modified_time" content="2018-04-28T23:43:06&#43;08:00" />
 
   
-    
-<meta property="og:article:tag" content="network">
     
   
 
@@ -40,9 +38,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@Myprofile" />
 <meta name="twitter:creator" content="@Myprofile" />
-<meta name="twitter:title" content="virtualbox 網路設定 NAT v.s. Bridge mode" />
+<meta name="twitter:title" content="硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程" />
 <meta name="twitter:description" content="" />
-<meta name="twitter:url" content="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/tw/2018/04/28/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/" />
 <meta name="twitter:domain" content="https://ykhorzon.github.io">
   
 
@@ -51,14 +49,14 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "virtualbox 網路設定 NAT v.s. Bridge mode",
+    "headline": "硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+Myprofile?rel=author"
     },
-    "datePublished": "2017-11-17",
+    "datePublished": "2018-04-28",
     "description": "",
-    "wordCount": 128
+    "wordCount": 300
   }
 </script>
   
@@ -79,7 +77,7 @@
  
 
 
-<link rel="canonical" href="https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/" />
+<link rel="canonical" href="https://ykhorzon.github.io/tw/2018/04/28/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
 <link rel="icon" href="https://ykhorzon.github.io/favicon.png">
 
@@ -190,47 +188,45 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <div class="text-center">
 
-    <h1>virtualbox 網路設定 NAT v.s. Bridge mode
+    <h1>硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程
 </h1>
 
     <div class="metas">
 <small>
   <i class="fa fa-calendar"></i>
-  <time datetime="2017-11-17">17 Nov, 2017</time>
+  <time datetime="2018-04-28">28 Apr, 2018</time>
 </small>
 
 
   <small>
     &middot; by ykhorizon
   
-  &middot; Read in about 1 min
-  &middot; (128 words)
+  &middot; Read in about 2 min
+  &middot; (300 words)
   &middot; 
 <span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
 
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
 
-    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
 
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f&amp;title=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f&amp;title=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
 
-    <a href="mailto:?subject=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+    <a href="mailto:?subject=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
   </span>
 
   </small>
 
 <div class="margin-10">
   <i class="fa fa-tags"></i>
-  
-  <a href="https://ykhorzon.github.io/tw/tags/network" class="label label-primary">network</a>
   
 
 
@@ -243,51 +239,221 @@
 </div>
 
       <div class="content">
-  <h1 id="outline">Outline</h1>
+  <h2 id="為什麼-span-style-color-red-軟體工程師-span-需要知道-span-style-color-blue-硬體開發流程-span">為什麼 <span style="color:red;">軟體工程師</span> 需要知道 <span style="color:blue;">硬體開發流程</span>？</h2>
+
+<p>設想一下，你是一家新創公司頭號軟體工程師，公司的第一個產品是一台機器人，你完全沒摸過硬體，當你和硬體工程師要合作開發，你該怎麼辦？</p>
 
 <ul>
-<li><a href="#scenario">Scenario</a></li>
-<li><a href="#%E4%BB%80%E9%BA%BC%E6%98%AF-nat-bridge-%E5%92%8C-host-only">什麼是 NAT, Bridge 和 Host-Only?</a></li>
-<li><a href="#%E5%BB%B6%E4%BC%B8%E5%95%8F%E9%A1%8C%EF%BC%9A192168xxxxxx-%E5%92%8C-17216xxxxxx-%E6%98%AF%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E9%BA%BC%E6%84%8F%E7%BE%A9%EF%BC%9F">延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？</a></li>
-<li><a href="#%E6%8E%A8%E8%AB%96%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%88%91%E7%9A%84%E5%95%8F%E9%A1%8C%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F">推論一下，我的問題是什麼？</a></li>
+<li>軟體工程師對 <strong>硬體開發流程</strong> 通常是一無所知，造成與硬體工程師（機構與電路）溝通產生障礙，無法理解對方的考量，造成團隊衝突。</li>
+<li>開發過程中，軟硬體產品在軟體與硬體有部分相依性問題，尤其是在測試階段，軟硬硬體必須整合討論，才能完成完整測試。</li>
 </ul>
+
+<blockquote>
+<p>打破這條鴻溝的辦法是：明白對方的開發流程，理解每一個軟硬體相依性的部分，以及硬體工程師的考量，知道更多硬體工程師在想什麼，建立溝通前的情境脈絡，有助於減少溝通成本，讓合作中的問題更快浮現，找出癥結點。</p>
+</blockquote>
 
 <p></p>
 
-<h1 id="scenario">Scenario</h1>
+<h1 id="硬體開發流程">硬體開發流程</h1>
 
-<p>在使用 virtualbox 作為開發環境時，需要由外部 internet 聯絡 virtualbox 內部的 guest OS，使用 Networking Adapter 預設為 NAT ，無法滿足這個需求(需要倚靠 port forwarding)</p>
+<p><br>
+主要分成幾個階段：</p>
 
-<h1 id="什麼是-nat-bridge-和-host-only">什麼是 NAT, Bridge 和 Host-Only?</h1>
+<ol>
+<li>選擇解決方案 Solution Selection</li>
+<li>概念證明 Proof of Concept</li>
+<li>驗證 Verification</li>
+<li>生產準備 Pre-production</li>
+<li>產品認證 Certification</li>
+</ol>
 
-<p>我收集一些網路上的資料，統整了一下</p>
+<hr />
+
+<h2 id="1-選擇解決方案-solution-selection">1.選擇解決方案 Solution Selection</h2>
+
+<p>Solution 通常是 MCU/MPU 晶片組或其他相關，需要考量以下幾點：</p>
+
+<p><strong>1.1 New features for your product</strong></p>
+
+<blockquote>
+<p>一般來說，Startup的產品通常是沒有前人作過，可能需要仰賴 Solution 的 New Features。舉例：AI chip (包含Deep Learning Accelerator)</p>
+</blockquote>
+
+<p><strong>1.2 支援 Supports(Demand &amp; Supply)</strong></p>
+
+<blockquote>
+<p>選擇的 Solution 是否有足夠的文件、廠商客服或社群資源，避免遇到 bug 或 問題無從求助。 Open Source 的 Solution 通常都是 Community，支援的大小和能力通常容易觀察；相反，選用冷門的 Solution 可能會遭遇前面的提及的問題。</p>
+</blockquote>
+
+<p><strong>1.3 時機 Timing(Mature/JIT/Not Ready)</strong></p>
+
+<blockquote>
+<p>採用 Solution 考量是否足夠成熟；通常產品會帶動相關技術 solution，EX：gopro + ambarella SoC</p>
+</blockquote>
+
+<p><strong>1.4 成本 Cost</strong></p>
+
+<blockquote>
+<p>Startup 需要控制好 solution 的 cost，但不需完全著重於 cost-down ，因為如何努力壓低成本，始終無法比大公司的生產成本更低；因此 Startup 更應做出自己的產品特點，『打中客戶的痛點』更為重要！</p>
+</blockquote>
+
+<p><strong>1.5 效能 Performance</strong></p>
+
+<blockquote>
+<p>Solution 的 Performance 必須要能實現出產品的 Feature</p>
+</blockquote>
+
+<p><strong>1.5 Roadmap</strong></p>
+
+<blockquote>
+<p>我猜測是 Solution 發展的歷程，開源硬體相對透明公開，閉源在開發中不公開，無法確定往後方向</p>
+</blockquote>
+
+<p><strong>Open Source Solution vs Disruptive Solution</strong></p>
+
+<p>下圖的重點為： New Features 和 Support 的差異不同
+<img src="https://ykhorzon.github.io/content_img/hw_development_for_startup_part1/vs.jpg" alt="" />
+2018/4/25, Presentation from Antony Ko ( umbo CV, Hardware VP )</p>
+
+<hr />
+
+<h2 id="2-概念證明-proof-of-concept">2.概念證明 Proof of Concept</h2>
+
+<p>打造硬體相關任務</p>
 
 <ul>
-<li><a href="https://serverfault.com/questions/490043/differences-between-bridged-and-nat-networking">Differences between bridged and NAT networking</a></li>
-<li><a href="http://techgenix.com/nat-vs-bridged-network-a-simple-diagram-178/">NAT vs. bridged network: A simple diagram</a></li>
-</ul>
-
-<p><img src="http://www.virtualizationadmin.com/lowe/wp-content/blogs/60/files/2011/11/image2.png" alt="" /></p>
-
-<p>Host-only only permits network operations with the Host OS.</p>
-
-<p>NAT mode will mask all network activity as if it came from your Host OS, although the VM can access external resources.</p>
-
-<p>Bridged mode replicates another node on the physical network and your VM will receive it&rsquo;s own IP address if DHCP is enabled in the network.</p>
-
-<h1 id="延伸問題-192-168-xxx-xxx-和-172-16-xxx-xxx-是什麼東西-代表什麼意義">延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？</h1>
-
-<p>內網的虛擬IP</p>
+<li>Schematics 布局圖</li>
+<li>Part sourcing 將產品部件，可以外包出去</li>
+<li>PCB layout</li>
+<li>PCB fabrication 快速打樣
 
 <ul>
-<li><a href="http://linux.vbird.org/problem/linux/problem_1.php">問：何謂『虛擬 IP 』，與『實體 IP 』或者『固定 IP 』『動態 IP 』有啥不同？ 192.169.x.x</a></li>
+<li>掏寶有廠商可以協速快速 Fab，大約一星期內就可以收到成品</li>
+</ul></li>
+<li>ID(Industrial design) mockup/ mechanical fitting</li>
+<li>functional sample</li>
 </ul>
 
-<h1 id="推論一下-我的問題是什麼">推論一下，我的問題是什麼？</h1>
+<p>我從軟體產品開發的學習經驗，上述都是怎麼達成（How）PoC 的一個實作環節，一位優秀的硬體工程師可以快速完成並可靠的任務；但更重要是為什麼（Why）要打造此產品，
+我認為是 PoC 階段的核心任務是：</p>
 
-<p>學校給我的是實體 IP，為 140.114.xxx.xxx，實驗的 switch 應該沒開什麼特殊功能，沒有切分內網
-我的主機直接套用的就是<strong>實體IP</strong>，根本就不存在內網。
-理論上一般家庭或公司，對外的實體IP只會有一個，內部其他電腦或連線都是虛擬IP，會是 192.168.xxx.xxx</p>
+<ul>
+<li>驗證產品解決使用者痛點</li>
+<li>獲取回饋，修正方向</li>
+</ul>
+
+<blockquote>
+<p>PoC 作為<strong>早期偵測產品失敗的第一道防線</strong>，必須搭配<strong>使用者研究</strong>（design thinking/google sprint) 等方法一起使用。</p>
+
+<p>將 Prototype 實際給 User 使用過，收集使用者回饋（可能包含量化或質化），<strong>驗證產品假設（是否有真的解決 User 的痛點）</strong>，能才算是完成 Proof of Concept 的一次 iteration。這通常是硬體工程師缺乏觀念的部分，認為產品開發要一路殺到生產端，但實際運作不一定是如此。</p>
+</blockquote>
+
+<hr />
+
+<h2 id="3-驗證-verification">3.驗證 Verification</h2>
+
+<p>我的猜測，驗證 Verification 是產品功能確定後，專注於功能性的驗證，以及產品穩定性與環境測試</p>
+
+<ul>
+<li>Engineering test plan
+
+<ul>
+<li>先找類似產品的 test plan 來參考</li>
+</ul></li>
+<li>Quality Test Plan</li>
+<li>Facility
+
+<ul>
+<li>測試包含溫度、濕度、丟來丟去、放在包裝內摔等等</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="4-生產準備-pre-production">4.生產準備 Pre-production</h2>
+
+<p>產進進入準備生產階段，必須考量一下問題：</p>
+
+<ul>
+<li>Production test plan (Yield Rate)</li>
+<li>Logistic
+
+<ul>
+<li>零件沒有買到，所有人都在等零件</li>
+</ul></li>
+<li>SMT,DIP and assembly
+
+<ul>
+<li>組裝很容易出問題，最好要自己組果 20~40台</li>
+</ul></li>
+<li>Test/configuration &amp; software
+
+<ul>
+<li>測試用搭配的軟體，要些思考並準備好</li>
+</ul></li>
+<li>Fixture &amp; facility</li>
+</ul>
+
+<hr />
+
+<h2 id="5-產品認證-certification">5.產品認證 Certification</h2>
+
+<p>產品販售到各地區，各地區有都相關規範或認證需要通過，才能在當地販售，因此必須準備相關問題：</p>
+
+<ul>
+<li>從 PoC 階段，就要開始找 Certification Lab 討論認證</li>
+<li>自己找適合產品的認證規範</li>
+<li>文件、包裝與說明說</li>
+<li>Lab 說的不一定對
+
+<ul>
+<li>Why? 因為 Lab 有可能沒遇過你的類型的產品，也不知道要怎麼測試</li>
+</ul></li>
+</ul>
+
+<p><br></p>
+
+<h1 id="將開發工作拆解到職位-硬體部分">將開發工作拆解到職位 （硬體部分）</h1>
+
+<h2 id="電機-電子工程師-ee">電機/電子工程師 EE</h2>
+
+<ul>
+<li>Specification 撰寫產品規格書</li>
+<li>circuit design 電路設計</li>
+<li>layout 佈線</li>
+<li>build 把東西做出來</li>
+<li>test 電路測試</li>
+</ul>
+
+<h2 id="機構工程師-me">機構工程師 ME</h2>
+
+<p><img src="https://ykhorzon.github.io/content_img/hw_development_for_startup_part1/me_development_sop.jpg" alt="" />
+2018/4/25, Presentation from Antony Ko ( umbo CV, Hardware VP )</p>
+
+<ul>
+<li>工業設計 Prototype 3D 設計</li>
+<li>工業設計 Mockup</li>
+<li>拆解圖</li>
+<li>Mechanical Mockup &amp; Review</li>
+<li>Tooling Build &amp; Trial</li>
+<li>Test</li>
+</ul>
+
+<p>模具花費時間</p>
+
+<ul>
+<li>6 week 塑膠模具</li>
+<li>8 week 金屬模具</li>
+</ul>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li>2018/4/25, Presentation from Antony Ko ( umbo CV, Hardware VP )</li>
+<li><a href="https://en.wikipedia.org/wiki/Industrial_design">ID, Industrial design, wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prototype">Prototype, wiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mockup">Mockup, wiki</a></li>
+</ul>
 </div>
 
 
@@ -295,22 +461,22 @@
       <footer>
   
 <span class="share-box">Share this on:
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
 
-    <a href="https://twitter.com/intent/tweet?text=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://twitter.com/intent/tweet?text=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
 
-    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
 
-    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" onclick="window.open(this.href, 'mywin',
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
 
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f&amp;title=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode" onclick="window.open(this.href, 'mywin',
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f&amp;title=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
 
-    <a href="mailto:?subject=virtualbox%20%e7%b6%b2%e8%b7%af%e8%a8%ad%e5%ae%9a%20NAT%20v.s.%20Bridge%20mode&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2017%2f11%2f17%2fvirtualbox-%25E7%25B6%25B2%25E8%25B7%25AF%25E8%25A8%25AD%25E5%25AE%259A-nat-v.s.-bridge-mode%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+    <a href="mailto:?subject=%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b%e8%88%87%e8%a8%88%e7%95%ab%e7%ae%a1%e7%90%86%20for%20Startup%20Part%20I%3a%20%e7%a1%ac%e9%ab%94%e9%96%8b%e7%99%bc%e6%b5%81%e7%a8%8b&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f04%2f28%2f%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%25E8%2588%2587%25E8%25A8%2588%25E7%2595%25AB%25E7%25AE%25A1%25E7%2590%2586-for-startup-part-i-%25E7%25A1%25AC%25E9%25AB%2594%25E9%2596%258B%25E7%2599%25BC%25E6%25B5%2581%25E7%25A8%258B%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
   </span>
 
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -319,7 +485,7 @@
     <nav><ul class="pager">
     
         <li class="previous">
-          <a href="https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/" title="[影片筆記] 農作物病蟲害診斷--呂柏寬">
+          <a href="https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/" title="Agile Meetup 新竹 - 系統思考工作坊 心得">
             <span aria-hidden="true">&larr;</span>Previous
           </a>
         </li>
@@ -327,7 +493,7 @@
 
     
       <li class="next">
-        <a href="https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/" title="發展你的顧客旅程-從生態系視角">
+        <a href="https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/" title="硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱">
             Next <span aria-hidden="true">&rarr;</span>
         </a>
       </li>
