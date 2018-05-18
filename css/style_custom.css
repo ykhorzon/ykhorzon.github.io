@@ -9,22 +9,29 @@ h1 {
 h2 {
     font-size: 28px;
 }
+
 /*  */
-    .homePageArticleAbstract h2 {
-    font-size: 32px;
-}
-    .homePageArticleAbstract h1 {
-    font-size: 24px;
+
+.homepage-article-header-title{
+    font-size: 42px;
+    font-weight: 500;
 }
 
+
+.article-header-title {
+    font-size: 42px;
+    font-weight: 600;
+}
 /* singleArticleContent is the clast in default single page */
-    .defualtSingleArticleContent h1 {
-    font-size: 40px;
+.content h1 {
+    font-size: 34px;
+    font-weight: 600;
 }
-    .defualtSingleArticleContent h2 {
-    font-size: 30px;
+.content h2 {
+    font-size: 28px;
+    font-weight: 600;
 }
-    .defualtSingleArticleContent h3 {
+.content h3 {
     font-size: 24px;
 }
 
