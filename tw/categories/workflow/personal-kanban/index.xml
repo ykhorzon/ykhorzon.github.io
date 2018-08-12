@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow/Personal Kanban on </title>
+    <link>https://ykhorzon.github.io/tw/categories/workflow/personal-kanban/</link>
+    <description>Recent content in Workflow/Personal Kanban on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Fri, 03 Aug 2018 23:37:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/workflow/personal-kanban/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personal Kanban 實踐後的檢討與改善</title>
+      <link>https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E6%AA%A2%E8%A8%8E%E8%88%87%E6%94%B9%E5%96%84/</link>
+      <pubDate>Fri, 03 Aug 2018 23:37:51 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E6%AA%A2%E8%A8%8E%E8%88%87%E6%94%B9%E5%96%84/</guid>
+      <description>&lt;h1 id=&#34;開始&#34;&gt;開始&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Personal Kanban 使你專注於少數的焦點（重要的事務），並提供一種視覺化的機制，易於凸顯出執行效率上的問題，便於改善與優化&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
