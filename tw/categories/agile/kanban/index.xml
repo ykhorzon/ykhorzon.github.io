@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile/Kanban on </title>
+    <link>https://ykhorzon.github.io/tw/categories/agile/kanban/</link>
+    <description>Recent content in Agile/Kanban on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/agile/kanban/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</title>
+      <link>https://ykhorzon.github.io/tw/2018/08/18/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</link>
+      <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2018/08/18/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</guid>
+      <description>&lt;h1 id=&#34;文章要點&#34;&gt;文章要點&lt;/h1&gt;
+
+&lt;p&gt;文章主要分成&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;第一篇 Part I 是『讓李小龍你看見 Kanban 的美好』的統整和心得，參雜一些個人的解釋&lt;/li&gt;
+&lt;li&gt;第二篇 Part II 則是我嘗試應用學習到的關逆，改進我的『個人看板』（尚未完成）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;kanban-簡介&#34;&gt;Kanban 簡介&lt;/h1&gt;
+
+&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;為微軟導入 kanban 方法等敏捷方法的先驅，解救微軟支援部門績效的問題，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

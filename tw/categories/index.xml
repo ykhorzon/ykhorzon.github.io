@@ -9,7 +9,7 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Wed, 02 Aug 2017 12:41:57 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,9 +17,18 @@
     <item>
       <title>Agile</title>
       <link>https://ykhorzon.github.io/tw/categories/agile/</link>
-      <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
+      <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/categories/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile/Kanban</title>
+      <link>https://ykhorzon.github.io/tw/categories/agile/kanban/</link>
+      <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/categories/agile/kanban/</guid>
       <description></description>
     </item>
     
