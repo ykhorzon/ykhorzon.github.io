@@ -146,22 +146,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tags/agile/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
@@ -174,6 +158,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/tags/agile/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/categories/agile/</loc>
+    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
                 />
   </url>
   
@@ -274,22 +274,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/english/</loc>
-    <lastmod>2017-06-30T19:38:15+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tags/english/</loc>
     <lastmod>2016-10-03T15:28:47+00:00</lastmod>
     <priority>0</priority>
@@ -302,6 +286,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/categories/english/</loc>
+    <lastmod>2017-06-30T19:38:15+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/english/"
                 />
   </url>
   

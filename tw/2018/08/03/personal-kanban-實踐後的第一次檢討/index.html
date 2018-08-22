@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Personal Kanban 實踐後的第一次檢討  &middot; </title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="workflow, personal-kanban, ">
+
+<link rel="author" href="http://plus.google.com/+Myprofile">
+
+
+<meta property="og:title" content="Personal Kanban 實踐後的第一次檢討  &middot;  ">
+<meta property="og:site_name" content=""/>
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/" />
+<meta property="og:locale" content="tw">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2018-08-03T23:37:51&#43;08:00" />
+<meta property="og:article:modified_time" content="2018-08-03T23:37:51&#43;08:00" />
+
+  
+    
+<meta property="og:article:tag" content="workflow">
+    
+<meta property="og:article:tag" content="personal-kanban">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Myprofile" />
+<meta name="twitter:creator" content="@Myprofile" />
+<meta name="twitter:title" content="Personal Kanban 實踐後的第一次檢討" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/" />
+<meta name="twitter:domain" content="https://ykhorzon.github.io">
+  
+
+  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Personal Kanban 實踐後的第一次檢討",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+Myprofile?rel=author"
+    },
+    "datePublished": "2018-08-03",
+    "description": "",
+    "wordCount": 411
+  }
+</script>
+  
+
+
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+    (i[r].q = i[r].q || []).push(arguments)
+  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-97451129-2', 'auto');
+  ga('send', 'pageview');
+</script>
+ 
+
+
+<link rel="canonical" href="https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ykhorzon.github.io/touch-icon-144-precomposed.png">
+<link rel="icon" href="https://ykhorzon.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/tree/styles.css">
+<meta name="generator" content="Hugo 0.39" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" href="https://ykhorzon.github.io/css/bootswatch/paper/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style.css">
+
+
+<link rel="stylesheet" href="https://ykhorzon.github.io/css/style_custom.css">
+
+
+
+  <link rel="stylesheet" href="https://ykhorzon.github.io/css/highlight/default.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Courgette|Permanent+Marker" rel="stylesheet">
+
+
+
+</head>
+
+<body class="map[name:paper]" data-ng-app="myapp" data-ng-controller="MyController" data-ng-mouseleave="MouseLeave($event)">
+    <header id="main-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+          
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse ">
+          <ul class="nav navbar-nav navbar-left">
+            
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/" >
+                
+                首頁
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/about/me" >
+                
+                關於我
+              </a>
+            </li>
+            
+            <li class="">
+
+              <a href="https://ykhorzon.github.io/tw/post/" >
+                
+                文章
+              </a>
+            </li>
+            
+            
+            
+            
+            
+            <li class="">
+                 <a id="langSwitchLink" toSwitchLang="en" href="javascript:changeLanguage('en');" >
+                  
+                  English 
+                </a> 
+            </li>
+            
+              
+          </ul>
+          
+          <form class="navbar-form navbar-left navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn">Find</button>
+          </form>
+          
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 col-lg-2">
+
+    </div>
+    
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="text-center">
+
+    <h1 class="article-header-title">Personal Kanban 實踐後的第一次檢討
+</h1>
+
+    <div class="metas">
+<small>
+  <i class="fa fa-calendar"></i>
+  <time datetime="2018-08-03">3 Aug, 2018</time>
+</small>
+
+
+  <small>
+    &middot; by ykhorizon
+  
+  &middot; Read in about 2 min
+  &middot; (411 words)
+  &middot; 
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f&amp;title=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  </small>
+
+<div class="margin-10">
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/workflow" class="label label-primary">workflow</a>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/personal-kanban" class="label label-primary">personal-kanban</a>
+  
+
+
+</div>
+
+<br>
+</div>
+
+  </div>
+</div>
+
+      <div class="content">
+  <h1 id="文章要點">文章要點</h1>
+
+<blockquote>
+<ul>
+<li>Personal Kanban 使你專注於少數的焦點（重要的事務），並提供一種視覺化的機制，易於凸顯出執行效率上的問題，便於改善與優化</li>
+<li>但實際在個人工作使用中，會遭遇什麼問題？在本文章中會告訴大家遭遇的問題，嘗試提出應對方案</li>
+</ul>
+</blockquote>
+
+<p></p>
+
+<h1 id="現況">現況</h1>
+
+<p>我所採用是個人看板（Personal Kanban）搭配 <a href="https://flipedu.parenting.com.tw/article/3881">番茄時鐘法</a> 的方式，管理我的工作與生活事務。
+主要建立四個 List 在我的工作流程中，要作的事情我稱為『Task』或『Task Card』上面寫要作的事情的內容；當 Task 處於不同的List中，代表所處的狀態不同，狀態如下：</p>
+
+<ul>
+<li>todo ：要做的 Task</li>
+<li>doing ：目前正在做的 Task</li>
+<li>done ：完成</li>
+<li>review：回顧任務結果</li>
+</ul>
+
+<p><strong>主要四種 List</strong>
+<img style="width:640px;"src="/content_img/personal_workflow/fig1.png" ></p>
+
+<p>並將各種不同來源的task劃分為許許多多的 todos list，如下圖</p>
+
+<p><strong>Todos 分成很多種類</strong>
+<img style="width:640px;"src="/content_img/personal_workflow/fig2.png" ></p>
+
+<h2 id="運作流程">運作流程</h2>
+
+<h3 id="執行-task">執行 Task</h3>
+
+<p>當在執行某任務時，將該 task 從 Todo 移到 Doing ，處於 Doing 的 Task 用 TMetric 紀錄花費時間，方便一天結束後觀察工作情況；另外，使用番茄時鐘創造工作節奏，25分鐘為一段專注時間，5分鐘休息，此後重複循環，直到任務完成，或者是集中力下降，就得離開座位進行長時間休息。</p>
+
+<p><strong>番茄時鐘創造工作節奏與Tmetric紀錄花費時間</strong>
+<img style="width:640px;"src="/content_img/personal_workflow/fig3.png" ></p>
+
+<h3 id="結算">結算</h3>
+
+<p>目前採用<strong>每一天結算一次</strong>，檢討一天的工作花費時間</p>
+
+<p>TMetric 網頁中可以查看當天 trello 中個別 task 的花費時間，如下圖
+<img style="width:640px;"src="/content_img/personal_workflow/fig4.png" ></p>
+
+<p>將時間消耗紀錄於 OneNote 方便回顧，如下圖
+<img style="width:640px;"src="/content_img/personal_workflow/fig5.png" ></p>
+
+<h2 id="問題浮現">問題浮現</h2>
+
+<blockquote>
+<p>我的工作流程，在實際運作過約 2個月之後，一些問題逐漸浮現，我在『實踐經驗反省』的段落會詳細說明。</p>
+</blockquote>
+
+<h1 id="實踐經驗反省">實踐經驗反省</h1>
+
+<p>以下我將分成幾個部分討論</p>
+
+<h2 id="良好的部分">良好的部分</h2>
+
+<ul>
+<li>初步視覺化我自己的任務</li>
+<li>以番茄中調整工作節奏</li>
+</ul>
+
+<h2 id="不好的部分">不好的部分</h2>
+
+<ul>
+<li>對於 kanban 的精神有點模糊，不夠了解
+
+<ul>
+<li>沒有限制明確的 WIP 數量</li>
+</ul></li>
+</ul>
+
+<h2 id="重新學習-personal-kanban-精神">重新學習 Personal Kanban 精神</h2>
+
+<p>在實際操作之後，我發現我對 Kanban 的核心概念不夠透徹，因此我閱讀了 <a href="https://ruddyblog.wordpress.com/">Ruddy Lee</a> 前輩的 Blog 相關文章 <a href="https://ruddyblog.wordpress.com/2014/09/21/%e9%81%8b%e7%94%a8%e5%80%8b%e4%ba%ba%e7%9c%8b%e6%9d%bf%e5%81%9a%e6%99%82%e9%96%93%e7%ae%a1%e7%90%86/">[2]</a>,<a href="https://ruddyblog.wordpress.com/2014/08/25/%e7%94%a8%e4%be%86%e6%8f%90%e5%8d%87%e5%80%8b%e4%ba%ba%e6%95%88%e8%83%bd%e7%9a%84%e3%80%8c%e5%80%8b%e4%ba%ba%e7%9c%8b%e6%9d%bf%e7%b3%bb%e7%b5%b1%e3%80%8d-personal-kanban/">[3]</a>,<a href="https://ruddyblog.wordpress.com/2018/01/11/%E5%AF%A6%E8%B8%90%E4%B8%80%E6%97%A5sprint%E7%9A%84%E5%80%8B%E4%BA%BA%E7%9C%8B%E6%9D%BF/">[4]</a>,<a href="https://ruddyblog.wordpress.com/2018/01/08/%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E6%96%BD%E8%A1%8C%E6%95%8F%E6%8D%B7/">[5]</a>，文章很詳細非常值得一讀，我自行統整出幾個要點如下：</p>
+
+<p><strong>Personal Kanban 的核心概念：</strong></p>
+
+<ul>
+<li><strong>視覺化</strong>：把你手頭的工作流程畫出來</li>
+<li><strong>限制 WIP</strong> (Work in Progress, 也就進行中的工作，同時也是尚未完成的半成品)
+
+<ul>
+<li>根據軟體開發/工業生產的理論基礎，調整與限制 WIP 可以找出最單位時間產出量（Through Put)</li>
+</ul></li>
+<li><strong>管理流程化</strong>：透過反省、分析，試圖最佳化你的工作流程與方法</li>
+</ul>
+
+<p><strong>彙整後調整架構：</strong></p>
+
+<ul>
+<li>Task card: 紀錄你要執行的任務，可以在 kanban 改變的 List 位置，代表任務的目前處於的狀態</li>
+<li>List
+
+<ul>
+<li>Todos List: 寫下你要行的任務</li>
+<li>Ready List: 規劃並以優先順序安排你今天要執行的任務</li>
+<li>Doing List: 目前正在執行的任務，限制 WIP 應用於此 LIST 正在執行中 task 的數量 &lt; 2～4 項</li>
+<li>Done List: 已經完成</li>
+<li>Review List: 檢討任務執行的好與壞</li>
+</ul></li>
+</ul>
+
+<p>完成後的 trello personal kanban 如下圖：
+<img style="width:640px;"src="/content_img/personal_workflow/fig6.png" ></p>
+
+<p><strong>全景模式與專注模式的切換</strong></p>
+
+<ul>
+<li>類似於番茄中定義的 25分鐘 / 5分鐘，分配工作節奏，25分鐘專注於單一任務上，5分鐘休息（順便可以讓眼睛休息），但同時回到整體的kanban，思考是否有自己目前正在執行的項目與整體大目標的關係。</li>
+</ul>
+
+<p><strong>事先規劃</strong></p>
+
+<p>限制 Ready 數量 / 事先安排(最好是前一天)在 Ready 中的 Task ，並安排優先順序。
+最後一天結束後一定要 review 一下完成的進度，並告訴自己還有哪些任務上未完成，明天繼續。</p>
+
+<h2 id="自省的改善建議">自省的改善建議</h2>
+
+<h3 id="1-太多-list-太多根本沒有開始的-task">1. 太多 List 、太多根本沒有開始的 Task</h3>
+
+<p>刪減多餘 List 與脫太久沒作的 Task：</p>
+
+<blockquote>
+<ul>
+<li>有些項目長期，不適合直接放在 kanban 中(e.g. 運動、記帳)，理當搭配 google calendar 設定為每週固定時間執行</li>
+<li>減少寫 Task，更嚴謹的思考，到底有沒有必要作這件事情</li>
+<li>有些放置太久的任務，未來也沒有執行的必要的話，可以直接刪除</li>
+</ul>
+</blockquote>
+
+<p>Task 並未標記 Label（沒分類工作類別)</p>
+
+<blockquote>
+<ul>
+<li>Task 種類應該用 Label 分類，而非建立不同的 List 存放，強迫自己思考自己在哪一類的事情</li>
+<li>用 label 分類 task，在統整 done list 中的任務時，可以便於分析自己的工作是否專挑某一種工作，又或者哪一類公做作比較慢</li>
+</ul>
+</blockquote>
+
+<p>如何知道 task 寫的內容是否恰當？</p>
+
+<blockquote>
+<ul>
+<li>至少具必 <strong>明確性</strong>、<strong>可執行性</strong>、<strong>可驗收性</strong></li>
+<li>寫不好也沒關係，反正可以在修正呀！寫下去就對了！</li>
+</ul>
+</blockquote>
+
+<p>任務的大小如何決定？（舉例：完成某某線上課程，耗時3個月)</p>
+
+<blockquote>
+<ul>
+<li>目前無好方法，但確定的是『當任務太大』和『Task 卡很久』時，就一定要設法拆解 Task</li>
+<li>拆解成小任務，如果重要規劃固定時間執行，並分批進入 personal kanban 完成</li>
+</ul>
+</blockquote>
+
+<h3 id="2-執行的問題">2. 執行的問題</h3>
+
+<p>歪樓問題：正在執行 task 和 目標不一致</p>
+
+<blockquote>
+<ul>
+<li>檢查每一天完成的 task 和我的大目標是否有一致？</li>
+<li>每個 task 在 番茄時鐘運行的過程中是否有專注？品質是否足夠？只有自己捫心自問才知道</li>
+</ul>
+</blockquote>
+
+<p>心態因尚未規劃工作的怠惰，因此沒有執行kanban</p>
+
+<blockquote>
+<ul>
+<li>前一天事先睡前規劃好隔天明確的 Task，放入 Ready List 中，明天一早起床不需思考，直接開始消化 Ready List</li>
+</ul>
+</blockquote>
+
+<h3 id="3-檢討的問題">3. 檢討的問題</h3>
+
+<p>如何 Review 更有效？</p>
+
+<blockquote>
+<ul>
+<li>目前的方法中，每天檢討專注在時間花費在哪些任務，而非達成了哪些任務</li>
+<li>因此改成一天結束 check personal kanban 和 tmetric 時間花費，同時卻檢查完成任務和花費時間</li>
+<li>到底有沒有認真檢討？還是自欺欺人而已？</li>
+</ul>
+</blockquote>
+
+<p>Task Card 執行經驗與結果無法累積</p>
+
+<blockquote>
+<ul>
+<li>Task card 內容可以詳細，方便執行，但結束後結論和過程要 archive 進入 OneNote 筆記，累積成知識系統，方便傳承和重新使用；盡量保持 personal kanban 為單純觀察工作流程的工具，被免過度複雜化的使用</li>
+</ul>
+</blockquote>
+
+<h3 id="4-全域視覺化問題">4. 全域視覺化問題</h3>
+
+<p>多個 Project 同時運行搭配多個看板，造成無法有完整全景視角</p>
+
+<blockquote>
+<ul>
+<li>使用 trello 中的 copy task card 功能，將 task 匯集到單一地方（personal kanban）</li>
+</ul>
+</blockquote>
+
+<h1 id="修正後的混合方法">修正後的混合方法</h1>
+
+<p>內心的OS</p>
+
+<blockquote>
+<p>我認為只有 Personal Kanban 不足以滿足長期規劃的任務，因此我演化出自己的混合解法</p>
+</blockquote>
+
+<h2 id="概念">概念</h2>
+
+<p>我的觀察是：personal kanban 關注於顯現出 task 的<strong>狀態的呈現</strong>，便於找出系統性問題；同時，流程被強迫轉換成有順序（kanban 由左而右)的 list，如果沒有刻意作紀錄的話，相對是<strong>中短期的視角</strong>；</p>
+
+<p>傳統以月曆為時間規劃方法，著重於期限與時間區段的任務，<strong>視角更為長期</strong>。因此我依照『與成功有約』中的『以終為始』的概念，先在月曆中制定目標期限，再拆解成月和週小目標，再將可以達成目標的大任務拆解成小並且能夠實行的 task card 進入 personal kanban 執行與規劃。</p>
+
+<p>『與成功有約』中有將任務劃分為四種類型，由對你人生的影響程度排序（依據長遠角度）依序為：</p>
+
+<ol>
+<li>重要 / 不緊急</li>
+<li>重要 / 緊急</li>
+<li>不重要 / 緊急</li>
+<li>不重要 / 不緊急</li>
+</ol>
+
+<p>作者史蒂芬·柯維認為人們應該專注於 <strong>重要 / 不緊急</strong> 的任務，這類的任務往往和長期目標與基礎功夫的扎根很有大的關係；當一個人疲於奔命，忙著應付 <strong>重要 / 緊急</strong> 和 <strong>不重要 / 緊急</strong> 的任務時，會遲遲無法往更遠大的目標前進；當一個人總是在 <strong>不重要 / 不緊急</strong>，其實就是逃避、偷懶或處於身不由己的位置。</p>
+
+<h2 id="事先規劃-重要-不緊急-的任務">事先規劃 &laquo;重要 / 不緊急&raquo; 的任務</h2>
+
+<p>依據此原則，我將 <strong>重要 / 不緊急</strong> 的任務，<strong>使用 Google 月曆</strong> 規劃在每週固定的時段，時間可以稍微有彈性，但任務內容執行<strong>內容必須極度明確</strong>，例如：</p>
+
+<ul>
+<li>運動星期一18:00~19:00 慢跑 4k 包含暖身與收操(如果加班就移到 22:00~23:00)</li>
+<li>英文口說練習挑選一篇 National Public Radio的新聞，用影子法訓練口說。
+<br /></li>
+</ul>
+
+<p>這類型 <strong>重要 / 不緊急</strong> 的任務不需進入 kanban 的流程，但偶爾會有例外。有辦法固定時間，就設法用 Google Calendar 規劃，搭配自己建立的 check list（我是使用 Google Doc sheet），了解這些任務長期執行達成狀況。</p>
+
+<p>Google 月曆事先規劃，如下圖
+<img style="width:640px;"src="/content_img/personal_workflow/fig7.png" ></p>
+
+<p>Google doc sheet 紀錄執行住況，如下圖
+<img style="width:640px;"src="/content_img/personal_workflow/fig8.png" ></p>
+
+<h2 id="動態處理-其他類型任務">動態處理 &laquo;其他類型任務&raquo;</h2>
+
+<p>其他三種類型的工作，則盡量進入 personal kanban 流程進行管理</p>
+
+<p>搭配工具</p>
+
+<ul>
+<li>Personal Kanban 使用 trello，搭配 TMetric 對 task 計時</li>
+<li>Tomato Timer 調整工作節奏</li>
+</ul>
+
+<h1 id="結論">結論</h1>
+
+<p>我試圖提出自己的混合作法，設法讓自己工作流程可以更順暢，期待一個月後 2018/9/5 的第二次 review</p>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li>[1] <a href="https://ruddyblog.wordpress.com/">Ruddy Lee 分享空間</a></li>
+<li>[2] <a href="https://ruddyblog.wordpress.com/2014/09/21/%e9%81%8b%e7%94%a8%e5%80%8b%e4%ba%ba%e7%9c%8b%e6%9d%bf%e5%81%9a%e6%99%82%e9%96%93%e7%ae%a1%e7%90%86/">運用個人看板做時間管理, Ruddy Lee</a></li>
+<li>[3] <a href="https://ruddyblog.wordpress.com/2014/08/25/%e7%94%a8%e4%be%86%e6%8f%90%e5%8d%87%e5%80%8b%e4%ba%ba%e6%95%88%e8%83%bd%e7%9a%84%e3%80%8c%e5%80%8b%e4%ba%ba%e7%9c%8b%e6%9d%bf%e7%b3%bb%e7%b5%b1%e3%80%8d-personal-kanban/">用來提升個人效能的「個人看板系統」– Personal Kanban, Ruddy Lee </a></li>
+<li>[4] <a href="https://ruddyblog.wordpress.com/2018/01/11/%E5%AF%A6%E8%B8%90%E4%B8%80%E6%97%A5sprint%E7%9A%84%E5%80%8B%E4%BA%BA%E7%9C%8B%E6%9D%BF/">實踐一日Sprint的個人看板, Ruddy Lee </a></li>
+<li>[5] <a href="https://ruddyblog.wordpress.com/2018/01/08/%E4%B8%80%E5%80%8B%E4%BA%BA%E5%A6%82%E4%BD%95%E6%96%BD%E8%A1%8C%E6%95%8F%E6%8D%B7/">一個人如何施行敏捷, Ruddy Lee </a></li>
+</ul>
+</div>
+
+
+      
+      <footer>
+  
+<span class="share-box">Share this on:
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-facebook-official "></i></a>
+
+    <a href="https://twitter.com/intent/tweet?text=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://plus.google.com/share?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-google-plus"></i></a>
+
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-reddit"></i></a>
+
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f&amp;title=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-linkedin"></i></a>
+
+    <a href="mailto:?subject=Personal%20Kanban%20%e5%af%a6%e8%b8%90%e5%be%8c%e7%9a%84%e7%ac%ac%e4%b8%80%e6%ac%a1%e6%aa%a2%e8%a8%8e&amp;body=Check out this site https%3a%2f%2fykhorzon.github.io%2ftw%2f2018%2f08%2f03%2fpersonal-kanban-%25E5%25AF%25A6%25E8%25B8%2590%25E5%25BE%258C%25E7%259A%2584%25E7%25AC%25AC%25E4%25B8%2580%25E6%25AC%25A1%25E6%25AA%25A2%25E8%25A8%258E%2f" data-proofer-ignore=""><i class="fa fa-envelope"></i></a>
+  </span>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      
+  
+    <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="https://ykhorzon.github.io/tw/2018/06/03/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/" title="外傷處理與藥物過敏經驗">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
+    
+
+    
+    </ul> </nav>
+  
+
+
+</div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//ykhorizon.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+    </div>
+    
+  <div class="col-md-2 col-lg-2">
+
+    </div>
+  </div>
+</div>
+    
+<footer class="footer hidden-print">
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <div class="pull-left">
+  <a class="toplink" href="javascript:" id="return-to-top">back to top</a>
+</div>
+<div class="pull-right">
+
+<a href="https://ykhorzon.github.io/tw">聲明</a> <i>&middot;</i>
+
+<a href="https://ykhorzon.github.io/tw">使用規範</a> 
+
+</div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              
+    
+<div class="container footline">
+    <small>
+  Be curious everything with <i class='fa fa-heart'></i>
+
+</small>
+</div>
+
+
+    
+<div class="container copyright">
+    <small>
+  &copy; 2017 ykhorizon
+
+  </small>
+</div>
+
+
+
+        </div>
+    </div>
+  </div>
+</footer>
+
+    
+
+<script src="https://ykhorzon.github.io/js/jquery.min.js"></script>
+<script src="https://ykhorzon.github.io/js/bootstrap.min.js"></script>
+
+<script src="https://ykhorzon.github.io/js/js.cookie.js"></script>
+
+<script src="https://ykhorzon.github.io/js/angular.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/angular-storage.min.js"></script>
+<script src="https://ykhorzon.github.io/js/highlight.pack.js"></script>
+<script src="https://ykhorzon.github.io/js/site.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+var ENABLE_POPOVER =  false , 
+EXPIRE_COOKIE =  5 , 
+SHOW_MODAL_TIMEOUT =  10000 , 
+MOUSE_LEAVE =  true , 
+MODAL_SIZE = "", 
+POST_URL = "https://twitter.com/ykhorizon", 
+SIGNUP_HEADER = "Suscribe me on twitter @ykhorizon ",
+HEADER_IMAGE = "//placehold.it/1000x600",
+IMG_DESCRIPTION = "Placeholder image for this popover modal optin form",
+SIGNUP_TEXT = "Signup today for free and be the first to get notified on new updates.",
+INPUT_PLACEHOLDER = "Enter your email",
+SUBMIT_BUTTON = "Subscribe",
+SUCCESS_MESSAGE = "Thanks for your subscription!",
+ERROR_MESSAGE = "Submitting form failed!",
+OPTIN =  true ,
+COOKIE_NAME = "mycookie1",
+CONTENTLANGUAGE = "en"; 
+</script>
+
+<script src="https://ykhorzon.github.io/js/pathnamereplace.js"></script>
+
+<script src="https://ykhorzon.github.io/js/popover/angular-modal-service.min.js"></script>
+<script src="https://ykhorzon.github.io/js/angular-ismobile.min.js"></script>
+<script src="https://ykhorzon.github.io/js/popover/popover.min.js"></script>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/config/TeX-AMS-MML_HTMLorMML.js"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    for(var all in MathJax.Hub.getAllJax()) {
+        all.SourceElement().parentNode.className += ' has-jax';
+
+    }
+});
+</script>
+
+
+<script type="text/javascript" src="https://ykhorzon.github.io"></script>
+
+
+
+<script src="https://ykhorzon.github.io/tree/bootstrap.min.js"></script>
+<script src="https://ykhorzon.github.io/tree/category_tree.js"></script>
+
+
+
+  </body>
+</html>
+
