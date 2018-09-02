@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Story on </title>
+    <link>https://ykhorzon.github.io/tw/tags/user-story/</link>
+    <description>Recent content in User Story on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Wed, 03 May 2017 10:32:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/user-story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User Story 的那些人與那些事</title>
+      <link>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/user_story_and_others/story.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;User Story 不只是一張卡片，是說故事與溝通需求的載體&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;此篇是 User Story 實戰篇的階議題&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;心得&#34;&gt;心得&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會)&lt;/li&gt;
+&lt;li&gt;Alway observe and find bottleneck in team ( or system or problem )&lt;/li&gt;
+&lt;li&gt;經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-is-user-story&#34;&gt;What is User Story ?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability,&amp;gt; usually a user or customer of the system.&lt;/p&gt;
+
+&lt;p&gt;from Mountain Goat Software&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一個定義&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A user story is a tool used in Agile software development to capture a description of a software feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement.&lt;/p&gt;
+
+&lt;p&gt;from TechTarget&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mountaingoatsoftware.com/agile/user-stories&#34;&gt;Mountain Goat Software, User Stories&lt;/a&gt;
+&lt;a href=&#34;http://searchsoftwarequality.techtarget.com/definition/user-story&#34;&gt;TechTarget, User Story&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡短需求小卡( Card )&lt;/li&gt;
+&lt;li&gt;交談 ( Conversation )&lt;/li&gt;
+&lt;li&gt;確認 ( Confirmation )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;特性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作為基底、high level&lt;/li&gt;
+&lt;li&gt;注重在價值&lt;/li&gt;
+&lt;li&gt;不要 &lt;em&gt;帶入 Spec.&lt;/em&gt; 或 &lt;em&gt;過多功能描述&lt;/em&gt; 在其中 (會限制 Solution的可能性)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

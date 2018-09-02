@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulation on </title>
+    <link>https://ykhorzon.github.io/tw/tags/simulation/</link>
+    <description>Recent content in Simulation on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sun, 07 May 2017 18:29:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>農業模擬軟體 Survey</title>
+      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</guid>
+      <description>&lt;h1 id=&#34;todo-for-contents&#34;&gt;Todo for Contents&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分類工具&lt;/li&gt;
+&lt;li&gt;簡單敘述每個工具目的與功能&lt;/li&gt;
+&lt;li&gt;Why Case2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;引言-為什麼需要農業模擬軟體工具&#34;&gt;引言 - 為什麼需要農業模擬軟體工具?&lt;/h1&gt;
+
+&lt;h2 id=&#34;case1-大範圍農業-澳洲農民&#34;&gt;Case1: 大範圍農業 - 澳洲農民&lt;/h2&gt;
+
+&lt;p&gt;請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥&lt;/p&gt;
+
+&lt;p&gt;(以下數據為澳洲各省，平均每個農場的大小)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;http://www.landcommodities.com/&#34;&gt;http://www.landcommodities.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&#34;&gt;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34;&gt;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;因此 &lt;strong&gt;事先大概知道/粗略評估&lt;/strong&gt; 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -412,43 +412,104 @@
     </item>
     
     <item>
-      <title>農業模擬工具</title>
-      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Sun, 07 May 2017 18:29:48 +0000</pubDate>
+      <title>農業模擬軟體 Survey</title>
+      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/</guid>
-      <description>一句話描述本文重點
- 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
-Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
-引言 - 為什麼需要農業模擬軟體工具?
-Case1: 大範圍農業 - 澳洲農民
-請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
-(以下數據為澳洲各省，平均每個農場的大小)
-http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
-這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
-http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
-因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
-Case2: 農業工程滴灌系統評估
-場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
-http://www.trickle-l.com/new/gallery/soilpat.gif
-此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
-http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
-工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
-但這不代表simulation對於農業完全沒有幫助
-Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)</description>
+      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</guid>
+      <description>&lt;h1 id=&#34;todo-for-contents&#34;&gt;Todo for Contents&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分類工具&lt;/li&gt;
+&lt;li&gt;簡單敘述每個工具目的與功能&lt;/li&gt;
+&lt;li&gt;Why Case2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;引言-為什麼需要農業模擬軟體工具&#34;&gt;引言 - 為什麼需要農業模擬軟體工具?&lt;/h1&gt;
+
+&lt;h2 id=&#34;case1-大範圍農業-澳洲農民&#34;&gt;Case1: 大範圍農業 - 澳洲農民&lt;/h2&gt;
+
+&lt;p&gt;請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥&lt;/p&gt;
+
+&lt;p&gt;(以下數據為澳洲各省，平均每個農場的大小)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;http://www.landcommodities.com/&#34;&gt;http://www.landcommodities.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&#34;&gt;http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;a href=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34;&gt;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;因此 &lt;strong&gt;事先大概知道/粗略評估&lt;/strong&gt; 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>生活雜筆</title>
-      <link>https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</link>
-      <pubDate>Sat, 25 Mar 2017 00:20:17 +0000</pubDate>
+      <title>User Story 的那些人與那些事</title>
+      <link>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/</guid>
-      <description>  生命記憶的拼圖雕塑，永遠向前，無法回頭
- 從這篇文章得到  對我生命有啟發性的事件，與其省思  目錄 在有限的生命中，思考如何作決定 富足與貧窮 這個故事啟發自一串討論，&amp;raquo;吃飯會等別人到期，才一起開動的人，比較容易成功&amp;raquo;，年輕一輩的人都是為，等人是同理心、體貼的表現，因此留下好像給他人。其他長輩有不同的看法
-偏頗不公是關係裂縫根源 我是家族中年紀最輕的晚輩，到了最近才知道親戚長輩有許多不愉快的往事，造成現在之間有嫌隙。探究之後發現，問題都來在同一個原因，都是對人有不公、偏袒等行為，間接造成仇恨。因此，我希望自己在未來人生中，處理人事務盡力諸求公平、平等，以此經驗為借鏡，避免發生。
-困境試金石 人通常在艱難的時候，會產現出平時無法看到一面，可能是
-生命的寶藏 - 正直 </description>
+      <guid>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/user_story_and_others/story.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;User Story 不只是一張卡片，是說故事與溝通需求的載體&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;從這篇文章得到&#34;&gt;從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;此篇是 User Story 實戰篇的階議題&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;心得&#34;&gt;心得&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會)&lt;/li&gt;
+&lt;li&gt;Alway observe and find bottleneck in team ( or system or problem )&lt;/li&gt;
+&lt;li&gt;經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;what-is-user-story&#34;&gt;What is User Story ?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability,&amp;gt; usually a user or customer of the system.&lt;/p&gt;
+
+&lt;p&gt;from Mountain Goat Software&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;另一個定義&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A user story is a tool used in Agile software development to capture a description of a software feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement.&lt;/p&gt;
+
+&lt;p&gt;from TechTarget&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.mountaingoatsoftware.com/agile/user-stories&#34;&gt;Mountain Goat Software, User Stories&lt;/a&gt;
+&lt;a href=&#34;http://searchsoftwarequality.techtarget.com/definition/user-story&#34;&gt;TechTarget, User Story&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;簡短需求小卡( Card )&lt;/li&gt;
+&lt;li&gt;交談 ( Conversation )&lt;/li&gt;
+&lt;li&gt;確認 ( Confirmation )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;特性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作為基底、high level&lt;/li&gt;
+&lt;li&gt;注重在價值&lt;/li&gt;
+&lt;li&gt;不要 &lt;em&gt;帶入 Spec.&lt;/em&gt; 或 &lt;em&gt;過多功能描述&lt;/em&gt; 在其中 (會限制 Solution的可能性)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -457,34 +518,83 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
-      <description>主軸貫串全文，安排故事架構，邏輯連結論述
- 從文章中可獲得  學術論文撰寫的核心 - 問題主軸 論文設計架構 實驗室前輩經驗  目錄 簡易流程  先思考論文 主軸思想(重點) 再從主軸為核心，發產出論文脈絡
- 脈絡要求高度連貫性 可以 魚骨圖 、 心智圖 (mind mapping)嘗試組織(有序、結構化、定義關連性)，試試看從頭說故事，如果不暢通，打散重新組合，多嘗試直到story flow流暢  可參考標準論文架構 (設計故事架構)
- General to Specific (GS), Specific to General (SG) Intro. - Related Work - Main Body - Evaluation - Conclusion   開始前觀念提醒 解釋動機 文字論述並非流水帳，紀錄了時做的細節，而是解釋
- 原因 動機 為什麼  抽象化的表達  複雜的現象，嘗試以抽象觀念，考慮使用代數、方程式把故事說清楚
- Anti-pattern
- 一旦發現描述事務過於複雜，造成冗字過多，必須思考是否需使用抽象化，簡化描述複雜度。    訓練方式  離散數學證明練習 計算理論證明練習  主軸 問題主軸</description>
+      <description>&lt;p&gt;序言&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;主軸貫串全文，安排故事架構，邏輯連結論述&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;從文章中可獲得&#34;&gt;從文章中可獲得&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;學術論文撰寫的核心 - 問題主軸&lt;/li&gt;
+&lt;li&gt;論文設計架構&lt;/li&gt;
+&lt;li&gt;實驗室前輩經驗&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;目錄&#34;&gt;目錄&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>LeetCode磨練</title>
-      <link>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</link>
-      <pubDate>Fri, 10 Mar 2017 15:55:23 +0000</pubDate>
+      <title>敏捷需求探索工作坊</title>
+      <link>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/03/10/leetcode%E7%A3%A8%E7%B7%B4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>英文學術寫作</title>
-      <link>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</link>
-      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/03/10/%E8%8B%B1%E6%96%87%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</guid>
-      <description>  學術寫作要求嚴謹、精簡與精確
- 目錄 系列文章 本系列文章會，將會以論文組成各區塊，分別探討寫作觀念。主要分成
- Introduction Related Work Methodology( Main Body ) Evaluation Conclusion Abstract  主要會統整我在學校上過的課程、課本、網路蒐集資訊，並且實際應用到我的碩士論文上，順便完成我的論文(?!)。本人並非英文專業人士，這些方法是我個人統整，並不具備有任何權威或研究支撐，使用前請三思，另外若錯誤歡迎指教，謝謝！
-風格 A Fast Glance 目的 Taste Favor </description>
+      <guid>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/agile_requirements_discovery/discovery.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;找到缺少的拼圖就是Impact Mapping&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;你將可以從這篇文章得到&#34;&gt;你將可以從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開發產品簡易全貌 (著重需求探索)&lt;/li&gt;
+&lt;li&gt;影響地圖 Impact Mapping 概念與操作&lt;/li&gt;
+&lt;li&gt;探訪基礎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;敏捷概述&#34;&gt;敏捷概述&lt;/h1&gt;
+
+&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;laquo;敏捷宣言&amp;raquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:&lt;/p&gt;
+
+&lt;p&gt;Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan&lt;/p&gt;
+
+&lt;p&gt;That is, while there is value in the items on
+the right, we value the items on the left more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&#34;http://agilemanifesto.org/&#34;&gt;Manifesto for Agile Software Development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;核心精神：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自主管理&lt;/li&gt;
+&lt;li&gt;持續改進&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我自己的理解是：
+以人的出發思考，每個人願意發表想法、當面溝通比起工具、方法論，更能深入問題的根本(因為軟體是人在開發)
+軟體是我們打造的產品，產品本身品質(可讀性、可測試性)，可以更根本解決問題，因為維護文件也是成本&lt;/p&gt;
+
+&lt;p&gt;回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
+但互相合作更為愉快。(有點類似道德和法律的感覺)
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -497,26 +607,6 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
   寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
  期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
  寫作規劃 目前計畫是每一週，撰寫一篇文章</description>
-    </item>
-    
-    <item>
-      <title>以始為終2017</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</link>
-      <pubDate>Tue, 24 Jan 2017 22:23:51 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/24/%E4%BB%A5%E5%A7%8B%E7%82%BA%E7%B5%822017/</guid>
-      <description>以始為終  {% asset_img stuck.jpg %}
- 卡住了，研究、思考、技術、吉他，生活中的種種似乎時常原地打轉 我意識到痛苦的解果，但我始終沒有積極面對它，我無從得知發生的原因 思考慣性的盲點、自覺得缺乏，讓重複的現象產生，總是讓結果與自我期待折磨內心
- 與老師的對話 老師：YK，我發現你看起來很認真，做事也有調理，但是似乎常常卡在問題同一個地方，因此沒有進展。 我：是呀，我總是覺得沒有進展，我也很困擾
-OS：我卡住似乎也不是第一次了
-老師： 我猜可能的原因是你對這個OOO技術，最核心的概念沒有抓到重點。 我猜這也不單單發生在研究，你其他事情也有類似的現象吧？ 我：時常思考問題到最後，把自己搞的更亂。或者看更多資料，偏離主題。
-OS：我靠，你怎麼知道，這讓我想起
-老師： 我想只要你能在這方面有所突破，就算是人生一大突破，可以向前邁進 很多人有類似的問題，我覺得你可以回去好好想想原因。 腦子要靈活一點，許多的創新與突破，是把問題想清楚，看透問題的本質，找出適合的解決方法。
-OS：我回去想想
-與 octopus的對話 octopus是我重要的人，我時常與她討論生活中的種種。 今天也不例外，和老師的對話結束後，有感而發 容易發散，鑽入細節之中，一個問題尚未解決，就跑去解決下一個
-與自己對話 我為什麼會卡住？ 自己觀察症狀  已經一段時間，和老師討論的研究沒有進展 我在學習音樂上 程式撰寫，一些project似乎沒有成功，或者是進度不順  需要一些實際案例與經驗 回歸根本：我對我自己了解嗎
-自我分析： 原則  我不可能完全改變個性，成外另外一個人 但是 發揮自己的長處，補足那些缺點，達到一個自己可以 接受的平衡 也沒有一步到位的事情，凡是都有慢慢修正 一定會有挫折，無須沮喪，我相信可以變好 只要有客觀的檢視，確定再進步就好  習慣  生活習慣容易分心 愛嘗試新鮮挑戰，但是沒有有始有終 容易將注意力鎖定在細節結上，遺忘大局 先後次序、相依性、假設、重要性的安排  需要一些實際案例與經驗
-調整  80%的事情使用蕃茄鐘，增進效率。類似敏捷開的sprint 以始為終 抓住這件事情的 原則(principle) 和 精神(Key)  心態  悲觀，不要被負面駕馭自己 逃避，將時間花在製造東西、休閒娛樂而不是思考解決與採取行動  需要一些實際案例與經驗</description>
     </item>
     
     <item>
@@ -555,15 +645,6 @@ Reference photo source
  文章架構清晰 (組織圖可能用 coggle 或 xmind) 包含 Target Audience、 本篇目標 規劃未來維護與搜尋 具備完整性 (內容可以不多，必須包含觀念、看法與相關survey，不可為工具指令、單純抒發心情文章，可參考 ABCD 或尋找其他論述架構)
   方法
  Weekly Review 請別人給予回饋，說明優點、缺點和許願池 ( 持續改進 )  細節與堅持</description>
-    </item>
-    
-    <item>
-      <title>Software Simulation Tools for Agriculture</title>
-      <link>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/1/01/01/software-simulation-tools-for-agriculture/</guid>
-      <description>Hackpad Version</description>
     </item>
     
   </channel>

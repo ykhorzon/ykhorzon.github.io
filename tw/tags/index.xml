@@ -9,19 +9,10 @@
     <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
     <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
     <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Fri, 10 Mar 2017 15:30:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Mar 2017 17:12:04 +0000</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https://ykhorzon.github.io/tw/tags/</link>
-      <pubDate>Fri, 10 Mar 2017 15:30:20 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/tags/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Academic</title>
@@ -213,6 +204,15 @@
     </item>
     
     <item>
+      <title>Requirements Discovery</title>
+      <link>https://ykhorzon.github.io/tw/tags/requirements-discovery/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/requirements-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Retrospective</title>
       <link>https://ykhorzon.github.io/tw/tags/retrospective/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
@@ -227,6 +227,24 @@
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/tags/service-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation</title>
+      <link>https://ykhorzon.github.io/tw/tags/simulation/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://ykhorzon.github.io/tw/tags/software/</link>
+      <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/software/</guid>
       <description></description>
     </item>
     
@@ -254,6 +272,15 @@
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
       <author>ykhorizon@gmail.com (ykhorizon)</author>
       <guid>https://ykhorzon.github.io/tw/tags/tgdf2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Story</title>
+      <link>https://ykhorzon.github.io/tw/tags/user-story/</link>
+      <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/tags/user-story/</guid>
       <description></description>
     </item>
     

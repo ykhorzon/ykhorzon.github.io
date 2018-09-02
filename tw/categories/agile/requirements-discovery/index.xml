@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile/Requirements Discovery on </title>
+    <link>https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/</link>
+    <description>Recent content in Agile/Requirements Discovery on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tw</language>
+    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
+    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
+    <copyright>(c) 2017 ykhorizon</copyright>
+    <lastBuildDate>Sun, 26 Feb 2017 23:35:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>敏捷需求探索工作坊</title>
+      <link>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
+      <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
+      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      <guid>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
+      <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/agile_requirements_discovery/discovery.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;找到缺少的拼圖就是Impact Mapping&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;你將可以從這篇文章得到&#34;&gt;你將可以從這篇文章得到&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開發產品簡易全貌 (著重需求探索)&lt;/li&gt;
+&lt;li&gt;影響地圖 Impact Mapping 概念與操作&lt;/li&gt;
+&lt;li&gt;探訪基礎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;敏捷概述&#34;&gt;敏捷概述&lt;/h1&gt;
+
+&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;laquo;敏捷宣言&amp;raquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:&lt;/p&gt;
+
+&lt;p&gt;Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan&lt;/p&gt;
+
+&lt;p&gt;That is, while there is value in the items on
+the right, we value the items on the left more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Source: &lt;a href=&#34;http://agilemanifesto.org/&#34;&gt;Manifesto for Agile Software Development&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;核心精神：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;自主管理&lt;/li&gt;
+&lt;li&gt;持續改進&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我自己的理解是：
+以人的出發思考，每個人願意發表想法、當面溝通比起工具、方法論，更能深入問題的根本(因為軟體是人在開發)
+軟體是我們打造的產品，產品本身品質(可讀性、可測試性)，可以更根本解決問題，因為維護文件也是成本&lt;/p&gt;
+
+&lt;p&gt;回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
+但互相合作更為愉快。(有點類似道德和法律的感覺)
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -287,7 +287,7 @@
           <div class="row article-in-list">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h1 class="homepage-article-header-title"><a href="https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/">農業模擬工具</a>
+  <h1 class="homepage-article-header-title"><a href="https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">農業模擬軟體 Survey</a>
 </h1>
 
   <div class="margin-10">
@@ -297,6 +297,13 @@
 </small>
 
     
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/software" class="label label-primary">software</a>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/simulation" class="label label-primary">simulation</a>
+  
+
 
   </div>
 </div>
@@ -304,32 +311,42 @@
     <p>
   
   
-    一句話描述本文重點
- 從這篇文章得到    目錄 Software Simulation Tools for Agriculture
-Todo for Contents 分類工具 簡單敘述每個工具目的與功能 Why Case2
-引言 - 為什麼需要農業模擬軟體工具?
-Case1: 大範圍農業 - 澳洲農民
-請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃 (相當於 1237甲)的小麥
-(以下數據為澳洲各省，平均每個農場的大小)
-http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif http://www.landcommodities.com/variations-in-farm-size-across-the-australian-wheatbelt/#/
-這種規模必須用 Center Pivot Irrigation System(下圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
-http://il8.picdn.net/shutterstock/videos/17919412/thumb/11.jpg
-因此 事先大概知道什麼時候這大片田地上的穀物，缺水需要澆灌，就變成非常重要的問題。
-Case2: 農業工程滴灌系統評估
-場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？
-http://www.trickle-l.com/new/gallery/soilpat.gif
-此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率
-http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif
-工具類型 必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。
-但這不代表simulation對於農業完全沒有幫助
-Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的) Macroscope: Full Environment System Rough Behavior Simulation (交互作用) Microscope: Detail Simulation of Specific Component (精細模擬)
+    <h1 id="todo-for-contents">Todo for Contents</h1>
+
+<ul>
+<li>分類工具</li>
+<li>簡單敘述每個工具目的與功能</li>
+<li>Why Case2</li>
+</ul>
+
+<h1 id="引言-為什麼需要農業模擬軟體工具">引言 - 為什麼需要農業模擬軟體工具?</h1>
+
+<h2 id="case1-大範圍農業-澳洲農民">Case1: 大範圍農業 - 澳洲農民</h2>
+
+<p>請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥</p>
+
+<p>(以下數據為澳洲各省，平均每個農場的大小)</p>
+
+<p><img src="http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif" alt="" />
+<a href="http://www.landcommodities.com/">http://www.landcommodities.com/</a></p>
+
+<p><img src="http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg" alt="" />
+<a href="http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg">http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg</a></p>
+
+<p>這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。</p>
+
+<p><img src="https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg" alt="" />
+<a href="https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg">https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg</a></p>
+
+<p>因此 <strong>事先大概知道/粗略評估</strong> 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+</p>
   
 
 
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E5%B7%A5%E5%85%B7/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -339,16 +356,23 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
           <div class="row article-in-list">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div>
-  <h1 class="homepage-article-header-title"><a href="https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/">生活雜筆</a>
+  <h1 class="homepage-article-header-title"><a href="https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/">User Story 的那些人與那些事</a>
 </h1>
 
   <div class="margin-10">
     <small>
   <i class="fa fa-calendar"></i>
-  <time datetime="2017-03-25">25 Mar, 2017</time>
+  <time datetime="2017-05-03">3 May, 2017</time>
 </small>
 
     
+  <i class="fa fa-tags"></i>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/agile" class="label label-primary">agile</a>
+  
+  <a href="https://ykhorzon.github.io/tw/tags/user-story" class="label label-primary">user-story</a>
+  
+
 
   </div>
 </div>
@@ -356,18 +380,69 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
     <p>
   
   
-      生命記憶的拼圖雕塑，永遠向前，無法回頭
- 從這篇文章得到  對我生命有啟發性的事件，與其省思  目錄 在有限的生命中，思考如何作決定 富足與貧窮 這個故事啟發自一串討論，&raquo;吃飯會等別人到期，才一起開動的人，比較容易成功&raquo;，年輕一輩的人都是為，等人是同理心、體貼的表現，因此留下好像給他人。其他長輩有不同的看法
-偏頗不公是關係裂縫根源 我是家族中年紀最輕的晚輩，到了最近才知道親戚長輩有許多不愉快的往事，造成現在之間有嫌隙。探究之後發現，問題都來在同一個原因，都是對人有不公、偏袒等行為，間接造成仇恨。因此，我希望自己在未來人生中，處理人事務盡力諸求公平、平等，以此經驗為借鏡，避免發生。
-困境試金石 人通常在艱難的時候，會產現出平時無法看到一面，可能是
-生命的寶藏 - 正直 
+    <p><img style="width:700px;" src="https://ykhorzon.github.io/content_img/user_story_and_others/story.jpg"></p>
+
+<h1 id="序言">序言</h1>
+
+<blockquote>
+<p>User Story 不只是一張卡片，是說故事與溝通需求的載體</p>
+</blockquote>
+
+<h2 id="從這篇文章得到">從這篇文章得到</h2>
+
+<ul>
+<li>此篇是 User Story 實戰篇的階議題</li>
+</ul>
+
+<h1 id="心得">心得</h1>
+
+<ul>
+<li>有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會)</li>
+<li>Alway observe and find bottleneck in team ( or system or problem )</li>
+<li>經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上</li>
+</ul>
+
+<h1 id="what-is-user-story">What is User Story ?</h1>
+
+<blockquote>
+<p>User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability,&gt; usually a user or customer of the system.</p>
+
+<p>from Mountain Goat Software</p>
+</blockquote>
+
+<p>另一個定義</p>
+
+<blockquote>
+<p>A user story is a tool used in Agile software development to capture a description of a software feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement.</p>
+
+<p>from TechTarget</p>
+</blockquote>
+
+<p><a href="https://www.mountaingoatsoftware.com/agile/user-stories">Mountain Goat Software, User Stories</a>
+<a href="http://searchsoftwarequality.techtarget.com/definition/user-story">TechTarget, User Story</a></p>
+
+<ul>
+<li>簡短需求小卡( Card )</li>
+<li>交談 ( Conversation )</li>
+<li>確認 ( Confirmation )</li>
+</ul>
+
+<p>特性</p>
+
+<ul>
+<li>作為基底、high level</li>
+<li>注重在價值</li>
+<li>不要 <em>帶入 Spec.</em> 或 <em>過多功能描述</em> 在其中 (會限制 Solution的可能性)</li>
+</ul>
+
+<p></p>
   
 
 
 </p>
 
 
-    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/03/25/%E7%94%9F%E6%B4%BB%E9%9B%9C%E7%AD%86/" class="btn btn-default">Read more &rarr;</a></p>
+    <p class="lead"><a href="https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/" class="btn btn-default">Read more &rarr;</a></p>
 
 
   </div>
@@ -422,12 +497,6 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
     </a>
 </li>
 
-<li >
-  <a href="https://ykhorzon.github.io/tw/page/6/">
-    6
-    </a>
-</li>
-
 
 <li >
   <a aria-label="Next" href="https://ykhorzon.github.io/tw/page/5/">
@@ -435,7 +504,7 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
     </a>
 </li>
 <li >
-  <a aria-label="Last" href="https://ykhorzon.github.io/tw/page/6/">
+  <a aria-label="Last" href="https://ykhorzon.github.io/tw/page/5/">
     <span aria-hidden="true">&raquo;&raquo;</span>
   </a>
 </li>
@@ -466,16 +535,25 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
       <ul>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/agile">agile (3)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/agile">agile (5)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/agile/kanban">agile/kanban (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/agriculture">agriculture (1)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/agile/requirements-discovery">agile/requirements-discovery (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agile/user-story">agile/user-story (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agriculture">agriculture (2)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/agriculture/pest">agriculture/pest (1)</a></li>
+        
+        
+        <li><a href="https://ykhorzon.github.io/tw/categories/agriculture/software">agriculture/software (1)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/blog">blog (1)</a></li>
@@ -487,10 +565,10 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
         <li><a href="https://ykhorzon.github.io/tw/categories/design-thinking">design-thinking (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/english">english (2)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/english">english (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/english/academic-writing">english/academic-writing (2)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/english/academic-writing">english/academic-writing (1)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/hardware">hardware (2)</a></li>
@@ -502,7 +580,7 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
         <li><a href="https://ykhorzon.github.io/tw/categories/health/allergy">health/allergy (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (5)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself">myself (4)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/myself/career">myself/career (1)</a></li>
@@ -511,7 +589,7 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
         <li><a href="https://ykhorzon.github.io/tw/categories/myself/retrospective">myself/retrospective (1)</a></li>
         
         
-        <li><a href="https://ykhorzon.github.io/tw/categories/myself/target">myself/target (3)</a></li>
+        <li><a href="https://ykhorzon.github.io/tw/categories/myself/target">myself/target (2)</a></li>
         
         
         <li><a href="https://ykhorzon.github.io/tw/categories/programming">programming (2)</a></li>
@@ -564,13 +642,10 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
         <ul>
           
           
-          <li><a href="https://ykhorzon.github.io/tw/tags/agile">agile (2)</a></li>
+          <li><a href="https://ykhorzon.github.io/tw/tags/agile">agile (4)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tw/tags/writing">writing (2)</a></li>
-          
-          
-          <li><a href="https://ykhorzon.github.io/tw/tags/"> (1)</a></li>
           
           
           <li><a href="https://ykhorzon.github.io/tw/tags/academic">academic (1)</a></li>
@@ -622,6 +697,9 @@ Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己�
           
           
           <li><a href="https://ykhorzon.github.io/tw/tags/network">network (1)</a></li>
+          
+          
+          <li><a href="https://ykhorzon.github.io/tw/tags/personal-kanban">personal-kanban (1)</a></li>
           
         </ul>
       </div>
