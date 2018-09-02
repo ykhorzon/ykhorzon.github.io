@@ -78,16 +78,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</loc>
-    <lastmod>2016-09-13T23:42:55+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</loc>
-    <lastmod>2016-09-12T20:09:59+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</loc>
     <lastmod>2016-09-11T11:58:16+00:00</lastmod>
   </url>
@@ -328,22 +318,8 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</loc>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tags/language/</loc>
     <lastmod>2016-10-03T15:28:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/categories/marketing/</loc>
-    <lastmod>2016-09-13T23:42:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -382,10 +358,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/1/01/01/string-manipulation/</loc>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tags/</loc>
     <lastmod>2017-06-30T19:38:15+08:00</lastmod>
     <priority>0</priority>
@@ -414,22 +386,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/tags/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tags/tgdf2016/</loc>
-    <lastmod>2016-09-13T23:42:55+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/tgdf2016/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/tgdf2016/"
                 />
   </url>
   

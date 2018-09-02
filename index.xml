@@ -146,40 +146,6 @@ Flow by odd-to-new find S, V</description>
     </item>
     
     <item>
-      <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
-      <pubDate>Tue, 13 Sep 2016 23:42:55 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
-      <description>遊戲開發的矛與盾 市場初步估計： 簡單試算TA人數受否能支撐營運與獲利，從portal web 的排行版 歸類與統計 (巴哈姆特)
-關鍵事件  開發 營運 發行 行銷  開發 Developing 信心問題：  自我意識 v.s. 自卑 信賴關係  開發經費： 開發的惡性循環
-開發經費不足=&amp;gt; prototype產品低落=&amp;gt;無法推動收益與支撐營運
-沒有預先規劃
- 金流 到位時間  挑戰：  品質與成本控管 專案收尾的能力(把遊戲做完的能力)  那些該被刪掉的專案  決策錯誤的成本, 打擊士氣 GDD  營運 觀念 留存率 遊戲產業也是 Content-Update Orient ，只要不更新遊戲內容關卡，人氣會下降
-營運的數據派與直覺派  玩家體驗收集 搭配 營運指標 案例： -轉蛋保底、營收活動、活動難度 指標意義與目標  玩家與官方的距離 玩家 v.s 營運方
-上線後的產品更新週期  開啟新專案 or 更新既有遊戲內容 營運 team 需要極大抗壓性  Media 觀念就是從media進行 growth hacking</description>
-    </item>
-    
-    <item>
-      <title>COSCUP Startup Culture Buliding Talk</title>
-      <link>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</link>
-      <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/12/coscup-startup-culture-buliding-talk/</guid>
-      <description>人 環境(core) 文化(core) 方法 工具  How to Open?
-###工廠 vs 創意 - product-driven - customer-driven
-敏捷的文化 增進彼此之間的溝通
-多一點&amp;raquo;引導&amp;raquo;，少一點&amp;raquo;管理&amp;raquo; 用團隊取代英雄
-管理：高階領導，如何在讓每一個在環境中發揮實力
-scrum kanban water-fall
-PM為溝通的角色
-###溝通 應用對方可以理解的話語，把訊息傳達進去 如何建立人與人的連結？ 持之以行的舉辦 - 讓彼此知道彼此
-###如何提升資訊透明度
-目標清楚 - 過程 - 成果; - 成果狀態; 白板
-工作有效 - Jenkins</description>
-    </item>
-    
-    <item>
       <title>Statistics and Data Analysis for Engineers part 1</title>
       <link>https://ykhorzon.github.io/2016/09/11/statistics-and-data-analysis-for-engineers-part-1/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
@@ -189,42 +155,6 @@ PM為溝通的角色
 Article Structure @( use xmind as map of this article )
 Content start!
 Basic Concepts What is statistics? Statistics is the science of collecting, analyzing, interpreting, and presenting (numerical) data.  Population V.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
-      <description>Purpose Review my working plan and structure
-Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
-Article Structure Content My research work: Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Motivation According to our observation,
-Problems What is my design methodology / strategy to highly integration system ? What is my pains ?
-Metohds Contributions Scenarios system design process</description>
-    </item>
-    
-    <item>
-      <title>Introduction to my research</title>
-      <link>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/introduction-to-my-research/</guid>
-      <description>Metadata Purpose Review my working plan and structure
-Target Audience For those who want to know what(research) I&amp;rsquo;m doing now
-Article Structure Content start
-My research work: The following sentence is essential of my work.
-Purpose a self-adaptive control method and architecture for small scale precise irrigation system with environmental sensing.  Purpose a framework
- Make farmer or culivator focus on planting, soil and environment Do not need to care hardware detail, like: spark, hadoop such framework  Privode 1 golden controller (plant + soil + weather integration)</description>
-    </item>
-    
-    <item>
-      <title>String Manipulation</title>
-      <link>https://ykhorzon.github.io/1/01/01/string-manipulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/1/01/01/string-manipulation/</guid>
-      <description></description>
     </item>
     
   </channel>

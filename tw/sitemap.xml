@@ -143,8 +143,18 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016-notes---fail-fast/</loc>
+    <loc>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</loc>
     <lastmod>2016-09-14T23:15:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/2016/09/12/coscup-startup-culture-buliding-talk/</loc>
+    <lastmod>2016-09-12T20:09:59+00:00</lastmod>
   </url>
   
   <url>
@@ -201,6 +211,22 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
+    <lastmod>2018-08-18T17:46:11+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
+                />
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/agile/</loc>
     <lastmod>2018-08-18T17:46:11+08:00</lastmod>
     <priority>0</priority>
@@ -217,19 +243,9 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/agile/</loc>
-    <lastmod>2018-08-18T17:46:11+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tw/categories/agile/culture/</loc>
+    <lastmod>2016-09-12T20:09:59+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
   </url>
   
   <url>
@@ -303,6 +319,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/business/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/c-sharp/</loc>
     <lastmod>2017-10-26T20:23:11+08:00</lastmod>
     <priority>0</priority>
@@ -337,12 +359,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
-    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/tw/categories/design-thinking/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
     <priority>0</priority>
@@ -359,6 +375,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/design-thinking/</loc>
+    <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/drawing/</loc>
     <lastmod>2017-10-25T12:27:23+08:00</lastmod>
     <priority>0</priority>
@@ -368,22 +390,6 @@
     <loc>https://ykhorzon.github.io/tw/tags/ecosystem/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ykhorzon.github.io/tw/tags/english/</loc>
-    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/english/"
-                />
   </url>
   
   <url>
@@ -399,6 +405,22 @@
                 rel="alternate"
                 hreflang="tw"
                 href="https://ykhorzon.github.io/tw/categories/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/english/</loc>
+    <lastmod>2017-03-22T17:12:04+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/tags/english/"
                 />
   </url>
   
@@ -419,6 +441,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/game-industry/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/google-analytics/</loc>
     <lastmod>2017-08-16T22:29:08+08:00</lastmod>
     <priority>0</priority>
@@ -431,13 +459,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/health/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/health/</loc>
     <lastmod>2018-06-03T23:39:09+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/health/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/health/</loc>
     <lastmod>2018-06-03T23:39:09+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -567,13 +595,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/service-design/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/service-design/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/service-design/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/service-design/</loc>
     <lastmod>2017-11-18T19:54:37+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -597,13 +625,31 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/system-thinking/</loc>
-    <lastmod>2018-01-16T20:04:19+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/tw/categories/startup/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/startup/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/startup/game-business/</loc>
+    <lastmod>2016-09-13T23:42:55+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/system-thinking/</loc>
+    <lastmod>2018-01-16T20:04:19+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/system-thinking/</loc>
     <lastmod>2018-01-16T20:04:19+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -644,16 +690,6 @@
     <loc>https://ykhorzon.github.io/tw/tags/tgdf2016/</loc>
     <lastmod>2016-09-14T23:15:29+00:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/tgdf2016/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/tgdf2016/"
-                />
   </url>
   
   <url>
@@ -681,13 +717,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/tags/workflow/</loc>
+    <loc>https://ykhorzon.github.io/tw/categories/workflow/</loc>
     <lastmod>2018-08-03T23:37:51+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tw/categories/workflow/</loc>
+    <loc>https://ykhorzon.github.io/tw/tags/workflow/</loc>
     <lastmod>2018-08-03T23:37:51+08:00</lastmod>
     <priority>0</priority>
   </url>
