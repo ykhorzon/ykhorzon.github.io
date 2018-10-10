@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtualbox/Network on </title>
+    <title>Virtualbox/Network on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/categories/virtualbox/network/</link>
-    <description>Recent content in Virtualbox/Network on </description>
+    <description>Recent content in Virtualbox/Network on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Fri, 17 Nov 2017 16:57:00 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/virtualbox/network/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>virtualbox 網路設定 NAT v.s. Bridge mode</title>
-      <link>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
+      <link>https://ykhorzon.github.io/tw/2017/11/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
       <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/11/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;

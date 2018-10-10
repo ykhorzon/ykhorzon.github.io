@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱" />
+<meta property="og:description" content="Startup 硬體開發遭遇什麼陷阱？
+
+
+
+
+https://www.pexels.com/photo/close-up-finger-hurt-pain-433625/
+
+想像一下，你是一名新創公司的頭號工程師，公司沒有資源（缺錢、缺人），又正在開發沒人做過的產品，沒有所謂的類似產品可以參考，
+一切從零開始打造。新創公司與成熟公司最大差異，新創公司沒有前人累積的軟硬體、經驗與工具，可以借助節省開發，減少走冤枉路的時間，
+也就是 Not much to leverage
+
+
+
+what is leverage?
+
+
+from Mr. Jamie, 創業 CEO：好策略用「支點」撐起地球
+
+
+更糟的是，你的產品牽扯到硬體生產，硬體不像是軟體，只需要電腦開發與運行程式的裝置就可以；硬體製造牽扯到各種物理限制與考量，不是東西可以動就好；硬體產品不可能完全倚靠自己的公司生產，為了降低生產成本，勢必需要尋找配合的製造廠商，這又是另一個大陷阱。此外，當你的產品需要賣到不同國家，又牽扯各國的認證等等。
+
+
+所以在硬體製造上，有哪些陷阱可以事先避免呢？
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/" />
+
+
+
+<meta property="article:published_time" content="2018-05-04T19:08:57&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-05-04T19:08:57&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱"/>
+<meta name="twitter:description" content="Startup 硬體開發遭遇什麼陷阱？
+
+
+
+
+https://www.pexels.com/photo/close-up-finger-hurt-pain-433625/
+
+想像一下，你是一名新創公司的頭號工程師，公司沒有資源（缺錢、缺人），又正在開發沒人做過的產品，沒有所謂的類似產品可以參考，
+一切從零開始打造。新創公司與成熟公司最大差異，新創公司沒有前人累積的軟硬體、經驗與工具，可以借助節省開發，減少走冤枉路的時間，
+也就是 Not much to leverage
+
+
+
+what is leverage?
+
+
+from Mr. Jamie, 創業 CEO：好策略用「支點」撐起地球
+
+
+更糟的是，你的產品牽扯到硬體生產，硬體不像是軟體，只需要電腦開發與運行程式的裝置就可以；硬體製造牽扯到各種物理限制與考量，不是東西可以動就好；硬體產品不可能完全倚靠自己的公司生產，為了降低生產成本，勢必需要尋找配合的製造廠商，這又是另一個大陷阱。此外，當你的產品需要賣到不同國家，又牽扯各國的認證等等。
+
+
+所以在硬體製造上，有哪些陷阱可以事先避免呢？
+
+
+"/>
+
+
+
+    <link rel="canonical" href="https://ykhorzon.github.io/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">
+
+    <title>
+      
+        硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱 | Ykhorizon - Tech Relay Race
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Oswald" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header class="blog-header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="/tw">
+            Ykhorizon - Tech Relay Race
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/">首頁</a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/about/me">關於我</a>
+                    
+                </li>
+                
+            </ul>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                        
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+</header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
+    </h1>
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        May 4, 2018
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+    
+    
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+    
+</div>
+
+    <hr>
+</header>
+<article class="blog-post">
+    <h1 id="startup-硬體開發遭遇什麼陷阱">Startup 硬體開發遭遇什麼陷阱？</h1>
+
+<p><br></p>
+
+<p><img src="/content_img/hw_development_for_startup_part2/trap.jpg" alt="" />
+<a href="https://www.pexels.com/photo/close-up-finger-hurt-pain-433625/">https://www.pexels.com/photo/close-up-finger-hurt-pain-433625/</a></p>
+
+<p>想像一下，你是一名新創公司的頭號工程師，公司沒有資源（缺錢、缺人），又正在開發沒人做過的產品，沒有所謂的類似產品可以參考，
+一切從零開始打造。新創公司與成熟公司最大差異，新創公司沒有前人累積的軟硬體、經驗與工具，可以借助節省開發，減少走冤枉路的時間，
+也就是 <strong>Not much to leverage</strong></p>
+
+<blockquote>
+<ul>
+<li>what is <a href="http://mrjamie.cc/2013/06/03/good-strategy-leverage/">leverage</a>?</li>
+</ul>
+
+<p><code>from Mr. Jamie, 創業 CEO：好策略用「支點」撐起地球</code></p>
+</blockquote>
+
+<p>更糟的是，你的產品牽扯到硬體生產，硬體不像是軟體，只需要電腦開發與運行程式的裝置就可以；硬體製造牽扯到各種物理限制與考量，不是東西可以動就好；硬體產品不可能完全倚靠自己的公司生產，為了降低生產成本，勢必需要尋找配合的製造廠商，這又是另一個大陷阱。此外，當你的產品需要賣到不同國家，又牽扯各國的認證等等。</p>
+
+<blockquote>
+<p>所以在硬體製造上，有哪些陷阱可以事先避免呢？</p>
+</blockquote>
+
+<p></p>
+
+<h1 id="startup-的先天限制">Startup 的先天限制</h1>
+
+<p>新創公司普遍有以下的困境：</p>
+
+<ul>
+<li>有限資源 Limited Resource（沒錢、沒人脈、沒經驗）</li>
+<li>需求規格的變動 Specification Change</li>
+<li><strong>Supply chain 需要磨合的成本</strong>：
+
+<ul>
+<li>必須先知道知道 <strong>vender 的特性</strong>，才能確保進入 production 能順利進行</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="選擇-supply-chain-vender-時你得注意的事">選擇 Supply Chain Vender 時你得注意的事：</h2>
+
+<p>假設你的產品經過 PoC(Proof of Concept)，想要尋找完整的 Supply chain ，請 vender 協助製造生產，你可能會遭遇以下幾種 vender：</p>
+
+<p><strong>樂觀積極 vs 嚴謹保守</strong></p>
+
+<ul>
+<li>過於積極樂觀的 vender 對於時間預估和成本會產生很大的變數，跟你說這個產品只要<strong>短短幾個星期</strong>，就可以做完成；但等到約定的時間跟你兩手一攤，說：『還沒做完耶』，你對他沒輒！</li>
+<li>團隊內要有老手，能夠知道 vender 提出的 schedule 是否合理，然後必須預留時間 margin，就算真的 delay 也不至於讓產品開天窗。</li>
+</ul>
+
+<p><strong>能力上限</strong></p>
+
+<ul>
+<li>有些 vender 會誇大自己的製造能力：『這個東西簡單，一定做得出來』，但等到真的開始做，才跟你說：『抱歉，做不出來』</li>
+<li>要有能力知道 vender 的能力範圍，被 vender 虎爛</li>
+</ul>
+
+<p><strong>做事品質的要求</strong></p>
+
+<ul>
+<li>觀察 vender 做事情的品質、細心程度，這關係到產品成與敗</li>
+<li>品牌廠最終還是要<strong>設計測試卡關進行驗收</strong></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱一-選擇-odm-花費更多人力與時間">陷阱一：選擇 ODM 花費更多人力與時間</h2>
+
+<ul>
+<li>發 <a href="http://eeepage.info/name-prod/">RFQ</a>（報價單）</li>
+<li>廠商評估</li>
+<li>回報價/schedule/compliance</li>
+<li>Review &amp; 討論 -&gt; 詳細規格</li>
+<li>RFQ2, RFQ3&hellip;.</li>
+</ul>
+
+<p>常見延宕原因：</p>
+
+<ul>
+<li>Quotation 尋價內容與跟催</li>
+<li>技術限制（vender 就是做不出來）</li>
+<li>規格的變動</li>
+<li>法律文件（來回就要好幾個星期）</li>
+<li>產品多個部分由多個 vendor 廠商的 coordinate
+
+<ul>
+<li>經驗法則：至少要 6~10 vendor 數量才夠</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱二-每個-task-都比你預期還要久">陷阱二：每個 Task 都比你預期還要久</h2>
+
+<ul>
+<li>你的案子對 vender 來說，priority 很低，因此都被排在很後面</li>
+<li>新創公司人力有限
+
+<ul>
+<li>沒有大公司的系統與體系（QA team, 採購 &hellip; etc )，在某些工作上效率較差</li>
+</ul></li>
+<li>採用 Solution 的陷阱：
+
+<ul>
+<li>使用 open source 的風險：open source 改版</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱三-你會忽略的-dfx-design-for-x">陷阱三：你會忽略的 DFx (Design for X)</h2>
+
+<p>你的產品設計不只需要能正常運作、滿足客戶的需求，還考量很多生產、運送、安全&hellip;等考量，這類事先設計的概念成為『Design for X』，
+X 可能為許多不面向，自行替換。</p>
+
+<p><strong>Design for</strong></p>
+
+<ul>
+<li>Feature, Performance, Quality &amp; Cost</li>
+<li>Purchasing : Lead-time, availability, MOQ(最小採購批量)：IC,塑膠,螺絲 (零件是否好採購)</li>
+<li>Safety
+
+<ul>
+<li>EX:塑膠的耐燃性需求</li>
+</ul></li>
+
+<li><p>Manufacturing</p>
+
+<ul>
+<li>tooling拔模角/入料點</li>
+<li>噴漆/印刷治具</li>
+<li>可組裝性</li>
+<li>PCB測點 (Testing)</li>
+<li>SMT vs DIP (良率會因為DIP在大量生產時造成問題，盡量選擇SMT)</li>
+<li>Production test plan &amp; FW/SW</li>
+</ul></li>
+
+<li><p>Logistic : 序號, 包裝運送, RMA (保固期、退貨需要知道生產日期)</p></li>
+</ul>
+
+<hr />
+
+<h2 id="陷阱四-品管經驗不足">陷阱四：品管經驗不足</h2>
+
+<p>大家都不熟悉 Certification ，沒作過的產品不知道相關 Certification，大概有幾種，但主要還是要自己做功課</p>
+
+<ul>
+<li>EMI/EMC/ESD/safety</li>
+</ul>
+
+<p><strong>認證需要注意：</strong></p>
+
+<ul>
+<li>產品類別</li>
+<li>地區性</li>
+</ul>
+
+<p><strong>關於品質</strong></p>
+
+<ul>
+<li>你需要 QA test plan
+
+<ul>
+<li>特別是 hardware 需要搭配 web/mobile client application, server 都要有</li>
+</ul></li>
+<li>你需要建立 bug tracking system</li>
+<li>購買必要的 facility （chamber之類的，測試產品在溫度、濕度等等狀態下能夠正常工作）</li>
+<li>沒有時間測試每個 design change</li>
+<li>VQA/IQC 允收標準 vs Yield Rate</li>
+</ul>
+
+<p>產品賣出不等於結束</p>
+
+<ul>
+<li>Specification 中不穩定的 Feature 一定要持續追蹤</li>
+<li>Critical Issue 要花時間要了解細節</li>
+<li>RMA rate 退貨率的計算</li>
+</ul>
+
+<h1 id="其他">其他</h1>
+
+<p>講者在演講尾端有分享一些 bonus 的 talk
+<br></p>
+
+<hr />
+
+<h2 id="定價策略-magic-method">定價策略  Magic Method</h2>
+
+<p><strong>Benchmark</strong></p>
+
+<ul>
+<li>參考類似產品的價格來定價</li>
+</ul>
+
+<blockquote>
+<p>沒有類似產品怎麼辦？</p>
+</blockquote>
+
+<p><strong>Cost + Profit Margin</strong></p>
+
+<ul>
+<li>BoM cost x2 x2</li>
+</ul>
+
+<p>矛盾之處：</p>
+
+<ul>
+<li>太貴怕賣不出去</li>
+<li>能多賺點一點錢，難道就不能定更高的價錢嗎？</li>
+</ul>
+
+<hr />
+
+<h2 id="定價策略的上上策-找個專業的-sales">定價策略的上上策 - 找個專業的 Sales</h2>
+
+<p>好的 Sales 可能的策略</p>
+
+<ul>
+<li>B2B, 價格不透明</li>
+<li>綁不同的packages可以有不同的報價與付款方式（拆解 function 變成不同方案）</li>
+<li>付費方式要依據不同地區的有所差異</li>
+<li>不同客群能接受的價格不同(大型機構與小公司)</li>
+</ul>
+
+<hr />
+
+<h2 id="planning-magic-number">Planning (Magic Number)</h2>
+
+<p>當不知道如何規劃時，將預期的<strong>時間與人力 X 2</strong>作為評估數字，估算公司到那個時候是否能撐的下去，來決定是否要進行專案下去。</p>
+
+<hr />
+
+<h2 id="產品力">產品力</h2>
+
+<p>這部份是我自己補充講者的內容，我解釋成『讓你的產品真正的解決使用者的痛點』，必須仰賴 User Research 和市場分析，作產品不是工程師自己關在家裡觀落陰，使用者不會憑空出現，需求也不是用想像得來的。因此，我忍為團隊必須要有專業的使用者研究員，確定產品的方向，一旦有誤及早修正。</p>
+
+<hr />
+
+<h2 id="感想">感想</h2>
+
+<p><strong>對於小家公司的意義</strong></p>
+
+<p>對於小型 supply chain vendor ，以往很多 Case 都是有數量少、市場不確定高、需要跨領域整合（機構、電路、外殼、包裝&hellip;等等）的產品
+除小量的生產外，還需要協助產品的優化，是一個吃力不討好的工作。</p>
+
+<p><strong>團隊必備技能</strong></p>
+
+<p>一個功能健全的團隊，成員必須要具備以下能力（可以一人有多種技能，但不要操死人）</p>
+
+<ul>
+<li>需要一個好的 sale</li>
+<li>Designer</li>
+<li>User Research</li>
+<li>財務 管理財務</li>
+<li>找錢(funding)</li>
+<li>機械工程師（ME）機構設計</li>
+<li>EE</li>
+<li>Software</li>
+</ul>
+
+<p><strong>Sales 很重要</strong></p>
+
+<p>好的 sales 可以從跑市場的時間中，同時收集使用者痛點與市場現況，非常重要！</p>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+<li>2018/4/25, Presentation from Antony Ko ( umbo CV, Hardware VP )</li>
+<li><a href="http://mrjamie.cc/2013/06/03/good-strategy-leverage/">leverage槓桿, Mr. Jamie</a></li>
+<li><a href="http://eeepage.info/name-prod/">RFQ,專案產品開發時程之專有名詞 (RFQ,Kick-off,EVT,DVT,PVT,MP)</a></li>
+</ul>
+
+    
+
+    
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/">Personal Kanban 實踐後的第一次檢討</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/06/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/">外傷處理與藥物過敏經驗</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/">硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+        
+        <h4>Categories</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/culture">agile/culture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/kanban">agile/kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/pest">agriculture/pest</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog">blog</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog/general">blog/general</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english/academic-writing">english/academic-writing</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/career">myself/career</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/retrospective">myself/retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/target">myself/target</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/codewars">programming/codewars</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/python">programming/python</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design/ecosystem">service-design/ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup/game-business">startup/game-business</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox">virtualbox</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox/network">virtualbox/network</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow/personal-kanban">workflow/personal-kanban</a>
+            
+        </p>
+        
+    
+        
+        <h4>Tags</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/tags/academic">academic</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/allergy">allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/blind-spot">blind-spot</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/business">business</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/c-sharp">c-sharp</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/communication">communication</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/customer-journey">customer-journey</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/drawing">drawing</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ecosystem">ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/pest-detect">pest-detect</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/python">python</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/retrospective">retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/software">software</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/writing">writing</a>
+            
+        </p>
+        
+    
+</section>
+    
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        <p class="w-100 text-center">Hugo template made with ❤ by <a href="https://github.com/Xzya">Xzya</a>, inspired by <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">hugo-theme-bootstrap4-blog</a></p>
+        <p class="w-100 text-center"><a href="#">Back to top</a></p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

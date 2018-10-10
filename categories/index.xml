@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title>Categories on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content in Categories on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +15,7 @@
       <title>Agile</title>
       <link>https://ykhorzon.github.io/categories/agile/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/agile/</guid>
       <description></description>
     </item>
@@ -27,7 +24,7 @@
       <title>Agile/Devops</title>
       <link>https://ykhorzon.github.io/categories/agile/devops/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/agile/devops/</guid>
       <description></description>
     </item>
@@ -36,7 +33,7 @@
       <title>Blog</title>
       <link>https://ykhorzon.github.io/categories/blog/</link>
       <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/blog/</guid>
       <description></description>
     </item>
@@ -45,7 +42,7 @@
       <title>Blog/Hugo</title>
       <link>https://ykhorzon.github.io/categories/blog/hugo/</link>
       <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/blog/hugo/</guid>
       <description></description>
     </item>
@@ -54,7 +51,7 @@
       <title>Cs</title>
       <link>https://ykhorzon.github.io/categories/cs/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/cs/</guid>
       <description></description>
     </item>
@@ -63,7 +60,7 @@
       <title>Cs/Reinforcement Learning</title>
       <link>https://ykhorzon.github.io/categories/cs/reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/cs/reinforcement-learning/</guid>
       <description></description>
     </item>
@@ -72,7 +69,7 @@
       <title>Cs/Statistics</title>
       <link>https://ykhorzon.github.io/categories/cs/statistics/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/cs/statistics/</guid>
       <description></description>
     </item>
@@ -81,7 +78,7 @@
       <title>Design Thinking</title>
       <link>https://ykhorzon.github.io/categories/design-thinking/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/design-thinking/</guid>
       <description></description>
     </item>
@@ -90,7 +87,7 @@
       <title>English</title>
       <link>https://ykhorzon.github.io/categories/english/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/english/</guid>
       <description></description>
     </item>
@@ -99,7 +96,7 @@
       <title>English/Academic Writing</title>
       <link>https://ykhorzon.github.io/categories/english/academic-writing/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/english/academic-writing/</guid>
       <description></description>
     </item>
@@ -108,7 +105,7 @@
       <title>English/Job Searching</title>
       <link>https://ykhorzon.github.io/categories/english/job-searching/</link>
       <pubDate>Tue, 04 Oct 2016 13:19:42 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/categories/english/job-searching/</guid>
       <description></description>
     </item>

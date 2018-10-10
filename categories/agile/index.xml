@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile on </title>
+    <title>Agile on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/categories/agile/</link>
-    <description>Recent content in Agile on </description>
+    <description>Recent content in Agile on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/agile/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>Full Stack DevOps Engineer?</title>
-      <link>https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/</link>
+      <link>https://ykhorzon.github.io/2017/08/full-stack-devops-engineer/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/08/13/full-stack-devops-engineer/</guid>
+      
+      <guid>https://ykhorzon.github.io/2017/08/full-stack-devops-engineer/</guid>
       <description>Speaker
  Feng  Warnings
  The following content is sythesised with talkings and my experience  Photo of Event History Diverge and Converge The speaker shared about the evolution of software developing. If we looked back the history of software developing, all the requirement and architecture is simple. When complexity of application is increasing, developing team can not afford task of operations any more,such as loading balance and performance tuning.</description>

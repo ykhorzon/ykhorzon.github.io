@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on </title>
+    <title>Blog on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/categories/blog/</link>
-    <description>Recent content in Blog on </description>
+    <description>Recent content in Blog on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Thu, 15 Jun 2017 15:24:40 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -16,13 +13,13 @@
     
     <item>
       <title>Hugo Section with Layout</title>
-      <link>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</link>
+      <link>https://ykhorzon.github.io/2017/06/hugo-section-with-layout/</link>
       <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/06/15/hugo-section-with-layout/</guid>
+      
+      <guid>https://ykhorzon.github.io/2017/06/hugo-section-with-layout/</guid>
       <description>Opening Image image source
  Try to organize your stuff.
- Purposes  Learn section idea with layout assignment Meaning of hugo type and layout keyword front matter in .md Meaning of hugo archetype  Hugo Section Idea In hugo, every folder under content we call it a &amp;laquo;section&amp;raquo;. You have to organize your file in your own way that can reduce the extra configuration for hugo.
+ Purposes  Learn section idea with layout assignment Meaning of hugo type and layout keyword front matter in .md Meaning of hugo archetype  Hugo Section Idea In hugo, every folder under content we call it a &amp;ldquo;section&amp;rdquo;. You have to organize your file in your own way that can reduce the extra configuration for hugo.
  It&amp;rsquo;s a great design idea!</description>
     </item>
     

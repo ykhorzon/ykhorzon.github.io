@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Desing Thinking on </title>
+    <title>Desing Thinking on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tags/desing-thinking/</link>
-    <description>Recent content in Desing Thinking on </description>
+    <description>Recent content in Desing Thinking on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 25 Jun 2017 00:15:22 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tags/desing-thinking/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>Design Thinking Refresh From Scenario Lab (Taiwan) </title>
-      <link>https://ykhorzon.github.io/2017/06/25/design-thinking-refresh-from-scenario-lab-taiwan/</link>
+      <link>https://ykhorzon.github.io/2017/06/design-thinking-refresh-from-scenario-lab-taiwan/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/06/25/design-thinking-refresh-from-scenario-lab-taiwan/</guid>
+      
+      <guid>https://ykhorzon.github.io/2017/06/design-thinking-refresh-from-scenario-lab-taiwan/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     

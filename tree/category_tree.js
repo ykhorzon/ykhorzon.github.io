@@ -20,8 +20,6 @@ for (var i = 0; i < cate_items.length; i++) {
     cate_items[i].parentNode.remove()
 }
 
-console.log(main_cate_list)
-console.log(sub_cate_list)
 
 // contruct hireachy category structure
 for (var i = 0; i < main_cate_list.length; i++){
@@ -37,7 +35,7 @@ for (var i = 0; i < main_cate_list.length; i++){
     }
 }       
 
-console.log(main_cate_list)
+
 // create and append  hireachy category to DOM
 cate_root = document.querySelectorAll("#cato-tree > ul")[0]
 

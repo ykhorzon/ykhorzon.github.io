@@ -1,0 +1,875 @@
+<!doctype html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="敏捷需求探索工作坊" />
+<meta property="og:description" content="
+
+序言
+
+
+找到缺少的拼圖就是Impact Mapping
+
+
+你將可以從這篇文章得到
+
+
+開發產品簡易全貌 (著重需求探索)
+影響地圖 Impact Mapping 概念與操作
+探訪基礎
+
+
+敏捷概述
+
+敏捷開發的精神，可以由最就代表性 &ldquo;敏捷宣言&rdquo; 說起，原文如下：
+
+
+We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan
+
+That is, while there is value in the items on
+the right, we value the items on the left more.
+
+
+Source: Manifesto for Agile Software Development
+
+核心精神：
+
+
+自主管理
+持續改進
+
+
+我自己的理解是：
+以人的出發思考，每個人願意發表想法、當面溝通比起工具、方法論，更能深入問題的根本(因為軟體是人在開發)
+軟體是我們打造的產品，產品本身品質(可讀性、可測試性)，可以更根本解決問題，因為維護文件也是成本
+
+回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
+但互相合作更為愉快。(有點類似道德和法律的感覺)
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/" />
+
+
+
+<meta property="article:published_time" content="2017-02-26T23:35:22&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-02-26T23:35:22&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="敏捷需求探索工作坊"/>
+<meta name="twitter:description" content="
+
+序言
+
+
+找到缺少的拼圖就是Impact Mapping
+
+
+你將可以從這篇文章得到
+
+
+開發產品簡易全貌 (著重需求探索)
+影響地圖 Impact Mapping 概念與操作
+探訪基礎
+
+
+敏捷概述
+
+敏捷開發的精神，可以由最就代表性 &ldquo;敏捷宣言&rdquo; 說起，原文如下：
+
+
+We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:
+
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan
+
+That is, while there is value in the items on
+the right, we value the items on the left more.
+
+
+Source: Manifesto for Agile Software Development
+
+核心精神：
+
+
+自主管理
+持續改進
+
+
+我自己的理解是：
+以人的出發思考，每個人願意發表想法、當面溝通比起工具、方法論，更能深入問題的根本(因為軟體是人在開發)
+軟體是我們打造的產品，產品本身品質(可讀性、可測試性)，可以更根本解決問題，因為維護文件也是成本
+
+回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
+但互相合作更為愉快。(有點類似道德和法律的感覺)
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。
+
+"/>
+
+
+
+    <link rel="canonical" href="https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/">
+
+    <title>
+      
+        敏捷需求探索工作坊 | Ykhorizon - Tech Relay Race
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Oswald" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header class="blog-header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="/tw">
+            Ykhorizon - Tech Relay Race
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/">首頁</a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/about/me">關於我</a>
+                    
+                </li>
+                
+            </ul>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                        
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+</header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/">敏捷需求探索工作坊</a>
+    </h1>
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        Feb 26, 2017
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+    
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+    
+</div>
+
+    
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+    
+        <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+    
+</div>
+
+    <hr>
+</header>
+<article class="blog-post">
+    <p><img style="width:700px;" src="/content_img/agile_requirements_discovery/discovery.jpg"></p>
+
+<h1 id="序言">序言</h1>
+
+<blockquote>
+<p>找到缺少的拼圖就是Impact Mapping</p>
+</blockquote>
+
+<h2 id="你將可以從這篇文章得到">你將可以從這篇文章得到</h2>
+
+<ul>
+<li>開發產品簡易全貌 (著重需求探索)</li>
+<li>影響地圖 Impact Mapping 概念與操作</li>
+<li>探訪基礎</li>
+</ul>
+
+<h1 id="敏捷概述">敏捷概述</h1>
+
+<p>敏捷開發的精神，可以由最就代表性 <strong>&ldquo;敏捷宣言&rdquo;</strong> 說起，原文如下：</p>
+
+<blockquote>
+<p>We are uncovering better ways of developing
+software by doing it and helping others do it.
+Through this work we have come to value:</p>
+
+<p>Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration over contract negotiation
+Responding to change over following a plan</p>
+
+<p>That is, while there is value in the items on
+the right, we value the items on the left more.</p>
+</blockquote>
+
+<p>Source: <a href="http://agilemanifesto.org/">Manifesto for Agile Software Development</a></p>
+
+<p>核心精神：</p>
+
+<ul>
+<li>自主管理</li>
+<li>持續改進</li>
+</ul>
+
+<p>我自己的理解是：
+以人的出發思考，每個人願意發表想法、當面溝通比起工具、方法論，更能深入問題的根本(因為軟體是人在開發)
+軟體是我們打造的產品，產品本身品質(可讀性、可測試性)，可以更根本解決問題，因為維護文件也是成本</p>
+
+<p>回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
+但互相合作更為愉快。(有點類似道德和法律的感覺)
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。</p>
+
+<p></p>
+
+<h2 id="scrum">Scrum</h2>
+
+<p><img src="/content_img/agile_requirements_discovery/cuteScrum.png" alt="" />
+( <a href="https://dzone.com/articles/scrum-anime-style">odd-e</a> )</p>
+
+<p>Scrum 是符合敏捷開發精神，其中一種團隊開發與客戶合作的方法論。
+可以圖片觀察出來，Scrum重心在開發團隊如何 Deliver Code 和如何和 stakeholder檢視產出，發現錯誤提早治療。(?)</p>
+
+<h3 id="疑問">疑問</h3>
+
+<p>Scrum有一股強烈假設，已經存在一個確定 Product backlog，團隊存在一個跟神一樣的Product Owner，能夠從找出真正的需求。 <strong>我們好奇在 Product backlog 誕生之前的故事，需求從何來？怎麼來？如何確定？</strong></p>
+
+<hr />
+
+<h1 id="產品開發的-whole-picture">產品開發的 Whole Picture</h1>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/productDev1.jpg"></p>
+
+<p>我們將更大的角度看待產品開發，是由探索(Discover)與交付(Deliver)
+對的產品(or服務)，代表具備商業價值，滿足客戶的需求、解決痛點，並使客戶願意掏錢購買。</p>
+
+<p>正確地建造產品，或者說有效率建造產品，正就是Scrum或其他敏捷開發方法的存在目的。
+這邊強調一下有效率，不一定是比較快，比較準確、減少資源浪費也是一種效率(EX：花很多時間開發出客戶不需要的功能，有夠X)。</p>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/productDev2.jpg"></p>
+
+<blockquote>
+<p>靠妖，光上面箭頭旁邊關鍵字，都是一們學問。</p>
+</blockquote>
+
+<p>紅色箭頭，探索觀察如下，WorkShop時間不足無法著墨太深，於是我自己回來作點功課</p>
+
+<ul>
+<li><p><strong>人物誌 Persona：</strong> 從各種面寫摹寫人物角色(User)，起源自戲劇對劇中角色機設定，衍生為產品設計時，設定出的Target Audience。</p>
+
+<ul>
+<li><a href="https://goo.gl/LAqOD0">David Ko, Blog</a>, <a href="https://goo.gl/a8fkO8">Wiki</a></li>
+</ul></li>
+
+<li><p><strong>使用者旅程地圖 User Journey Map：</strong> 紀錄 User在使用產品過程的行為、心境與感受，作為修正產品依據。</p>
+
+<ul>
+<li><a href="https://goo.gl/TbT1nH">嫁給RD 的UI Designer - User Story 和 Customer Journey Map</a>『嫁給RD 的UI Designer』 實在寫太好了，我還是閃開讓專業的來。大家點進去看吧！</li>
+</ul></li>
+
+<li><p><strong>同理心地圖 Empathy Map：</strong> 設想自己站在，在某個當下的感受、心情、所見所聞，痛苦、想法與可望</p>
+
+<ul>
+<li><a href="https://boagworld.com/usability/adapting-empathy-maps-for-ux-design/">Adapting empathy maps for UX design</a></li>
+</ul></li>
+</ul>
+
+<p>以上我也不是非常懂，只能點到為止，大概了解。</p>
+
+<p>而這次WorkShop重點在綠色的創造解法</p>
+
+<ul>
+<li><strong>影響地圖 Impact Mapping</strong></li>
+<li><strong>故事對照 User Story Mapping</strong></li>
+<li>至於 <strong>拆解評估</strong> 、 <strong>發佈規劃</strong> 也是很重要的議題，值得思考但目前還不清楚。</li>
+</ul>
+
+<p>這邊只要知道，探索User有紅色箭頭這些武器，嘗試創造解法有綠色箭頭這些方法即可，往後有需要在深入研究。
+我自己認為，目前soho案子最缺乏的是紅色箭頭思考方式。</p>
+
+<h1 id="產品開發與design-thinking-lean-startup-agile的關係">產品開發與Design Thinking, Lean Startup, Agile的關係</h1>
+
+<hr />
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/relatedConcepts.jpg">
+(參考 <a href="http://christinedanicruz.com/my-process/">Christine Dani Cruz - USER EXPERIENCE DESIGNER</a> )
+如果我們將 <strong>設計思考 Design Thinking</strong>、 <strong>精實創業 Lean Startup</strong> 與 <strong>敏捷開發 Agile</strong> ，把放在整個產品開發的生命週期中，可以這樣描述他們關係。</p>
+
+<p>設計思考 Design Thinking 本質是觀察與探索User，一場慢長耗費腦力煎熬過程，在架構中扮演醞釀，理解User並歸納或推理出痛點(Pain)，最後設法激盪出(Synthesis)出可能的解法，不段嘗試並改進。</p>
+
+<p>觀念可以參考我<a href="https://drive.google.com/file/d/0B3xfDXAshpYmbEVZSVVfZGtyNEE/view?usp=sharing">介紹Design Thinking的Slide</a>。有興趣可以google IDEO、<a href="http://bit.ly/2m1L3k8">David Kelly</a>和 Stanford d.school等關鍵字，自行深入品嚐。</p>
+
+<p>精實創業 Lean Startup 的精神在於快速迭代(Iteration)，從每次迭代中，先開發出一些雛形，拿給User使用獲得回饋(Feedback)並學習經驗，修正構想idea，再次測試idea。在適當時機(P.S.苗頭不對，作不下去)時軸轉(Pivot)，也可以說變通的藝術XD。在精實創業 Lean Startup 整個架構扮演不段嘗試循環過程。</p>
+
+<p>敏捷開發 Agile 則是在需求可能變的狀況下，團隊有效率Deliver Code，而且更有信心開發出的功能是User想要的。
+在整體架構中，針對精實創業 Lean Startup的情境，打造一套對應的開發方式。</p>
+
+<h1 id="流程">流程</h1>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/roughFlow.jpg"></p>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/detailFlow.jpg"></p>
+
+<p>從構思想法、理解客戶、敘述故事、探索細節的脈絡進行。我自己認為可以構思想法和理解客戶應該混雜再一起，或者是說過程是非線性依序的</p>
+
+<h2 id="初步想法">初步想法</h2>
+
+<p>{% asset_img brainstorming.jpg %}</p>
+
+<p>參與者最好具備</p>
+
+<ul>
+<li>設計思考的基礎經驗</li>
+<li>視覺化思考的經驗</li>
+</ul>
+
+<p>設計思考可以參考這本『<a href="http://www.books.com.tw/products/0010479685">設計思考改變世界</a>』( <a href="https://www.amazon.com/Change-Design-Transforms-Organizations-Innovation/dp/0061766089">Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation)</a>，這本書提到許多設計思考實際案例，許多都是IDEO公司的real world case。</p>
+
+<p>主要精神</p>
+
+<ul>
+<li>Empathy：深入觀察</li>
+<li>Define：選定 Point of View，試圖從洞察(Insight)找出痛點(Pain)、需求(Need)</li>
+<li>Ideate：發想解法的可能</li>
+<li>Prototype：建在原型</li>
+<li>Test：實際測試原型，獲得測試與回饋</li>
+</ul>
+
+<p>老實說，這些招式沒有親自操練過，單純看文字完全沒有辦法有收穫，建議找一個好的workshop，花個幾萬塊上一次課比就好。</p>
+
+<p>視覺化思考我滿推薦『<a href="http://www.books.com.tw/products/0010638040">餐巾紙背後</a>』(<a href="https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697">The Back of the Napkin: Solving Problems and Selling Ideas with Pictures</a>)
+這本書非常適合給投影片只有文字的人，我自己把他當作一般生活版的UML，最好的練習方式就是在投影片或者是畫白板解說情境中，多多琢磨如何用圖像表達。</p>
+
+<h2 id="定義產品">定義產品</h2>
+
+<h3 id="問題">問題</h3>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/featureWhy.jpg"></p>
+
+<h3 id="影響地圖-impact-mapping">影響地圖 Impact Mapping</h3>
+
+<blockquote>
+<p>對的假設找出方向，錯的假設知道走錯路，重點是如何知道對與錯
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/impact1.jpg"></p>
+</blockquote>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/impact2.jpg">
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/impactDics1.jpg"></p>
+
+<p>首先，先訂定希望達成的商業目標，決定需鎖定的客戶或User，並且列舉出要被處理的引想或問題
+創造出這個估能後，能夠緩解或解決影響，促使達成商業目標。</p>
+
+<p>過程中，必須不斷的精練，詢問自己：『哪一個才是最重要的』，要時間、資源有限的情況下，必須要針對最重要的處理。</p>
+
+<p>假設，我是認為是影響地題的心臟，假設可以解決問題達成目標，需要什麼功能？有了功能假設可以解決影響？
+假設完成，重頭才要登場，我們要試圖去驗證假設，使用問卷？使有者考察？製作原型？驗證假設是否有效，要關整個商業模式是否能運作。</p>
+
+<p>魔鬼藏在細節中，實際操練時，很容易出現幫角色腦補影響或自以為合理的情況，將自己認為的想法，添加在影響地圖上。這非常危險，容易造成自我感覺良好，最終早至商業決策誤判。</p>
+
+<p><strong>舉例</strong></p>
+
+<p>幻想角色擁有影響問題，認為優良的UX可以讓User很想用等，這些都是常發生的的思維陷阱，因此我自己加上了綠色區塊與文字強調，某種意義上也是一種假設。</p>
+
+<p><strong>實際案例</strong>
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/impactDics2.jpg"></p>
+
+<h2 id="訪談">訪談</h2>
+
+<blockquote>
+<p>訪談是為了驗證影響地圖中的假設</p>
+</blockquote>
+
+<h3 id="訪談準備">訪談準備</h3>
+
+<p>設想一下，進入一迷宮手上沒有地圖(目標)，如何找到寶藏呢？當然需要事先知道要去哪裡挖寶，做事才有效率而非無頭蒼蠅。</p>
+
+<h4 id="分群分析與擬定關鍵問題">分群分析與擬定關鍵問題</h4>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/interviewGrouping.jpg"></p>
+
+<p>範例：
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/interviewExample.jpg"></p>
+
+<p>在設計問題，需思考並挑選挑選 <strong>特質選項</strong> 和  <strong>尺度</strong> 。</p>
+
+<p>可以詢問自己:</p>
+
+<ul>
+<li>選擇詢問此 <strong>特質選項</strong> ，能否 影響地圖 Impact Mapping 中的假設？如果不能要換成？</li>
+<li>選擇 <strong>尺度</strong> 時，思考這個精細度是否大太或太小？是否有意義？</li>
+</ul>
+
+<p>我們需要擬定出一份，可以確認我們假設的問題，我們的目標客群(Target Audience)存在我們假設的問題，或者目標客群是否真實存在。</p>
+
+<p><strong>舉例</strong></p>
+
+<p>目標是客戶是有錢老年旅行者，我們假想他們行動都不方便，需要簡單輕鬆的旅程。那就必須在問題設計關於旅行中，移動或交通負擔，是否真實造成控擾？有錢的老年人是否有旅行意願？有錢是多有錢？是否會花費在旅行？等等問題。</p>
+
+<h4 id="訪談流程">訪談流程</h4>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/interviewScript.jpg"></p>
+
+<blockquote>
+<p>訪談與其說是一種技術，更像一門藝術</p>
+</blockquote>
+
+<p>訪談通常至少會有2人以上進行，1人負責詢問，1人負責紀錄，也會搭配影像或錄音。流程如同上面投影片內容，首先破冰，向對象說明目的，並收集資本資料。</p>
+
+<p>次之進入核心 - 確認用戶問題，詢問事先設計好的問卷或問題，其目的為獲得可以直接或間接 <strong>驗證影響地圖Impact Mapping中的假設</strong> 。</p>
+
+<p>最後總結一下，確認一些關鍵的項目，自己的理解是否和對方一致，並答謝受訪者。</p>
+
+<p><strong>訪談關鍵</strong></p>
+
+<ul>
+<li>探索客戶世界 (不可以問假設性的問題、引導是問答、是非題)</li>
+<li>提出 <strong>開放性</strong> 、 <strong>具備延續性</strong> 的問題，讓客戶說出 真正的經驗，已經發現的事實、完整流程</li>
+<li>理解他的 <strong>動機</strong> 與 <strong>考量</strong></li>
+<li>盡量不要用話語 <strong>干擾客戶意識</strong> 或 <strong>分享的經驗</strong></li>
+</ul>
+
+<p><strong>Insight</strong></p>
+
+<ul>
+<li>觀察能力是關鍵內功，design think /  google sprint都是外功</li>
+</ul>
+
+<p><strong>額外玩法</strong></p>
+
+<ul>
+<li>多人訪談者，可以在會去後作交叉比對各自理解，抓出不同的觀察面向，盡可能還原受訪者經驗的全貌。
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/interviewGroupingDisc.jpg"></li>
+</ul>
+
+<h3 id="同理心地圖">同理心地圖</h3>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/empathyMap.jpg">
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/empathyMapDef.jpg"></p>
+
+<p>同理心地圖：一種挖掘User經驗的工具，提供一些提示，讓訪談者知道需要注意哪些部分，並免遺漏。</p>
+
+<blockquote>
+<p>不要 <strong>幫</strong> 使用者想， <strong>站在</strong> 使用者的角度想
+設法 <strong>體會</strong> 使用者的經驗，理解客戶的 <strong>動機</strong> 與 <strong>感受</strong></p>
+</blockquote>
+
+<p>想辦法讓受訪者說出，整個故事從頭到尾說一次</p>
+
+<blockquote>
+<p>設法拿到 User的 whole picture</p>
+</blockquote>
+
+<p><strong>提醒</strong>: 你必須在意並紀錄</p>
+
+<ul>
+<li>他/她真實做了的事情(流程)</li>
+<li>他/她的考量</li>
+<li>他/她的動機</li>
+</ul>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/interviewReview.jpg"></p>
+
+<h2 id="使用者故事對照-user-story-mapping">使用者故事對照 User Story Mapping</h2>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/userStoryMapping.jpg"></p>
+
+<p>使用者故事對照 User Story Mapping 是希望能夠將User 實際使用產品的工作流程(Story) 視覺化，完整的走過一遍所有的產品功能。這些功能尚處於high-level的層級，單純從使用的觀點描述，無須幫含技術細節，並與User討論出優先順序，劃分出第一版release需要的功能，即為 Minimum Viable Product (MVP)。</p>
+
+<p>Minimum Viable Product (MVP) 的意思是最小可行的產品，目的儘快驗中出產品在市場反應，是否如你預期解決User痛點，並且有人願意購買。</p>
+
+<p><strong>提醒</strong></p>
+
+<ul>
+<li>針對細節的流程，包含系統面功能</li>
+<li>相對於 impact mapping 是大方針，從 role  角度出發，因此可能有多張 User Story Mapping</li>
+</ul>
+
+<p>實際上我也在研究操練中，詳細請參考以下。</p>
+
+<p>參考：以下網站、上課程或買書</p>
+
+<ul>
+<li><a href="http://kojenchieh.pixnet.net/blog/post/75412381-%E5%A6%82%E4%BD%95%E9%80%B2%E8%A1%8Cuser-story-map">如何進行user story map</a></li>
+<li><a href="http://teddysoft.tw/courses/user-story-mapping/">使用者故事對照工作坊 (User Story Mapping Workshop)</a></li>
+<li><a href="http://www.books.com.tw/products/0010712916">使用者故事對照：User Story Mapping</a></li>
+</ul>
+
+<h3 id="mvp-in-user-story-mapping">MVP in User Story Mapping</h3>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/MVPinUSM.jpg"></p>
+
+<p>MVP是否一定要實作？！可參考David Ko的Blog，也許可以先用 &ldquo;pretotype&rdquo;先驗證需求的是否從在與。最著名的例子就是Dropbox一行code沒寫，就先作idea promotion的影片，在網路上風傳，才開始implement。</p>
+
+<p>參考</p>
+
+<ul>
+<li><a href="http://kojenchieh.pixnet.net/blog/post/364134032-pretotype---%E4%BA%BA%E8%82%89%E7%B3%BB%E7%B5%B1">什麼是 Pretotype?</a></li>
+<li><a href="http://kojenchieh.pixnet.net/blog/post/395959646-%E4%BB%80%E9%BA%BC%E6%98%AF-pretotype%3F">Pretotype - 人肉系統</a></li>
+</ul>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/USMExample.jpg"></p>
+
+<h2 id="協同設計流程">協同設計流程</h2>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/codesign.jpg"></p>
+
+<h2 id="需求實例化">需求實例化</h2>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/SbyE.jpg"></p>
+
+<p>這部份我還沒有深入的研究，希望未來可以找時間來詳細理解概念。可以先參考下方資訊簡單理解。</p>
+
+<p>參考</p>
+
+<ul>
+<li><a href="http://blog.xdite.net/posts/2012/10/01/specification-by-example">Specification by Example - 團隊如何交付正確的軟體, xdite</a></li>
+<li><a href="https://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084">Specification by Example: How Successful Teams Deliver the Right Software</a></li>
+</ul>
+
+<h1 id="總結流程">總結流程</h1>
+
+<p><img style="width:700px;" src="/content_img/agile_requirements_discovery/productFlowSum.jpg">
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/productFlowSum2.jpg"></p>
+
+<h1 id="group-retrospective-discussion">Group Retrospective Discussion</h1>
+
+<ul>
+<li>連貫性</li>
+<li>訪談的藝術</li>
+</ul>
+
+<p>每一動作邏輯之連貫性，至關重要。舉例說影響地圖的假設，是否能與用戶訪談呼應，維繫著整個驗證過程是否合理。等同於要一直問自己，為什麼要作這一步，和之前關聯是什麼？</p>
+
+<p>對於完全沒有訪談經驗的人，如何讓對方說出&rdquo;真實的情況&rdquo;，非有有挑戰性，很容易問到對方句點，或者引導對方想法。</p>
+
+<h1 id="參考資料">參考資料</h1>
+
+<p>投影片與工作訪來源： David Ko, Agile Taiwan Community</p>
+
+<p>作者參考資料
+<img style="width:700px;" src="/content_img/agile_requirements_discovery/ref.jpg"></p>
+
+<p>活動資訊：<a href="http://www.accupass.com/go/exploringagilereq">Agile Meetup HsinChu 2017 二月份聚會 - 敏捷需求探索</a></p>
+
+<p>社群：<a href="https://www.facebook.com/groups/179345672472/">Scrum Community in Taiwan</a></p>
+
+<p>我的補充參考資料</p>
+
+<ul>
+<li><a href="https://goo.gl/TbT1nH">嫁給RD 的UI Designer - User Story 和 Customer Journey Map</a></li>
+<li><a href="https://boagworld.com/wp-content/uploads/manual/Empathy%20map.jpg?x54382">同理心地圖</a></li>
+<li><a href="http://kojenchieh.pixnet.net/blog/post/395959646-%E4%BB%80%E9%BA%BC%E6%98%AF-pretotype%3F">David Ko, Pretotype - 人肉系統</a></li>
+<li><a href="http://kojenchieh.pixnet.net/blog/post/364134032-pretotype---%E4%BA%BA%E8%82%89%E7%B3%BB%E7%B5%B1">David Ko, 什麼是 Pretotype?</a></li>
+<li><a href="http://christinedanicruz.com/my-process/">Christine Dani Cruz - USER EXPERIENCE DESIGNER</a></li>
+</ul>
+
+    
+
+    
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/">Personal Kanban 實踐後的第一次檢討</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/06/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/">外傷處理與藥物過敏經驗</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/">硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+        
+        <h4>Categories</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/culture">agile/culture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/kanban">agile/kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/pest">agriculture/pest</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog">blog</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog/general">blog/general</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english/academic-writing">english/academic-writing</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/career">myself/career</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/retrospective">myself/retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/target">myself/target</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/codewars">programming/codewars</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/python">programming/python</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design/ecosystem">service-design/ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup/game-business">startup/game-business</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox">virtualbox</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox/network">virtualbox/network</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow/personal-kanban">workflow/personal-kanban</a>
+            
+        </p>
+        
+    
+        
+        <h4>Tags</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/tags/academic">academic</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/allergy">allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/blind-spot">blind-spot</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/business">business</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/c-sharp">c-sharp</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/communication">communication</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/customer-journey">customer-journey</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/drawing">drawing</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ecosystem">ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/pest-detect">pest-detect</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/python">python</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/retrospective">retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/software">software</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/writing">writing</a>
+            
+        </p>
+        
+    
+</section>
+    
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        <p class="w-100 text-center">Hugo template made with ❤ by <a href="https://github.com/Xzya">Xzya</a>, inspired by <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">hugo-theme-bootstrap4-blog</a></p>
+        <p class="w-100 text-center"><a href="#">Back to top</a></p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

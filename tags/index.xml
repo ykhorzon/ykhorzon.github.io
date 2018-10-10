@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
+    <title>Tags on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tags/</link>
-    <description>Recent content in Tags on </description>
+    <description>Recent content in Tags on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Fri, 30 Jun 2017 19:38:15 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +15,7 @@
       <title>Academic</title>
       <link>https://ykhorzon.github.io/tags/academic/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/academic/</guid>
       <description></description>
     </item>
@@ -27,7 +24,7 @@
       <title>Agile</title>
       <link>https://ykhorzon.github.io/tags/agile/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/agile/</guid>
       <description></description>
     </item>
@@ -36,7 +33,7 @@
       <title>Concept</title>
       <link>https://ykhorzon.github.io/tags/concept/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/concept/</guid>
       <description></description>
     </item>
@@ -45,7 +42,7 @@
       <title>Course</title>
       <link>https://ykhorzon.github.io/tags/course/</link>
       <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/course/</guid>
       <description></description>
     </item>
@@ -54,7 +51,7 @@
       <title>Desing Thinking</title>
       <link>https://ykhorzon.github.io/tags/desing-thinking/</link>
       <pubDate>Sun, 25 Jun 2017 00:15:22 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/desing-thinking/</guid>
       <description></description>
     </item>
@@ -63,7 +60,7 @@
       <title>English</title>
       <link>https://ykhorzon.github.io/tags/english/</link>
       <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/english/</guid>
       <description></description>
     </item>
@@ -72,7 +69,7 @@
       <title>Language</title>
       <link>https://ykhorzon.github.io/tags/language/</link>
       <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/language/</guid>
       <description></description>
     </item>
@@ -81,7 +78,7 @@
       <title>Math</title>
       <link>https://ykhorzon.github.io/tags/math/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/math/</guid>
       <description></description>
     </item>
@@ -90,7 +87,7 @@
       <title>Reinforcement Learning</title>
       <link>https://ykhorzon.github.io/tags/reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
@@ -99,7 +96,7 @@
       <title>Statistics</title>
       <link>https://ykhorzon.github.io/tags/statistics/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/statistics/</guid>
       <description></description>
     </item>
@@ -108,7 +105,7 @@
       <title>Talk</title>
       <link>https://ykhorzon.github.io/tags/talk/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/talk/</guid>
       <description></description>
     </item>
@@ -117,7 +114,7 @@
       <title>Writing</title>
       <link>https://ykhorzon.github.io/tags/writing/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tags/writing/</guid>
       <description></description>
     </item>

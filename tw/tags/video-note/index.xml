@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Video Note on </title>
+    <title>Video Note on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/tags/video-note/</link>
-    <description>Recent content in Video Note on </description>
+    <description>Recent content in Video Note on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Fri, 27 Oct 2017 18:38:34 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/video-note/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
       <description>影片  內容摘要 物理防治 3:33
 阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
 耕作防治管理 9:00

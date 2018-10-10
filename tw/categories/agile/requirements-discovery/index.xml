@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile/Requirements Discovery on </title>
+    <title>Agile/Requirements Discovery on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/</link>
-    <description>Recent content in Agile/Requirements Discovery on </description>
+    <description>Recent content in Agile/Requirements Discovery on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 26 Feb 2017 23:35:22 +0000</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>敏捷需求探索工作坊</title>
-      <link>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
+      <link>https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
       <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/agile_requirements_discovery/discovery.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
@@ -38,7 +35,7 @@
 
 &lt;h1 id=&#34;敏捷概述&#34;&gt;敏捷概述&lt;/h1&gt;
 
-&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;laquo;敏捷宣言&amp;raquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
+&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;ldquo;敏捷宣言&amp;rdquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;We are uncovering better ways of developing

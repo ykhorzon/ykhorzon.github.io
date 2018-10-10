@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drawing on </title>
+    <title>Drawing on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/tags/drawing/</link>
-    <description>Recent content in Drawing on </description>
+    <description>Recent content in Drawing on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Wed, 25 Oct 2017 12:27:23 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/drawing/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>Matplotlib 基本介紹</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;!-- TOC --&gt;

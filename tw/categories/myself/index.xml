@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Myself on </title>
+    <title>Myself on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/categories/myself/</link>
-    <description>Recent content in Myself on </description>
+    <description>Recent content in Myself on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Mon, 09 Oct 2017 13:40:21 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/myself/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>做事方法檢討 以打造個人blog為例</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</guid>
       <description>&lt;h2 id=&#34;先說結論&#34;&gt;先說結論&lt;/h2&gt;
 
 &lt;h3 id=&#34;心魔1-自己硬幹出來比較-cool&#34;&gt;心魔1： 自己硬幹出來比較 Cool&lt;/h3&gt;
@@ -44,10 +41,10 @@
     
     <item>
       <title>電腦科學(Computer Science)到底在學什麼？</title>
-      <link>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
+      <link>https://ykhorzon.github.io/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
       <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -59,10 +56,10 @@
     
     <item>
       <title>為何而寫</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
       <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/01/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
       <description>寫作即思考與反芻
   寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
  期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
@@ -71,12 +68,12 @@
     
     <item>
       <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
       <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2016/09/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
       <description>序：為什麼要此挑戰？Why to start this challenge? Record
- 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;raquo;Keep uploading!&amp;laquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;laquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;laquo;。我以他作為自己的學習對象，將&amp;laquo;Keep producing valuable content !&amp;raquo;作為座右銘砥礪自己。
+ 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;rdquo;Keep uploading!&amp;ldquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;ldquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;ldquo;。我以他作為自己的學習對象，將&amp;ldquo;Keep producing valuable content !&amp;rdquo;作為座右銘砥礪自己。
 Reference Casey Nesistat Youtube Channel
 每日動力 {% asset_img cycle.png %}
 任何人每天一定有學習與收穫，但需藉由統整、紀錄才成將經驗轉為累積性的能量，否則船過水無痕，非常可惜。而撰寫blog文章促使(強迫)審視每一天的進度，觀察自己的行為，最重要的訓練組織知識和經驗。最終希望可以和人生長期計畫 (long-term plan)能夠互相呼應

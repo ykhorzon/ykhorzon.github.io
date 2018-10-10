@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>System Thinking on </title>
+    <title>System Thinking on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/tags/system-thinking/</link>
-    <description>Recent content in System Thinking on </description>
+    <description>Recent content in System Thinking on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Tue, 16 Jan 2018 20:04:19 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/system-thinking/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>Agile Meetup 新竹 - 系統思考工作坊 心得</title>
-      <link>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
+      <link>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
       <pubDate>Tue, 16 Jan 2018 20:04:19 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;

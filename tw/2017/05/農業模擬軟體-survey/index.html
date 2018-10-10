@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="農業模擬軟體 Survey" />
+<meta property="og:description" content="Todo for Contents
+
+
+分類工具
+簡單敘述每個工具目的與功能
+Why Case2
+
+
+引言 - 為什麼需要農業模擬軟體工具?
+
+Case1: 大範圍農業 - 澳洲農民
+
+請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥
+
+(以下數據為澳洲各省，平均每個農場的大小)
+
+
+http://www.landcommodities.com/
+
+
+http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg
+
+這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
+
+
+https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg
+
+因此 事先大概知道/粗略評估 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/" />
+
+
+
+<meta property="article:published_time" content="2017-05-07T18:29:48&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-05-07T18:29:48&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="農業模擬軟體 Survey"/>
+<meta name="twitter:description" content="Todo for Contents
+
+
+分類工具
+簡單敘述每個工具目的與功能
+Why Case2
+
+
+引言 - 為什麼需要農業模擬軟體工具?
+
+Case1: 大範圍農業 - 澳洲農民
+
+請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥
+
+(以下數據為澳洲各省，平均每個農場的大小)
+
+
+http://www.landcommodities.com/
+
+
+http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg
+
+這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。
+
+
+https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg
+
+因此 事先大概知道/粗略評估 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+"/>
+
+
+
+    <link rel="canonical" href="https://ykhorzon.github.io/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">
+
+    <title>
+      
+        農業模擬軟體 Survey | Ykhorizon - Tech Relay Race
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Oswald" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header class="blog-header">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="/tw">
+            Ykhorizon - Tech Relay Race
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+                
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/">首頁</a>
+                    
+                </li>
+                
+                <li class="nav-item ">
+                    
+                        <a class="nav-link" href="/tw/about/me">關於我</a>
+                    
+                </li>
+                
+            </ul>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Language
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                        
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+</header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">農業模擬軟體 Survey</a>
+    </h1>
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        May 7, 2017
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+    
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/software">software</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+    
+</div>
+
+    
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+    
+        <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+    
+</div>
+
+    <hr>
+</header>
+<article class="blog-post">
+    <h1 id="todo-for-contents">Todo for Contents</h1>
+
+<ul>
+<li>分類工具</li>
+<li>簡單敘述每個工具目的與功能</li>
+<li>Why Case2</li>
+</ul>
+
+<h1 id="引言-為什麼需要農業模擬軟體工具">引言 - 為什麼需要農業模擬軟體工具?</h1>
+
+<h2 id="case1-大範圍農業-澳洲農民">Case1: 大範圍農業 - 澳洲農民</h2>
+
+<p>請想像一下，如果你一名澳洲的穀物耕種農民，你住在西澳洲(Western Australia)並且擁有一個 1200公頃(相當於 1237甲)的小麥</p>
+
+<p>(以下數據為澳洲各省，平均每個農場的大小)</p>
+
+<p><img src="http://www.landcommodities.com/wp-content/uploads/2012/11/Comparison-of-cropping-farm-sizes-in-different-Australian-states-2011.gif" alt="" />
+<a href="http://www.landcommodities.com/">http://www.landcommodities.com/</a></p>
+
+<p><img src="http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg" alt="" />
+<a href="http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg">http://www.abc.net.au/news/image/1142978-3x2-940x627.jpg</a></p>
+
+<p>這種規模必須用 central pivot Irrigation System(下圖為不同作物僅是示意圖)才有辦法澆水達成。在栽種過程中不可避免，需要幫植物澆水，但出動一次這種大機具，不是便宜簡單事情。</p>
+
+<p><img src="https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg" alt="" />
+<a href="https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg">https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg</a></p>
+
+<p>因此 <strong>事先大概知道/粗略評估</strong> 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
+</p>
+
+<h2 id="case2-農業工程滴灌系統評估">Case2: 農業工程滴灌系統評估</h2>
+
+<p>場景轉換到溫室內，你是一名剛採購完一套滴灌系統的農人，你想知道這套系統澆水後，如何決定滴灌出水點、澆水速率，使果樹吸收到足夠的水分？更何況各種不同的土壤材質，對於水分擴散的模式不盡相同，如何知道澆水後的結果？</p>
+
+<p><img src="http://www.trickle-l.com/new/gallery/soilpat.gif" alt="" /></p>
+
+<p>此時就需要土壤濕度的模擬，可以快速驗證出土壤濕度擴散的現象，決定如何配置澆水位置以及澆水速率</p>
+
+<p><img src="http://www.scielo.br/img/revistas/sa/v67n1/v67n01a02fig06.gif" alt="" /></p>
+
+<h1 id="工具類型">工具類型</h1>
+
+<p>必須要先打一個預防針，自然環境是一個極為複雜的系統，植物也是非常複雜生命體，要完全模擬出一樣的系統，是不可能的。</p>
+
+<p>但這不代表simulation對於農業完全沒有幫助</p>
+
+<p>Software Simulation Tools 主要分成兩類，各自有不同用途 (我自己分類的)
+- Macroscope
+- Microscope</p>
+
+<p><strong>Macroscope:</strong>
+&gt; Full Environment System Rough Behavior Simulation (交互作用)</p>
+
+<p><strong>Microscope:</strong>
+&gt; Detail Simulation of Specific Component (精細模擬)</p>
+
+<p><strong>Macroscope</strong>
+重點是 環境系統與植物交互作用的關係，能夠大略被模擬，作為務農決策參考。這類型工具類似 Decision Support System 的其中一個環節</p>
+
+<p>舉例來說：天氣變化，對於植物、土壤的水分散失的關係 (FAO- AquaCrop)</p>
+
+<p><strong>Microscope</strong>
+另外一類是專注在環境系統內特定部分，已精細Model設法重現行為
+流體在土壤(孔隙介質)中移動如 HYDRUS-2D</p>
+
+<h1 id="software-simulation-tools-list-macroscope">Software Simulation Tools List - Macroscope</h1>
+
+<h2 id="python-crop-simulation-environment-pcse">Python Crop Simulation Environment - PCSE</h2>
+
+<p><a href="https://github.com/ajwdewit/pcse">https://github.com/ajwdewit/pcse</a>
+<a href="http://pcse.readthedocs.io/en/master/">http://pcse.readthedocs.io/en/master/</a></p>
+
+<h2 id="apsim-series">APSIM Series</h2>
+
+<p>CSIRO (澳洲的聯邦研究機構，類似台灣中研院或工研院)
+It contains a suite of modules which enable the simulation of systems  that cover a range of plant, animal, soil, climate and management  interactions</p>
+
+<h3 id="apsim">APSIM</h3>
+
+<p><a href="http://www.apsim.info/">http://www.apsim.info/</a>
+- C# .Net
+- Open Source</p>
+
+<h3 id="apsimx">APSIMX</h3>
+
+<p>Next Generation for refactoring flexable software architecture
+<a href="https://github.com/APSIMInitiative/ApsimX">https://github.com/APSIMInitiative/ApsimX</a></p>
+
+<h2 id="aquacrop-series">AquaCrop - Series</h2>
+
+<p>Developed by UN - FAO
+Focus on Plant response to irrigation with soil profile and weather data in daily time step</p>
+
+<h3 id="aquacrop">AquaCrop</h3>
+
+<p><a href="http://www.fao.org/land-water/aquacrop/en/">http://www.fao.org/land-water/aquacrop/en/</a>
+Paper Title
+- AquaCrop—The FAO Crop Model to Simulate Yield Response to Water: II. Main Algorithms and Software Description</p>
+
+<h3 id="aquacrop-os">AquaCrop-OS</h3>
+
+<p>Paper Title
+- AquaCrop-OS: An open source version of FAO&rsquo;s crop water productivity model
+<a href="http://aquacropos.com/about-2/">http://aquacropos.com/about-2/</a>
+Open Source But You need to send a request to auther</p>
+
+<h2 id="dssat">DSSAT</h2>
+
+<ul>
+<li><a href="http://dssat.net/">http://dssat.net/</a>
+software application program that comprises crop simulation models for  over 42 crops (as of v4.6). DSSAT is supported by data base management  programs for soil, weather, and crop management and experimental data,  and by utilities and application programs</li>
+</ul>
+
+<h2 id="swap">SWAP</h2>
+
+<ul>
+<li>Open Source for 1-D simulation</li>
+<li><a href="https://soil-modeling.org/models/model-descriptions/swap">https://soil-modeling.org/models/model-descriptions/swap</a></li>
+<li>Wageningen University (荷蘭 農業、生物科技 強項之研究大學)</li>
+</ul>
+
+<h2 id="agmip">AgMIP</h2>
+
+<p><a href="http://www.agmip.org/">http://www.agmip.org/</a></p>
+
+<h1 id="software-simulation-tools-list-microscope">Software Simulation Tools List - Microscope</h1>
+
+<h2 id="hydrus-series">HYDRUS - Series</h2>
+
+<p>目前 state of the art的 soil hydraulic simulation tool</p>
+
+<h3 id="hydrus-1d">HYDRUS 1D</h3>
+
+<ul>
+<li>Hydrus-1D is a public domain Windows-based modeling environment for analysis of water flow and solute transport in variably saturated porous -media</li>
+<li>Open Source</li>
+<li>Fortran</li>
+</ul>
+
+<h3 id="hydrus-2d-3d">HYDRUS 2D/3D</h3>
+
+<p>Commercial Software
+Freeware for trial without run but not open source
+<img src="https://www.pc-progress.com/Images/Pgm_Hydrus2D/Main/Animation.gif" alt="" />
+<img src="https://www.pc-progress.com/Images/Pgm_Hydrus3D/MainPg_01_Medium.gif" alt="" /></p>
+
+<h2 id="swim">SWIM</h2>
+
+<p>APSIM water balance core model
+<a href="http://www.scisoftware.com/products/swim_details/swim_details.html">SWIMv1/SWIMv2</a></p>
+
+<h2 id="drip-irriwater">Drip-Irriwater</h2>
+
+<p>Close source ( You can send a email for requesting executable program )
+Paper Title
+Drip-Irriwater: Computer software to simulate soil wetting patterns under surface drip irrigation</p>
+
+<h2 id="sawcal">SAWCal</h2>
+
+<p>Paper Title :
+- SAWCal: A user-friendly program for calculating soil available water quantities and physical quality indices</p>
+
+<h2 id="soilphysics">Soilphysics</h2>
+
+<p>Paper Title
+- soilphysics: An R package for calculating soil water availability to plants by different soil physical indices
+- Open Source with R Language</p>
+
+<h2 id="soilpsi">SOILPSI</h2>
+
+<p>Paper Title
+- SOILPSI: a potential-driven three-dimensional soil water redistribution model—description and comparative evaluation</p>
+
+<h2 id="chemflo-2000">CHEMFLO-2000</h2>
+
+<p>Free But Not Open Source
+<a href="http://soilphysics.okstate.edu/software/chemflo/chemflo2000/ChemfloManual.pdf">http://soilphysics.okstate.edu/software/chemflo/chemflo2000/ChemfloManual.pdf</a>
+<a href="https://www.epa.gov/water-research/chemflo-2000-interactive-software-simulating-water-and-chemical-movement-unsaturated">CHEMFLO-2000, Interactive Software for Simulating Water and Chemical Movement in Unsaturated Soils | Water Research | US EPA</a></p>
+
+<p>UDSA
+<a href="http://water.usgs.gov/software/lists/groundwater/#gui-and-postproc">http://water.usgs.gov/software/lists/groundwater/#gui-and-postproc</a></p>
+
+<h2 id="swat">SWAT</h2>
+
+<p>USDA
+<a href="https://www.youtube.com/watch?v=AkVG_YccsVI">https://www.youtube.com/watch?v=AkVG_YccsVI</a></p>
+
+<h2 id="waves">WAVES</h2>
+
+<p>WAVES - An integrated energy and water balance model - Software
+CSIRO
+<a href="https://research.csiro.au/software/waves/">https://research.csiro.au/software/waves/</a></p>
+
+<h2 id="hydromad">hydromad</h2>
+
+<p>R package
+<a href="http://hydromad.catchment.org/">http://hydromad.catchment.org/</a></p>
+
+<hr />
+
+<h1 id="pedotransfer-function">Pedotransfer function</h1>
+
+<ul>
+<li><p>In soil science, pedotransfer functions (PTF) are predictive functions of certain soil properties using data from soil surveys. <a href="https://en.wikipedia.org/wiki/Pedotransfer_function">wiki</a></p>
+
+<h2 id="rosetta-model">ROSETTA Model</h2>
+
+<p><a href="https://www.ars.usda.gov/pacific-west-area/riverside-ca/us-salinity-laboratory/docs/rosetta-model/">https://www.ars.usda.gov/pacific-west-area/riverside-ca/us-salinity-laboratory/docs/rosetta-model/</a></p></li>
+</ul>
+
+<h2 id="soilpar2">SOILPAR2</h2>
+
+<h1 id="atmosphere-related-tools">Atmosphere Related Tools</h1>
+
+<h2 id="eto">ETo</h2>
+
+<p><a href="https://cran.r-project.org/web/packages/Evapotranspiration/index.html">https://cran.r-project.org/web/packages/Evapotranspiration/index.html</a></p>
+
+<h1 id="others">Others</h1>
+
+<h2 id="agros2d">Agros2D</h2>
+
+<ul>
+<li>numerical solutions of 2D coupled problems in technical disciplines,<a href="https://en.wikipedia.org/wiki/Agros2D">wiki</a></li>
+<li><a href="https://github.com/hpfem/agros2d">https://github.com/hpfem/agros2d</a></li>
+</ul>
+
+<h1 id="resource-hub-for-soil-model">Resource Hub for Soil Model</h1>
+
+<p>A Summary website of Soil-Water Balance Model</p>
+
+<ul>
+<li><a href="https://soil-modeling.org/resources-links/model-portal">https://soil-modeling.org/resources-links/model-portal</a></li>
+<li><a href="https://soil-modeling.org/governance">Mission statement — ISMC</a></li>
+<li><a href="https://www.waterlog.info/software.htm">R.J. Oosterbaan, Software and mathematical (numerical) simulation models, free downloading</a></li>
+</ul>
+
+    
+
+    
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/">Personal Kanban 實踐後的第一次檢討</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/06/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/">外傷處理與藥物過敏經驗</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/">硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+        
+        <h4>Categories</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/culture">agile/culture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/kanban">agile/kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/pest">agriculture/pest</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog">blog</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog/general">blog/general</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english/academic-writing">english/academic-writing</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/career">myself/career</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/retrospective">myself/retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/target">myself/target</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/codewars">programming/codewars</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/python">programming/python</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design/ecosystem">service-design/ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup/game-business">startup/game-business</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox">virtualbox</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox/network">virtualbox/network</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow/personal-kanban">workflow/personal-kanban</a>
+            
+        </p>
+        
+    
+        
+        <h4>Tags</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/tags/academic">academic</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/allergy">allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/blind-spot">blind-spot</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/business">business</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/c-sharp">c-sharp</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/communication">communication</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/customer-journey">customer-journey</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/drawing">drawing</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ecosystem">ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/pest-detect">pest-detect</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/python">python</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/retrospective">retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/software">software</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/writing">writing</a>
+            
+        </p>
+        
+    
+</section>
+    
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        <p class="w-100 text-center">Hugo template made with ❤ by <a href="https://github.com/Xzya">Xzya</a>, inspired by <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">hugo-theme-bootstrap4-blog</a></p>
+        <p class="w-100 text-center"><a href="#">Back to top</a></p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

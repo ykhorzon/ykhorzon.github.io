@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/post/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in Posts on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
@@ -16,10 +13,10 @@
     
     <item>
       <title>從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</title>
-      <link>https://ykhorzon.github.io/tw/2018/08/18/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</link>
+      <link>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</link>
       <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/08/18/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</guid>
       <description>&lt;h1 id=&#34;文章要點&#34;&gt;文章要點&lt;/h1&gt;
 
 &lt;p&gt;文章主要分成&lt;/p&gt;
@@ -38,10 +35,10 @@
     
     <item>
       <title>Personal Kanban 實踐後的第一次檢討</title>
-      <link>https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/</link>
+      <link>https://ykhorzon.github.io/tw/2018/08/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/</link>
       <pubDate>Fri, 03 Aug 2018 23:37:51 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/08/03/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/08/personal-kanban-%E5%AF%A6%E8%B8%90%E5%BE%8C%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%AA%A2%E8%A8%8E/</guid>
       <description>&lt;h1 id=&#34;文章要點&#34;&gt;文章要點&lt;/h1&gt;
 
 &lt;blockquote&gt;
@@ -56,10 +53,10 @@
     
     <item>
       <title>外傷處理與藥物過敏經驗</title>
-      <link>https://ykhorzon.github.io/tw/2018/06/03/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/</link>
+      <link>https://ykhorzon.github.io/tw/2018/06/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/</link>
       <pubDate>Sun, 03 Jun 2018 23:39:09 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/06/03/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/06/%E5%A4%96%E5%82%B7%E8%99%95%E7%90%86%E8%88%87%E8%97%A5%E7%89%A9%E9%81%8E%E6%95%8F%E7%B6%93%E9%A9%97/</guid>
       <description>&lt;h1 id=&#34;警告與提醒&#34;&gt;警告與提醒&lt;/h1&gt;
 
 &lt;blockquote&gt;
@@ -84,10 +81,10 @@
     
     <item>
       <title>硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</title>
-      <link>https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</link>
+      <link>https://ykhorzon.github.io/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</link>
       <pubDate>Fri, 04 May 2018 19:08:57 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/05/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/</guid>
       <description>&lt;h1 id=&#34;startup-硬體開發遭遇什麼陷阱&#34;&gt;Startup 硬體開發遭遇什麼陷阱？&lt;/h1&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -118,10 +115,10 @@
     
     <item>
       <title>硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程</title>
-      <link>https://ykhorzon.github.io/tw/2018/04/28/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Sat, 28 Apr 2018 23:43:06 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/04/28/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/</guid>
       <description>&lt;h2 id=&#34;為什麼-span-style-color-red-軟體工程師-span-需要知道-span-style-color-blue-硬體開發流程-span&#34;&gt;為什麼 &lt;span style=&#34;color:red;&#34;&gt;軟體工程師&lt;/span&gt; 需要知道 &lt;span style=&#34;color:blue;&#34;&gt;硬體開發流程&lt;/span&gt;？&lt;/h2&gt;
 
 &lt;p&gt;設想一下，你是一家新創公司頭號軟體工程師，公司的第一個產品是一台機器人，你完全沒摸過硬體，當你和硬體工程師要合作開發，你該怎麼辦？&lt;/p&gt;
@@ -140,10 +137,10 @@
     
     <item>
       <title>Agile Meetup 新竹 - 系統思考工作坊 心得</title>
-      <link>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
+      <link>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
       <pubDate>Tue, 16 Jan 2018 20:04:19 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2018/01/16/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -186,10 +183,10 @@
     
     <item>
       <title>發展你的顧客旅程-從生態系視角</title>
-      <link>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</link>
+      <link>https://ykhorzon.github.io/tw/2017/11/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/11/18/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/11/%E7%99%BC%E5%B1%95%E4%BD%A0%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%97%85%E7%A8%8B-%E5%BE%9E%E7%94%9F%E6%85%8B%E7%B3%BB%E8%A6%96%E8%A7%92/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -209,10 +206,10 @@
     
     <item>
       <title>virtualbox 網路設定 NAT v.s. Bridge mode</title>
-      <link>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
+      <link>https://ykhorzon.github.io/tw/2017/11/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</link>
       <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/11/17/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/11/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -227,10 +224,10 @@
     
     <item>
       <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
       <description>影片  內容摘要 物理防治 3:33
 阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
 耕作防治管理 9:00
@@ -252,10 +249,10 @@
     
     <item>
       <title>蔡月夏--食用百合鱗莖有機栽培模式之建立</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/27/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
       <description>品種
  四川百合(藥用) 蘭州百合(鮮食) 日本百合  長期進口量與價格統計(15年) 產量逐年降低，原因是產地病害
 栽培流程
@@ -269,10 +266,10 @@
     
     <item>
       <title>[Codewars] Mumbling</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/codewars-mumbling/</link>
       <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/26/codewars-mumbling/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/codewars-mumbling/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -293,10 +290,10 @@
     
     <item>
       <title>Matplotlib 基本介紹</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/25/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/matplotlib-%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%B4%B9/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;!-- TOC --&gt;
@@ -324,10 +321,10 @@
     
     <item>
       <title>做事方法檢討 以打造個人blog為例</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/10/09/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%81%9A%E4%BA%8B%E6%96%B9%E6%B3%95%E6%AA%A2%E8%A8%8E-%E4%BB%A5%E6%89%93%E9%80%A0%E5%80%8B%E4%BA%BAblog%E7%82%BA%E4%BE%8B/</guid>
       <description>&lt;h2 id=&#34;先說結論&#34;&gt;先說結論&lt;/h2&gt;
 
 &lt;h3 id=&#34;心魔1-自己硬幹出來比較-cool&#34;&gt;心魔1： 自己硬幹出來比較 Cool&lt;/h3&gt;
@@ -352,20 +349,20 @@
     
     <item>
       <title>Google analytics 設定快速檢查</title>
-      <link>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</link>
+      <link>https://ykhorzon.github.io/tw/2017/08/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</link>
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/08/16/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/08/google-analytics-%E8%A8%AD%E5%AE%9A%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5/</guid>
       <description>設定文件  Set up Analytics tracking  手把手教，一步一步照作基本就好了  Check your web-tracking-code setup  Trouble shooting 的部分，快速確定 Google analytics 是否正常運作  Adding analytics.js to Your Site  詳細解說 analytics.js 運作   被 ADblock Plus 雷了 在設定 Google analytics 時，一直失敗無法從 report &amp;gt; real-time 看到目前的狀況，顯然是出了什麼差錯。 後來從 Chrome &amp;gt; developer tools &amp;gt; network 發現https://www.google-analytics.com/analytics.js 根本沒被載入，想說直接將網址輸入 Chrome Url bar ，才發現是 Chrome 的 plugin ADblock Plus 檔掉，關掉後就恢復正常。
  不夠熟悉 browser 開發環境的 debugging ，類似 java developer 不熟 eclipse 會無法快速找到問題</description>
     </item>
     
     <item>
       <title>DevOps 全棧工程師-活動心得</title>
-      <link>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</link>
+      <link>https://ykhorzon.github.io/tw/2017/08/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</link>
       <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/08/02/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/08/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/</guid>
       <description>Speaker:
  odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
 歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
@@ -380,10 +377,10 @@
     
     <item>
       <title>電腦科學(Computer Science)到底在學什麼？</title>
-      <link>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
+      <link>https://ykhorzon.github.io/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/07/21/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/</guid>
       <description>&lt;p&gt;昨天剛好在 Facebook 程式人社團社團，看見一個準備要升大學的小朋友詢問：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -395,28 +392,28 @@
     
     <item>
       <title>類似Design Thinking的討論實戰檢討</title>
-      <link>https://ykhorzon.github.io/tw/2017/06/29/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</link>
+      <link>https://ykhorzon.github.io/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/06/29/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>日常中的世代對談 - 討論柯文哲市長 2 採取行動</title>
-      <link>https://ykhorzon.github.io/tw/2017/06/29/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</link>
+      <link>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</link>
       <pubDate>Thu, 29 Jun 2017 08:33:18 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/06/29/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>農業模擬軟體 Survey</title>
-      <link>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</link>
+      <link>https://ykhorzon.github.io/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</link>
       <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/05/07/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/</guid>
       <description>&lt;h1 id=&#34;todo-for-contents&#34;&gt;Todo for Contents&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -450,10 +447,10 @@
     
     <item>
       <title>User Story 的那些人與那些事</title>
-      <link>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/05/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
       <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/05/03/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/05/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/user_story_and_others/story.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
@@ -514,10 +511,10 @@
     
     <item>
       <title>學術英文寫作-主軸與架構</title>
-      <link>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/03/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</link>
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/03/22/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/03/%E5%AD%B8%E8%A1%93%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C-%E4%B8%BB%E8%BB%B8%E8%88%87%E6%9E%B6%E6%A7%8B/</guid>
       <description>&lt;p&gt;序言&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -539,10 +536,10 @@
     
     <item>
       <title>敏捷需求探索工作坊</title>
-      <link>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
+      <link>https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</link>
       <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/02/26/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/02/%E6%95%8F%E6%8D%B7%E9%9C%80%E6%B1%82%E6%8E%A2%E7%B4%A2%E5%B7%A5%E4%BD%9C%E5%9D%8A/</guid>
       <description>&lt;p&gt;&lt;img style=&#34;width:700px;&#34; src=&#34;https://ykhorzon.github.io/content_img/agile_requirements_discovery/discovery.jpg&#34;&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;序言&#34;&gt;序言&lt;/h1&gt;
@@ -561,7 +558,7 @@
 
 &lt;h1 id=&#34;敏捷概述&#34;&gt;敏捷概述&lt;/h1&gt;
 
-&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;laquo;敏捷宣言&amp;raquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
+&lt;p&gt;敏捷開發的精神，可以由最就代表性 &lt;strong&gt;&amp;ldquo;敏捷宣言&amp;rdquo;&lt;/strong&gt; 說起，原文如下：&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;We are uncovering better ways of developing
@@ -599,10 +596,10 @@ the right, we value the items on the left more.&lt;/p&gt;
     
     <item>
       <title>為何而寫</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
+      <link>https://ykhorzon.github.io/tw/2017/01/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</link>
       <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/25/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2017/01/%E7%82%BA%E4%BD%95%E8%80%8C%E5%AF%AB/</guid>
       <description>寫作即思考與反芻
   寫作，我思考我為何而寫、寫什麼東西、寫給誰 寫作，我審視我的撰寫的邏輯、用詞、句子與立場，發覺尚未被意識到的那個自己 寫作，思考問題是什麼？本質又是什麼？意義又是什麼？ 寫作帶動思考，述說故事刺激思考，為了產出而思考
  期許自己  思考即是武器，實作與說故事是技術，個性本質(好奇、自我要求)是驅動一切的引擎
@@ -611,10 +608,10 @@ the right, we value the items on the left more.&lt;/p&gt;
     
     <item>
       <title>TGDF 2016 - Fail Fast 閃退</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</link>
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2016/09/14/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</guid>
       <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
 挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
 員工人數遽增 2011 , 16人 2016, &amp;gt;100人
@@ -622,7 +619,7 @@ the right, we value the items on the left more.&lt;/p&gt;
 Reference: SE系統工程師
 種下惡因？ 效能問題？ 為了方便？用最簡單方式測試
 BUG？ 自己的BUG自己修？那別人的呢？ 來自game engine 的問題
-無法修正問題？ =&amp;gt; &amp;laquo;改變規格&amp;raquo;，讓玩家看不到
+無法修正問題？ =&amp;gt; &amp;ldquo;改變規格&amp;rdquo;，讓玩家看不到
 遊戲前端很難測試 可能的解法 避開錯誤（X） =&amp;gt; 盡可能提早發現錯誤 =&amp;gt; fail fast
 簡單Example Defensive Programming 防禦性程式設計(避免software crash為目的）  接到 null 是正常的現象嗎？ 淺在造成bug，卻可能造成無法找出問題  ** NullPointerException ** Debug assert
 Check input value ( use assertion too!) Add up the diagnosis info for future</description>
@@ -630,10 +627,10 @@ Check input value ( use assertion too!) Add up the diagnosis info for future</de
     
     <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2016/09/13/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
       <description>&lt;h1 id=&#34;遊戲開發的矛與盾&#34;&gt;遊戲開發的矛與盾&lt;/h1&gt;
 
 &lt;h3 id=&#34;市場初步估計&#34;&gt;市場初步估計：&lt;/h3&gt;
@@ -663,10 +660,10 @@ Check input value ( use assertion too!) Add up the diagnosis info for future</de
     
     <item>
       <title>COSCUP Startup Culture Buliding Talk</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/12/coscup-startup-culture-buliding-talk/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/coscup-startup-culture-buliding-talk/</link>
       <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2016/09/12/coscup-startup-culture-buliding-talk/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2016/09/coscup-startup-culture-buliding-talk/</guid>
       <description> 關鍵因素  人 環境(core) 文化(core) 方法 工具  How to Open?
 工廠 vs 創意  product-driven customer-driven
  敏捷的文化
@@ -683,12 +680,12 @@ PM 為溝通的角色
     
     <item>
       <title>每日blog挑戰 Daily Blogging Challenge (epi.0)</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</link>
       <pubDate>Sat, 10 Sep 2016 16:14:12 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2016/09/10/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
+      
+      <guid>https://ykhorzon.github.io/tw/2016/09/%E6%AF%8F%E6%97%A5blog%E6%8C%91%E6%88%B0-daily-blogging-challenge-epi.0/</guid>
       <description>序：為什麼要此挑戰？Why to start this challenge? Record
- 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;raquo;Keep uploading!&amp;laquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;laquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;laquo;。我以他作為自己的學習對象，將&amp;laquo;Keep producing valuable content !&amp;raquo;作為座右銘砥礪自己。
+ 2016-09-10 16:14:12  啟發 受到我非常喜愛的 Youtuber, Casey Neistat 影響，常有人問他如何成為一位 成功的Youtuber ，他強而有力的回應是&amp;rdquo;Keep uploading!&amp;ldquo;，持續產出高質量的 vlog 或 video，挑戰自己的執行力、毅力、創意力的極限，這就是吸引群眾的不二法門。Casey表示:&amp;ldquo;每天起床，我都在想我今天要拍什麼影片，(這樣的鍛鍊造就今天的我)&amp;ldquo;。我以他作為自己的學習對象，將&amp;ldquo;Keep producing valuable content !&amp;rdquo;作為座右銘砥礪自己。
 Reference Casey Nesistat Youtube Channel
 每日動力 {% asset_img cycle.png %}
 任何人每天一定有學習與收穫，但需藉由統整、紀錄才成將經驗轉為累積性的能量，否則船過水無痕，非常可惜。而撰寫blog文章促使(強迫)審視每一天的進度，觀察自己的行為，最重要的訓練組織知識和經驗。最終希望可以和人生長期計畫 (long-term plan)能夠互相呼應

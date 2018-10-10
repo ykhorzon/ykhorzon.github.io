@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>English/Academic Writing on </title>
+    <title>English/Academic Writing on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/categories/english/academic-writing/</link>
-    <description>Recent content in English/Academic Writing on </description>
+    <description>Recent content in English/Academic Writing on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 20167 Copyright all reserved to ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Fri, 30 Jun 2017 19:38:15 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/english/academic-writing/index.xml" rel="self" type="application/rss+xml" />
@@ -16,19 +13,19 @@
     
     <item>
       <title>A Overview Glance of Academic Writing</title>
-      <link>https://ykhorzon.github.io/2017/06/30/a-overview-glance-of-academic-writing/</link>
+      <link>https://ykhorzon.github.io/2017/06/a-overview-glance-of-academic-writing/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2017/06/30/a-overview-glance-of-academic-writing/</guid>
+      
+      <guid>https://ykhorzon.github.io/2017/06/a-overview-glance-of-academic-writing/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Academic writing for graduate student 3</title>
-      <link>https://ykhorzon.github.io/2016/10/03/academic-writing-for-graduate-student-3/</link>
+      <link>https://ykhorzon.github.io/2016/10/academic-writing-for-graduate-student-3/</link>
       <pubDate>Mon, 03 Oct 2016 15:28:47 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/10/03/academic-writing-for-graduate-student-3/</guid>
+      
+      <guid>https://ykhorzon.github.io/2016/10/academic-writing-for-graduate-student-3/</guid>
       <description>Master&amp;rsquo;s thesis
 Doctoral thesis / Dissertation (Dr.)
 Presentation Flow of ideas is good &amp;gt;= grammar errors
@@ -37,11 +34,11 @@ Presentation Flow of ideas is good &amp;gt;= grammar errors
     
     <item>
       <title>Academic Writing for Graduate Student 0</title>
-      <link>https://ykhorzon.github.io/2016/10/02/academic-writing-for-graduate-student-0/</link>
+      <link>https://ykhorzon.github.io/2016/10/academic-writing-for-graduate-student-0/</link>
       <pubDate>Sun, 02 Oct 2016 11:57:00 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/10/02/academic-writing-for-graduate-student-0/</guid>
-      <description>Prefix The following content is excerpted from &amp;laquo;Academic Writing for Graduate Student, Essential Tasks and Skills, 3rd Edition&amp;raquo;
+      
+      <guid>https://ykhorzon.github.io/2016/10/academic-writing-for-graduate-student-0/</guid>
+      <description>Prefix The following content is excerpted from &amp;ldquo;Academic Writing for Graduate Student, Essential Tasks and Skills, 3rd Edition&amp;rdquo;
 How to write a article  Audience Purpose organization style flow presentation  Audience  like a textbook (instructorial) display (to those more knowledgable )  Style academic style differs from one area of study to another
 formal language for academic passive voice
 Avoiding Example: stuff, things, a bit, bunch, or a whole lot of (They may also use elaborate metaphors and other vivid expressions to enliven their speaking style.</description>
@@ -49,10 +46,10 @@ Avoiding Example: stuff, things, a bit, bunch, or a whole lot of (They may also 
     
     <item>
       <title>Academic Writing for Graduate Student 2</title>
-      <link>https://ykhorzon.github.io/2016/09/26/academic-writing-for-graduate-student-2/</link>
+      <link>https://ykhorzon.github.io/2016/09/academic-writing-for-graduate-student-2/</link>
       <pubDate>Mon, 26 Sep 2016 17:38:46 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/26/academic-writing-for-graduate-student-2/</guid>
+      
+      <guid>https://ykhorzon.github.io/2016/09/academic-writing-for-graduate-student-2/</guid>
       <description> Avoid Nominalization
 try not to use nouns
 Avoid
@@ -64,10 +61,10 @@ Tips: DAR  Diagnose Analyize Rewrite  </description>
     
     <item>
       <title>Academic Writing for Graduate Student 1</title>
-      <link>https://ykhorzon.github.io/2016/09/26/academic-writing-for-graduate-student-1/</link>
+      <link>https://ykhorzon.github.io/2016/09/academic-writing-for-graduate-student-1/</link>
       <pubDate>Mon, 26 Sep 2016 15:39:44 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/2016/09/26/academic-writing-for-graduate-student-1/</guid>
+      
+      <guid>https://ykhorzon.github.io/2016/09/academic-writing-for-graduate-student-1/</guid>
       <description>Flow textbook P30
  Transitional phrase, Ex: moreover, furthermore, however &amp;hellip;&amp;hellip;etc ___, thus Ving (?)- This/These, P43 For exmaple/instance Odd-to-new information flow
 flow - moving from one statement in a text to the next. Establishing a clear connection of ideas is important to help your reader follow the text

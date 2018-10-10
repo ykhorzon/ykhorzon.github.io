@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
+    <title>Tags on Ykhorizon - Tech Relay Race</title>
     <link>https://ykhorzon.github.io/tw/tags/</link>
-    <description>Recent content in Tags on </description>
+    <description>Recent content in Tags on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
+    <language>en-us</language>
     <lastBuildDate>Wed, 22 Mar 2017 17:12:04 +0000</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +15,7 @@
       <title>Academic</title>
       <link>https://ykhorzon.github.io/tw/tags/academic/</link>
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/academic/</guid>
       <description></description>
     </item>
@@ -27,7 +24,7 @@
       <title>Agile</title>
       <link>https://ykhorzon.github.io/tw/tags/agile/</link>
       <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/agile/</guid>
       <description></description>
     </item>
@@ -36,7 +33,7 @@
       <title>Allergy</title>
       <link>https://ykhorzon.github.io/tw/tags/allergy/</link>
       <pubDate>Sun, 03 Jun 2018 23:39:09 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/allergy/</guid>
       <description></description>
     </item>
@@ -45,7 +42,7 @@
       <title>Blind Spot</title>
       <link>https://ykhorzon.github.io/tw/tags/blind-spot/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/blind-spot/</guid>
       <description></description>
     </item>
@@ -54,7 +51,7 @@
       <title>Business</title>
       <link>https://ykhorzon.github.io/tw/tags/business/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/business/</guid>
       <description></description>
     </item>
@@ -63,7 +60,7 @@
       <title>C Sharp</title>
       <link>https://ykhorzon.github.io/tw/tags/c-sharp/</link>
       <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/c-sharp/</guid>
       <description></description>
     </item>
@@ -72,7 +69,7 @@
       <title>Communication</title>
       <link>https://ykhorzon.github.io/tw/tags/communication/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/communication/</guid>
       <description></description>
     </item>
@@ -81,7 +78,7 @@
       <title>Customer Journey</title>
       <link>https://ykhorzon.github.io/tw/tags/customer-journey/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/customer-journey/</guid>
       <description></description>
     </item>
@@ -90,7 +87,7 @@
       <title>Design Thinking</title>
       <link>https://ykhorzon.github.io/tw/tags/design-thinking/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/design-thinking/</guid>
       <description></description>
     </item>
@@ -99,7 +96,7 @@
       <title>Drawing</title>
       <link>https://ykhorzon.github.io/tw/tags/drawing/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/drawing/</guid>
       <description></description>
     </item>
@@ -108,7 +105,7 @@
       <title>Ecosystem</title>
       <link>https://ykhorzon.github.io/tw/tags/ecosystem/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/ecosystem/</guid>
       <description></description>
     </item>
@@ -117,7 +114,7 @@
       <title>English</title>
       <link>https://ykhorzon.github.io/tw/tags/english/</link>
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/english/</guid>
       <description></description>
     </item>
@@ -126,7 +123,7 @@
       <title>Game Industry</title>
       <link>https://ykhorzon.github.io/tw/tags/game-industry/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/game-industry/</guid>
       <description></description>
     </item>
@@ -135,7 +132,7 @@
       <title>Google Analytics</title>
       <link>https://ykhorzon.github.io/tw/tags/google-analytics/</link>
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/google-analytics/</guid>
       <description></description>
     </item>
@@ -144,7 +141,7 @@
       <title>Health</title>
       <link>https://ykhorzon.github.io/tw/tags/health/</link>
       <pubDate>Sun, 03 Jun 2018 23:39:09 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/health/</guid>
       <description></description>
     </item>
@@ -153,7 +150,7 @@
       <title>Kanban</title>
       <link>https://ykhorzon.github.io/tw/tags/kanban/</link>
       <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/kanban/</guid>
       <description></description>
     </item>
@@ -162,7 +159,7 @@
       <title>Kata</title>
       <link>https://ykhorzon.github.io/tw/tags/kata/</link>
       <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/kata/</guid>
       <description></description>
     </item>
@@ -171,7 +168,7 @@
       <title>Leading</title>
       <link>https://ykhorzon.github.io/tw/tags/leading/</link>
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/leading/</guid>
       <description></description>
     </item>
@@ -180,7 +177,7 @@
       <title>Matplotlib</title>
       <link>https://ykhorzon.github.io/tw/tags/matplotlib/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/matplotlib/</guid>
       <description></description>
     </item>
@@ -189,7 +186,7 @@
       <title>Network</title>
       <link>https://ykhorzon.github.io/tw/tags/network/</link>
       <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/network/</guid>
       <description></description>
     </item>
@@ -198,7 +195,7 @@
       <title>Personal Kanban</title>
       <link>https://ykhorzon.github.io/tw/tags/personal-kanban/</link>
       <pubDate>Fri, 03 Aug 2018 23:37:51 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/personal-kanban/</guid>
       <description></description>
     </item>
@@ -207,7 +204,7 @@
       <title>Pest Detect</title>
       <link>https://ykhorzon.github.io/tw/tags/pest-detect/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/pest-detect/</guid>
       <description></description>
     </item>
@@ -216,7 +213,7 @@
       <title>Python</title>
       <link>https://ykhorzon.github.io/tw/tags/python/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/python/</guid>
       <description></description>
     </item>
@@ -225,7 +222,7 @@
       <title>Requirements Discovery</title>
       <link>https://ykhorzon.github.io/tw/tags/requirements-discovery/</link>
       <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/requirements-discovery/</guid>
       <description></description>
     </item>
@@ -234,7 +231,7 @@
       <title>Retrospective</title>
       <link>https://ykhorzon.github.io/tw/tags/retrospective/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/retrospective/</guid>
       <description></description>
     </item>
@@ -243,7 +240,7 @@
       <title>Service Design</title>
       <link>https://ykhorzon.github.io/tw/tags/service-design/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/service-design/</guid>
       <description></description>
     </item>
@@ -252,7 +249,7 @@
       <title>Simulation</title>
       <link>https://ykhorzon.github.io/tw/tags/simulation/</link>
       <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/simulation/</guid>
       <description></description>
     </item>
@@ -261,7 +258,7 @@
       <title>Software</title>
       <link>https://ykhorzon.github.io/tw/tags/software/</link>
       <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/software/</guid>
       <description></description>
     </item>
@@ -270,7 +267,7 @@
       <title>Startup</title>
       <link>https://ykhorzon.github.io/tw/tags/startup/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/startup/</guid>
       <description></description>
     </item>
@@ -279,7 +276,7 @@
       <title>System Thinking</title>
       <link>https://ykhorzon.github.io/tw/tags/system-thinking/</link>
       <pubDate>Tue, 16 Jan 2018 20:04:19 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/system-thinking/</guid>
       <description></description>
     </item>
@@ -288,7 +285,7 @@
       <title>Talk</title>
       <link>https://ykhorzon.github.io/tw/tags/talk/</link>
       <pubDate>Wed, 02 Aug 2017 12:41:57 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/talk/</guid>
       <description></description>
     </item>
@@ -297,7 +294,7 @@
       <title>Tgdf2016</title>
       <link>https://ykhorzon.github.io/tw/tags/tgdf2016/</link>
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/tgdf2016/</guid>
       <description></description>
     </item>
@@ -306,7 +303,7 @@
       <title>User Story</title>
       <link>https://ykhorzon.github.io/tw/tags/user-story/</link>
       <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/user-story/</guid>
       <description></description>
     </item>
@@ -315,7 +312,7 @@
       <title>Video Note</title>
       <link>https://ykhorzon.github.io/tw/tags/video-note/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/video-note/</guid>
       <description></description>
     </item>
@@ -324,7 +321,7 @@
       <title>Workflow</title>
       <link>https://ykhorzon.github.io/tw/tags/workflow/</link>
       <pubDate>Fri, 03 Aug 2018 23:37:51 +0800</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/workflow/</guid>
       <description></description>
     </item>
@@ -333,7 +330,7 @@
       <title>Writing</title>
       <link>https://ykhorzon.github.io/tw/tags/writing/</link>
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
+      
       <guid>https://ykhorzon.github.io/tw/tags/writing/</guid>
       <description></description>
     </item>
