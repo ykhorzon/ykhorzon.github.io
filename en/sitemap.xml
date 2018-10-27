@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ykhorzon.github.io/2018/10/organization-design-is-a-choose-from-systems-thinking-aspect/</loc>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/2017/08/full-stack-devops-engineer/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <xhtml:link
@@ -120,6 +125,22 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/categories/agile/</loc>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/categories/agile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/categories/agile/"
+                />
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tags/agile/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
@@ -136,24 +157,14 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/</loc>
+    <loc>https://ykhorzon.github.io/categories/agile/devops/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/agile/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/categories/agile/"
-                />
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/devops/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <loc>https://ykhorzon.github.io/categories/agile/team-building/</loc>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -181,7 +192,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/categories/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -248,22 +259,6 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/tags/english/</loc>
-    <lastmod>2016-10-03T15:28:47+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tw"
-                href="https://ykhorzon.github.io/tw/tags/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ykhorzon.github.io/tags/english/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ykhorzon.github.io/categories/english/</loc>
     <lastmod>2017-06-30T19:38:15+08:00</lastmod>
     <priority>0</priority>
@@ -276,6 +271,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://ykhorzon.github.io/categories/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tags/english/</loc>
+    <lastmod>2016-10-03T15:28:47+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tw"
+                href="https://ykhorzon.github.io/tw/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ykhorzon.github.io/tags/english/"
                 />
   </url>
   
@@ -315,7 +326,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/post/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -374,6 +385,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tags/team-building/</loc>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/ua-97451129-2/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -406,7 +423,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/</loc>
-    <lastmod>2017-08-13T15:42:18+08:00</lastmod>
+    <lastmod>2018-10-26T11:54:01+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

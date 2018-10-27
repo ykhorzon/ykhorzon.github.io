@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Ykhorizon - Tech Relay Race</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Aug 2017 15:42:18 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Oct 2018 11:54:01 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Agile</title>
       <link>https://ykhorzon.github.io/categories/agile/</link>
-      <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
+      <pubDate>Fri, 26 Oct 2018 11:54:01 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/categories/agile/</guid>
       <description></description>
@@ -26,6 +26,15 @@
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/categories/agile/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile/Team Building</title>
+      <link>https://ykhorzon.github.io/categories/agile/team-building/</link>
+      <pubDate>Fri, 26 Oct 2018 11:54:01 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/categories/agile/team-building/</guid>
       <description></description>
     </item>
     
