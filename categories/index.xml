@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Ykhorizon - Tech Relay Race</title>
+    <title>Categories on Ykhorizon</title>
     <link>https://ykhorzon.github.io/categories/</link>
-    <description>Recent content in Categories on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in Categories on Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Oct 2018 11:54:01 +0800</lastBuildDate>
@@ -22,19 +22,19 @@
     
     <item>
       <title>Agile/Devops</title>
-      <link>https://ykhorzon.github.io/categories/agile/devops/</link>
+      <link>https://ykhorzon.github.io/categories/agile-devops/</link>
       <pubDate>Sun, 13 Aug 2017 15:42:18 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/agile/devops/</guid>
+      <guid>https://ykhorzon.github.io/categories/agile-devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agile/Team Building</title>
-      <link>https://ykhorzon.github.io/categories/agile/team-building/</link>
+      <link>https://ykhorzon.github.io/categories/agile-team-building/</link>
       <pubDate>Fri, 26 Oct 2018 11:54:01 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/agile/team-building/</guid>
+      <guid>https://ykhorzon.github.io/categories/agile-team-building/</guid>
       <description></description>
     </item>
     
@@ -49,10 +49,10 @@
     
     <item>
       <title>Blog/Hugo</title>
-      <link>https://ykhorzon.github.io/categories/blog/hugo/</link>
+      <link>https://ykhorzon.github.io/categories/blog-hugo/</link>
       <pubDate>Thu, 15 Jun 2017 15:24:40 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/blog/hugo/</guid>
+      <guid>https://ykhorzon.github.io/categories/blog-hugo/</guid>
       <description></description>
     </item>
     
@@ -67,19 +67,19 @@
     
     <item>
       <title>Cs/Reinforcement Learning</title>
-      <link>https://ykhorzon.github.io/categories/cs/reinforcement-learning/</link>
+      <link>https://ykhorzon.github.io/categories/cs-reinforcement-learning/</link>
       <pubDate>Sat, 15 Apr 2017 18:17:50 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/cs/reinforcement-learning/</guid>
+      <guid>https://ykhorzon.github.io/categories/cs-reinforcement-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cs/Statistics</title>
-      <link>https://ykhorzon.github.io/categories/cs/statistics/</link>
+      <link>https://ykhorzon.github.io/categories/cs-statistics/</link>
       <pubDate>Sun, 11 Sep 2016 11:58:16 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/cs/statistics/</guid>
+      <guid>https://ykhorzon.github.io/categories/cs-statistics/</guid>
       <description></description>
     </item>
     
@@ -103,19 +103,19 @@
     
     <item>
       <title>English/Academic Writing</title>
-      <link>https://ykhorzon.github.io/categories/english/academic-writing/</link>
+      <link>https://ykhorzon.github.io/categories/english-academic-writing/</link>
       <pubDate>Fri, 30 Jun 2017 19:38:15 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/english/academic-writing/</guid>
+      <guid>https://ykhorzon.github.io/categories/english-academic-writing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>English/Job Searching</title>
-      <link>https://ykhorzon.github.io/categories/english/job-searching/</link>
+      <link>https://ykhorzon.github.io/categories/english-job-searching/</link>
       <pubDate>Tue, 04 Oct 2016 13:19:42 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/categories/english/job-searching/</guid>
+      <guid>https://ykhorzon.github.io/categories/english-job-searching/</guid>
       <description></description>
     </item>
     

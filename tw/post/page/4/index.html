@@ -9,19 +9,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ykhorzon.github.io/tw/post/" />
-
-
-
-<meta property="og:updated_time" content="2017-07-21T10:35:25&#43;08:00"/>
-
-
-
-
-
-
-
-
-
+<meta property="og:updated_time" content="2017-08-02T12:41:57&#43;08:00"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -33,7 +21,7 @@
 
     <title>
       
-        Posts | Ykhorizon - Tech Relay Race
+        Posts | Ykhorizon
       
     </title>
 
@@ -42,7 +30,7 @@
     <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
 
     
-    <link href="https://ykhorzon.github.io/tw/post/index.xml" rel="alternate" type="application/rss+xml" title="Ykhorizon - Tech Relay Race" />
+    <link href="https://ykhorzon.github.io/tw/post/index.xml" rel="alternate" type="application/rss+xml" title="Ykhorizon" />
     
 
     
@@ -55,7 +43,7 @@
       <header class="blog-header">
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="/tw">
-            Ykhorizon - Tech Relay Race
+            Ykhorizon
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -86,9 +74,9 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         
-                            <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
-                        
                             <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                        
+                            <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
                         
                     </div>
                 </li>
@@ -114,9 +102,72 @@
     
         <article class="blog-post">
     <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/">電腦科學(Computer Science)到底在學什麼？</a>
-        </h2>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2017/08/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/">DevOps 全棧工程師-活動心得</a>
+        </h1>
+        
+        <hr>
+        
+
+
+<div class="blog-post-date text-secondary">
+    
+        Aug 2, 2017
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+        
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+    
+</div>
+
+        
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+    
+</div>
+
+    </header>
+    Speaker:
+ odd-e 柴叔(柴鋒)  (P.S. 本文演講消化後心得，加入部分我自己觀點)
+歷史脈絡 開發、維運，分分合合 柴叔從開發歷史的脈絡娓娓道來，從服務或應用簡單的年代，開發（Development)與維運(Operation)可以一起包辦，但隨著複雜度的提高，逐漸將開發（Development) 與維運(Operation)獨立成兩個團隊。久而久之，雙方的溝通本成增加，合作程度低下，最終造成總體效能下降(開發與測試的關聯，但這邊不詳細敘述)。人們開始思考需要一個穿針引線的角色，他/她需打通開發與維運流程，增進溝通效率，共同協作完成任務，目前當紅的 DevOps的一種解釋。
+你以為過去沒有 DevOps? 在遠古開發時代(?)，沒有 Docker 或 Ansible 這類工具。但別忘了其實底層絕大多數的工作，都可以用 shell script 完成，可見 shell script 這類基本功有多重要。時代在改變，但要完成的工作並沒有改變，大多是變複雜，解決問題的觀念類似。
+再者，microservice 這類型的觀念，其實也早在 Unix 哲學(Unix philosophy)中被提及，差異是在不同系統層級實作( Do One Thing and Do It Well. 可以對照到 microservice)，當代有更方便工具，抽象化細節與簡化操作流程。
+框架工具之於觀念
+ 工具只是溝通工具，而不是溝通的本身 舉例：Jenkins只是CI的工具，CI的關鍵是CI觀念本身，不管用任何方式達成都好
+ 框架工具之於基本功
+ 框架不會幫你解決產品的問題，幾乎與你的產品無關 基礎不紮實，只花時間在學習框架或工具，遭遇的狀況牽扯底層或基本面，也是無法處理
+ 舉例：Java 工程師 v.s Ops 維運工程師 上圖比較 Java 工程師與 Ops 工程師的技能對照，一目了然自己缺少哪個技能。一般前段或後端工程師的 skill set 從 bottom-up 到 top-down 大家都很清楚，但提到 DevOps 大家似乎被 Top-down 工具給迷惑住了！這算是一張check list，提醒自己是否還缺少哪個部分。
+    
+    <p></p>
+    <a href="/tw/2017/08/devops-%E5%85%A8%E6%A3%A7%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E6%B4%BB%E5%8B%95%E5%BF%83%E5%BE%97/">Read More →</a>
+    
+    
+</article>
+
+
+    
+
+
+
+    
+        <article class="blog-post">
+    <header>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/">電腦科學(Computer Science)到底在學什麼？</a>
+        </h1>
+        
+        <hr>
         
 
 
@@ -152,6 +203,7 @@
     <p></p>
     <a href="/tw/2017/07/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8computer-science%E5%88%B0%E5%BA%95%E5%9C%A8%E5%AD%B8%E4%BB%80%E9%BA%BC/">Read More →</a>
     
+    
 </article>
 
 
@@ -162,9 +214,11 @@
     
         <article class="blog-post">
     <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/">類似Design Thinking的討論實戰檢討</a>
-        </h2>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/">類似Design Thinking的討論實戰檢討</a>
+        </h1>
+        
+        <hr>
         
 
 
@@ -203,6 +257,7 @@
     <p></p>
     <a href="/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/">Read More →</a>
     
+    
 </article>
 
 
@@ -213,9 +268,11 @@
     
         <article class="blog-post">
     <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/">日常中的世代對談 - 討論柯文哲市長 2 採取行動</a>
-        </h2>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87-%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/">日常中的世代對談 - 討論柯文哲市長 2 採取行動</a>
+        </h1>
+        
+        <hr>
         
 
 
@@ -234,7 +291,8 @@
     <p></p>
     
     <p></p>
-    <a href="/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/">Read More →</a>
+    <a href="/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87-%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/">Read More →</a>
+    
     
 </article>
 
@@ -246,9 +304,11 @@
     
         <article class="blog-post">
     <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">農業模擬軟體 Survey</a>
-        </h2>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">農業模擬軟體 Survey</a>
+        </h1>
+        
+        <hr>
         
 
 
@@ -315,111 +375,6 @@
     <p></p>
     <a href="/tw/2017/05/%E8%BE%B2%E6%A5%AD%E6%A8%A1%E6%93%AC%E8%BB%9F%E9%AB%94-survey/">Read More →</a>
     
-</article>
-
-
-    
-
-
-
-    
-        <article class="blog-post">
-    <header>
-        <h2 class="blog-post-title">
-            <a class="text-dark" href="/tw/2017/05/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/">User Story 的那些人與那些事</a>
-        </h2>
-        
-
-
-<div class="blog-post-date text-secondary">
-    
-        May 3, 2017
-    
-    
-        by <span rel="author">ykhorizon</span>
-    
-</div>
-
-        
-<div class="blog-post-tags text-secondary">
-    <strong>Tags:</strong>
-    
-        <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
-    
-        <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
-    
-</div>
-
-        
-<div class="blog-post-categories text-secondary">
-    <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
-    
-        <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
-    
-</div>
-
-    </header>
-    <p><img style="width:700px;" src="/content_img/user_story_and_others/story.jpg"></p>
-
-<h1 id="序言">序言</h1>
-
-<blockquote>
-<p>User Story 不只是一張卡片，是說故事與溝通需求的載體</p>
-</blockquote>
-
-<h2 id="從這篇文章得到">從這篇文章得到</h2>
-
-<ul>
-<li>此篇是 User Story 實戰篇的階議題</li>
-</ul>
-
-<h1 id="心得">心得</h1>
-
-<ul>
-<li>有使用過 User Story 經驗的人，能夠討論出真實問題，彼此切磋，討論氣氛活絡 (有一點像是 Planning Poker 分享大會)</li>
-<li>Alway observe and find bottleneck in team ( or system or problem )</li>
-<li>經常思考事情的dependency與前置準備，在真正要動工的時候，把需要的資源都在手上</li>
-</ul>
-
-<h1 id="what-is-user-story">What is User Story ?</h1>
-
-<blockquote>
-<p>User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability,&gt; usually a user or customer of the system.</p>
-
-<p>from Mountain Goat Software</p>
-</blockquote>
-
-<p>另一個定義</p>
-
-<blockquote>
-<p>A user story is a tool used in Agile software development to capture a description of a software feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement.</p>
-
-<p>from TechTarget</p>
-</blockquote>
-
-<p><a href="https://www.mountaingoatsoftware.com/agile/user-stories">Mountain Goat Software, User Stories</a>
-<a href="http://searchsoftwarequality.techtarget.com/definition/user-story">TechTarget, User Story</a></p>
-
-<ul>
-<li>簡短需求小卡( Card )</li>
-<li>交談 ( Conversation )</li>
-<li>確認 ( Confirmation )</li>
-</ul>
-
-<p>特性</p>
-
-<ul>
-<li>作為基底、high level</li>
-<li>注重在價值</li>
-<li>不要 <em>帶入 Spec.</em> 或 <em>過多功能描述</em> 在其中 (會限制 Solution的可能性)</li>
-</ul>
-
-<p></p>
-    
-    <p></p>
-    <a href="/tw/2017/05/user-story-%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%BA%E8%88%87%E9%82%A3%E4%BA%9B%E4%BA%8B/">Read More →</a>
     
 </article>
 
@@ -546,7 +501,11 @@
     <ol class="list-unstyled">
         
         <li class="recent-article-list-item">
-            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
+            <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(上)</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban-part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
         </li>
         
         <li class="recent-article-list-item">
@@ -559,10 +518,6 @@
         
         <li class="recent-article-list-item">
             <a href="/tw/2018/05/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-ii-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%99%B7%E9%98%B1/">硬體開發流程與計畫管理 for Startup Part II: 硬體開發流程中的陷阱</a>
-        </li>
-        
-        <li class="recent-article-list-item">
-            <a href="/tw/2018/04/%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B%E8%88%87%E8%A8%88%E7%95%AB%E7%AE%A1%E7%90%86-for-startup-part-i-%E7%A1%AC%E9%AB%94%E9%96%8B%E7%99%BC%E6%B5%81%E7%A8%8B/">硬體開發流程與計畫管理 for Startup Part I: 硬體開發流程</a>
         </li>
         
     </ol>

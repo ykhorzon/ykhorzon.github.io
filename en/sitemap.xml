@@ -157,13 +157,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/devops/</loc>
+    <loc>https://ykhorzon.github.io/categories/agile-devops/</loc>
     <lastmod>2017-08-13T15:42:18+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/agile/team-building/</loc>
+    <loc>https://ykhorzon.github.io/categories/agile-team-building/</loc>
     <lastmod>2018-10-26T11:54:01+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -185,7 +185,7 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/blog/hugo/</loc>
+    <loc>https://ykhorzon.github.io/categories/blog-hugo/</loc>
     <lastmod>2017-06-15T15:24:40+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -225,13 +225,13 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/cs/reinforcement-learning/</loc>
+    <loc>https://ykhorzon.github.io/categories/cs-reinforcement-learning/</loc>
     <lastmod>2017-04-15T18:17:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/cs/statistics/</loc>
+    <loc>https://ykhorzon.github.io/categories/cs-statistics/</loc>
     <lastmod>2016-09-11T11:58:16+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -291,23 +291,23 @@
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/english/academic-writing/</loc>
+    <loc>https://ykhorzon.github.io/categories/english-academic-writing/</loc>
     <lastmod>2017-06-30T19:38:15+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="tw"
-                href="https://ykhorzon.github.io/tw/categories/english/academic-writing/"
+                href="https://ykhorzon.github.io/tw/categories/english-academic-writing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://ykhorzon.github.io/categories/english/academic-writing/"
+                href="https://ykhorzon.github.io/categories/english-academic-writing/"
                 />
   </url>
   
   <url>
-    <loc>https://ykhorzon.github.io/categories/english/job-searching/</loc>
+    <loc>https://ykhorzon.github.io/categories/english-job-searching/</loc>
     <lastmod>2016-10-04T13:19:42+00:00</lastmod>
     <priority>0</priority>
   </url>

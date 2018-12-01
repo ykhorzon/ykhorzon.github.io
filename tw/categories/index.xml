@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Ykhorizon - Tech Relay Race</title>
+    <title>Categories on Ykhorizon</title>
     <link>https://ykhorzon.github.io/tw/categories/</link>
-    <description>Recent content in Categories on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in Categories on Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 22:54:04 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Agile</title>
       <link>https://ykhorzon.github.io/tw/categories/agile/</link>
-      <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
+      <pubDate>Sat, 01 Dec 2018 22:54:04 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/categories/agile/</guid>
       <description></description>
@@ -22,37 +22,37 @@
     
     <item>
       <title>Agile/Culture</title>
-      <link>https://ykhorzon.github.io/tw/categories/agile/culture/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agile-culture/</link>
       <pubDate>Mon, 12 Sep 2016 20:09:59 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agile/culture/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agile-culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agile/Kanban</title>
-      <link>https://ykhorzon.github.io/tw/categories/agile/kanban/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agile-kanban/</link>
       <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agile/kanban/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agile-kanban/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agile/Requirements Discovery</title>
-      <link>https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agile-requirements-discovery/</link>
       <pubDate>Sun, 26 Feb 2017 23:35:22 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agile/requirements-discovery/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agile-requirements-discovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agile/User Story</title>
-      <link>https://ykhorzon.github.io/tw/categories/agile/user-story/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agile-user-story/</link>
       <pubDate>Wed, 03 May 2017 10:32:13 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agile/user-story/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agile-user-story/</guid>
       <description></description>
     </item>
     
@@ -67,19 +67,19 @@
     
     <item>
       <title>Agriculture/Pest</title>
-      <link>https://ykhorzon.github.io/tw/categories/agriculture/pest/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agriculture-pest/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agriculture/pest/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agriculture-pest/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agriculture/Software</title>
-      <link>https://ykhorzon.github.io/tw/categories/agriculture/software/</link>
+      <link>https://ykhorzon.github.io/tw/categories/agriculture-software/</link>
       <pubDate>Sun, 07 May 2017 18:29:48 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/agriculture/software/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/agriculture-software/</guid>
       <description></description>
     </item>
     
@@ -94,10 +94,10 @@
     
     <item>
       <title>Blog/General</title>
-      <link>https://ykhorzon.github.io/tw/categories/blog/general/</link>
+      <link>https://ykhorzon.github.io/tw/categories/blog-general/</link>
       <pubDate>Wed, 16 Aug 2017 22:29:08 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/blog/general/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/blog-general/</guid>
       <description></description>
     </item>
     
@@ -121,10 +121,10 @@
     
     <item>
       <title>English/Academic Writing</title>
-      <link>https://ykhorzon.github.io/tw/categories/english/academic-writing/</link>
+      <link>https://ykhorzon.github.io/tw/categories/english-academic-writing/</link>
       <pubDate>Wed, 22 Mar 2017 17:12:04 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/english/academic-writing/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/english-academic-writing/</guid>
       <description></description>
     </item>
     
@@ -148,10 +148,10 @@
     
     <item>
       <title>Health/Allergy</title>
-      <link>https://ykhorzon.github.io/tw/categories/health/allergy/</link>
+      <link>https://ykhorzon.github.io/tw/categories/health-allergy/</link>
       <pubDate>Sun, 03 Jun 2018 23:39:09 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/health/allergy/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/health-allergy/</guid>
       <description></description>
     </item>
     
@@ -166,28 +166,28 @@
     
     <item>
       <title>Myself/Career</title>
-      <link>https://ykhorzon.github.io/tw/categories/myself/career/</link>
+      <link>https://ykhorzon.github.io/tw/categories/myself-career/</link>
       <pubDate>Fri, 21 Jul 2017 10:35:25 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/myself/career/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/myself-career/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Myself/Retrospective</title>
-      <link>https://ykhorzon.github.io/tw/categories/myself/retrospective/</link>
+      <link>https://ykhorzon.github.io/tw/categories/myself-retrospective/</link>
       <pubDate>Mon, 09 Oct 2017 13:40:21 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/myself/retrospective/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/myself-retrospective/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Myself/Target</title>
-      <link>https://ykhorzon.github.io/tw/categories/myself/target/</link>
+      <link>https://ykhorzon.github.io/tw/categories/myself-target/</link>
       <pubDate>Wed, 25 Jan 2017 14:22:04 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/myself/target/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/myself-target/</guid>
       <description></description>
     </item>
     
@@ -202,19 +202,19 @@
     
     <item>
       <title>Programming/Codewars</title>
-      <link>https://ykhorzon.github.io/tw/categories/programming/codewars/</link>
+      <link>https://ykhorzon.github.io/tw/categories/programming-codewars/</link>
       <pubDate>Thu, 26 Oct 2017 20:23:11 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/programming/codewars/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/programming-codewars/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming/Python</title>
-      <link>https://ykhorzon.github.io/tw/categories/programming/python/</link>
+      <link>https://ykhorzon.github.io/tw/categories/programming-python/</link>
       <pubDate>Wed, 25 Oct 2017 12:27:23 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/programming/python/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/programming-python/</guid>
       <description></description>
     </item>
     
@@ -229,10 +229,10 @@
     
     <item>
       <title>Service Design/Ecosystem</title>
-      <link>https://ykhorzon.github.io/tw/categories/service-design/ecosystem/</link>
+      <link>https://ykhorzon.github.io/tw/categories/service-design-ecosystem/</link>
       <pubDate>Sat, 18 Nov 2017 19:54:37 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/service-design/ecosystem/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/service-design-ecosystem/</guid>
       <description></description>
     </item>
     
@@ -247,10 +247,10 @@
     
     <item>
       <title>Startup/Game Business</title>
-      <link>https://ykhorzon.github.io/tw/categories/startup/game-business/</link>
+      <link>https://ykhorzon.github.io/tw/categories/startup-game-business/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/startup/game-business/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/startup-game-business/</guid>
       <description></description>
     </item>
     
@@ -274,10 +274,10 @@
     
     <item>
       <title>Virtualbox/Network</title>
-      <link>https://ykhorzon.github.io/tw/categories/virtualbox/network/</link>
+      <link>https://ykhorzon.github.io/tw/categories/virtualbox-network/</link>
       <pubDate>Fri, 17 Nov 2017 16:57:00 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/virtualbox/network/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/virtualbox-network/</guid>
       <description></description>
     </item>
     
@@ -292,10 +292,10 @@
     
     <item>
       <title>Workflow/Personal Kanban</title>
-      <link>https://ykhorzon.github.io/tw/categories/workflow/personal-kanban/</link>
+      <link>https://ykhorzon.github.io/tw/categories/workflow-personal-kanban/</link>
       <pubDate>Fri, 03 Aug 2018 23:37:51 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/categories/workflow/personal-kanban/</guid>
+      <guid>https://ykhorzon.github.io/tw/categories/workflow-personal-kanban/</guid>
       <description></description>
     </item>
     

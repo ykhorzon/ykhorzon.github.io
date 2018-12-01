@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ykhorizon - Tech Relay Race</title>
+    <title>Posts on Ykhorizon</title>
     <link>https://ykhorzon.github.io/tw/post/</link>
-    <description>Recent content in Posts on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in Posts on Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 22:54:04 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(上)</title>
+      <link>https://ykhorzon.github.io/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/</link>
+      <pubDate>Sat, 01 Dec 2018 22:54:04 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/</guid>
+      <description>每年 Agile Tour 必備大合照XD 探險 今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！
+跟我的失敗致敬（講者：Tomas Li） 身歷其境的故事 不得不讚嘆講者 Tomas Li 說故事功力，還有準備『真實故事』材料的用心。聆聽演講的過程，彷彿親身歷的開發過程。這種感受，我猜如同擔當老闆身邊的特助，在第一線觀察老闆的做事方法和思考模式，最能夠快速吸收經驗。對於完全沒有 PM 或 Head 的我來說，能夠一覽整個 Product 從已知的需求確立到打造產品的流程（如：系統架構、UI規範 =&amp;gt; 盤點資源 =&amp;gt; 基礎建設佈置 =&amp;gt; 打造 pliot team (tiger team) )；此外，過程中同時能管理小策略與大戰略（原則），也算是一種另類的軍火展示吧！
+工程師的成就 講者對工程師的觀察，發現工程師的成就感來源於：
+ 這個功能是我開發的 這個操作是我規劃出來的 這個需求是我找出來的  這點是完完全全打中我的價值觀，我也認為發覺需求或察覺 insight，讓人有一種無法取代的成就感呢！
+從工程角度，引領團隊持續挖掘產品風險（講者：Zen） 講者 Zen 和大家分享了公司持續改善，將降低風險的過程；我印象最深刻的部分，來自於後半的Team Culture的內容，其中一句話是『Eat your own dog food』，團隊成員本身對自己撰寫的程式碼負責，品質應該是內建的，這句話應該是每一個開發者面對專業的態度。 持續演進的改進 詳細請參考講者公開分享的 slide, 從工程角度上，引領團隊持續挖掘產品風險
+UX-drive Agile 用戶導向的敏捷設計（講者：David Chen） 講者 David Chen 已經幫我們整理好重點，三個重點分別為：
+ 1.全局思考，留心間隙（ Mind the Gap ） 2.</description>
+    </item>
+    
+    <item>
       <title>從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</title>
-      <link>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</link>
+      <link>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban-part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</link>
       <pubDate>Sat, 18 Aug 2018 17:46:11 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban---part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</guid>
+      <guid>https://ykhorzon.github.io/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban-part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/</guid>
       <description>&lt;h1 id=&#34;文章要點&#34;&gt;文章要點&lt;/h1&gt;
 
 &lt;p&gt;文章主要分成&lt;/p&gt;
@@ -137,10 +152,10 @@
     
     <item>
       <title>Agile Meetup 新竹 - 系統思考工作坊 心得</title>
-      <link>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
+      <link>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9-%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</link>
       <pubDate>Tue, 16 Jan 2018 20:04:19 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9---%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://ykhorzon.github.io/tw/2018/01/agile-meetup-%E6%96%B0%E7%AB%B9-%E7%B3%BB%E7%B5%B1%E6%80%9D%E8%80%83%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%BF%83%E5%BE%97/</guid>
       <description>&lt;h1 id=&#34;outline&#34;&gt;Outline&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -224,10 +239,10 @@
     
     <item>
       <title>[影片筆記] 農作物病蟲害診斷--呂柏寬</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7-%E5%91%82%E6%9F%8F%E5%AF%AC/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7--%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E5%BD%B1%E7%89%87%E7%AD%86%E8%A8%98-%E8%BE%B2%E4%BD%9C%E7%89%A9%E7%97%85%E8%9F%B2%E5%AE%B3%E8%A8%BA%E6%96%B7-%E5%91%82%E6%9F%8F%E5%AF%AC/</guid>
       <description>影片  內容摘要 物理防治 3:33
 阻隔  設施栽培 防蟲網(記得連土壤一起網住，許多昆蟲會從土壤進來) 套袋 雜草抑制蓆(隔絕害蟲到土裡)  視覺  黏板(捕蟲並最重要是監測蟲害狀態)  溫度調控 種苗使用的土壤，事先用高溫蒸汽消毒土壤 翻攪土壤，讓地下害蟲土壤到表面，讓太陽高溫殺死幼蟲
 耕作防治管理 9:00
@@ -249,10 +264,10 @@
     
     <item>
       <title>蔡月夏--食用百合鱗莖有機栽培模式之建立</title>
-      <link>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
+      <link>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F-%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</link>
       <pubDate>Fri, 27 Oct 2017 18:38:34 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F--%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/10/%E8%94%A1%E6%9C%88%E5%A4%8F-%E9%A3%9F%E7%94%A8%E7%99%BE%E5%90%88%E9%B1%97%E8%8E%96%E6%9C%89%E6%A9%9F%E6%A0%BD%E5%9F%B9%E6%A8%A1%E5%BC%8F%E4%B9%8B%E5%BB%BA%E7%AB%8B/</guid>
       <description>品種
  四川百合(藥用) 蘭州百合(鮮食) 日本百合  長期進口量與價格統計(15年) 產量逐年降低，原因是產地病害
 栽培流程
@@ -401,10 +416,10 @@
     
     <item>
       <title>日常中的世代對談 - 討論柯文哲市長 2 採取行動</title>
-      <link>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</link>
+      <link>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87-%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</link>
       <pubDate>Thu, 29 Jun 2017 08:33:18 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87---%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
+      <guid>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87-%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
       <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
@@ -608,10 +623,10 @@ the right, we value the items on the left more.&lt;/p&gt;
     
     <item>
       <title>TGDF 2016 - Fail Fast 閃退</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-fail-fast-%E9%96%83%E9%80%80/</link>
       <pubDate>Wed, 14 Sep 2016 23:15:29 +0000</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016---fail-fast-%E9%96%83%E9%80%80/</guid>
+      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-fail-fast-%E9%96%83%E9%80%80/</guid>
       <description>Fail Fast─為什麼閃退是好事 (Undone) Speaker: 雷亞 Co-founder 楊善詠
 挑戰  技術人才培育 跨平台架構  事實上是救火雷亞
 員工人數遽增 2011 , 16人 2016, &amp;gt;100人
@@ -627,10 +642,10 @@ Check input value ( use assertion too!) Add up the diagnosis info for future</de
     
     <item>
       <title>TGDF 2016 Notes - Spear and shield of game developing 遊戲開發的矛與盾</title>
-      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
+      <link>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes-spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</link>
       <pubDate>Tue, 13 Sep 2016 23:42:55 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes---spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
+      <guid>https://ykhorzon.github.io/tw/2016/09/tgdf-2016-notes-spear-and-shield-of-game-developing-%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E7%9A%84%E7%9F%9B%E8%88%87%E7%9B%BE/</guid>
       <description>&lt;h1 id=&#34;遊戲開發的矛與盾&#34;&gt;遊戲開發的矛與盾&lt;/h1&gt;
 
 &lt;h3 id=&#34;市場初步估計&#34;&gt;市場初步估計：&lt;/h3&gt;
