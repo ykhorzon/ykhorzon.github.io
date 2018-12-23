@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="C/C&#43;&#43; 常見面試問題統整" />
+<meta property="og:description" content="C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
+int val = 10; int * prt = &amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C&#43;&#43; - 常見 C 語言觀念題目總整理（適合考試和面試）
+Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 char pointer ，在基礎處理上要很注意
+ https://www.geeksforgeeks.org/difference-pointer-array-c/ https://www.geeksforgeeks.org/pointer-vs-array-in-c/  Function Pointer  設計目的：  can be used to simplify code by providing a simple way to select a function to execute based on run-time values." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/" /><meta property="article:published_time" content="2018-12-23T08:47:03&#43;08:00"/>
+<meta property="article:modified_time" content="2018-12-23T08:47:03&#43;08:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="C/C&#43;&#43; 常見面試問題統整"/>
+<meta name="twitter:description" content="C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
+int val = 10; int * prt = &amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C&#43;&#43; - 常見 C 語言觀念題目總整理（適合考試和面試）
+Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 char pointer ，在基礎處理上要很注意
+ https://www.geeksforgeeks.org/difference-pointer-array-c/ https://www.geeksforgeeks.org/pointer-vs-array-in-c/  Function Pointer  設計目的：  can be used to simplify code by providing a simple way to select a function to execute based on run-time values."/>
+
+
+
+    <link rel="canonical" href="https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/">
+
+    <title>
+      
+        C/C&#43;&#43; 常見面試問題統整 | Ykhorizon
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Oswald" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header class="blog-header">
+
+    <div class="header-image-block">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="/tw">
+                Ykhorizon
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    
+                    <li class="nav-item ">
+                        
+                            <a class="nav-link" href="/tw/">首頁</a>
+                        
+                    </li>
+                    
+                    <li class="nav-item ">
+                        
+                            <a class="nav-link" href="/tw/about/me">關於我</a>
+                        
+                    </li>
+                    
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            
+                                <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
+                            
+                                <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                            
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+</header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/">C/C++ 常見面試問題統整</a>
+    </h1>
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        Dec 23, 2018
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+    
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/interview">interview</a>
+    
+</div>
+
+    
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/programming/candc&#43;&#43;">programming/CandC&#43;&#43;</a>
+    
+        <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+    
+</div>
+
+    <hr>
+</header>
+<article class="blog-post">
+    
+
+<h1 id="c-語言">C 語言</h1>
+
+<h2 id="pointer">Pointer</h2>
+
+<h3 id="pointer-of-variable">Pointer of variable</h3>
+
+<ul>
+<li>A variable hold the address (一個指向某個儲存位址的變數)</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code class="language-C">    int val = 10;
+    int * prt = &amp;val
+</code></pre>
+
+<p>詳細可以參考 Mr. Open Gate 的文章 <a href="http://mropengate.blogspot.com/2017/08/cc-c.html">C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）</a></p>
+
+<h3 id="array-and-pointer-的關係">Array and Pointer 的關係</h3>
+
+<p>在 C 語言中，處理字串一定會牽扯到 char pointer ，在基礎處理上要很注意</p>
+
+<ul>
+<li><a href="https://www.geeksforgeeks.org/difference-pointer-array-c/">https://www.geeksforgeeks.org/difference-pointer-array-c/</a></li>
+<li><a href="https://www.geeksforgeeks.org/pointer-vs-array-in-c/">https://www.geeksforgeeks.org/pointer-vs-array-in-c/</a></li>
+</ul>
+
+<h3 id="function-pointer">Function Pointer</h3>
+
+<ul>
+<li>設計目的：
+
+<ul>
+<li>can be used to simplify code by providing a simple way to select a function to execute based on run-time values. <a href="https://en.wikipedia.org/wiki/Function_pointer">Function Pointer, wiki</a></li>
+</ul></li>
+</ul>
+
+<h2 id="變數範圍-variable-scope-和-生命週期-variable-life-time">變數範圍 Variable scope 和 生命週期 Variable life time</h2>
+
+<ul>
+<li>常見有 local, static, global
+被宣告為 static 的 variable 有效的生命週期是『只要在程式還在執行都可以使用』，範圍只有在宣告的區域（Ex: function) 才能被存取</li>
+</ul>
+
+<p>詳細可以參考 <a href="https://blog.feabhas.com/2010/09/scope-and-lifetime-of-variables-in-c/">Scope and Lifetime of Variables in C</a></p>
+
+<h2 id="declaration-and-definition-差別">Declaration and Definition 差別</h2>
+
+<h2 id="記憶體配置-memory-allocation">記憶體配置 Memory allocation</h2>
+
+<p>請參考 Mr. Open Gate 的文章 [C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）] 的 [用心去感覺] 記憶體的配置</p>
+
+<h2 id="struct-memory-with-compiler-optimization">Struct Memory with Compiler Optimization</h2>
+
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/gDVgIO0rg38cDQ?startSlide=203" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/olvemaudal/deep-c" title="Deep C" target="_blank">Deep C</a> </strong> from <strong><a href="//www.slideshare.net/olvemaudal" target="_blank">Olve Maudal</a></strong> </div></p>
+
+<h2 id="source-code-如何被-compile-成執行檔">Source code 如何被 compile 成執行檔</h2>
+
+<p>可以參考一下投影片『How A Compiler Works: GNU Toolchain』，至少有概念就好(p9~p14)</p>
+
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/pIAwbkbnVdXxBY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jserv/how-a-compiler-works-gnu-toolchain" title="How A Compiler Works: GNU Toolchain" target="_blank">How A Compiler Works: GNU Toolchain</a> </strong> from <strong><a href="https://www.slideshare.net/jserv" target="_blank">Jim Huang</a></strong> </div></p>
+
+<h1 id="c-object-oriented-programming">C++ Object-Oriented Programming</h1>
+
+<h2 id="encapsulation">Encapsulation</h2>
+
+<p>Access modifier</p>
+
+<ul>
+<li>public</li>
+<li>private</li>
+<li>protect: can be access by derived class</li>
+</ul>
+
+<h2 id="inheritance">Inheritance</h2>
+
+<h2 id="polymorphism">Polymorphism</h2>
+
+<ul>
+<li>virtual function</li>
+</ul>
+
+<p><a href="https://www.geeksforgeeks.org/commonly-asked-oop-interview-questions/">Commonly Asked OOP Interview Questions | Set 1</a></p>
+
+<h1 id="main-references">Main References</h1>
+
+<ul>
+<li><p>Interview Problems</p>
+
+<ul>
+<li><a href="http://mropengate.blogspot.com/2017/08/cc-c.html">C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）</a></li>
+<li><a href="https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-1/">https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-1/</a></li>
+<li><a href="https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-2/">https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-2/</a></li>
+</ul></li>
+
+<li><p>Reading Material</p>
+
+<ul>
+<li><a href="https://www.slideshare.net/olvemaudal/deep-c">Deep C (and C++), 強烈推薦</a>
+<br /></li>
+</ul></li>
+
+<li><p>Tutorial Material</p>
+
+<ul>
+<li><a href="https://www.learn-c.org/">https://www.learn-c.org/</a></li>
+<li><a href="https://beginnersbook.com/2014/01/c-tutorial-for-beginners-with-examples/">https://beginnersbook.com/2014/01/c-tutorial-for-beginners-with-examples/</a></li>
+</ul></li>
+</ul>
+
+
+    
+
+    
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/">C/C++ 常見面試問題統整</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/%E9%A2%A8%E6%B0%B4%E5%AF%B6%E5%9C%B0-agile-tour-hsinchu-2018-%E5%BF%83%E5%BE%97/">風水寶地 — Agile Tour HsinChu 2018 心得</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8B/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(下)</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(上)</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/08/%E5%BE%9E%E8%AE%93%E6%9D%8E%E5%B0%8F%E9%BE%8D%E4%BD%A0%E7%9C%8B%E8%A6%8B-kanban-%E7%9A%84%E7%BE%8E%E5%A5%BD%E5%88%B0%E6%94%B9%E9%80%B2%E6%88%91%E7%9A%84-personal-kanban-part-i-kanban-%E8%A7%80%E5%BF%B5%E9%87%90%E6%B8%85/">從『讓李小龍你看見 Kanban 的美好』到改進我的 Personal Kanban - Part I kanban 觀念釐清</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+        
+        <h4>Categories</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/culture">agile/culture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/kanban">agile/kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/pest">agriculture/pest</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog">blog</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog/general">blog/general</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english/academic-writing">english/academic-writing</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/career">myself/career</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/retrospective">myself/retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/target">myself/target</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/candc&#43;&#43;">programming/candc&#43;&#43;</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/codewars">programming/codewars</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/python">programming/python</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design/ecosystem">service-design/ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup/game-business">startup/game-business</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox">virtualbox</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox/network">virtualbox/network</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow/personal-kanban">workflow/personal-kanban</a>
+            
+        </p>
+        
+    
+        
+        <h4>Tags</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/tags/academic">academic</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile-tour">agile-tour</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/allergy">allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/blind-spot">blind-spot</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/business">business</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/c-sharp">c-sharp</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/communication">communication</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/customer-journey">customer-journey</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/drawing">drawing</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ecosystem">ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/interview">interview</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/pest-detect">pest-detect</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/python">python</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/retrospective">retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/software">software</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/writing">writing</a>
+            
+        </p>
+        
+    
+</section>
+    
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        <p class="w-100 text-center">Hugo template made with ❤ by <a href="https://github.com/Xzya">Xzya</a>, inspired by <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">hugo-theme-bootstrap4-blog</a></p>
+        <p class="w-100 text-center"><a href="#">Back to top</a></p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

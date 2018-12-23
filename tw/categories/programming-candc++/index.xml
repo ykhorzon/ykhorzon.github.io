@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming/Candc&#43;&#43; on Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/categories/programming-candc&#43;&#43;/</link>
+    <description>Recent content in Programming/Candc&#43;&#43; on Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Dec 2018 08:47:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/categories/programming-candc++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C/C&#43;&#43; 常見面試問題統整</title>
+      <link>https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
+      <pubDate>Sun, 23 Dec 2018 08:47:03 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
+      <description>C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
+int val = 10; int * prt = &amp;amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）
+Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 char pointer ，在基礎處理上要很注意
+ https://www.geeksforgeeks.org/difference-pointer-array-c/ https://www.geeksforgeeks.org/pointer-vs-array-in-c/  Function Pointer  設計目的：  can be used to simplify code by providing a simple way to select a function to execute based on run-time values.</description>
+    </item>
+    
+  </channel>
+</rss>
