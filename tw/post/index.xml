@@ -12,12 +12,13 @@
     
     
     <item>
-      <title>C/C&#43;&#43; 常見面試問題統整</title>
-      <link>https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
+      <title>[持續更新] C/C&#43;&#43; 常見面試問題統整</title>
+      <link>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
       <pubDate>Sun, 23 Dec 2018 08:47:03 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2018/12/c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
-      <description>C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
+      <guid>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
+      <description>本文章有，共同編輯與時常更新的版本，會寫在 hackmd 上面
+ https://hackmd.io/pWi7pgvISWSSjZN0HOYLGg  C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
 int val = 10; int * prt = &amp;amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）
 Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 char pointer ，在基礎處理上要很注意
  https://www.geeksforgeeks.org/difference-pointer-array-c/ https://www.geeksforgeeks.org/pointer-vs-array-in-c/  Function Pointer  設計目的：  can be used to simplify code by providing a simple way to select a function to execute based on run-time values.</description>
@@ -42,6 +43,18 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
 &lt;p&gt;在這次 Agile Tour HsincChu 中，印象比較深刻的內容，大多是故事性比較強，引人入勝讓人不目轉睛，又或者是 workshop 這類互動性強，有實際動手和小組一起討論的活動，讓人記憶點特別深刻！&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Roland Octa Capture interface 在 MacOS 環境設定</title>
+      <link>https://ykhorzon.github.io/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/</link>
+      <pubDate>Thu, 06 Dec 2018 16:54:20 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/</guid>
+      <description>關於常見的線材 3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)
+References
+ 深入XLR，單聲道? 雙聲道? [音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！ 常見的音訊接頭，有何講究?  關於 Octa-Capture 這台的特色：
+ input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in input 1~8 都有幻象電源 48v Phantom power 有 auto-sensing 的功能  關於 Octa-Capture 的常用操作  安裝 Roland 官方對應版本作業系統的 driver link 在 MacOS 10.13 中，系統預設會阻擋 interface 和 MacOS 連接，造成一直從 OCTA-CAPTURE Control Panel 找不到 Device (System Preference / Sound 也無法在 input,output看到 )；  必須得去 System Preference &amp;gt; Securiy &amp;amp; Privacy &amp;gt; [Tab] General &amp;gt; 點選畫面下方allow roland octa &amp;hellip;.</description>
     </item>
     
     <item>
