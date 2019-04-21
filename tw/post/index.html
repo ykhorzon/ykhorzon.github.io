@@ -9,7 +9,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ykhorzon.github.io/tw/post/" />
-<meta property="og:updated_time" content="2018-12-23T08:47:03&#43;08:00"/>
+<meta property="og:updated_time" content="2019-04-21T17:59:16&#43;08:00"/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -103,6 +103,165 @@
 
 
 
+
+
+
+    
+        <article class="blog-post">
+    <header>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/">Windows 10 home 升級 pro 受難計</a>
+        </h1>
+        
+        <hr>
+        
+
+
+<div class="blog-post-date text-secondary">
+    
+        Apr 21, 2019
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+        
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/windows-10">windows-10</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/lenovo">lenovo</a>
+    
+</div>
+
+        
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/laptop">laptop</a>
+    
+</div>
+
+    </header>
+     事出有因 當初在購買新的筆電時，迫於各種無奈之下，就挑選了 lenovo T480s 並安裝 windows 10， 但因為一時不察，想說應該安裝『家用版就足夠了』，必沒有遠端和加密的需求，當時也有看到微軟有自己的虛擬化 hyper-v ，想說 virtualbox 就足夠了，天知道買來用兩天就發現，要執行 docker 必須要專業版（對 hyper-v 有依賴）。這下驢了，當初只有加 1500元 就可買到專業版，這下必須花至少 3000元才能從家用版升級到專業版
+波折 當時決定去一般零售店購買 window 10 專業版，就購買了專業版（隨機版，幫定電腦/筆電主機板，無法轉移授權到其他機器） 買回來發現直接輸入金鑰，竟然無效！求助 lenovo 客服、微軟客服、零售店的電腦專員，不是踢皮球，就是無法解決（備註：我滿感謝零售店的電腦專員，他們有認真幫我解決，雖然無效，但最終給了找出解答的方向
+解方  window鍵 + r ，輸入 CHANGEPK.exe ，開啟啟用頁面 關閉任何網路連接(wifi、有線網路)，避免連上網路自動抓取家用版金鑰 輸入 windows 專業版預設金鑰 VK7JG-NPHTM-C97JM-9MPGT-3V66T ，電腦會從『家用版』轉成『專業版』，但尚未啟用成功 開啟網路 輸入你的正版金鑰 最後檢查 Windows 版本  參考  FIX: WINDOWS 10 HOME TO PRO UPGRADE ERROR 0X803FA067  
+    
+    
+</article>
+
+
+    
+
+
+
+    
+        <article class="blog-post">
+    <header>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/">Javascript 中 Import 和 Export</a>
+        </h1>
+        
+        <hr>
+        
+
+
+<div class="blog-post-date text-secondary">
+    
+        Apr 4, 2019
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+        
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/es6">ES6</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/javascript">javascript</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/fundamental">fundamental</a>
+    
+</div>
+
+        
+    </header>
+    default named named import 的意思是指『export 時的 variable/function 已經被命名，無法在 import 時重新取名』;如果在 import 時改名將會有 error ，確保 variable/function 保持原本的名字。
+ Named exports are useful to export several values. During the import, it is mandatory to use the same name of the corresponding object.
+ 1 2 3 4 5 6 7 8 9 10 11 12 13  // utility.js function parseLogs() { // implementation } function generateLogs() { // implementation } export { parseLogs, generateLogs }; // main.
+    
+    <p></p>
+    <a href="/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/">Read More →</a>
+    
+    
+</article>
+
+
+    
+
+
+
+    
+        <article class="blog-post">
+    <header>
+        <h1 class="blog-post-title">
+            ∬ <a class="text-dark" href="/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">ubnutu 中安裝設定 nfs server</a>
+        </h1>
+        
+        <hr>
+        
+
+
+<div class="blog-post-date text-secondary">
+    
+        Feb 20, 2019
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+        
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/ubuntu">ubuntu</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/nfs-server">nfs-server</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/network">network</a>
+    
+</div>
+
+        
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/linux">linux</a>
+    
+</div>
+
+    </header>
+    紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多
+使用動機 Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 nfs protocal (network file system)。
+(P.S. 鳥哥 linux 有 nfs 很詳細的介紹)
+情境 大致上的狀況如上面這圖，再來就是如何安裝設定。 image source
+安裝與設定 1.在 ubuntu 中安裝 nfs server 可參考這篇文章 Install NFS Server and Client on Ubuntu 18.04 LTS VITUX 的步驟
+sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/shared/folder] sudo chown nobody:nogroup [/path/to/shared/folder] sudo chmod [/path/to/shared/folder]  2.
+    
+    <p></p>
+    <a href="/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">Read More →</a>
+    
+    
+</article>
+
+
+    
 
 
 
@@ -215,174 +374,6 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
     
     <p></p>
     <a href="/tw/2018/12/%E9%A2%A8%E6%B0%B4%E5%AF%B6%E5%9C%B0-agile-tour-hsinchu-2018-%E5%BF%83%E5%BE%97/">Read More →</a>
-    
-    
-</article>
-
-
-    
-
-
-
-    
-        <article class="blog-post">
-    <header>
-        <h1 class="blog-post-title">
-            ∬ <a class="text-dark" href="/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/">Roland Octa Capture interface 在 MacOS 環境設定</a>
-        </h1>
-        
-        <hr>
-        
-
-
-<div class="blog-post-date text-secondary">
-    
-        Dec 6, 2018
-    
-    
-        by <span rel="author">ykhorizon</span>
-    
-</div>
-
-        
-<div class="blog-post-tags text-secondary">
-    <strong>Tags:</strong>
-    
-        <a class="badge badge-primary" href="/tw/tags/music-equipment">music-equipment</a>
-    
-</div>
-
-        
-<div class="blog-post-categories text-secondary">
-    <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/tw/categories/audio-engineering">audio-engineering</a>
-    
-</div>
-
-    </header>
-    關於常見的線材 3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)
-References
- 深入XLR，單聲道? 雙聲道? [音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！ 常見的音訊接頭，有何講究?  關於 Octa-Capture 這台的特色：
- input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in input 1~8 都有幻象電源 48v Phantom power 有 auto-sensing 的功能  測試 Octa-Capture UA-1010 準備  安裝 Roland 官方對應版本作業系統的 driver link 在 MacOS 10.13 中，系統預設會阻擋 interface 和 MacOS 連接，造成一直從 OCTA-CAPTURE Control Panel 找不到 Device (System Preference / Sound 也無法在 input,output看到 )；  必須得去 System Preference &gt; Securiy &amp; Privacy &gt; [Tab] General &gt; 點選畫面下方allow roland octa &hellip;.
-    
-    <p></p>
-    <a href="/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/">Read More →</a>
-    
-    
-</article>
-
-
-    
-
-
-
-    
-        <article class="blog-post">
-    <header>
-        <h1 class="blog-post-title">
-            ∬ <a class="text-dark" href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8B/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(下)</a>
-        </h1>
-        
-        <hr>
-        
-
-
-<div class="blog-post-date text-secondary">
-    
-        Dec 2, 2018
-    
-    
-        by <span rel="author">ykhorizon</span>
-    
-</div>
-
-        
-<div class="blog-post-tags text-secondary">
-    <strong>Tags:</strong>
-    
-        <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
-    
-</div>
-
-        
-<div class="blog-post-categories text-secondary">
-    <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
-    
-</div>
-
-    </header>
-    <p><img src="/content_img/agile/agile_taipei_tour_2018_review/impact_mapping_results.jpg">
-Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
-
-<p><br>
-<br>
-延續上一集，我繼續回顧 Agile Tour Taipei 下午場的內容，分成 Workshop 和 Open Space Tech. 開放討論。Workshop 可以快速打造一種團隊戰友的氛圍，讓全體焦點轉向『做好團隊任務』，同時可以觀察隊友的行為與背後思考，偷學別人兩招的地方；至於 Open Space Tech.，活動設計本身就是 <strong>『一種討論框架』</strong>，促使參與者更自然產生化學作用，討論與對話遍地開花，不必擔心沒話題。不時還會出校有趣的議題，例如笑生不停地的 <strong>『有個 water-fall 老婆怎麼辦？』</strong>（笑）</p>
-
-<p></p>
-    
-    <p></p>
-    <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8B/">Read More →</a>
-    
-    
-</article>
-
-
-    
-
-
-
-    
-        <article class="blog-post">
-    <header>
-        <h1 class="blog-post-title">
-            ∬ <a class="text-dark" href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(上)</a>
-        </h1>
-        
-        <hr>
-        
-
-
-<div class="blog-post-date text-secondary">
-    
-        Dec 1, 2018
-    
-    
-        by <span rel="author">ykhorizon</span>
-    
-</div>
-
-        
-<div class="blog-post-tags text-secondary">
-    <strong>Tags:</strong>
-    
-        <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
-    
-</div>
-
-        
-<div class="blog-post-categories text-secondary">
-    <strong>Categories:</strong>
-    
-        <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
-    
-</div>
-
-    </header>
-    <p><img src="/content_img/agile/agile_taipei_tour_2018_review/group.jpg">
-每年 Agile Tour 必備大合照XD, photo source: <a href="https://www.facebook.com/AgileTourTaipei/photos/bc.Abr2llnQRzNzZB4TL_0CpNLsq9DxiIt-9rAK21dZ6tkESvCNk8fdRjHIGX6T8JknvPftMNpvVvfz_dLp3ZnHS1zcs80WeGSODd96OwHjs1n4TaD2cDKmvi6uQDIbtVumh1VGUcCamVkijmFuIcNqa8cOI9lj623f7DWFgOIofyU9U_KGznCbSorxhrczVKu3lhCKb7VRwZ5h3OX-f-7nmcZHHMFWAj3i0RHIw2PcTG9C9srkzaeD-ULMy7p7zR2r54AEg0TI6ID7bHIbBMrtxUsxGBUbwzqQaNOxHCSqbqwg1A/884362115104514/?type=1&amp;opaqueCursor=Abpb5d9dsGRfb77CH0B1YWqMQpZ1433HdcR1nzVbH6lPFcBfo8b5R-082Ob5tNuMvHogMb_BwbsGQDUQ6grBFlQtov1MAwfhl9-DLoJIb0DwnyWHZciDf8dxiKxaPSWUn4d0c3y6wt_IAGlRsAoD1WyVZ-zhpAeiWl2r_60yeDisa2L9I-dtOX7bV0C8kXx1iZjCTiRjAUmvloQ60YIDIxfhf5Tmur2sfY7CnAhr4QRCYTQR8pAkkFyKOU5TJSkCzRO93d6TN9cn6AJnU4qz2Xqq3tPfom8aW802CGt9EU-7BHEn0kBpgi81MIMmhbonhNrVGwWKEkp90Wrk1T67Mh47pYOhSV6Kum_nqLB1z8wjU188SjHQqxzZj_psrWLcfgHUgeFBz3smpGDMqERfgOFcMT1r7ktKQe49eEO4x2OzCFdmiSlCSJ-Sa-hrXbOz0pqsI0lYIkpwVKbxivvRG8i9urL6V1zkma8TUt18QOTw2CKo7qx-XkD9mhRaMwHCxzQlMsjGkWaeOD-6VvcLBYza&amp;theater">FB photo from alige community</a>
-<br>
-<br></p>
-
-<h2 id="探險">探險</h2>
-
-<p>今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！
-</p>
-    
-    <p></p>
-    <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/">Read More →</a>
     
     
 </article>
@@ -515,23 +506,23 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
     <ol class="list-unstyled">
         
         <li class="recent-article-list-item">
+            <a href="/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/">Windows 10 home 升級 pro 受難計</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/">Javascript 中 Import 和 Export</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">ubnutu 中安裝設定 nfs server</a>
+        </li>
+        
+        <li class="recent-article-list-item">
             <a href="/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/">[持續更新] C/C++ 常見面試問題統整</a>
         </li>
         
         <li class="recent-article-list-item">
             <a href="/tw/2018/12/%E9%A2%A8%E6%B0%B4%E5%AF%B6%E5%9C%B0-agile-tour-hsinchu-2018-%E5%BF%83%E5%BE%97/">風水寶地 — Agile Tour HsinChu 2018 心得</a>
-        </li>
-        
-        <li class="recent-article-list-item">
-            <a href="/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/">Roland Octa Capture interface 在 MacOS 環境設定</a>
-        </li>
-        
-        <li class="recent-article-list-item">
-            <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8B/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(下)</a>
-        </li>
-        
-        <li class="recent-article-list-item">
-            <a href="/tw/2018/12/%E4%B8%80%E5%A0%B4%E6%B7%B1%E5%BA%A6%E8%B7%A8%E9%A0%98%E5%9F%9F%E4%BA%A4%E6%B5%81%E7%9A%84%E6%8E%A2%E9%9A%AA-agile-tour-taipei-2018-%E5%BF%83%E5%BE%97%E4%B8%8A/">一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(上)</a>
         </li>
         
     </ol>
@@ -580,6 +571,10 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
             <a class="badge badge-primary" href="/tw/categories/health">health</a>
             
             <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/laptop">laptop</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/linux">linux</a>
             
             <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
             
@@ -648,6 +643,10 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
             
             <a class="badge badge-primary" href="/tw/tags/english">english</a>
             
+            <a class="badge badge-primary" href="/tw/tags/es6">es6</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/fundamental">fundamental</a>
+            
             <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
             
             <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
@@ -656,17 +655,23 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
             
             <a class="badge badge-primary" href="/tw/tags/interview">interview</a>
             
+            <a class="badge badge-primary" href="/tw/tags/javascript">javascript</a>
+            
             <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
             
             <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
             
             <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
             
+            <a class="badge badge-primary" href="/tw/tags/lenovo">lenovo</a>
+            
             <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
             
             <a class="badge badge-primary" href="/tw/tags/music-equipment">music-equipment</a>
             
             <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/nfs-server">nfs-server</a>
             
             <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
             
@@ -692,9 +697,13 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！</p>
             
             <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
             
+            <a class="badge badge-primary" href="/tw/tags/ubuntu">ubuntu</a>
+            
             <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
             
             <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/windows-10">windows-10</a>
             
             <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
             

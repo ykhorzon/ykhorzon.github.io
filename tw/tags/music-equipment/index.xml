@@ -17,10 +17,29 @@
       <pubDate>Thu, 06 Dec 2018 16:54:20 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/</guid>
-      <description>關於常見的線材 3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)
-References
- 深入XLR，單聲道? 雙聲道? [音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！ 常見的音訊接頭，有何講究?  關於 Octa-Capture 這台的特色：
- input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in input 1~8 都有幻象電源 48v Phantom power 有 auto-sensing 的功能  測試 Octa-Capture UA-1010 準備  安裝 Roland 官方對應版本作業系統的 driver link 在 MacOS 10.13 中，系統預設會阻擋 interface 和 MacOS 連接，造成一直從 OCTA-CAPTURE Control Panel 找不到 Device (System Preference / Sound 也無法在 input,output看到 )；  必須得去 System Preference &amp;gt; Securiy &amp;amp; Privacy &amp;gt; [Tab] General &amp;gt; 點選畫面下方allow roland octa &amp;hellip;.</description>
+      <description>&lt;h2 id=&#34;關於常見的線材&#34;&gt;關於常見的線材&lt;/h2&gt;
+
+&lt;p&gt;3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)&lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jacksonlin.net/20170516-xlr-mono-or-stereo/&#34;&gt;深入XLR，單聲道? 雙聲道?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cool3c.com/article/87281&#34;&gt;[音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jacksonlin.net/20170512-xlr-trs-jack-48v/&#34;&gt;常見的音訊接頭，有何講究?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;關於-octa-capture&#34;&gt;關於 Octa-Capture&lt;/h2&gt;
+
+&lt;p&gt;這台的特色：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in&lt;/li&gt;
+&lt;li&gt;input 1~8 都有幻象電源 48v Phantom power&lt;/li&gt;
+&lt;li&gt;有 auto-sensing 的功能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/tags/javascript/</link>
+    <description>Recent content in Javascript on Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2019 00:25:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript 中 Import 和 Export</title>
+      <link>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</link>
+      <pubDate>Thu, 04 Apr 2019 00:25:56 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</guid>
+      <description>default named named import 的意思是指『export 時的 variable/function 已經被命名，無法在 import 時重新取名』;如果在 import 時改名將會有 error ，確保 variable/function 保持原本的名字。
+ Named exports are useful to export several values. During the import, it is mandatory to use the same name of the corresponding object.
+ 1 2 3 4 5 6 7 8 9 10 11 12 13  // utility.js function parseLogs() { // implementation } function generateLogs() { // implementation } export { parseLogs, generateLogs }; // main.</description>
+    </item>
+    
+  </channel>
+</rss>

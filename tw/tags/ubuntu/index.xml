@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Ykhorizon</title>
+    <link>https://ykhorzon.github.io/tw/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Ykhorizon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Feb 2019 22:41:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://ykhorzon.github.io/tw/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ubnutu 中安裝設定 nfs server</title>
+      <link>https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/</link>
+      <pubDate>Wed, 20 Feb 2019 22:41:03 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/</guid>
+      <description>紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多
+使用動機 Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 nfs protocal (network file system)。
+(P.S. 鳥哥 linux 有 nfs 很詳細的介紹)
+情境 大致上的狀況如上面這圖，再來就是如何安裝設定。 image source
+安裝與設定 1.在 ubuntu 中安裝 nfs server 可參考這篇文章 Install NFS Server and Client on Ubuntu 18.04 LTS VITUX 的步驟
+sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/shared/folder] sudo chown nobody:nogroup [/path/to/shared/folder] sudo chmod [/path/to/shared/folder]  2.</description>
+    </item>
+    
+  </channel>
+</rss>

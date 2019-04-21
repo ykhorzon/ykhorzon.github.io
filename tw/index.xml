@@ -6,10 +6,46 @@
     <description>Recent content on Ykhorizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Dec 2018 08:47:03 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2019 17:59:16 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows 10 home 升級 pro 受難計</title>
+      <link>https://ykhorzon.github.io/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/</link>
+      <pubDate>Sun, 21 Apr 2019 17:59:16 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/</guid>
+      <description> 事出有因 當初在購買新的筆電時，迫於各種無奈之下，就挑選了 lenovo T480s 並安裝 windows 10， 但因為一時不察，想說應該安裝『家用版就足夠了』，必沒有遠端和加密的需求，當時也有看到微軟有自己的虛擬化 hyper-v ，想說 virtualbox 就足夠了，天知道買來用兩天就發現，要執行 docker 必須要專業版（對 hyper-v 有依賴）。這下驢了，當初只有加 1500元 就可買到專業版，這下必須花至少 3000元才能從家用版升級到專業版
+波折 當時決定去一般零售店購買 window 10 專業版，就購買了專業版（隨機版，幫定電腦/筆電主機板，無法轉移授權到其他機器） 買回來發現直接輸入金鑰，竟然無效！求助 lenovo 客服、微軟客服、零售店的電腦專員，不是踢皮球，就是無法解決（備註：我滿感謝零售店的電腦專員，他們有認真幫我解決，雖然無效，但最終給了找出解答的方向
+解方  window鍵 + r ，輸入 CHANGEPK.exe ，開啟啟用頁面 關閉任何網路連接(wifi、有線網路)，避免連上網路自動抓取家用版金鑰 輸入 windows 專業版預設金鑰 VK7JG-NPHTM-C97JM-9MPGT-3V66T ，電腦會從『家用版』轉成『專業版』，但尚未啟用成功 開啟網路 輸入你的正版金鑰 最後檢查 Windows 版本  參考  FIX: WINDOWS 10 HOME TO PRO UPGRADE ERROR 0X803FA067  </description>
+    </item>
+    
+    <item>
+      <title>Javascript 中 Import 和 Export</title>
+      <link>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</link>
+      <pubDate>Thu, 04 Apr 2019 00:25:56 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</guid>
+      <description>default named named import 的意思是指『export 時的 variable/function 已經被命名，無法在 import 時重新取名』;如果在 import 時改名將會有 error ，確保 variable/function 保持原本的名字。
+ Named exports are useful to export several values. During the import, it is mandatory to use the same name of the corresponding object.
+ 1 2 3 4 5 6 7 8 9 10 11 12 13  // utility.js function parseLogs() { // implementation } function generateLogs() { // implementation } export { parseLogs, generateLogs }; // main.</description>
+    </item>
+    
+    <item>
+      <title>ubnutu 中安裝設定 nfs server</title>
+      <link>https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/</link>
+      <pubDate>Wed, 20 Feb 2019 22:41:03 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/</guid>
+      <description>紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多
+使用動機 Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 nfs protocal (network file system)。
+(P.S. 鳥哥 linux 有 nfs 很詳細的介紹)
+情境 大致上的狀況如上面這圖，再來就是如何安裝設定。 image source
+安裝與設定 1.在 ubuntu 中安裝 nfs server 可參考這篇文章 Install NFS Server and Client on Ubuntu 18.04 LTS VITUX 的步驟
+sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/shared/folder] sudo chown nobody:nogroup [/path/to/shared/folder] sudo chmod [/path/to/shared/folder]  2.</description>
+    </item>
     
     <item>
       <title>[持續更新] C/C&#43;&#43; 常見面試問題統整</title>
@@ -51,10 +87,29 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
       <pubDate>Thu, 06 Dec 2018 16:54:20 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/2018/12/roland-octa-capture-interface-%E5%9C%A8-macos-%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A/</guid>
-      <description>關於常見的線材 3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)
-References
- 深入XLR，單聲道? 雙聲道? [音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！ 常見的音訊接頭，有何講究?  關於 Octa-Capture 這台的特色：
- input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in input 1~8 都有幻象電源 48v Phantom power 有 auto-sensing 的功能  測試 Octa-Capture UA-1010 準備  安裝 Roland 官方對應版本作業系統的 driver link 在 MacOS 10.13 中，系統預設會阻擋 interface 和 MacOS 連接，造成一直從 OCTA-CAPTURE Control Panel 找不到 Device (System Preference / Sound 也無法在 input,output看到 )；  必須得去 System Preference &amp;gt; Securiy &amp;amp; Privacy &amp;gt; [Tab] General &amp;gt; 點選畫面下方allow roland octa &amp;hellip;.</description>
+      <description>&lt;h2 id=&#34;關於常見的線材&#34;&gt;關於常見的線材&lt;/h2&gt;
+
+&lt;p&gt;3.5mm TRS(一般耳機孔), 6.3mm TRS, XLR(Cannon頭)&lt;/p&gt;
+
+&lt;p&gt;References&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jacksonlin.net/20170516-xlr-mono-or-stereo/&#34;&gt;深入XLR，單聲道? 雙聲道?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cool3c.com/article/87281&#34;&gt;[音響研究室] 音響插頭一點也不複雜！記住這五種插頭，你的音響之路就又進一大步啦！&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jacksonlin.net/20170512-xlr-trs-jack-48v/&#34;&gt;常見的音訊接頭，有何講究?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;關於-octa-capture&#34;&gt;關於 Octa-Capture&lt;/h2&gt;
+
+&lt;p&gt;這台的特色：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in&lt;/li&gt;
+&lt;li&gt;input 1~8 都有幻象電源 48v Phantom power&lt;/li&gt;
+&lt;li&gt;有 auto-sensing 的功能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

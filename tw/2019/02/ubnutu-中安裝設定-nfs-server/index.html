@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="tw">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="ubnutu 中安裝設定 nfs server" />
+<meta property="og:description" content="紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多
+使用動機 Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 nfs protocal (network file system)。
+(P.S. 鳥哥 linux 有 nfs 很詳細的介紹)
+情境 大致上的狀況如上面這圖，再來就是如何安裝設定。 image source
+安裝與設定 1.在 ubuntu 中安裝 nfs server 可參考這篇文章 Install NFS Server and Client on Ubuntu 18.04 LTS VITUX 的步驟
+sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/shared/folder] sudo chown nobody:nogroup [/path/to/shared/folder] sudo chmod [/path/to/shared/folder]  2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/" /><meta property="article:published_time" content="2019-02-20T22:41:03&#43;08:00"/>
+<meta property="article:modified_time" content="2019-02-20T22:41:03&#43;08:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ubnutu 中安裝設定 nfs server"/>
+<meta name="twitter:description" content="紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多
+使用動機 Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 nfs protocal (network file system)。
+(P.S. 鳥哥 linux 有 nfs 很詳細的介紹)
+情境 大致上的狀況如上面這圖，再來就是如何安裝設定。 image source
+安裝與設定 1.在 ubuntu 中安裝 nfs server 可參考這篇文章 Install NFS Server and Client on Ubuntu 18.04 LTS VITUX 的步驟
+sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/shared/folder] sudo chown nobody:nogroup [/path/to/shared/folder] sudo chmod [/path/to/shared/folder]  2."/>
+
+
+
+    <link rel="canonical" href="https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">
+
+    <title>
+      
+        ubnutu 中安裝設定 nfs server | Ykhorizon
+      
+    </title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://ykhorzon.github.io/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+<link href="https://fonts.googleapis.com/css?family=Francois+One|Lobster|Oswald" rel="stylesheet">
+  </head>
+  <body>
+    
+      <header class="blog-header">
+
+    <div class="header-image-block">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="/tw">
+                Ykhorizon
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    
+                    <li class="nav-item ">
+                        
+                            <a class="nav-link" href="/tw/">首頁</a>
+                        
+                    </li>
+                    
+                    <li class="nav-item ">
+                        
+                            <a class="nav-link" href="/tw/about/me">關於我</a>
+                        
+                    </li>
+                    
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            
+                                <a class="dropdown-item" href="https://ykhorzon.github.io/">English</a>
+                            
+                                <a class="dropdown-item" href="https://ykhorzon.github.io/tw/">繁體中文</a>
+                            
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+</header>
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 blog-main">
+
+          
+
+<header>
+    <h1 class="blog-post-title">
+        <a class="text-dark" href="/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">ubnutu 中安裝設定 nfs server</a>
+    </h1>
+    
+
+
+<div class="blog-post-date text-secondary">
+    
+        Feb 20, 2019
+    
+    
+        by <span rel="author">ykhorizon</span>
+    
+</div>
+
+    
+<div class="blog-post-tags text-secondary">
+    <strong>Tags:</strong>
+    
+        <a class="badge badge-primary" href="/tw/tags/ubuntu">ubuntu</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/nfs-server">nfs-server</a>
+    
+        <a class="badge badge-primary" href="/tw/tags/network">network</a>
+    
+</div>
+
+    
+<div class="blog-post-categories text-secondary">
+    <strong>Categories:</strong>
+    
+        <a class="badge badge-primary" href="/tw/categories/linux">linux</a>
+    
+</div>
+
+    <hr>
+</header>
+<article class="blog-post">
+    
+
+<p>紀錄一下，今天安裝 nfs server 的過程，中間受到別人幫助，從中學到很多</p>
+
+<h1 id="使用動機">使用動機</h1>
+
+<p>Web frontend 的在本機完成(host, windows 10)，開發完成後的 production code 要 deploy 到 embedded system 與後端 cgi 對接，但如果每次開都要 ssh 或 telnet 進 embedded system 更新 prodcution code 太麻煩，更何況 embbeded system 不一定有裝 git 或其傳輸檔案的方式，因此需要一種同步資料的方式，就是這次用到 <a href="https://en.wikipedia.org/wiki/Network_File_System">nfs protocal (network file system)</a>。</p>
+
+<p>(P.S. <a href="http://linux.vbird.org/linux_server/0330nfs.php">鳥哥 linux 有 nfs 很詳細的介紹</a>)</p>
+
+<h1 id="情境">情境</h1>
+
+<p><img src="data:image/png;base64,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" style="cursor:pointer;max-width:100%;" onclick="(function(img){if(img.wnd!=null&&!img.wnd.closed){img.wnd.focus();}else{var r=function(evt){if(evt.data=='ready'&&evt.source==img.wnd){img.wnd.postMessage(decodeURIComponent(img.getAttribute('src')),'*');window.removeEventListener('message',r);}};window.addEventListener('message',r);img.wnd=window.open('https://www.draw.io/?client=1&lightbox=1&edit=_blank');}})(this);"/></p>
+
+<p>大致上的狀況如上面這圖，再來就是如何安裝設定。 <a href="https://www.draw.io/?state=%7B%22folderId%22:%221i8hwlaK6Cs3jcEbUpz88pujMIm9H_Uo1%22,%22action%22:%22create%22,%22userId%22:%22113679980705062206988%22%7D#G16O4M4A158GZ1k_zWMn7IqoB9cWx7HJvc">image source</a></p>
+
+<h2 id="安裝與設定">安裝與設定</h2>
+
+<p>1.在 ubuntu 中安裝 nfs server
+可參考這篇文章 <a href="https://vitux.com/install-nfs-server-and-client-on-ubuntu/">Install NFS Server and Client on Ubuntu 18.04 LTS VITUX</a> 的步驟</p>
+
+<pre><code class="language-shell">sudo apt-get update
+sudo apt install nfs-kernel-server
+sudo mkdir -p [/path/to/shared/folder]
+sudo chown nobody:nogroup [/path/to/shared/folder]
+sudo chmod [/path/to/shared/folder]
+</code></pre>
+
+<p>2.設定 nfs server
+/etc/exports 內容中設定 client 的 IP 與相關參數：</p>
+
+<pre><code class="language-shell">sudo vim /etc/exports
+....
+# add following lines in /etc/exports
+....
+[/path/to/shared/folder] [client_IP](rw,sync,all_squash,no_subtree_check,anonuid=[server_user_id],anongid=[server_user_id])
+</code></pre>
+
+<p>特別注意</p>
+
+<ul>
+<li>每次設定完要 service nfs-server restart</li>
+<li>資料夾權限與帳號權限</li>
+<li><a href="https://www.iplocation.net/public-vs-private-ip-address">Public IP 和 Private IP 不要搞錯</a>
+
+<ul>
+<li>ubuntu 可以用 <strong>ip add</strong></li>
+</ul></li>
+<li>找到可以檢查協定的方式 (e.g. <a href="https://www.tcpdump.org/manpages/tcpdump.1.html">tcpdump</a>)</li>
+<li>建議防火牆全部關掉，因為 nfs server 會很到許多 port</li>
+</ul>
+
+<p>3.ssh / telent 進去 embedded system</p>
+
+<p>掛載 nfs</p>
+
+<pre><code class="language-shell">mount [virtualbox_IP]:[/path/to/shared/folder] [embedded/mount/dir]
+ -o tcp,nolock
+</code></pre>
+
+<p>解除掛載 nfs</p>
+
+<pre><code class="language-shell">umount -f /www
+</code></pre>
+
+<h2 id="缺點">缺點</h2>
+
+<p>每次重新 build frontend code ，mount dir 都會壞掉 ，就要重新 mount/umount 一次
+正在尋找解決方法</p>
+
+
+    
+
+    
+
+    <h4>See also</h4>
+    <ul>
+        
+            <li><a href="/tw/2017/11/virtualbox-%E7%B6%B2%E8%B7%AF%E8%A8%AD%E5%AE%9A-nat-v.s.-bridge-mode/">virtualbox 網路設定 NAT v.s. Bridge mode</a></li>
+        
+    </ul>
+
+
+</article>
+
+
+
+        </div>
+
+        <aside class="col-12 col-lg-3 ml-auto blog-sidebar">
+    
+        
+
+
+<section>
+    <h4>Recent Posts</h4>
+    <ol class="list-unstyled">
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/">Windows 10 home 升級 pro 受難計</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/">Javascript 中 Import 和 Export</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/">ubnutu 中安裝設定 nfs server</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/">[持續更新] C/C++ 常見面試問題統整</a>
+        </li>
+        
+        <li class="recent-article-list-item">
+            <a href="/tw/2018/12/%E9%A2%A8%E6%B0%B4%E5%AF%B6%E5%9C%B0-agile-tour-hsinchu-2018-%E5%BF%83%E5%BE%97/">風水寶地 — Agile Tour HsinChu 2018 心得</a>
+        </li>
+        
+    </ol>
+</section>
+
+    
+    
+        <section>
+    
+        
+    
+        
+        <h4>Categories</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/culture">agile/culture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/kanban">agile/kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/requirements-discovery">agile/requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agile/user-story">agile/user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture">agriculture</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/pest">agriculture/pest</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/agriculture/software">agriculture/software</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/audio-engineering">audio-engineering</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog">blog</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/blog/general">blog/general</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/english/academic-writing">english/academic-writing</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/hardware">hardware</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/health/allergy">health/allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/laptop">laptop</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/linux">linux</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself">myself</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/career">myself/career</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/retrospective">myself/retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/myself/target">myself/target</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming">programming</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/candc&#43;&#43;">programming/candc&#43;&#43;</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/codewars">programming/codewars</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/programming/python">programming/python</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/service-design/ecosystem">service-design/ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/startup/game-business">startup/game-business</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox">virtualbox</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/virtualbox/network">virtualbox/network</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/categories/workflow/personal-kanban">workflow/personal-kanban</a>
+            
+        </p>
+        
+    
+        
+        <h4>Tags</h4>
+        <p>
+            
+            <a class="badge badge-primary" href="/tw/tags/academic">academic</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile">agile</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/agile-tour">agile-tour</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/allergy">allergy</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/blind-spot">blind-spot</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/business">business</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/c-sharp">c-sharp</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/communication">communication</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/customer-journey">customer-journey</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/design-thinking">design-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/drawing">drawing</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ecosystem">ecosystem</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/english">english</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/es6">es6</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/fundamental">fundamental</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/game-industry">game-industry</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/google-analytics">google-analytics</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/health">health</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/interview">interview</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/javascript">javascript</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kanban">kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/kata">kata</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/leading">leading</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/lenovo">lenovo</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/matplotlib">matplotlib</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/music-equipment">music-equipment</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/network">network</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/nfs-server">nfs-server</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/personal-kanban">personal-kanban</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/pest-detect">pest-detect</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/python">python</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/requirements-discovery">requirements-discovery</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/retrospective">retrospective</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/service-design">service-design</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/simulation">simulation</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/software">software</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/startup">startup</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/system-thinking">system-thinking</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/talk">talk</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/tgdf2016">tgdf2016</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/ubuntu">ubuntu</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/user-story">user-story</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/video-note">video-note</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/windows-10">windows-10</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/workflow">workflow</a>
+            
+            <a class="badge badge-primary" href="/tw/tags/writing">writing</a>
+            
+        </p>
+        
+    
+</section>
+    
+</aside>
+
+      </div>
+    </div>
+    
+
+    
+      
+
+
+
+
+
+
+<footer class="blog-footer w-100">
+    <nav class="navbar navbar-light bg-light">
+        <p class="w-100 text-center">Hugo template made with ❤ by <a href="https://github.com/Xzya">Xzya</a>, inspired by <a href="https://github.com/alanorth/hugo-theme-bootstrap4-blog">hugo-theme-bootstrap4-blog</a></p>
+        <p class="w-100 text-center"><a href="#">Back to top</a></p>
+    </nav>
+</footer>
+
+    
+
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

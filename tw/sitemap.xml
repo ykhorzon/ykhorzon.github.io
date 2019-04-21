@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/</loc>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</loc>
+    <lastmod>2019-04-04T00:25:56+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/2019/02/ubnutu-%E4%B8%AD%E5%AE%89%E8%A3%9D%E8%A8%AD%E5%AE%9A-nfs-server/</loc>
+    <lastmod>2019-02-20T22:41:03+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</loc>
     <lastmod>2018-12-23T08:47:03+08:00</lastmod>
   </url>
@@ -462,6 +477,18 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/es6/</loc>
+    <lastmod>2019-04-04T00:25:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/fundamental/</loc>
+    <lastmod>2019-04-04T00:25:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/game-industry/</loc>
     <lastmod>2016-09-13T23:42:55+08:00</lastmod>
     <priority>0</priority>
@@ -504,6 +531,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/javascript/</loc>
+    <lastmod>2019-04-04T00:25:56+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/kanban/</loc>
     <lastmod>2018-08-18T17:46:11+08:00</lastmod>
     <priority>0</priority>
@@ -516,8 +549,26 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/categories/laptop/</loc>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/leading/</loc>
     <lastmod>2017-06-29T13:11:58+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/lenovo/</loc>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/categories/linux/</loc>
+    <lastmod>2019-02-20T22:41:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -559,7 +610,13 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/tags/network/</loc>
-    <lastmod>2017-11-17T16:57:00+08:00</lastmod>
+    <lastmod>2019-02-20T22:41:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/nfs-server/</loc>
+    <lastmod>2019-02-20T22:41:03+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -577,7 +634,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/post/</loc>
-    <lastmod>2018-12-23T08:47:03+08:00</lastmod>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -747,6 +804,12 @@
   </url>
   
   <url>
+    <loc>https://ykhorzon.github.io/tw/tags/ubuntu/</loc>
+    <lastmod>2019-02-20T22:41:03+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ykhorzon.github.io/tw/tags/user-story/</loc>
     <lastmod>2017-05-03T10:32:13+08:00</lastmod>
     <priority>0</priority>
@@ -767,6 +830,12 @@
   <url>
     <loc>https://ykhorzon.github.io/tw/categories/virtualbox-network/</loc>
     <lastmod>2017-11-17T16:57:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ykhorzon.github.io/tw/tags/windows-10/</loc>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -806,7 +875,7 @@
   
   <url>
     <loc>https://ykhorzon.github.io/tw/</loc>
-    <lastmod>2018-12-23T08:47:03+08:00</lastmod>
+    <lastmod>2019-04-21T17:59:16+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
