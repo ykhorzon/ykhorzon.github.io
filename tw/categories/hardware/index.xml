@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hardware on Ykhorizon</title>
+    <title>hardware on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/categories/hardware/</link>
-    <description>Recent content in Hardware on Ykhorizon</description>
+    <description>Recent content in hardware on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 May 2018 19:08:57 +0800</lastBuildDate>
@@ -40,9 +40,7 @@
 
 &lt;blockquote&gt;
 &lt;p&gt;所以在硬體製造上，有哪些陷阱可以事先避免呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -62,9 +60,7 @@
 
 &lt;blockquote&gt;
 &lt;p&gt;打破這條鴻溝的辦法是：明白對方的開發流程，理解每一個軟硬體相依性的部分，以及硬體工程師的考量，知道更多硬體工程師在想什麼，建立溝通前的情境脈絡，有助於減少溝通成本，讓合作中的問題更快浮現，找出癥結點。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

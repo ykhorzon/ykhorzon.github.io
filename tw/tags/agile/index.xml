@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile on Ykhorizon</title>
+    <title>agile on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/tags/agile/</link>
-    <description>Recent content in Agile on Ykhorizon</description>
+    <description>Recent content in agile on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 00:17:44 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 22:36:09 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/tags/agile/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile Summit 2019 Day1 - 敏捷心體技</title>
+      <link>https://ykhorzon.github.io/tw/2019/05/agile-summit-2019-day1-%E6%95%8F%E6%8D%B7%E5%BF%83%E9%AB%94%E6%8A%80/</link>
+      <pubDate>Thu, 16 May 2019 22:36:09 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/05/agile-summit-2019-day1-%E6%95%8F%E6%8D%B7%E5%BF%83%E9%AB%94%E6%8A%80/</guid>
+      <description>&lt;h2 id=&#34;myths-and-patterns-of-organizational-change-linda-rising&#34;&gt;Myths and Patterns of Organizational Change - Linda Rising&lt;/h2&gt;
+
+&lt;p&gt;現場聆聽 Linda rising 的演講後，真正感受到大師的說故事功力，語調沉穩堅定，內容句句切入基本功，淺顯易懂說明了 Agile mindset 的核心觀念與輔助觀念。&lt;/p&gt;
+
+&lt;p&gt;1.Agile mindset(我自己認為是 agile 核心的精神，最容易可以向人說明的方式)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;just do it&lt;/li&gt;
+&lt;li&gt;small success&lt;/li&gt;
+&lt;li&gt;Baby step&lt;/li&gt;
+&lt;li&gt;time to reflection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.Story over facts&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;你一定遇過一種人，他/她跟你說話【只會】實事求是，說數據講道理，常常讓你聽不下去，覺得很難溝通，但總是說不出問題出在哪裡。Linda 提醒我們【發揮引響力需要先與人建立連結】，而故事就是你與對方連結(connection)一種很好的方式。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>一場深度跨領域交流的探險 — Agile Tour Taipei 2018 心得(下)</title>
@@ -22,9 +48,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;
-延續上一集，我繼續回顧 Agile Tour Taipei 下午場的內容，分成 Workshop 和 Open Space Tech. 開放討論。Workshop 可以快速打造一種團隊戰友的氛圍，讓全體焦點轉向『做好團隊任務』，同時可以觀察隊友的行為與背後思考，偷學別人兩招的地方；至於 Open Space Tech.，活動設計本身就是 &lt;strong&gt;『一種討論框架』&lt;/strong&gt;，促使參與者更自然產生化學作用，討論與對話遍地開花，不必擔心沒話題。不時還會出校有趣的議題，例如笑生不停地的 &lt;strong&gt;『有個 water-fall 老婆怎麼辦？』&lt;/strong&gt;（笑）&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+延續上一集，我繼續回顧 Agile Tour Taipei 下午場的內容，分成 Workshop 和 Open Space Tech. 開放討論。Workshop 可以快速打造一種團隊戰友的氛圍，讓全體焦點轉向『做好團隊任務』，同時可以觀察隊友的行為與背後思考，偷學別人兩招的地方；至於 Open Space Tech.，活動設計本身就是 &lt;strong&gt;『一種討論框架』&lt;/strong&gt;，促使參與者更自然產生化學作用，討論與對話遍地開花，不必擔心沒話題。不時還會出校有趣的議題，例如笑生不停地的 &lt;strong&gt;『有個 water-fall 老婆怎麼辦？』&lt;/strong&gt;（笑）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,8 +64,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;h2 id=&#34;探險&#34;&gt;探險&lt;/h2&gt;
 
-&lt;p&gt;今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！
-&lt;/p&gt;</description>
+&lt;p&gt;今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,9 +84,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;h1 id=&#34;kanban-簡介&#34;&gt;Kanban 簡介&lt;/h1&gt;
 
-&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,9 +164,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;作為基底、high level&lt;/li&gt;
 &lt;li&gt;注重在價值&lt;/li&gt;
 &lt;li&gt;不要 &lt;em&gt;帶入 Spec.&lt;/em&gt; 或 &lt;em&gt;過多功能描述&lt;/em&gt; 在其中 (會限制 Solution的可能性)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -203,9 +222,7 @@ the right, we value the items on the left more.&lt;/p&gt;
 
 &lt;p&gt;回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
 但互相合作更為愉快。(有點類似道德和法律的感覺)
-最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ykhorizon</title>
+    <title>YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/</link>
-    <description>Recent content on Ykhorizon</description>
+    <description>Recent content on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Apr 2019 17:59:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 00:38:40 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>你現在位於何處？理財第一步，不是記帳，而是計算淨值</title>
+      <link>https://ykhorzon.github.io/tw/2019/09/%E4%BD%A0%E7%8F%BE%E5%9C%A8%E4%BD%8D%E6%96%BC%E4%BD%95%E8%99%95%E7%90%86%E8%B2%A1%E7%AC%AC%E4%B8%80%E6%AD%A5%E4%B8%8D%E6%98%AF%E8%A8%98%E5%B8%B3%E8%80%8C%E6%98%AF%E8%A8%88%E7%AE%97%E6%B7%A8%E5%80%BC/</link>
+      <pubDate>Sun, 29 Sep 2019 00:38:40 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/09/%E4%BD%A0%E7%8F%BE%E5%9C%A8%E4%BD%8D%E6%96%BC%E4%BD%95%E8%99%95%E7%90%86%E8%B2%A1%E7%AC%AC%E4%B8%80%E6%AD%A5%E4%B8%8D%E6%98%AF%E8%A8%98%E5%B8%B3%E8%80%8C%E6%98%AF%E8%A8%88%E7%AE%97%E6%B7%A8%E5%80%BC/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1932&amp;q=80&#34;&gt;
+&lt;a href=&#34;https://unsplash.com/photos/NeTPASr-bmQ&#34;&gt;https://unsplash.com/photos/NeTPASr-bmQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;當你有一個裝滿零錢的撲滿，你能一目了然有多少錢。
+但如果有人問你，目前的你財務狀況如何？或換個新聞上常用的方式說，你目前身價多少？你是否可以立刻回答出來呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;理財的第一步-為什麼是-計算淨值&#34;&gt;理財的第一步，為什麼是【計算淨值】?&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;• 許多人說理財的第一步是記帳，但我不這麼認為
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;【記帳】是關注每月現金流、支出，可以知道你的錢花費去哪，錢從哪裡近到口袋，卻無法完全觀察你的財務全貌。此外，【記帳】並不是容易，需要毅力和養成習慣，不建議一開始就選擇這麼困難的任務，從記帳做起會機會演變成【出門就跌倒】，一失敗就打消管理財務的念頭。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Agile Summit 2019 Day1 - 敏捷心體技</title>
+      <link>https://ykhorzon.github.io/tw/2019/05/agile-summit-2019-day1-%E6%95%8F%E6%8D%B7%E5%BF%83%E9%AB%94%E6%8A%80/</link>
+      <pubDate>Thu, 16 May 2019 22:36:09 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/05/agile-summit-2019-day1-%E6%95%8F%E6%8D%B7%E5%BF%83%E9%AB%94%E6%8A%80/</guid>
+      <description>&lt;h2 id=&#34;myths-and-patterns-of-organizational-change-linda-rising&#34;&gt;Myths and Patterns of Organizational Change - Linda Rising&lt;/h2&gt;
+
+&lt;p&gt;現場聆聽 Linda rising 的演講後，真正感受到大師的說故事功力，語調沉穩堅定，內容句句切入基本功，淺顯易懂說明了 Agile mindset 的核心觀念與輔助觀念。&lt;/p&gt;
+
+&lt;p&gt;1.Agile mindset(我自己認為是 agile 核心的精神，最容易可以向人說明的方式)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;just do it&lt;/li&gt;
+&lt;li&gt;small success&lt;/li&gt;
+&lt;li&gt;Baby step&lt;/li&gt;
+&lt;li&gt;time to reflection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.Story over facts&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;你一定遇過一種人，他/她跟你說話【只會】實事求是，說數據講道理，常常讓你聽不下去，覺得很難溝通，但總是說不出問題出在哪裡。Linda 提醒我們【發揮引響力需要先與人建立連結】，而故事就是你與對方連結(connection)一種很好的方式。&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>Windows 10 home 升級 pro 受難計</title>
@@ -17,9 +65,17 @@
       <pubDate>Sun, 21 Apr 2019 17:59:16 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/2019/04/windows-10-home-%E5%8D%87%E7%B4%9A-pro-%E5%8F%97%E9%9B%A3%E8%A8%88/</guid>
-      <description> 事出有因 當初在購買新的筆電時，迫於各種無奈之下，就挑選了 lenovo T480s 並安裝 windows 10， 但因為一時不察，想說應該安裝『家用版就足夠了』，必沒有遠端和加密的需求，當時也有看到微軟有自己的虛擬化 hyper-v ，想說 virtualbox 就足夠了，天知道買來用兩天就發現，要執行 docker 必須要專業版（對 hyper-v 有依賴）。這下驢了，當初只有加 1500元 就可買到專業版，這下必須花至少 3000元才能從家用版升級到專業版
-波折 當時決定去一般零售店購買 window 10 專業版，就購買了專業版（隨機版，幫定電腦/筆電主機板，無法轉移授權到其他機器） 買回來發現直接輸入金鑰，竟然無效！求助 lenovo 客服、微軟客服、零售店的電腦專員，不是踢皮球，就是無法解決（備註：我滿感謝零售店的電腦專員，他們有認真幫我解決，雖然無效，但最終給了找出解答的方向
-解方  window鍵 + r ，輸入 CHANGEPK.exe ，開啟啟用頁面 關閉任何網路連接(wifi、有線網路)，避免連上網路自動抓取家用版金鑰 輸入 windows 專業版預設金鑰 VK7JG-NPHTM-C97JM-9MPGT-3V66T ，電腦會從『家用版』轉成『專業版』，但尚未啟用成功 開啟網路 輸入你的正版金鑰 最後檢查 Windows 版本  參考  FIX: WINDOWS 10 HOME TO PRO UPGRADE ERROR 0X803FA067  </description>
+      <description>&lt;h1 id=&#34;事出有因&#34;&gt;事出有因&lt;/h1&gt;
+
+&lt;p&gt;當初在購買新的筆電時，迫於各種無奈之下，就挑選了 lenovo T480s 並安裝 windows 10，
+但因為一時不察，想說應該安裝『家用版就足夠了』，必沒有遠端和加密的需求，當時也有看到微軟有自己的虛擬化 hyper-v ，想說 virtualbox 就足夠了，天知道買來用兩天就發現，要執行 docker 必須要專業版（對 hyper-v 有依賴）。這下驢了，當初只有加 1500元 就可買到專業版，這下必須花至少 3000元才能從家用版升級到專業版&lt;/p&gt;
+
+&lt;h1 id=&#34;波折&#34;&gt;波折&lt;/h1&gt;
+
+&lt;p&gt;當時決定去一般零售店購買 window 10 專業版，就購買了專業版（隨機版，幫定電腦/筆電主機板，無法轉移授權到其他機器）
+買回來發現直接輸入金鑰，竟然無效！求助 lenovo 客服、微軟客服、零售店的電腦專員，不是踢皮球，就是無法解決（備註：我滿感謝零售店的電腦專員，他們有認真幫我解決，雖然無效，但最終給了找出解答的方向）&lt;/p&gt;
+
+&lt;h1 id=&#34;解方&#34;&gt;解方&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -30,7 +86,7 @@
       <guid>https://ykhorzon.github.io/tw/2019/04/javascript-%E4%B8%AD-import-%E5%92%8C-export/</guid>
       <description>default named named import 的意思是指『export 時的 variable/function 已經被命名，無法在 import 時重新取名』;如果在 import 時改名將會有 error ，確保 variable/function 保持原本的名字。
  Named exports are useful to export several values. During the import, it is mandatory to use the same name of the corresponding object.
- 1 2 3 4 5 6 7 8 9 10 11 12 13  // utility.js function parseLogs() { // implementation } function generateLogs() { // implementation } export { parseLogs, generateLogs }; // main.</description>
+ 1 2 3 4 5 6 7 8 9 10 11 12  // utility.jsfunction parseLogs() {// implementation}function generateLogs() {// implementation}export { parseLogs, generateLogs };// main.</description>
     </item>
     
     <item>
@@ -49,10 +105,10 @@ sudo apt-get update sudo apt install nfs-kernel-server sudo mkdir -p [/path/to/s
     
     <item>
       <title>[持續更新] C/C&#43;&#43; 常見面試問題統整</title>
-      <link>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
+      <link>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c/c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
       <pubDate>Sun, 23 Dec 2018 08:47:03 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
+      <guid>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c/c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
       <description>本文章有，共同編輯與時常更新的版本，會寫在 hackmd 上面
  https://hackmd.io/pWi7pgvISWSSjZN0HOYLGg  C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
 int val = 10; int * prt = &amp;amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）
@@ -76,9 +132,7 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
 
 &lt;p&gt;每個月舉辦各種軟實力的內容之豐富，如產品探索、服務設計、敏捷導入、開發測試&amp;hellip;&amp;hellip;etc，我也因此參加了四次 Agile Tour HsinChu，可說是上好上滿XD，&lt;strong&gt;對我來說就像是挖到『風水寶地』一般，可以源源不絕得探索各種領域，處處都有寶藏&lt;/strong&gt;。&lt;/p&gt;
 
-&lt;p&gt;在這次 Agile Tour HsincChu 中，印象比較深刻的內容，大多是故事性比較強，引人入勝讓人不目轉睛，又或者是 workshop 這類互動性強，有實際動手和小組一起討論的活動，讓人記憶點特別深刻！&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;在這次 Agile Tour HsincChu 中，印象比較深刻的內容，大多是故事性比較強，引人入勝讓人不目轉睛，又或者是 workshop 這類互動性強，有實際動手和小組一起討論的活動，讓人記憶點特別深刻！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,9 +161,7 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
 &lt;li&gt;input 1~2 可以設定 high-impedance(Hi-z) ，針對電吉他 direct line-in&lt;/li&gt;
 &lt;li&gt;input 1~8 都有幻象電源 48v Phantom power&lt;/li&gt;
 &lt;li&gt;有 auto-sensing 的功能&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -123,9 +175,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;p&gt;&lt;br&gt;
 &lt;br&gt;
-延續上一集，我繼續回顧 Agile Tour Taipei 下午場的內容，分成 Workshop 和 Open Space Tech. 開放討論。Workshop 可以快速打造一種團隊戰友的氛圍，讓全體焦點轉向『做好團隊任務』，同時可以觀察隊友的行為與背後思考，偷學別人兩招的地方；至於 Open Space Tech.，活動設計本身就是 &lt;strong&gt;『一種討論框架』&lt;/strong&gt;，促使參與者更自然產生化學作用，討論與對話遍地開花，不必擔心沒話題。不時還會出校有趣的議題，例如笑生不停地的 &lt;strong&gt;『有個 water-fall 老婆怎麼辦？』&lt;/strong&gt;（笑）&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+延續上一集，我繼續回顧 Agile Tour Taipei 下午場的內容，分成 Workshop 和 Open Space Tech. 開放討論。Workshop 可以快速打造一種團隊戰友的氛圍，讓全體焦點轉向『做好團隊任務』，同時可以觀察隊友的行為與背後思考，偷學別人兩招的地方；至於 Open Space Tech.，活動設計本身就是 &lt;strong&gt;『一種討論框架』&lt;/strong&gt;，促使參與者更自然產生化學作用，討論與對話遍地開花，不必擔心沒話題。不時還會出校有趣的議題，例如笑生不停地的 &lt;strong&gt;『有個 water-fall 老婆怎麼辦？』&lt;/strong&gt;（笑）&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,8 +191,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;h2 id=&#34;探險&#34;&gt;探險&lt;/h2&gt;
 
-&lt;p&gt;今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！
-&lt;/p&gt;</description>
+&lt;p&gt;今年是第一次搶到票，參加 Agile Tour Taipei 盛會，會說是『一場深度跨領域交流的探險』來自於A,B,C Track 分別是探討的issue是 Product、Dev/Test、UX，可說是三個願望一次滿足，讓我的選擇困難症完全發作，好想同時聽三軌呀呀。同時，一次匯聚三種群體到一場研討會中，更能激發豐富的討論，探索不同觀點的價值，讓對話能夠突破各自熟悉的同溫層，說是一場探險一點也不為過！&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -162,9 +211,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;h1 id=&#34;kanban-簡介&#34;&gt;Kanban 簡介&lt;/h1&gt;
 
-&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,9 +227,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;Personal Kanban 使你專注於少數的焦點（重要的事務），並提供一種視覺化的機制，易於凸顯出執行效率上的問題，便於改善與優化&lt;/li&gt;
 &lt;li&gt;但實際在個人工作使用中，會遭遇什麼問題？在本文章中會告訴大家遭遇的問題，嘗試提出應對方案&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -208,9 +253,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;span style=&#34;color:red&#34;&gt;&lt;strong&gt;自行處理傷口很多時候不夠徹底，建議還時就醫&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;一到外科，護士幫我清理傷口，並拍攝X光，醫師診斷後確定沒有骨折，我心中的大石頭才放下，心想只要幾個星期忍受傷口的疼痛，克服肌肉痠痛與瘀青就可以康復，可喜可賀，可以放心回家了！但是事情真的那麼簡單，那你就錯了&amp;hellip;&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;一到外科，護士幫我清理傷口，並拍攝X光，醫師診斷後確定沒有骨折，我心中的大石頭才放下，心想只要幾個星期忍受傷口的疼痛，克服肌肉痠痛與瘀青就可以康復，可喜可賀，可以放心回家了！但是事情真的那麼簡單，那你就錯了&amp;hellip;&amp;hellip;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -242,9 +285,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;blockquote&gt;
 &lt;p&gt;所以在硬體製造上，有哪些陷阱可以事先避免呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -264,9 +305,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 
 &lt;blockquote&gt;
 &lt;p&gt;打破這條鴻溝的辦法是：明白對方的開發流程，理解每一個軟硬體相依性的部分，以及硬體工程師的考量，知道更多硬體工程師在想什麼，建立溝通前的情境脈絡，有助於減少溝通成本，讓合作中的問題更快浮現，找出癥結點。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -310,9 +349,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3&#34;&gt;深入了解&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -333,9 +370,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;&lt;a href=&#34;#%E6%97%85%E9%81%8A%E5%B9%B3%E5%AE%89%E4%BF%9D%E9%9A%AA%E6%A1%88%E4%BE%8B&#34;&gt;旅遊平安保險案例&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#workshop-%E6%B5%81%E7%A8%8B&#34;&gt;Workshop 流程&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -351,9 +386,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;&lt;a href=&#34;#%E4%BB%80%E9%BA%BC%E6%98%AF-nat-bridge-%E5%92%8C-host-only&#34;&gt;什麼是 NAT, Bridge 和 Host-Only?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%E5%BB%B6%E4%BC%B8%E5%95%8F%E9%A1%8C%EF%BC%9A192168xxxxxx-%E5%92%8C-17216xxxxxx-%E6%98%AF%E4%BB%80%E9%BA%BC%E6%9D%B1%E8%A5%BF%EF%BC%8C%E4%BB%A3%E8%A1%A8%E4%BB%80%E9%BA%BC%E6%84%8F%E7%BE%A9%EF%BC%9F&#34;&gt;延伸問題：192.168.xxx.xxx 和 172.16.xxx.xxx 是什麼東西，代表什麼意義？&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#%E6%8E%A8%E8%AB%96%E4%B8%80%E4%B8%8B%EF%BC%8C%E6%88%91%E7%9A%84%E5%95%8F%E9%A1%8C%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F&#34;&gt;推論一下，我的問題是什麼？&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -417,9 +450,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;&lt;a href=&#34;#stringjoin&#34;&gt;String.Join&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#stringselect-%E8%88%87-lambda-%E9%81%8B%E7%AE%97%E5%BC%8F&#34;&gt;String.Select 與 lambda 運算式&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -448,9 +479,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- /TOC --&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- /TOC --&gt;</description>
     </item>
     
     <item>
@@ -476,9 +505,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;p&gt;&lt;strong&gt;解藥1&lt;/strong&gt;：&lt;/p&gt;
 
 &lt;p&gt;達成目標才是重點，方法是其次，時常提醒自己最重的目標，浪費時間在細節，倒是進度不足或偏離軌道。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -530,9 +557,9 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
       <pubDate>Sat, 15 Jul 2017 12:17:42 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/about/me/</guid>
-      <description> -- 我是誰？ 我是 ykhorizon (在社群中我都自稱 yk )， 我在台灣出生與成長
-目前主要興趣在於
- 軟體開發 創業、商業知識與創新方法 ICT和軟體在農業之應用 音樂（吉他）  我參與的社群  Open Hack Farm  聯絡我  twitter github linkedin Email ykhorizon.light at gmail.com  </description>
+      <description> -- 我是誰？ 我是 ykhorizon (在社群中我都自稱 YK )，
+我對一些其他議題有興趣: - 農業 - 產品與創新
+聯絡我  twitter github linkedin Email ykhorizon.light at gmail.com  </description>
     </item>
     
     <item>
@@ -541,7 +568,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
       <pubDate>Thu, 29 Jun 2017 13:11:58 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/2017/06/%E9%A1%9E%E4%BC%BCdesign-thinking%E7%9A%84%E8%A8%8E%E8%AB%96%E5%AF%A6%E6%88%B0%E6%AA%A2%E8%A8%8E/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
@@ -550,7 +577,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
       <pubDate>Thu, 29 Jun 2017 08:33:18 +0800</pubDate>
       
       <guid>https://ykhorzon.github.io/tw/2017/06/%E6%97%A5%E5%B8%B8%E4%B8%AD%E7%9A%84%E4%B8%96%E4%BB%A3%E5%B0%8D%E8%AB%87-%E8%A8%8E%E8%AB%96%E6%9F%AF%E6%96%87%E5%93%B2%E5%B8%82%E9%95%B7-2-%E6%8E%A1%E5%8F%96%E8%A1%8C%E5%8B%95/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
@@ -586,8 +613,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;p&gt;&lt;img src=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34; alt=&#34;&#34; /&gt;
 &lt;a href=&#34;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&#34;&gt;https://wattsupwiththat.files.wordpress.com/2014/09/potato-crops-720-browser1.jpg&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;因此 &lt;strong&gt;事先大概知道/粗略評估&lt;/strong&gt; 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。
-&lt;/p&gt;</description>
+&lt;p&gt;因此 &lt;strong&gt;事先大概知道/粗略評估&lt;/strong&gt; 什麼時候這大片田地上的穀物會缺水，需要澆灌，就變成一個重要的問題。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -649,9 +675,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;作為基底、high level&lt;/li&gt;
 &lt;li&gt;注重在價值&lt;/li&gt;
 &lt;li&gt;不要 &lt;em&gt;帶入 Spec.&lt;/em&gt; 或 &lt;em&gt;過多功能描述&lt;/em&gt; 在其中 (會限制 Solution的可能性)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -674,9 +698,7 @@ Workshop 最後產出的 impact mapping 結果，大家都很有創意！&lt;/p&
 &lt;li&gt;實驗室前輩經驗&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;目錄&#34;&gt;目錄&lt;/h1&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;h1 id=&#34;目錄&#34;&gt;目錄&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -734,9 +756,7 @@ the right, we value the items on the left more.&lt;/p&gt;
 
 &lt;p&gt;回歸人的本質，客戶也是人，溝通合作，取得共識，取得雙贏。最為合作底謝的合約白紙黑字必須要有，
 但互相合作更為愉快。(有點類似道德和法律的感覺)
-最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+最後，接受現實，計畫永遠敢不上變化，用開放的態度適時做出調整。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -798,9 +818,7 @@ Check input value ( use assertion too!) Add up the diagnosis info for future</de
 &lt;ul&gt;
 &lt;li&gt;自我意識 v.s. 自卑&lt;/li&gt;
 &lt;li&gt;信賴關係&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>

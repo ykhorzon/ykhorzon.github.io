@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog/Hugo on Ykhorizon - Tech Relay Race</title>
+    <title>blog/hugo on YK.horizon</title>
     <link>https://ykhorzon.github.io/categories/blog/hugo/</link>
-    <description>Recent content in Blog/Hugo on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in blog/hugo on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jun 2017 15:24:40 +0800</lastBuildDate>

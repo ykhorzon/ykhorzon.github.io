@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile/User Story on Ykhorizon - Tech Relay Race</title>
+    <title>agile/user-story on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/categories/agile/user-story/</link>
-    <description>Recent content in Agile/User Story on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in agile/user-story on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 May 2017 10:32:13 +0800</lastBuildDate>
@@ -70,9 +70,7 @@
 &lt;li&gt;作為基底、high level&lt;/li&gt;
 &lt;li&gt;注重在價值&lt;/li&gt;
 &lt;li&gt;不要 &lt;em&gt;帶入 Spec.&lt;/em&gt; 或 &lt;em&gt;過多功能描述&lt;/em&gt; 在其中 (會限制 Solution的可能性)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matplotlib on Ykhorizon</title>
+    <title>matplotlib on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/tags/matplotlib/</link>
-    <description>Recent content in Matplotlib on Ykhorizon</description>
+    <description>Recent content in matplotlib on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Oct 2017 12:27:23 +0800</lastBuildDate>
@@ -37,9 +37,7 @@
 &lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- /TOC --&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- /TOC --&gt;</description>
     </item>
     
   </channel>

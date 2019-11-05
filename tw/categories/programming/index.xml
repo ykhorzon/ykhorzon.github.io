@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Ykhorizon</title>
+    <title>programming on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/categories/programming/</link>
-    <description>Recent content in Programming on Ykhorizon</description>
+    <description>Recent content in programming on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Dec 2018 08:47:03 +0800</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>[持續更新] C/C&#43;&#43; 常見面試問題統整</title>
-      <link>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
+      <link>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c/c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</link>
       <pubDate>Sun, 23 Dec 2018 08:47:03 +0800</pubDate>
       
-      <guid>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c-c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
+      <guid>https://ykhorzon.github.io/tw/2018/12/%E6%8C%81%E7%BA%8C%E6%9B%B4%E6%96%B0-c/c-%E5%B8%B8%E8%A6%8B%E9%9D%A2%E8%A9%A6%E5%95%8F%E9%A1%8C%E7%B5%B1%E6%95%B4/</guid>
       <description>本文章有，共同編輯與時常更新的版本，會寫在 hackmd 上面
  https://hackmd.io/pWi7pgvISWSSjZN0HOYLGg  C 語言 Pointer Pointer of variable  A variable hold the address (一個指向某個儲存位址的變數)  Example:
 int val = 10; int * prt = &amp;amp;val  詳細可以參考 Mr. Open Gate 的文章 C/C++ - 常見 C 語言觀念題目總整理（適合考試和面試）
@@ -43,9 +43,7 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
 &lt;li&gt;&lt;a href=&#34;#stringjoin&#34;&gt;String.Join&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#stringselect-%E8%88%87-lambda-%E9%81%8B%E7%AE%97%E5%BC%8F&#34;&gt;String.Select 與 lambda 運算式&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -74,9 +72,7 @@ Array and Pointer 的關係 在 C 語言中，處理字串一定會牽扯到 cha
 &lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;Reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- /TOC --&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;!-- /TOC --&gt;</description>
     </item>
     
   </channel>

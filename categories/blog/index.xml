@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Ykhorizon</title>
+    <title>blog on YK.horizon</title>
     <link>https://ykhorzon.github.io/categories/blog/</link>
-    <description>Recent content in Blog on Ykhorizon</description>
+    <description>Recent content in blog on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jun 2017 15:24:40 +0800</lastBuildDate>

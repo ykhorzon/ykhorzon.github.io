@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kanban on Ykhorizon</title>
+    <title>kanban on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/tags/kanban/</link>
-    <description>Recent content in Kanban on Ykhorizon</description>
+    <description>Recent content in kanban on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Aug 2018 17:46:11 +0800</lastBuildDate>
@@ -28,9 +28,7 @@
 
 &lt;h1 id=&#34;kanban-簡介&#34;&gt;Kanban 簡介&lt;/h1&gt;
 
-&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;如果你上網搜尋 Kanban 可能會出現，兩種最常見的解釋，其一是&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban&#34;&gt;豐田生產模式的 kanban&lt;/a&gt; ，發明人為&lt;a href=&#34;https://en.wikipedia.org/wiki/Taiichi_Ohno&#34;&gt;大野耐一&lt;/a&gt;，致力於工廠生產效率改善；其二為應用於&lt;a href=&#34;https://en.wikipedia.org/wiki/Kanban_(development)&#34;&gt;軟體流程開發的 Kanban (Development)&lt;/a&gt;，此方法著名得提倡者 &lt;a href=&#34;https://www.linkedin.com/in/agilemanagement/&#34;&gt;David J. Anderson&lt;/a&gt;，他是微軟導入 kanban 方法等敏捷方法的先驅，解救微軟績效不佳的支援部門，設法尋找一套方法讓部門問題自然浮現；早期著名著作有 &lt;a href=&#34;https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402&#34;&gt;Kanban: Successful Evolutionary Change for Your Technology Business&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming/Codewars on Ykhorizon - Tech Relay Race</title>
+    <title>programming/codewars on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/categories/programming/codewars/</link>
-    <description>Recent content in Programming/Codewars on Ykhorizon - Tech Relay Race</description>
+    <description>Recent content in programming/codewars on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Oct 2017 20:23:11 +0800</lastBuildDate>
@@ -30,9 +30,7 @@
 &lt;li&gt;&lt;a href=&#34;#stringjoin&#34;&gt;String.Join&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#stringselect-%E8%88%87-lambda-%E9%81%8B%E7%AE%97%E5%BC%8F&#34;&gt;String.Select 與 lambda 運算式&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

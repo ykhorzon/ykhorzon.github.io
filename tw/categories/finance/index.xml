@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Finance on </title>
+    <title>finance on YK.horizon</title>
     <link>https://ykhorzon.github.io/tw/categories/finance/</link>
-    <description>Recent content in Finance on </description>
+    <description>Recent content in finance on YK.horizon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tw</language>
-    <managingEditor>ykhorizon@gmail.com (ykhorizon)</managingEditor>
-    <webMaster>ykhorizon@gmail.com (ykhorizon)</webMaster>
-    <copyright>(c) 2017 ykhorizon</copyright>
-    <lastBuildDate>Sat, 28 Jan 2017 19:01:54 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2019 00:38:40 +0800</lastBuildDate>
     
 	<atom:link href="https://ykhorzon.github.io/tw/categories/finance/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>記帳那些事</title>
-      <link>https://ykhorzon.github.io/tw/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</link>
-      <pubDate>Sat, 28 Jan 2017 19:01:54 +0000</pubDate>
-      <author>ykhorizon@gmail.com (ykhorizon)</author>
-      <guid>https://ykhorzon.github.io/tw/2017/01/28/%E8%A8%98%E5%B8%B3%E9%82%A3%E4%BA%9B%E4%BA%8B/</guid>
-      <description>人不理財，財不理你
- 記帳的目的 1.透明化 - 理解金流動向 減少延遲付款，降低金流複雜度 可善用VISA金融信用卡，除了紅利點數之外，
-所有大筆金額的去向(花費)，都必須要知道原因
-所有借貸關係都要清楚，大於1000元都必須要簽署一式兩份的借據 保護自己也保護他人
-細部譬如說一餐的金額，可以有些為的差距，無需要矯枉過正，埋沒於細節中
-2.管理財務 - 規劃與控制 預計每月各類別花費的預算，不至某一個項目花費破表 存款規劃 投資規劃 貸款還款計畫
-記帳工具 考量 安全與隱私
-自從實驗室的同學有人在研究IoT Security的議題後 他媽的我才理解隱私真的超級重要的
-以前我都在手機使用ArdroMoney，介面簡單好用 但這其實是一件可怕的事情，沒有人知道這些App是唪私底下有蒐集我的資訊 更何況個人財務是極度隱私的資料，被有心人士拿去利用，後果不堪設想
-基於此考量，會優先考慮open source的工具
-Survey HomeBank http://homebank.free.fr/ 要從MacPort安裝，有一點麻煩
-GunCash https://github.com/Gnucash/gnucash 目前看起來不好用
-麥克錢包 Excel 目前先打算暫時
-未雨綢繆 往後的日子，開始工作會有薪資、投資、信用卡</description>
+      <title>你現在位於何處？理財第一步，不是記帳，而是計算淨值</title>
+      <link>https://ykhorzon.github.io/tw/2019/09/%E4%BD%A0%E7%8F%BE%E5%9C%A8%E4%BD%8D%E6%96%BC%E4%BD%95%E8%99%95%E7%90%86%E8%B2%A1%E7%AC%AC%E4%B8%80%E6%AD%A5%E4%B8%8D%E6%98%AF%E8%A8%98%E5%B8%B3%E8%80%8C%E6%98%AF%E8%A8%88%E7%AE%97%E6%B7%A8%E5%80%BC/</link>
+      <pubDate>Sun, 29 Sep 2019 00:38:40 +0800</pubDate>
+      
+      <guid>https://ykhorzon.github.io/tw/2019/09/%E4%BD%A0%E7%8F%BE%E5%9C%A8%E4%BD%8D%E6%96%BC%E4%BD%95%E8%99%95%E7%90%86%E8%B2%A1%E7%AC%AC%E4%B8%80%E6%AD%A5%E4%B8%8D%E6%98%AF%E8%A8%98%E5%B8%B3%E8%80%8C%E6%98%AF%E8%A8%88%E7%AE%97%E6%B7%A8%E5%80%BC/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1561414927-6d86591d0c4f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1932&amp;q=80&#34;&gt;
+&lt;a href=&#34;https://unsplash.com/photos/NeTPASr-bmQ&#34;&gt;https://unsplash.com/photos/NeTPASr-bmQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;當你有一個裝滿零錢的撲滿，你能一目了然有多少錢。
+但如果有人問你，目前的你財務狀況如何？或換個新聞上常用的方式說，你目前身價多少？你是否可以立刻回答出來呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;理財的第一步-為什麼是-計算淨值&#34;&gt;理財的第一步，為什麼是【計算淨值】?&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;• 許多人說理財的第一步是記帳，但我不這麼認為
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;【記帳】是關注每月現金流、支出，可以知道你的錢花費去哪，錢從哪裡近到口袋，卻無法完全觀察你的財務全貌。此外，【記帳】並不是容易，需要毅力和養成習慣，不建議一開始就選擇這麼困難的任務，從記帳做起會機會演變成【出門就跌倒】，一失敗就打消管理財務的念頭。&lt;/p&gt;</description>
     </item>
     
   </channel>
